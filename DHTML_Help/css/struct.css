@@ -1,0 +1,200 @@
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+/*                                                                            */
+/* Used by XX/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/plain.htm                        */
+/*         XX/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/treedata.htm                     */
+/* Version 3 2012-03-16                                                       */
+/*                                                                            */
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+:lang(zh) {font-weight: normal !important; font-style: normal !important; }
+
+body {
+  background-image: none;
+  border-right: 3px solid #DDDDDD;
+  font-family: Arial, Arial Unicode MS, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0px 20px;
+}
+
+body:lang(ar) {font-family: "Traditional Arabic", Arial Unicode MS, sans-serif;}
+body:lang(ja) {font-family: MS PGothic, Arial Unicode MS, sans-serif;}
+body:lang(ko) {font-family: Malgun Gothic, Arial Unicode MS, sans-serif;}
+body:lang(zh) {font-family: HYZhongDengXianJ, SimHei, BentonSans Book, Arial Unicode MS, sans-serif;}
+
+  /* :link, :visited, :focus, :hover, :active                      */
+  /* NOTE: :focus, :hover, and :active must be identical           */
+a {
+  background-color: inherit;
+  color: #0076CB;
+  font-size: 0.8em;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+a:visited {
+  background-color: inherit;
+  color: #0076CB;
+}
+
+a:focus {
+  background-color: inherit;
+  color: #0076CB;
+}
+
+a:hover {
+  background-color: inherit;
+  color: #0076CB;
+  padding-bottom: 1px;
+  text-decoration: underline;
+}
+
+a:active {
+  background-color: inherit;
+  color: #0076CB;
+}
+
+a[href=""]:focus,
+a[href=""]:hover,
+a[href=""]:active {
+  border-bottom: none;
+}
+
+img {
+  border: none;
+  margin-right: 3px;
+}
+.KWLang-he img { margin-right: 0px; margin-left: 3px; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0px; /* Netscape 6.0 only */
+  width: 100%;
+}
+
+td {
+  border-top: 1px solid #DDDDDD;
+  border-bottom: 1px solid #DDDDDD;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/* CALCULATION:
+    == with open / close icon ==
+      (level * 12px) (= this.tm.tabWidth + this.tm.spaceTabButton)
+    +  3px           (= margin-right)
+    + 11px           (= open.gif / close.gif)
+    +  3px           (= margin-right)
+    + 16px           (= book.gif)
+    +  3px           (= margin-right)
+    = (level * 12px) + 36px
+
+    == without open / close icon ==
+      (level * 12px) (= this.tm.tabWidth + this.tm.spaceTabButton)
+    +  3px           (= margin-right)
+    + 11px           (= placeholder for open.gif / close.gif)
+    +  3px           (= margin-right)
+    + 16px           (= page.gif)
+    +  3px           (= margin-right)
+    = (level * 12px) + 36px
+*/
+/* CALCULATION 2 for re-design (2010-12-14):
+    == with open / close icon ==
+      (level * 12px) (= this.tm.tabWidth + this.tm.spaceTabButton)
+    +  3px           (= margin-right)
+    + 11px           (= open.gif / close.gif)
+    +  3px           (= margin-right)
+    +  1px           (= book.gif / open-book.gif)
+    +  3px           (= margin-right)
+    = (level * 12px) + 21px
+
+    == without open / close icon ==
+      (level * 12px) (= this.tm.tabWidth + this.tm.spaceTabButton)
+    +  3px           (= margin-right)
+    + 11px           (= placeholder for open.gif / close.gif)
+    +  3px           (= margin-right)
+    +  1px           (= page.gif)
+    +  3px           (= margin-right)
+    = (level * 12px) + 21px
+*/
+td.treeLevel0 {
+  -x-text-indent: -36px;
+  -x-padding-left: 36px;
+  text-indent: -21px;
+  padding-left: 21px;
+}
+.KWLang-he td.treeLevel0 { padding-left: 0; -x-padding-right: 36px; padding-right: 21px; }
+
+td.treeLevel1 {
+  -x-text-indent: -47px;
+  -x-padding-left: 47px;
+  text-indent: -33px;
+  padding-left: 33px;
+}
+.KWLang-he td.treeLevel1 { padding-left: 0; -x-padding-right: 47px; padding-right: 33px; }
+
+td.treeLevel2 {
+  -x-text-indent: -60px;
+  -x-padding-left: 60px;
+  text-indent: -45px;
+  padding-left: 45px;
+}
+.KWLang-he td.treeLevel2 { padding-left: 0; -x-padding-right: 60px; padding-right: 45px; }
+
+td.treeLevel3 {
+  -x-text-indent: -72px;
+  -x-padding-left: 72px;
+  text-indent: -57px;
+  padding-left: 57px;
+}
+.KWLang-he td.treeLevel3 { padding-left: 0; -x-padding-right: 72px; padding-right: 57px; }
+
+td.treeLevel4 {
+  -x-text-indent: -84px;
+  -x-padding-left: 84px;
+  text-indent: -69px;
+  padding-left: 69px;
+}
+.KWLang-he td.treeLevel4 { padding-left: 0; -x-padding-right: 84px; padding-right: 69px; }
+
+td.treeLevel5 {
+  -x-text-indent: -96px;
+  -x-padding-left: 96px;
+  text-indent: -81px;
+  padding-left: 81px;
+}
+.KWLang-he td.treeLevel5 { padding-left: 0; -x-padding-right: 96px; padding-right: 81px; }
+
+td.treeLevel6 {
+  -x-text-indent: -108px;
+  -x-padding-left: 108px;
+  text-indent: -93px;
+  padding-left: 93px;
+}
+.KWLang-he td.treeLevel6 { padding-left: 0; -x-padding-right: 108px; padding-right: 93px; }
+
+td.treeLevel7 {
+  -x-text-indent: -120px;
+  -x-padding-left: 120px;
+  text-indent: -105px;
+  padding-left: 105px;
+}
+.KWLang-he td.treeLevel7 { padding-left: 0; -x-padding-right: 120px; padding-right: 105px; }
+
+td.treeLevel8 {
+  -x-text-indent: -132px;
+  -x-padding-left: 132px;
+  text-indent: -117px;
+  padding-left: 117px;
+}
+.KWLang-he td.treeLevel8 { padding-left: 0; -x-padding-right: 132px; padding-right: 117px; }
+
+td.treeLevel9 {
+  -x-text-indent: -144px;
+  -x-padding-left: 144px;
+  text-indent: -129px;
+  padding-left: 129px;
+}
+.KWLang-he td.treeLevel9 { padding-left: 0; -x-padding-right: 144px; padding-right: 129px; }
+
+
