@@ -271,7 +271,6 @@ footer {
 position:relative;
 }
 #headerimg1{
-background-image: url("images/BACKGRD_2560.png");
 position: relative; 
 top: -200; 
 left: 0; 
@@ -298,6 +297,7 @@ display:none;
 /* principle divs*/ 
 
 #header {
+  background-image: url("images/BACKGRD_2560.png");
 min-height: 300px;
 margin-top:-30px;
 margin-left:-65px;
