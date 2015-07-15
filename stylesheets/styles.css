@@ -281,8 +281,8 @@ width:100%;
 height:auto;
 }
 #headerimg2{
-position:absolute; 
-top:255px; 
+position:relative; 
+top:-40px; 
 left: 38%; 
 z-index:7;
 }

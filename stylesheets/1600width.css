@@ -281,10 +281,11 @@ width:100%;
 height:auto;
 }
 #headerimg2{
-position:absolute; 
-top:255px; 
-left: 25%; 
+position:relative; 
+top:-30px; 
+left: 38%; 
 z-index:7;
+
 }
 #headerimg3{
 position:absolute; 
@@ -363,7 +364,7 @@ div#div4 {
 }
 #showdiv4{
 position:relative; 
-top:20px;
+top:20px; 
 left:80%;
 height:auto; 
 z-index:6; 
