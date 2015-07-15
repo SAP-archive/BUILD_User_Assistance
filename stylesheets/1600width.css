@@ -276,7 +276,9 @@ top: -200;
 left: 0; 
 min-width:1600px; 
 height:300px; 
-min-height:300px;"
+min-height:300px;
+width:60%;
+height:auto;
 }
 #headerimg2{
 position:absolute; 
@@ -297,7 +299,6 @@ display:none;
 /* principle divs*/ 
 
 #header {
-background-image: url("images/BACKGRD_1600.png");
 min-height: 300px;
 margin-top:-30px;
 margin-left:-65px;

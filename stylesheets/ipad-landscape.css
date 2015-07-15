@@ -278,6 +278,8 @@ min-width:1600px;
 height:200px; 
 min-height:200px;"
 z-index:7;
+width:75%;
+height:auto;
 }
 #headerimg2{
 position:relative; 
@@ -305,7 +307,6 @@ top:175px;
 /* principle divs*/ 
 
 #header {
-background-image: url("images/BACKGRD_Ipad_landscape.png");
 height:200px;
 min-height: 200px;
 margin-top:-30px;
