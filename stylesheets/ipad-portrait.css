@@ -305,7 +305,7 @@ top:175px;
 /* principle divs*/ 
 
 #header {
-background-image: "images/BACKGRD_Ipad_portrait.png";
+background-image: url("images/BACKGRD_Ipad_portrait.png");
 height:200px;
 min-height: 200px;
 margin-top:-30px;

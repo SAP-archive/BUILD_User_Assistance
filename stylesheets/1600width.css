@@ -297,7 +297,7 @@ display:none;
 /* principle divs*/ 
 
 #header {
-background-image: "images/BACKGRD_1600.png";
+background-image: url("images/BACKGRD_1600.png");
 min-height: 300px;
 margin-top:-30px;
 margin-left:-65px;
