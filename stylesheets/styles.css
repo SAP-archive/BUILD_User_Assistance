@@ -92,7 +92,7 @@ th {
 }
 
 img {
-  max-width:120%;
+  max-width:100%;
 }
 
 header {
@@ -379,6 +379,7 @@ z-index:6;
 font-family: Roboto; 
 font-size:30px; 
 color: white;"
+
 }
 
 /* iFrames*/ 

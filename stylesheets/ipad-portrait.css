@@ -92,7 +92,7 @@ th {
 }
 
 img {
-  max-width:120%;
+  max-width:100%;
 }
 
 header {
@@ -279,7 +279,7 @@ height:200px;
 min-height:200px;"
 z-index:7;
 width:100%;
-height:auto;
+height:200p;
 }
 #headerimg2{
 position:relative; 
