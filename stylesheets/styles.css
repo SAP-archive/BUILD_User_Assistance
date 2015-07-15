@@ -399,14 +399,14 @@ left:220px;
 position:relative; 
 width:720px; 
 height:500px;
-top:-600px; 
-left:220px;
+top:80px; 
+left:-640px;
 }
 #iframe1c{
 position:relative; 
 width:720px; 
 height:500px;
-top:-600px; 
+top:-100px; 
 left:220px;
 }
 #iframe2{
