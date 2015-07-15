@@ -314,7 +314,7 @@ margin-top:-30px;
 margin-left:-65px;
 margin-right:-100px;
 position:relative;
-z-index:1;
+z-index:7;
 max-height:200px;
 }
 #nav {
@@ -375,7 +375,7 @@ top:50px;
 
 #showdiv4{
 position:relative; 
-top:20px;
+top:60px;
 left:80%;
 height:auto; 
 z-index:6; 
