@@ -15,7 +15,11 @@ $(function() {
     });
     $('#showdiv4').click(function() {
         $('div[id^=div]').hide();
-        $('#div4').show();
+        $('#div4').show(); 
+    });
+     $('#showdiv5').click(function() {
+        $('div[id^=div]').hide();
+        $('#div5').show();
     });
 
 })
