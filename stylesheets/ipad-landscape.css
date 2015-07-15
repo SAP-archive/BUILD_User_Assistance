@@ -345,12 +345,18 @@ div#div3 {
     top:-50px;
       z-index:4;
 }
+div#div5{
+  position:relative;
+    top:-50px;
+      z-index:4;
+}
 div#div4 {
     position:relative;
     top:600px;
       z-index:4;
       left:100px;
 }
+
 #footer {
     background-image: url("images/footer.png");
     background-repeat: no-repeat;
