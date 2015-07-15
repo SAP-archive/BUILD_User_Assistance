@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+4@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
 body {
   padding:-100px;
@@ -287,12 +287,12 @@ top:-40px;
 left: 32%; 
 z-index:7;
 height:30%;
-width:40%;
+width:35%;
 }
 #headerimg3{
 position:absolute; 
 top:50px;
-left:35%; 
+left:50px;  
 z-index:7;
 height:30%;
 width:25%;
@@ -307,7 +307,7 @@ top:175px;
 /* principle divs*/ 
 
 #header {
-height:200px;
+height:00px;
 min-height: 200px;
 margin-top:-30px;
 margin-left:-65px;
@@ -322,7 +322,7 @@ max-height:200px;
     width:100%;
     height:50px;
     position:relative;
-    z-index:6;
+    z-index:8;
     top:20px;
 }
 div#div1 {
@@ -330,12 +330,12 @@ div#div1 {
     float:left;
     left:-100px;
     min-width:500px;
-    z-index:4;
-    top:655px;
+    z-index:8;
+    top:555px;
 }
 div#div2 {
     position:relative;
-    top:-400px;
+    top:-450px;
       z-index:4;
       max-width:760px;
       left:350px;
@@ -348,7 +348,7 @@ div#div3 {
 }
 div#div5{
   position:relative;
-    top:-50px;
+    top:-250px;
       z-index:4;
 }
 div#div4 {
@@ -365,29 +365,36 @@ div#div4 {
    padding:5px;   
 
 }
+
 #showdiv1{
 position:relative;
+top:-100px;
+left:-70px;
+z-index: 8;
+
 }
 #showdiv2{
-position:absolute;
-left:35%;
-top:50px;
+position:relative;
+top:-180px;
+left:220px;
+z-index: 8;
 }
-#showdiv3{
-position:absolute;
-left:70%;
-top:50px;
-}
-
 #showdiv4{
 position:relative; 
-top:20px;
+top:-70px;
 left:75%;
 height:auto; 
-z-index:6; 
+z-index:10; 
 font-family: Roboto; 
 font-size:30px; 
-color: black;"
+color: black;
+z-index:5;
+}
+#showdiv5{
+position:relative;
+top:-260px;
+left: 460px;
+z-index: 8;
 }
 
 /* iFrames*/ 
@@ -395,11 +402,25 @@ color: black;"
 #iframe1{
 position:relative; 
 width:760px; 
-height:480px;
+height:500px;
 top:-600px; 
 left:95px;
-
 }
+#iframe1b{
+position:relative; 
+width:760px; 
+height:500px;
+top:-600px; 
+left:95px;
+}
+#iframe1c{
+position:relative; 
+width:760px; 
+height:500px;
+top:-600px; 
+left:95px;
+}
+
 #iframe2{
 position:relative; 
 top: 400px; 
@@ -421,8 +442,8 @@ position:relative;
 top: -590px; 
  height:1200px;
 float:left;
-left:-380px;
- width:1020px;
+left:-350px;
+ width:750px;
 
 }
 

@@ -218,11 +218,11 @@ footer {
   }
 }
 
+
 @media print, screen and (max-width: 720px) {
   body {
     word-wrap:break-word;
   }
-
   header {
     padding:0;
   }
@@ -269,6 +269,9 @@ footer {
 
   p#img{
 position:relative;
+width:50%;
+height:50%;
+
 }
 #headerimg1{
 position: relative; 
@@ -289,7 +292,7 @@ z-index:7;
 #headerimg3{
 position:absolute; 
 top:100px; 
-left:48%; 
+left:50px;  
 z-index:7;
 }
 #headerimg4{
@@ -385,12 +388,26 @@ color: black;"
 /* iFrames*/ 
 
 #iframe1{
-src: url("../videos/index1.html");
 position:relative; 
-width:800px; 
-left:30%;
-height:720px;
-top:-450px; 
+width:720px; 
+height:500px;
+top:-600px; 
+left:220px;
+
+}
+#iframe1b{
+position:relative; 
+width:720px; 
+height:500px;
+top:-600px; 
+left:220px;
+}
+#iframe1c{
+position:relative; 
+width:720px; 
+height:500px;
+top:-600px; 
+left:220px;
 }
 #iframe2{
 position:relative; 
@@ -407,8 +424,8 @@ height:80%;
 }
 #iframe4{
 position:relative; 
-top: 50px;
-width:2000px;
+top: 70px;
+width:1400px;
 height:1200px;
 }
 #iframe5{
