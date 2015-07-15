@@ -273,12 +273,12 @@ position:relative;
 #headerimg1{
 position: relative; 
 top: -200; 
-left: 0; 
+left: 0;  
 min-width:1600px; 
 height:300px; 
 min-height:300px;
-width:60%;
-height:auto;
+width:75%;
+height:400px;
 }
 #headerimg2{
 position:absolute; 
