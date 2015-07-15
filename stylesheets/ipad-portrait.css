@@ -376,13 +376,13 @@ top:50px;
 
 #showdiv4{
 position:relative; 
-top:-250px;
+top:20px;
 left:75%;
 height:auto; 
 z-index:6; 
 font-family: Roboto; 
 font-size:30px; 
-color: white;"
+color: black;"
 }
 
 /* iFrames*/ 
