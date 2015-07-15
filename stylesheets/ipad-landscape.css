@@ -278,6 +278,8 @@ min-width:1600px;
 height:200px; 
 min-height:200px;"
 z-index:7;
+width:100%;
+height:auto;
 }
 #headerimg2{
 position:relative; 
@@ -300,6 +302,7 @@ position:relative;
 z-index:5;
 left:-150px;
 top:175px;
+
 }
 
 /* principle divs*/ 
