@@ -21,7 +21,13 @@
   </head>
   <body>
   <div id="header">
-  <img id="headerimg1" src="images/TinyPNG/BACKGRD_2560.png"/>
+  <picture alt="description">
+  <source src="">
+  <source src="images/TinyPNG/BACKGRD_Ipad_portrait.png" media="(min-width:1024px) and (max-width:768px) and (orientation:portrait)">
+  <source src="images/TinyPNG/BACKGRD_Ipad_landscape.png" media="(min-width:768px) and (max-width:1024px) and (orientation:landscape)">
+  <source src="images/TinyPNG/BACKGRD_1600.png" media="(min-width:1024px) and (max-width : 1600px)">
+  <source src="mimages/TinyPNG/BACKGRD_2560.png" media="(min-width:1600px) and (max-width : 2560px)">
+</picture>
   <img id="headerimg2" src= "images/text_for_banner.png">
   <div class="btn-group open">
   <a class="btn btn-primary" id="showdiv4"><i class="fa fa-search"></i><span style="cursor:pointer">Search</span></a>
