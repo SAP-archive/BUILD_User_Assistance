@@ -350,6 +350,15 @@ div#div4 {
      min-width:600px;
       z-index:4;
 }
+div#div5 {
+    position:relative;
+    top:100px;
+     width:75%;
+    float:left;    
+    top:-50px;
+     min-width:600px;
+      z-index:4;
+      }
 #footer {
     background-image: url("images/footer.png");
     background-repeat: no-repeat;
