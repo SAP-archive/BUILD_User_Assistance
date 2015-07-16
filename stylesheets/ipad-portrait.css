@@ -386,7 +386,7 @@ left:80%;
 height:auto; 
 z-index:10; 
 font-family: Roboto; 
-font-size:15px; 
+font-size:20px; 
 color: white;
 z-index:5;
 }
@@ -411,7 +411,7 @@ z-index:10;
 position:relative; 
 width:760px; 
 height:500px;
-top:-600px; 
+top:-550px; 
 left:95px;
 }
 #iframe1c{
@@ -424,7 +424,7 @@ left:95px;
 
 #iframe2{
 position:relative; 
-top: 500px; 
+top: 450px; 
  height:1200px;
 float:left;
 left:-360px;
@@ -443,7 +443,7 @@ position:relative;
 top: -590px; 
  height:1200px;
 float:left;
-left:-350px;
+left:-200px;
  width:750px;
 
 }
