@@ -289,9 +289,11 @@ z-index:7;
 }
 #headerimg3{
 position:absolute; 
-top:100px; 
-left:50px;  
+top:50px; 
+left:36%;  
 z-index:7;
+height: 30%;
+width:30%;
 }
 #headerimg4{
 display:none;
@@ -322,9 +324,10 @@ div#div1 {
     position:relative;
     width:85%;
     float:left;
-    top:500px; 
+    top:600px; 
     min-width:500px;
     z-index:4;
+    left:10px;
 }
 div#div2 {
     position:relative;
@@ -364,37 +367,38 @@ div#div4 {
 }
 #showdiv4{
 position:relative; 
-top:-40px; 
+top:-150px;
 left:80%;
 height:auto; 
 z-index:6; 
 font-family: Roboto; 
 font-size:30px; 
-color: black;"
+color: white;"
 }
 
 /* iFrames*/ 
 
+
 #iframe1{
 position:relative; 
-width:800px; 
-left:10%;
+width:720px; 
 height:500px;
-top:-450px; 
+top:-600px; 
+left:220px;
 }
 #iframe1b{
 position:relative; 
-width:800px; 
-left: 10%;
-  height: 500px;
-  top: -350px;
+width:720px; 
+height:495px;
+top:-100px; 
+left:-503px;
 }
 #iframe1c{
 position:relative; 
-width:800px; 
-  left:10%;
-  height: 500px;
-  top: -300px;
+width:720px; 
+height:500px;
+top:-600px; 
+left:220px;
 }
 #iframe2{
 position:relative; 

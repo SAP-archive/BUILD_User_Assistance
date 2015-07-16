@@ -289,9 +289,11 @@ z-index:7;
 }
 #headerimg3{
 position:absolute; 
-top:50px; 
-left:50px; 
+top:30px; 
+left:36%;  
 z-index:7;
+height: 20%;
+width:32%;
 }
 #headerimg4{
 display:none;
@@ -325,6 +327,7 @@ div#div1 {
     top:550px; 
     min-width:500px;
     z-index:4;
+    left:-50px;
 }
 div#div2 {
     position:relative;
@@ -364,13 +367,13 @@ div#div4 {
 }
 #showdiv4{
 position:relative; 
-top:-40px; 
+top:-150px;
 left:80%;
 height:auto; 
 z-index:6; 
 font-family: Roboto; 
 font-size:30px; 
-color: black;"
+color: white;"
 }
 
 /* iFrames*/ 
