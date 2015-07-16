@@ -93,6 +93,7 @@ th {
 
 img {
   max-width:100%;
+  height:150px;
 }
 
 header {
@@ -276,26 +277,25 @@ top: -200;
 left: 0; 
 min-width:1600px; 
 height:200px; 
-min-height:200px;"
 z-index:7;
 width:100%;
-height:300px;
+height:auto;
 }
 #headerimg2{
 position:relative; 
-top:-20px; 
-left: 32%; 
+top:-15px; 
+left: 28%; 
 z-index:7;
-height:30%;
+height:25%;
 width:40%;
 }
 #headerimg3{
 position:absolute; 
-top:25px; 
-left:38%;  
+top:40px; 
+left:33%;  
 z-index:7;
-height: 18%;
-width:18%;
+height: 35%;
+width:35%;
 }
 #headerimg4{
 position:relative; 
@@ -307,13 +307,13 @@ top:175px;
 /* principle divs*/ 
 
 #header {
-height:00px;
+height:200px;
 min-height: 200px;
 margin-top:-30px;
 margin-left:-65px;
 margin-right:-100px;
 position:relative;
-z-index:7;
+z-index:4;
 max-height:200px;
 }
 #nav {
@@ -323,7 +323,7 @@ max-height:200px;
     height:50px;
     position:relative;
     z-index:8;
-    top:20px;
+    top:60px;
 }
 div#div1 {
     position:relative;
@@ -381,13 +381,13 @@ z-index: 8;
 }
 #showdiv4{
 position:relative; 
-top:-30px;
+top:-90px;
 left:80%;
 height:auto; 
 z-index:10; 
 font-family: Roboto; 
 font-size:15px; 
-color: black;
+color: white;
 z-index:5;
 }
 #showdiv5{
@@ -403,7 +403,7 @@ z-index: 8;
 position:relative; 
 width:760px; 
 height:500px;
-top:-600px; 
+top:-550px; 
 left:95px;
 z-index:10;
 }
@@ -424,7 +424,7 @@ left:95px;
 
 #iframe2{
 position:relative; 
-top: 400px; 
+top: 500px; 
  height:1200px;
 float:left;
 left:-360px;
@@ -447,7 +447,15 @@ left:-350px;
  width:750px;
 
 }
+#iframe5{
+position:relative; 
+top: 250px; 
+ height:1200px;
+float:left;
+left:-350px;
+ width:750px;
 
+}
 
 /*Navigation styles*/
 
