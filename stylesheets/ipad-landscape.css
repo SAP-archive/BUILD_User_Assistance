@@ -400,13 +400,14 @@ width:720px;
 height:500px;
 top:-600px; 
 left:220px;
+z-index:10;
 
 }
 #iframe1b{
 position:relative; 
 width:720px; 
 height:500px;
-top:-600px; 
+top:-550px; 
 left:220px;
 }
 #iframe1c{

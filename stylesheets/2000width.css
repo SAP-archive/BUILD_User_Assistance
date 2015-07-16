@@ -283,7 +283,7 @@ height:auto;
 #headerimg2{
 position:relative; 
 top:-30px; 
-left: 22%; 
+left: 28%; 
 z-index:7;
 
 }
@@ -324,7 +324,7 @@ div#div1 {
     position:relative;
     width:85%;
     float:left;
-    top:600px; 
+    top:650px; 
     min-width:500px;
     z-index:4;
     left:10px;
@@ -385,6 +385,7 @@ width:720px;
 height:500px;
 top:-600px; 
 left:220px;
+z-index:10;
 }
 #iframe1b{
 position:relative; 

@@ -324,7 +324,7 @@ div#div1 {
     position:relative;
     width:85%;
     float:left;
-    top:550px; 
+    top:600px; 
     min-width:500px;
     z-index:4;
     left:-50px;
@@ -384,7 +384,7 @@ width:720px;
 height:500px;
 top:-600px; 
 left:220px;
-
+z-index:10;
 }
 #iframe1b{
 position:relative; 

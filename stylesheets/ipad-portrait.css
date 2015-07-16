@@ -294,8 +294,8 @@ position:absolute;
 top:25px; 
 left:38%;  
 z-index:7;
-height: 22%;
-width:22%;
+height: 18%;
+width:18%;
 }
 #headerimg4{
 position:relative; 
@@ -331,7 +331,7 @@ div#div1 {
     left:-100px;
     min-width:500px;
     z-index:8;
-    top:555px;
+    top:600px;
 }
 div#div2 {
     position:relative;
@@ -405,6 +405,7 @@ width:760px;
 height:500px;
 top:-600px; 
 left:95px;
+z-index:10;
 }
 #iframe1b{
 position:relative; 
