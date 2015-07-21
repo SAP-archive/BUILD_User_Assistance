@@ -349,7 +349,7 @@ div#div3 {
 div#div5{
   position:relative;
     top:-250px;
-      z-index:4;
+      z-index:-1;
 }
 div#div4 {
     position:relative;
@@ -452,7 +452,7 @@ position:relative;
 top: 250px; 
  height:1200px;
 float:left;
-left:-350px;
+left:-270px;
  width:750px;
 
 }
