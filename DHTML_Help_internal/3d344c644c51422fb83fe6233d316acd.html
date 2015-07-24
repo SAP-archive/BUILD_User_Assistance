@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-us">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="cache-control" content="max-age=0"/>
+<meta http-equiv="cache-control" content="no-cache"/>
+<meta http-equiv="expires" content="0"/>
+<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT"/>
+<meta http-equiv="pragma" content="no-cache"/>
+<meta name="abstract" content="You add properties to an object from the panel on the right side of the panel."/>
+<meta name="description" content="You add properties to an object from the panel on the right side of the panel."/>
+
+<link rel="stylesheet" type="text/css" href="css/documentation.css?x=9960662092174453"/>
+<title>Add Properties to an Object</title>
+<!--[if lte IE 7]><style>
+      .codeblock{
+          overflow:visible;
+      }</style><![endif]-->
+<script type="text/javascript" src="js/jquery-1.10.1.min.js"> </script><script type="text/javascript" src="js/treetoggle.js"> </script>
+<script type="text/javascript"><!-- 
+        var loops = 10; 
+        function GetLoio() { return "loio3d344c644c51422fb83fe6233d316acd";
+        } 
+        function Sync() { if (parent.SAP_TOC && parent.SAP_TOC.gMenu) {parent.SAP_TOC.gMenu.SelectEntry(GetLoio()); } 
+        else if (parent != self && loops-- > 0) { window.setTimeout( "Sync()",500 ); } } 
+        Sync(); 
+
+ function hijackLink (elem) { if(elem.href.indexOf('#')
+          > 0 ){ var hr = elem.href.substr(0,
+          elem.href.indexOf('#')); var anc = elem.href.substr(elem.href.indexOf('#'),
+          elem.href.length); var dum = Math.random(); parent.window.location = hr + "?x=" + dum +
+          anc; } } //-->
+</script>
+</head>
+<body class="sap_bluecrystal" id="loio3d344c644c51422fb83fe6233d316acd">
+<div id="wrapper"><div id="container">
+<h1 class="title topictitle1">Add Properties to an Object</h1>
+<div class="body conbody"><p class="shortdesc">You add properties to an object from the panel on the right side of the
+		panel.</p>
+<div class="p">
+			<ol class="ol" id="loio3d344c644c51422fb83fe6233d316acd__ol_qx3_qd3_ks"><li class="li">Click <span class="ph uicontrol">Add Property</span>, then type the name of the property in the field.
+					The naming rules for properties are:<ul class="ul" id="loio3d344c644c51422fb83fe6233d316acd__ul_rpp_1nc_5s"><li class="li">
+							<p class="p">Maximum length of 40 characters</p>
+
+						</li>
+<li class="li">
+							<p class="p">The first character must be a letter or an underscore</p>
+
+						</li>
+<li class="li">
+							<p class="p">Subsequent characters must be alphanumeric or an underscore</p>
+
+						</li>
+<li class="li">The name must be different from names of other properties of the
+							object</li>
+</ul>
+</li>
+<li class="li">Select the type of the property from the list. The standard values are:<ul class="ul" id="loio3d344c644c51422fb83fe6233d316acd__ul_qdv_td3_ks"><li class="li">
+							<p class="p">String - the default value</p>
+
+						</li>
+<li class="li">
+							<p class="p">Numeric</p>
+
+						</li>
+<li class="li">
+							<p class="p">DateTime</p>
+
+							<p class="p"><img class="image" id="loio3d344c644c51422fb83fe6233d316acd__image_vjs_rjc_5s" src="loioe3cd1c640d784a30afefb5add0a7609a_LowRes.png"/></p>
+
+						</li>
+</ul>
+</li>
+</ol>
+
+			<div class="note note"><span class="notetitle">Note</span> 
+				<p class="p">You can set or remove a property key by using the key icon on the property.</p>
+
+			</div>
+
+		</div>
+<div class="section"><div class="section_title">Modifying Data Under the Samples Tab</div><div type="Modifying Data Under the Samples Tab">
+			
+			<p class="p">BUILD allows you to modify data by editing it directly in the application or by
+				importing or exporting files to and from Excel. These actions are performed under
+				the <span class="ph uicontrol">Samples</span> tab.</p>
+
+			<p class="p"><img class="image" id="loio3d344c644c51422fb83fe6233d316acd__image_evt_vsc_5s" src="loioc451a000af0648dba53a7ed941e0a4cd_LowRes.png"/></p>
+
+		</div></div>
+<div class="section"><div class="section_title">Importing and Exporting Objects and Models to and from Excel</div><div type="Importing and Exporting Objects and Models to and from Excel">
+			
+			<p class="p">BUILD allows you to import and export objects and models to and from Excel from the
+					<span class="ph uicontrol">Samples</span> tab. When exporting, the Excel file takes the
+				name of the project. It takes the name of the project and is always a table with
+				either mapping tables or foreign keys. You can choose to export a selected object or
+				the entire model. You can also select <span class="ph uicontrol">Relations with Tables</span>
+				which means that the relations are identified by mapping tables. If you do not
+				select <span class="ph uicontrol">Relations with Tables</span>, the relations are identified by
+				foreign keys.</p>
+
+			<div class="p">When importing, you can either drag a file from your local drive or browse to choose
+				a file. You can import one of three Excel formats:<ul class="ul" id="loio3d344c644c51422fb83fe6233d316acd__ul_opm_lrc_5s"><li class="li">
+						<p class="p">Data sheet with foreign keys</p>
+
+					</li>
+<li class="li">Table with foreign keys</li>
+<li class="li">Table with mapping table</li>
+</ul>
+<div class="note note"><span class="notetitle">Note</span> 
+					<p class="p">The structure of the file that you import must correspond exactly to the
+						structure of the data model in BUILD.</p>
+
+				</div>
+</div>
+
+		</div></div>
+<div class="section"><div class="section_title">Editing Data in the Data Model</div><div type="Editing Data in the Data Model">
+			
+			<div class="p">You can edit data in the data model in BUILD using the editor under the
+					<span class="ph uicontrol">Samples</span> tab.<ol class="ol" id="loio3d344c644c51422fb83fe6233d316acd__ol_idr_fsc_5s"><li class="li">Select the object for which you want to edit data, then click
+							<span class="ph uicontrol">Open Editor</span>.</li>
+<li class="li">Click inside the cells for which you want to modify the data, then click
+							<span class="ph uicontrol">OK</span>. </li>
+</ol>
+</div>
+
+		</div></div>
+</div>
+</div></div><div class="footer" id="custom-footer">
+	<div id="custom-footerSpacer">__________________________________________________ </div>
+	<a class="copyright" href="copyright.html" target="_blank">Copyright</a> | <a class="disclaimer" href="disclaimer.html" target="_blank">Important Disclaimers and Legal Information</a>
+</div>
+
+<SCRIPT LANGUAGE="JavaScript"><!--
+ var page_title="Add Properties to an Object";
+
+        if (page_title !='' &&
+        parent.document.title != null) {
+ parent.document.title =
+          page_title;
+ } 
+ var
+        anchor = document.getElementById(location.hash.substring(+1)); if (typeof (anchor)
+        !='undefined' && anchor !=null){
+        var top = anchor.getBoundingClientRect().top; } 
+//-->
+</SCRIPT>
+</body>
+</html>

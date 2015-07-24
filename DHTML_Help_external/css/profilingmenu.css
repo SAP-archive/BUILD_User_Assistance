@@ -1,0 +1,73 @@
+
+ul.ProfilingMenu {
+    list-style-type: none;
+    padding:0;
+    margin: 0.5em 0 0.5em;
+}
+
+.ProfilingMenuListGroupTitle {
+    font-weight:bold;
+}
+
+.ProfilingMenuListGroup {
+    list-style-type: none;
+    padding:0;
+    margin: 0.5em 0 0.5em;
+}
+
+.ProfilingMenuList {
+    list-style-type: none;
+    padding:0;
+    margin: 0.5em 1.0em 0.5em;
+}
+
+ul.ProfilingMenu  > li {
+    margin-top: 1.0em;
+}
+
+/* Profiling menu icons. */
+.ProfilingMenuList li {
+    position:relative;
+    overflow:hidden;
+    list-style:none;
+    padding-left:28px;
+    margin:0 0 0.5em;
+}
+.ProfilingMenuList li.profiling-hidden:before {
+    content:"\2013";
+    position:absolute;
+    top:50%;
+    left:4px;
+    width:14px;
+    height:14px;
+    margin-top:-8px;
+    font-size:16px;
+    font-weight:bold;
+    line-height:12.5px;
+    text-align:center;
+    color:#ffffcc;
+    background-color:#C00000;
+    /*background-color: #FF0000; */
+    -webkit-border-radius:14px;
+    -moz-border-radius:14px;
+    border-radius:14px;
+}
+.ProfilingMenuList li:before {
+    content:"+";
+    position:absolute;
+    top:50%;
+    left:4px;
+    width:14px;
+    height:14px;
+    margin-top:-8px;
+    font-size:17px;
+    font-weight:bold; 
+    line-height:15px;
+    text-align:center;
+    color:#ffffcc;
+    background-color:#006600;
+    -webkit-border-radius:14px;
+    -moz-border-radius:14px;
+    border-radius:14px;
+}
+
