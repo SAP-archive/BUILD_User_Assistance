@@ -426,6 +426,9 @@ th.align_center {
 	vertical-align:middle;
 	text-align:center;
 } 
+th.align_right {
+	text-align:right;
+} 
 [lang="ar-sa"] th, [lang="fa-ir"] th, [lang="he-il"] th {
   padding: 2px 5px 2px 4px;
   text-align: right;
@@ -1159,7 +1162,6 @@ iframe {
 	border-bottom-style:dotted;
 	border-bottom-width: 1px;
 	border-bottom-color: #000000;
-	max-width: 60%;
 }
 .searchItem:hover {
 	background-color: #F6F6F6;
@@ -1209,7 +1211,6 @@ body.sap_bluecrystal .searchItem:hover {
     cursor:pointer;
     cursor:hand;
 }
-
 /* IE 7 image positioning issue fix */
 *+html .section_title{
 	display:inline;
@@ -1217,39 +1218,20 @@ body.sap_bluecrystal .searchItem:hover {
 *+html .topictitle2 {
 	display:inline;
 }
-.collapsibleTitle {
-       cursor:pointer;
-	   cursor:hand;
-}
 .col-wrapper {
-       cursor:pointer;
-	   cursor:hand;
+    cursor:pointer;
+	  cursor:hand;
 }
- .collapse-menu {
-      background-color:#fff;
-      border: 1px solid #ccc;
-      border-radius:5px;
-      cursor:pointer;
-      left:410px;
-      opacity:1;
-      padding:5px;
-      position:fixed;
-      top:85px;
-      z-index:100;
+.relinfotitle {
+	display:inline;
 }
-.collapse-menu.collapsed {
-	left:2px;
-}		
 .collapse:hover {
-  outline:1px solid gray;
-  outline-offset: 0px; 
-} 
-.expand:hover {	
-
-  outline:1px solid gray;
-  outline-offset: 0px; 
-} 
-
+ /*  outline:1px solid gray; */
+  outline-offset: 0px;
+}
+.expand:hover {
+  outline-offset: 0px;
+}
 .collapse-icon {
 		background-repeat: no-repeat;
 		padding : 5px;
