@@ -12,7 +12,7 @@
 <meta name="abstract" content="BUILD provides you with sample files to help you create data models from Excel."/>
 <meta name="description" content="BUILD provides you with sample files to help you create data models from Excel."/>
 
-<link rel="stylesheet" type="text/css" href="css/documentation.css?x=26567199189051816"/>
+<link rel="stylesheet" type="text/css" href="css/documentation.css?x=6080071679776919"/>
 <title>Using Sample Files to Create a Data Model</title>
 <!--[if lte IE 7]><style>
       .codeblock{
@@ -75,33 +75,31 @@
 		</div></div>
 <div class="section"><div class="section_title">About Cardinality of Relations in a Data Model</div><div type="About Cardinality of Relations in a Data Model">
 			
-			<p class="p">BUILD supports relations with a cardinality ‘1’ and ’n’, that is, ‘1-1’ and ‘1-n’</p>
+			<p class="p">BUILD supports relations with a cardinality <samp class="ph codeph">1</samp> and  <samp class="ph codeph">n</samp> , that
+				is,  <samp class="ph codeph">1-1</samp>  and  <samp class="ph codeph">1-n </samp></p>
 
 			<div class="p">In the mapping table format, the cardinality is deduced from the data in the mapping
 					table:<ul class="ul" id="loiofe036c222d8d4246ab462fcda420678f__ul_y2g_fj4_rs"><li class="li">
-						<p class="p">Cardinality will be ’n’ if some<cite class="cite">some</cite> elements of the source
-							Object of the Relation are mapped with multiple<cite class="cite">multiple</cite>
-							elements of the target Object.4</p>
+						<p class="p">Cardinality will be <samp class="ph codeph">n</samp> if some elements of the source Object of the
+							Relation are mapped with multiple elements of the target Object.</p>
 
 					</li>
 <li class="li">
-						<p class="p">Cardinality will be ‘1’ if all <cite class="cite">all</cite>elements of the source
-							Object of the Relation are mapped with one single<cite class="cite">one single
-							</cite> element of the target Object.</p>
+						<p class="p">Cardinality will be <samp class="ph codeph">1</samp> if all elements of the source Object of the Relation
+							are mapped with one single element of the target Object.</p>
 
 					</li>
 </ul>
 </div>
 
-			<div class="p">In the foreign key format, the cardinality is deduced from the column that stores the
-				foreign key<ul class="ul" id="loiofe036c222d8d4246ab462fcda420678f__ul_gpt_fk4_rs"><li class="li">
-						<p class="p">If the column of the foreign key is in the source Object of the Relation,
-							this will be a cardinality ‘1’.</p>
+			<div class="p">In the foreign key format, the cardinality is deduced from the column that stores the foreign
+				key. If the column of the foreign key is in the:<ul class="ul" id="loiofe036c222d8d4246ab462fcda420678f__ul_gpt_fk4_rs"><li class="li">
+						<p class="p">Source Object of the Relation, this will be a cardinality
+								<samp class="ph codeph">1</samp>.</p>
 
 					</li>
 <li class="li">
-						<p class="p">If the column of the foreign key is in the target Object, this will be a
-							cardinality ’n’</p>
+						<p class="p">Target Object, this will be a cardinality <samp class="ph codeph">n</samp></p>
 
 					</li>
 </ul>
