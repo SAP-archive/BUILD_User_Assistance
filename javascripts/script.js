@@ -1,5 +1,4 @@
 
-
 $(function() {
     $('#showdiv1').click(function() {
         $('div[id^=div]').hide();
@@ -16,11 +15,7 @@ $(function() {
     });
     $('#showdiv4').click(function() {
         $('div[id^=div]').hide();
-        $('#div2').show(); 
-    });
-     $('#showdiv5').click(function() {
-        $('div[id^=div]').hide();
-        $('#div5').show();
+        $('#div4').show();
     });
 
 })
