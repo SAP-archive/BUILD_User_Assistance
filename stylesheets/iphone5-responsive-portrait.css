@@ -313,30 +313,31 @@ margin-top:-30px;
 margin-left:-65px;
 margin-right:-100px;
 position:relative;
-z-index:4;
+z-index:10;
 max-height:200px;
 }
+
+
 #nav {
     line-height:30px;
-    background-color: white;
     width:100%;
     height:50px;
     position:relative;
-    z-index:8;
-    top:60px;
+    z-index:11;
+    top:-70px;
 }
 div#div1 {
     position:relative;
     float:left;
     left:-230px;
     min-width:500px;
-    z-index:8;
+    z-index:7;
     top:480px;
 }
 div#div2 {
     position:relative;
     top:-500px;
-      z-index:8;
+      z-index:7;
       max-width:760px;
       left:300px;
       
@@ -344,7 +345,7 @@ div#div2 {
 div#div3 {
      position:relative;
     top:-50px;
-      z-index:10;
+      z-index:7;
 }
 div#div5{
   position:relative;
@@ -355,7 +356,7 @@ div#div5{
 div#div4 {
     position:relative;
     top:540px;
-      z-index:10;
+      z-index:7;
       left:140px;
 }
 #footer {
@@ -368,33 +369,33 @@ div#div4 {
 
 #showdiv1{
 position:relative;
-top:-180px;
+top:-40px;
 left:-70px;
-z-index: 13;
+z-index: 7;
 
 }
 #showdiv2{
 position:relative;
-top:-240px;
+top:-120px;
 left:10px;
-z-index: 12;
+z-index: 7;
 }
 #showdiv4{
 position:relative; 
 top:-105px;
 left:62%;
 height:auto; 
-z-index:12; 
+z-index:7; 
 font-family: Roboto; 
 font-size:20px; 
 color: white;
-z-index:5;
+
 }
 #showdiv5{
 position:relative;
-top:-340px;
+top:-200px;
 left: 120px;
-z-index: 8;
+z-index: 7;
 }
 
 /* iFrames*/ 
@@ -518,4 +519,12 @@ p {
  font-family: arial;
     font-size: 50px;
   }
+
+
+
+
+
+
+
+
 

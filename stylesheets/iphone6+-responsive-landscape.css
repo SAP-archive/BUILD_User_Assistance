@@ -323,42 +323,43 @@ max-height:200px;
     position:relative;
     z-index:11;
     top:-70px;
+    left: 80px;
 }
 div#div1 {
     position:relative;
     float:left;
-    left:-100px;
+    left:10px;
     width:480px;
     z-index:7;
-    top:480px;
+    top:560px;
 }
 div#div2 {
     position:relative;
     top:-570px;
       z-index:7;
-      width:480px;
-      left:350px;
+      width:560px;
+      left:400px;
       
 }
 div#div3 {
      position:relative;
     top:100px;
       z-index:7;
-       width:480px;
+       width:560px;
 }
 div#div5{
   position:relative;
     top:-370px;
-    left:120px;
+    left:190px;
       z-index:7;
-       width:480px;
+       width:560px;
 }
 div#div4 {
     position:relative;
     top:520px;
       z-index:8;
-      left:140px;
-       width:480px;
+      left:220px;
+       width:560px;
 }
 #footer {
     background-image: url("images/footer.png");
