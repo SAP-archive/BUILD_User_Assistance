@@ -330,7 +330,7 @@ div#div1 {
     position:relative;
     float:left;
     left:-230px;
-    min-width:500px;
+    width:320px;
     z-index:7;
     top:480px;
 }
@@ -338,7 +338,7 @@ div#div2 {
     position:relative;
     top:-580px;
       z-index:7;
-      max-width:760px;
+      width:320px;
       left:300px;
       
 }
@@ -349,8 +349,8 @@ div#div3 {
 }
 div#div5{
   position:relative;
-    top:-400px;
-    left:120px;
+    top:-380px;
+    left:200px;
       z-index:7;
 }
 div#div4 {
@@ -358,6 +358,7 @@ div#div4 {
     top:500px;
       z-index:7;
       left:140px;
+      width:320px;
 }
 #footer {
     background-image: url("images/footer.png");
