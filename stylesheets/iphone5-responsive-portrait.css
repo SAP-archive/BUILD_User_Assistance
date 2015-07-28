@@ -273,13 +273,9 @@ position:relative;
 }
 #headerimg1{
 position: relative; 
-top: -100px; 
-left: 0px; 
-min-width:1600px; 
-height:200px; 
+width:600px; 
+height:150px; 
 z-index:7;
-width:100%;
-height:auto;
 }
 #headerimg2{
 position:relative; 
@@ -315,6 +311,7 @@ margin-right:-100px;
 position:relative;
 z-index:10;
 max-height:200px;
+width:600px;
 }
 
 
@@ -338,7 +335,7 @@ div#div2 {
     position:relative;
     top:-580px;
       z-index:7;
-      width:320px;
+      width:600px;
       left:300px;
       
 }
@@ -430,7 +427,7 @@ top: 450px;
  height:1200px;
 float:left;
 left:-360px;
- width:360px;
+ width:600px;
 }
 #iframe3{
 position:relative; 
