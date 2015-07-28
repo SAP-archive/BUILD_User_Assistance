@@ -284,15 +284,15 @@ height:auto;
 #headerimg2{
 position:relative; 
 top:-15px; 
-left: 10%; 
+left: 5%; 
 z-index:10;
 height:17%;
-width:55%;
+width:42%;
 }
 #headerimg3{
 position:absolute; 
 top:20px; 
-left:25%;  
+left:14%;  
 z-index:7;
 height: 25%;
 width:25%;
@@ -328,7 +328,7 @@ max-height:200px;
 div#div1 {
     position:relative;
     float:left;
-    left:-110px;
+    left:-40px;
     width:480px;
     z-index:7;
     top:560px;
@@ -385,7 +385,7 @@ z-index: 7;
 #showdiv4{
 position:relative; 
 top:-105px;
-left:52%;
+left:40%;
 height:auto; 
 z-index:7; 
 font-family: Roboto; 
@@ -404,7 +404,7 @@ z-index: 7;
 #iframe1{
 position:relative; 
 width:480px; 
-height:500px;
+height:520px;
 top:-550px; 
 left:95px;
 z-index:10;
@@ -412,7 +412,7 @@ z-index:10;
 #iframe1b{
 position:relative; 
 width:480px; 
-height:500px;
+height:520px;
 top:-550px; 
 left:95px;
 }
