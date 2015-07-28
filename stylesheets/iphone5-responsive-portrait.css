@@ -336,7 +336,7 @@ div#div1 {
 }
 div#div2 {
     position:relative;
-    top:-500px;
+    top:-580px;
       z-index:7;
       max-width:760px;
       left:300px;
@@ -349,13 +349,13 @@ div#div3 {
 }
 div#div5{
   position:relative;
-    top:-300px;
+    top:-400px;
     left:120px;
       z-index:7;
 }
 div#div4 {
     position:relative;
-    top:540px;
+    top:500px;
       z-index:7;
       left:140px;
 }
