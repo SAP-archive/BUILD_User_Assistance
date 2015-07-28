@@ -324,6 +324,7 @@ max-height:200px;
     position:relative;
     z-index:8;
     top:60px;
+    left:60px;
 }
 div#div1 {
     position:relative;
