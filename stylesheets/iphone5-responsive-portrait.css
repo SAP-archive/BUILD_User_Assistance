@@ -309,6 +309,7 @@ position:relative;
 z-index:10;
 max-height:200px;
 width:600px;
+overflow:scroll;
 }
 
 
@@ -323,7 +324,7 @@ width:600px;
 div#div1 {
     position:relative;
     float:left;
-    left:-230px;
+    left:-120px;
     width:320px;
     z-index:7;
     top:480px;
@@ -344,7 +345,7 @@ div#div3 {
 div#div5{
   position:relative;
     top:-380px;
-    left:200px;
+    left:250px;
       z-index:7;
 }
 div#div4 {
