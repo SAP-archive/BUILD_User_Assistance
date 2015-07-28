@@ -284,15 +284,15 @@ height:auto;
 #headerimg2{
 position:relative; 
 top:-15px; 
-left: 5%; 
+left: 22%; 
 z-index:10;
-height:17%;
-width:42%;
+height:22%;
+width:50%;
 }
 #headerimg3{
 position:absolute; 
 top:20px; 
-left:14%;  
+left:33%;  
 z-index:7;
 height: 25%;
 width:25%;
@@ -385,7 +385,7 @@ z-index: 7;
 #showdiv4{
 position:relative; 
 top:-105px;
-left:40%;
+left:65%;
 height:auto; 
 z-index:7; 
 font-family: Roboto; 

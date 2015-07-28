@@ -93,7 +93,7 @@ th {
 
 img {
   max-width:100%;
-  height:150px;
+  height:100px;
 }
 
 header {
@@ -273,8 +273,8 @@ position:relative;
 }
 #headerimg1{
 position: relative; 
-top: -200; 
-left: 0; 
+top: -100px; 
+left: 0px; 
 min-width:1600px; 
 height:200px; 
 z-index:7;
@@ -284,18 +284,18 @@ height:auto;
 #headerimg2{
 position:relative; 
 top:-15px; 
-left: 28%; 
-z-index:7;
-height:25%;
-width:40%;
+left: 22%; 
+z-index:10;
+height:22%;
+width:50%;
 }
 #headerimg3{
 position:absolute; 
-top:40px; 
+top:20px; 
 left:33%;  
 z-index:7;
-height: 35%;
-width:35%;
+height: 25%;
+width:25%;
 }
 #headerimg4{
 position:relative; 
@@ -313,49 +313,53 @@ margin-top:-30px;
 margin-left:-65px;
 margin-right:-100px;
 position:relative;
-z-index:4;
+z-index:10;
 max-height:200px;
 }
 #nav {
     line-height:30px;
-    background-color: white;
     width:100%;
     height:50px;
     position:relative;
-    z-index:8;
-    top:60px;
+    z-index:11;
+    top:-70px;
+    left: 10px;
 }
 div#div1 {
     position:relative;
     float:left;
-    left:-100px;
-    min-width:500px;
-    z-index:8;
-    top:600px;
+    left:-40px;
+    width:480px;
+    z-index:7;
+    top:560px;
 }
 div#div2 {
     position:relative;
-    top:-450px;
-      z-index:4;
-      max-width:760px;
+    top:-570px;
+      z-index:7;
+      width:560px;
       left:350px;
       
 }
 div#div3 {
      position:relative;
-    top:-50px;
-      z-index:4;
+    top:100px;
+      z-index:7;
+       width:560px;
 }
 div#div5{
   position:relative;
-    top:-250px;
-      z-index:-1;
+    top:-370px;
+    left:130px;
+      z-index:7;
+       width:560px;
 }
 div#div4 {
     position:relative;
-    top:650px;
-      z-index:4;
-      left:350px;
+    top:520px;
+      z-index:8;
+      left:220px;
+       width:560px;
 }
 #footer {
     background-image: url("images/footer.png");
@@ -363,60 +367,58 @@ div#div4 {
     clear:both;
     text-align:center;
    padding:5px;   
-
 }
 
 #showdiv1{
 position:relative;
-top:-100px;
-left:-70px;
-z-index: 8;
+top:-30px;
+left:-90px;
+z-index: 7;
 
 }
 #showdiv2{
 position:relative;
-top:-180px;
-left:220px;
-z-index: 8;
+top:-110px;
+left:10px;
+z-index: 7;
 }
 #showdiv4{
 position:relative; 
-top:-90px;
-left:80%;
+top:-105px;
+left:62%;
 height:auto; 
-z-index:10; 
+z-index:7; 
 font-family: Roboto; 
 font-size:20px; 
 color: white;
-z-index:5;
 }
 #showdiv5{
 position:relative;
-top:-260px;
-left: 460px;
-z-index: 8;
+top:-190px;
+left: 120px;
+z-index: 7;
 }
 
 /* iFrames*/ 
 
 #iframe1{
 position:relative; 
-width:760px; 
-height:500px;
+width:480px; 
+height:520px;
 top:-550px; 
 left:95px;
 z-index:10;
 }
 #iframe1b{
 position:relative; 
-width:760px; 
-height:500px;
+width:480px; 
+height:520px;
 top:-550px; 
 left:95px;
 }
 #iframe1c{
 position:relative; 
-width:760px; 
+width:480px; 
 height:500px;
 top:-600px; 
 left:95px;
@@ -428,7 +430,7 @@ top: 450px;
  height:1200px;
 float:left;
 left:-360px;
- width:760px;
+ width:480px;
 }
 #iframe3{
 position:relative; 
@@ -436,7 +438,7 @@ top: 100px;
  height:1200px;
 float:left;
 left:-360px;
- width:1020px;
+ width:480px;
 }
 #iframe4{
 position:relative; 
@@ -444,7 +446,7 @@ top: -590px;
  height:1200px;
 float:left;
 left:-200px;
- width:750px;
+ width:480px;
 
 }
 #iframe5{
@@ -452,8 +454,8 @@ position:relative;
 top: 250px; 
  height:1200px;
 float:left;
-left:-270px;
- width:750px;
+left:-150px;
+ width:480px;
 
 }
 
@@ -461,9 +463,9 @@ left:-270px;
 
 ul.a{
   list-style-type: square;
-  font-size: 20px;
+  font-size: 15px;
   font-family: Roboto;
-  padding-left:4em;
+
 }
 a:hover {
     color: #814C8D;
@@ -499,8 +501,16 @@ left:30%;
     font-weight: bold;
     color:#7F8C8D;
 }
-
-
+#gallery{
+position:relative;
+left:-100px;
+}
+#gallery1{
+  
+}
+#gallery2{
+  
+}
  /* miscellaneous*/
 
 *{
