@@ -335,8 +335,8 @@ div#div1 {
 }
 div#div2 {
     position:relative;
-    top:-550px;
-      z-index:4;
+    top:-500px;
+      z-index:8;
       max-width:760px;
       left:300px;
       
@@ -344,19 +344,19 @@ div#div2 {
 div#div3 {
      position:relative;
     top:-50px;
-      z-index:4;
+      z-index:10;
 }
 div#div5{
   position:relative;
-    top:-350px;
+    top:-300px;
     left:120px;
-      z-index:-1;
+      z-index:7;
 }
 div#div4 {
     position:relative;
-    top:650px;
-      z-index:4;
-      left:350px;
+    top:540px;
+      z-index:10;
+      left:140px;
 }
 #footer {
     background-image: url("images/footer.png");
@@ -428,7 +428,7 @@ top: 450px;
  height:1200px;
 float:left;
 left:-360px;
- width:760px;
+ width:360px;
 }
 #iframe3{
 position:relative; 
@@ -436,7 +436,7 @@ top: 100px;
  height:1200px;
 float:left;
 left:-360px;
- width:1020px;
+ width:360px;
 }
 #iframe4{
 position:relative; 
@@ -444,7 +444,7 @@ top: -590px;
  height:1200px;
 float:left;
 left:-200px;
- width:750px;
+ width:360px;
 
 }
 #iframe5{
@@ -453,7 +453,7 @@ top: 250px;
  height:1200px;
 float:left;
 left:-270px;
- width:750px;
+ width:360px;
 
 }
 
