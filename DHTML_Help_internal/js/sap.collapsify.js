@@ -102,14 +102,23 @@
 			img.insertBefore(target);
 		}
 
+		 if (elem.hasClass('table')){
+		 //move the table caption outside of <table> to fix the bug for IE7. (collapsible image and table caption dose not display in chm and older IE)
+			var target = elem.parent();
+			var tableTitle = elem.find('.tablecap').first();	
+			tableTitle.attr('title', self.options.collapseText).wrap(div);	
+			img.insertBefore(tableTitle);
+			$(target).prepend($(elem.find('.col-wrapper')));		
+		}
+		
 		//all others collapsible
 		else {
 			var target = elem.find('.section_title, .tablecap, .figcap, .title, .sectiontitle, .relinfotitle')
 			.first();
 			target.attr('title', self.options.collapseText).wrap(div);
 			img.insertBefore(target);
-
 		}
+		
 		//default is collapsed on load
 		self.toggle(elem, img);
 		// Expand element on load when triggerd by @outputclass = "collapsible expanded"
@@ -149,11 +158,11 @@
 			elem.children().toggle();
 		}	
 		if (elemType === 'UL'){
-			// case for steps
+			// case for steps-unorderd
 			elem.children().toggle();
 		}	
 		if (elemType === 'TABLE') {
-			elem.children().not('.title, caption').toggle();
+			elem.children().not('.title, caption,.tablecap, .col-wrapper').toggle();
 
 		} else if (elemType === 'DIV') {
 			if (elem.hasClass('fig')) {
