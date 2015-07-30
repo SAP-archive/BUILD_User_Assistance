@@ -410,14 +410,14 @@ z-index:10;
 }
 #iframe1b{
 position:relative; 
-width:760px; 
+width:560px; 
 height:500px;
 top:-550px; 
 left:95px;
 }
 #iframe1c{
 position:relative; 
-width:760px; 
+width:560px; 
 height:500px;
 top:-600px; 
 left:95px;
@@ -429,7 +429,7 @@ top: 450px;
  height:1200px;
 float:left;
 left:-360px;
- width:760px;
+ width:560px;
 }
 #iframe3{
 position:relative; 
@@ -437,7 +437,7 @@ top: 100px;
  height:1200px;
 float:left;
 left:-360px;
- width:1020px;
+ width:560px;
 }
 #iframe4{
 position:relative; 
@@ -445,7 +445,7 @@ top: -620px;
  height:1200px;
 float:left;
 left:-400px;
- width:750px;
+ width:560px;
  z-index:9;
 
 }
@@ -455,7 +455,7 @@ top: 250px;
  height:1200px;
 float:left;
 left:-135px;
- width:750px;
+ width:560px;
 
 }
 
