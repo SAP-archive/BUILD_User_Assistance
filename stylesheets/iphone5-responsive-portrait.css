@@ -326,10 +326,10 @@ width:800px;
 div#div1 {
     position:relative;
     float:left;
-    left:-40px;
+    left:-120px;
     width:480px;
     z-index:7;
-    top:560px;
+    top:490px;
 }
 div#div2 {
     position:relative;
