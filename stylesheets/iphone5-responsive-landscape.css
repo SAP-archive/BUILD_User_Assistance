@@ -377,7 +377,7 @@ z-index: 13;
 #showdiv2{
 position:relative;
 top:-240px;
-left:10px;
+left:-30px;
 z-index: 12;
 }
 #showdiv4{
