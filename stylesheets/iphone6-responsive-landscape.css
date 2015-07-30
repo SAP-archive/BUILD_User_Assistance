@@ -315,6 +315,7 @@ margin-right:-100px;
 position:relative;
 z-index:4;
 max-height:200px;
+overflow:scroll;
 }
 #nav {
     line-height:30px;
