@@ -376,13 +376,13 @@ z-index: 8;
 #showdiv2{
 position:relative;
 top:-180px;
-left:220px;
+left:120px;
 z-index: 8;
 }
 #showdiv4{
 position:relative; 
 top:-90px;
-left:80%;
+left:70%;
 height:auto; 
 z-index:10; 
 font-family: Roboto; 
@@ -393,7 +393,7 @@ z-index:5;
 #showdiv5{
 position:relative;
 top:-260px;
-left: 460px;
+left: 320px;
 z-index: 8;
 }
 
@@ -440,11 +440,12 @@ left:-360px;
 }
 #iframe4{
 position:relative; 
-top: -590px; 
+top: -640px; 
  height:1200px;
 float:left;
-left:-200px;
+left:-400px;
  width:750px;
+ z-index:9;
 
 }
 #iframe5{
@@ -452,7 +453,7 @@ position:relative;
 top: 250px; 
  height:1200px;
 float:left;
-left:-270px;
+left:-135px;
  width:750px;
 
 }
