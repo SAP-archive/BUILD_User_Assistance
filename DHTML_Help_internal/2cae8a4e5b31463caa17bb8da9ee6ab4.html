@@ -12,7 +12,7 @@
 <meta name="abstract" content="You create relations from a selected object to a target object."/>
 <meta name="description" content="You create relations from a selected object to a target object."/>
 
-<link rel="stylesheet" type="text/css" href="css/documentation.css?x=4380978098403939"/>
+<link rel="stylesheet" type="text/css" href="css/documentation.css?x=535849270731864"/>
 <title>Relations Between Two Objects</title>
 <!--[if lte IE 7]><style>
       .codeblock{
@@ -43,12 +43,13 @@
 <li class="li">Cardinality</li>
 </ul>
 </div>
-<p class="p">A foreign key is added to the object in the BUILD model to materialize the links between
-			the data of the object part of a relation. </p>
+<p class="p">A <span class="ph emphasis emphasis">foreign key</span> is added to the object in the BUILD model to materialize the
+			links between the data of the object part of a relation. </p>
 <p class="p">A relation can be specified as <cite class="cite">Read-only</cite> or <cite class="cite">Read-write</cite>. A
 			relation is unidirectional but you can specify two relations of opposite directions
 			between two objects.</p>
-<div class="p">You can create 1 or n relations from an object A to:<ul class="ul" id="loio2cae8a4e5b31463caa17bb8da9ee6ab4__ul_e1s_55k_ss"><li class="li">a target object B</li>
+<div class="p">You can create <kbd class="ph userinput">1</kbd> or <kbd class="ph userinput">n </kbd>relations from an object A
+				to:<ul class="ul" id="loio2cae8a4e5b31463caa17bb8da9ee6ab4__ul_e1s_55k_ss"><li class="li">a target object B</li>
 <li class="li">multiple target objects</li>
 <li class="li">the same object A, that is, a self-pointing relation</li>
 </ul>
@@ -59,15 +60,17 @@
 </ul>
 </div>
 <div class="section">
-			<div class="p">Default values are:<ul class="ul" id="loio2cae8a4e5b31463caa17bb8da9ee6ab4__ul_qpq_swk_ss"><li class="li">Cardinality = "n"</li>
+			<div class="p">Default values are:<ul class="ul" id="loio2cae8a4e5b31463caa17bb8da9ee6ab4__ul_qpq_swk_ss"><li class="li">Cardinality = <span class="ph uicontrol">n</span></li>
 <li class="li">Read-only</li>
-<li class="li">Name</li>
+<li class="li">Name = DefaultName</li>
+<li class="li">Target Object = Current Object</li>
 </ul>
 The default values can be modified.</div>
 
 			<div class="p">The name of the object must obey the following rules:<ul class="ul" id="loio2cae8a4e5b31463caa17bb8da9ee6ab4__ul_y3h_2xk_ss"><li class="li">Maximum length is 40 characters</li>
 <li class="li">The first character must be a letter or an underscore "_"</li>
-<li class="li">Subsequent characters must be alphanumeric or an underscore "_"</li>
+<li class="li">Subsequent characters must be alphanumeric or an underscore "_". No spaces are
+						allowed.</li>
 <li class="li">The name of the relation may not be the same as another relation name in the
 						data model.</li>
 </ul>
@@ -76,8 +79,11 @@ The default values can be modified.</div>
 		</div>
 </div>
 <div class="related-links"> 
+<div class="relinfo"><div class="relinfotitle ">Related Information</div>
+<div><a class="link" href="d0df71648c624df6888df90adef9017f.html" target="_self">Modify a Relation</a></div>
+<div><a class="link" href="15379d58bff043f48624ffca1e6cd90f.html" target="_self">Delete a Relation</a></div>
 </div>
-</div></div><div class="footer" id="custom-footer">
+</div></div></div><div class="footer" id="custom-footer">
 	<div id="custom-footerSpacer">__________________________________________________ </div>
 	<a class="copyright" href="copyright.html" target="_blank">Copyright</a> | <a class="disclaimer" href="disclaimer.html" target="_blank">Important Disclaimers and Legal Information</a>
 </div>
