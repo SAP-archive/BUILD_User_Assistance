@@ -85,7 +85,7 @@
 			var target = elem;			
 			target.attr('title', self.options.collapseText).wrap(div);
 			target.wrap('<div class="codeblock-title" title="' + self.options.expandText + '">Code Sample</div>');
-			img.insertBefore(target);
+			img.insertBefore(target.parent());
 		}
 		//steps collapsible
 		if (elem.hasClass('steps') || elem.hasClass('steps-unordered')){
@@ -102,14 +102,23 @@
 			img.insertBefore(target);
 		}
 
+		 if (elem.hasClass('table')){
+		 //move the table caption outside of <table> to fix the bug for IE7. (collapsible image and table caption dose not display in chm and older IE)
+			var target = elem.parent();
+			var tableTitle = elem.find('.tablecap').first();	
+			tableTitle.attr('title', self.options.collapseText).wrap(div);	
+			img.insertBefore(tableTitle);
+			$(target).prepend($(elem.find('.col-wrapper')));		
+		}
+		
 		//all others collapsible
 		else {
-			var target = elem.find('.section_title, .tablecap, .figcap, .title, .sectiontitle, .relinfotitle')
+			var target = elem.find('.section_title, .tablecap, .figcap, .title, .sectiontitle, .relinfotitle, .subsectiontitle')
 			.first();
 			target.attr('title', self.options.collapseText).wrap(div);
 			img.insertBefore(target);
-
 		}
+		
 		//default is collapsed on load
 		self.toggle(elem, img);
 		// Expand element on load when triggerd by @outputclass = "collapsible expanded"
@@ -129,7 +138,7 @@
 				'title' : self.options.expandText,
 				'alt' : self.options.expandText
 			}).removeClass().addClass('collapse-icon collapse');
-			elem.find('.title, .section_title, .tablecap, .figcap, .sectiontitle, .relinfotitle').first().attr('title',
+			elem.find('.title, .section_title, .tablecap, .figcap, .sectiontitle, .relinfotitle, .subsectiontitle').first().attr('title',
 					self.options.expandText);
 		} else {
 			img.attr({
@@ -137,7 +146,7 @@
 				'title' : self.options.collapseText,
 				'alt' : self.options.collapseText
 			}).removeClass().addClass('collapse-icon expand');
-			elem.find('.title, .section_title, .tablecap, .figcap, .sectiontitle, .relinfotitle').first().attr('title',
+			elem.find('.title, .section_title, .tablecap, .figcap, .sectiontitle, .relinfotitle, .subsectiontitle').first().attr('title',
 					self.options.collapseText);
 		}
 		if (elemType === 'PRE'){
@@ -149,11 +158,11 @@
 			elem.children().toggle();
 		}	
 		if (elemType === 'UL'){
-			// case for steps
+			// case for steps-unorderd
 			elem.children().toggle();
 		}	
 		if (elemType === 'TABLE') {
-			elem.children().not('.title, caption').toggle();
+			elem.children().not('.title, caption,.tablecap, .col-wrapper').toggle();
 
 		} else if (elemType === 'DIV') {
 			if (elem.hasClass('fig')) {
@@ -169,6 +178,9 @@
 			else if (elem.hasClass('related-links')) {
 				elem.find('.extlink').toggle();
 			}
+			else if (elem.hasClass('sectiondiv')) {
+				elem.children().not('.col-wrapper,.subsectiontitle').toggle();
+				}
 			else {
 				elem.closest('div').children().not(
 				'.col-wrapper, .section_title').toggle();
