@@ -102,6 +102,16 @@ li > p {
 	font-weight: normal !important; 
 }
 
+.subsectiontitle{ 
+    color: #666666;
+    font-size: 110%;
+    font-weight: bold;
+    margin: 2em 0 0.2em 0;
+    page-break-after: avoid;
+    page-break-inside: avoid;
+    font-weight: normal !important; 
+}
+
 .relinfotitle {
 	display:inline-block;
 	padding-bottom: 5px;
@@ -425,6 +435,9 @@ th{
 th.align_center {
 	vertical-align:middle;
 	text-align:center;
+} 
+th.align_right {
+	text-align:right;
 } 
 [lang="ar-sa"] th, [lang="fa-ir"] th, [lang="he-il"] th {
   padding: 2px 5px 2px 4px;
@@ -1159,7 +1172,6 @@ iframe {
 	border-bottom-style:dotted;
 	border-bottom-width: 1px;
 	border-bottom-color: #000000;
-	max-width: 60%;
 }
 .searchItem:hover {
 	background-color: #F6F6F6;
@@ -1209,7 +1221,6 @@ body.sap_bluecrystal .searchItem:hover {
     cursor:pointer;
     cursor:hand;
 }
-
 /* IE 7 image positioning issue fix */
 *+html .section_title{
 	display:inline;
@@ -1217,39 +1228,20 @@ body.sap_bluecrystal .searchItem:hover {
 *+html .topictitle2 {
 	display:inline;
 }
-.collapsibleTitle {
-       cursor:pointer;
-	   cursor:hand;
-}
 .col-wrapper {
-       cursor:pointer;
-	   cursor:hand;
+    cursor:pointer;
+	  cursor:hand;
 }
- .collapse-menu {
-      background-color:#fff;
-      border: 1px solid #ccc;
-      border-radius:5px;
-      cursor:pointer;
-      left:410px;
-      opacity:1;
-      padding:5px;
-      position:fixed;
-      top:85px;
-      z-index:100;
+.relinfotitle {
+	display:inline;
 }
-.collapse-menu.collapsed {
-	left:2px;
-}		
 .collapse:hover {
-  outline:1px solid gray;
-  outline-offset: 0px; 
-} 
-.expand:hover {	
-
-  outline:1px solid gray;
-  outline-offset: 0px; 
-} 
-
+ /*  outline:1px solid gray; */
+  outline-offset: 0px;
+}
+.expand:hover {
+  outline-offset: 0px;
+}
 .collapse-icon {
 		background-repeat: no-repeat;
 		padding : 5px;
@@ -1260,7 +1252,9 @@ body.sap_bluecrystal .searchItem:hover {
     .collapse-icon:focus{
         color:#88b7d0;
     }
-
+*+html .collapse-icon {
+		padding : 0;
+}
 /* APRIL 15 TESTING*/
  .example .exampletitle .collapse-icon {
      margin-left: -30px;

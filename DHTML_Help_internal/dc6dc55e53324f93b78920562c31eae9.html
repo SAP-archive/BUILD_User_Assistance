@@ -12,14 +12,13 @@
 <meta name="abstract" content="BUILD allows you to specify a formula for a property. This property is a calculated property."/>
 <meta name="description" content="BUILD allows you to specify a formula for a property. This property is a calculated property."/>
 
-<link rel="stylesheet" type="text/css" href="css/documentation.css?x=7048170355015917"/>
+<link rel="stylesheet" type="text/css" href="css/_self.css?x=3797555927620182"/>
 <title>Create a Calculated Property</title>
 <!--[if lte IE 7]><style>
       .codeblock{
           overflow:visible;
       }</style><![endif]-->
-<script type="text/javascript" src="js/jquery-1.10.1.min.js"> </script><script type="text/javascript" src="js/treetoggle.js"> </script>
-<script type="text/javascript"><!-- 
+<script type="text/javascript" src="js/jquery-1.10.1.min.js"> </script><script type="text/javascript"><!-- 
         var loops = 10; 
         function GetLoio() { return "loiodc6dc55e53324f93b78920562c31eae9";
         } 
@@ -39,8 +38,11 @@
 <h1 class="title topictitle1">Create a Calculated Property</h1>
 <div class="body taskbody"><p class="shortdesc">BUILD allows you to specify a formula for a property. This property is a calculated
 		property.</p>
-<div class="tasklabel"><h2 class="sectiontitle tasklabel">Procedure</h2></div><ol class="ol steps"><li class="li step stepexpand"><span class="ph cmd">Under the <span class="ph uicontrol">Properties</span> tab, click <span class="ph uicontrol">New Property,</span>
-					then enter a name and select a type.</span><div class="itemgroup info">
+<div class="tasklabel"><h2 class="sectiontitle tasklabel">Procedure</h2></div><ol class="ol steps"><li class="li step stepexpand"><span class="ph cmd">In the <span class="ph uicontrol">Data Editor</span>, select
+						<span class="ph uicontrol">Properties</span> in the right side panel.</span></li>
+<li class="li step stepexpand"><span class="ph cmd">Select <span class="ph uicontrol">New Property</span>.</span></li>
+<li class="li step stepexpand"><span class="ph cmd">In the <span class="ph uicontrol">DefaultName</span> field, type a property name. Then select the
+					property type from the dropdown list.</span><div class="itemgroup info">
 					<div class="note note"><span class="notetitle">Note</span> 
 						<p class="p">The name of the new property cannot contain spaces.</p>
 
@@ -49,27 +51,25 @@
 					<p class="p"><img class="image" id="loiodc6dc55e53324f93b78920562c31eae9__image_kwq_glc_5s" src="loiod4afa6acd5864c158acc21bbdb47f7a7_LowRes.png"/></p>
 
 				</div></li>
-<li class="li step stepexpand"><span class="ph cmd">Double-click the name of the property then, in the next screen, click the
-						<span class="ph uicontrol">Formula</span> tab.</span><div class="itemgroup info">
+<li class="li step stepexpand"><span class="ph cmd">Select the <span class="ph uicontrol">Formula</span> tab.</span><div class="itemgroup info">
 					<p class="p"><img class="image" id="loiodc6dc55e53324f93b78920562c31eae9__image_wcw_fmc_5s" src="loioa0a5223be65546e6bed1760abe39cd0d_LowRes.png"/></p>
 
 				</div></li>
-<li class="li step stepexpand"><span class="ph cmd">Click <span class="ph uicontrol">Create</span>. The <span class="ph uicontrol">Formula Editor</span>
-					opens. </span></li>
-<li class="li step stepexpand"><span class="ph cmd">Drag the formula elements, <span class="ph uicontrol">Property</span>,
-						<span class="ph uicontrol">Value</span>, <span class="ph uicontrol">Operator</span>, and, if
-					necessary, <span class="ph uicontrol">Condition</span> elements to the canvas, and select
-					values for each.</span><div class="itemgroup info">
+<li class="li step stepexpand"><span class="ph cmd">Select <span class="ph uicontrol">Create</span>. </span></li>
+<li class="li step stepexpand"><span class="ph cmd">In the <span class="ph uicontrol">Formula Editor</span>, drag formula elements,
+						<span class="ph uicontrol">Property</span>, <span class="ph uicontrol">Value</span>,
+						<span class="ph uicontrol">Operator</span>, and if needed,
+						<span class="ph uicontrol">Condition</span>, to the area below, and select values for
+					each element.</span><div class="itemgroup info">
 					<div class="p">Formula elements:<ul class="ul" id="loiodc6dc55e53324f93b78920562c31eae9__ul_g3z_nrd_xs"><li class="li">
-								<p class="p">Property - lets you select an object of the model and one of its
-									properties.</p>
+								<p class="p">Property: Select an object of the model and one of its properties.</p>
 
 							</li>
 <li class="li">
-								<p class="p">Value</p>
+								<p class="p">Value: Enter a value for this property.</p>
 
 							</li>
-<li class="li">Operator<ul class="ul" id="loiodc6dc55e53324f93b78920562c31eae9__ul_atv_ntd_xs"><li class="li">
+<li class="li">Operator: Select an operator from the list:<ul class="ul" id="loiodc6dc55e53324f93b78920562c31eae9__ul_atv_ntd_xs"><li class="li">
 										<p class="p">Arithmetic operators: <span class="ph uicontrol">+</span>,
 												<span class="ph uicontrol">-</span>, <span class="ph uicontrol">*</span>,
 												<span class="ph uicontrol">/</span></p>
@@ -79,8 +79,9 @@
 										<p class="p">Comparison operators: <span class="ph uicontrol">&lt;=</span>,
 												<span class="ph uicontrol">&lt;</span>,
 												<span class="ph uicontrol">&gt;=</span>,
-											<span class="ph uicontrol">&gt;</span>,  <span class="ph uicontrol">=</span>,
-												<span class="ph uicontrol">!=</span></p>
+												<span class="ph uicontrol">&gt;</span>,
+												<span class="ph uicontrol">=</span>,
+											<span class="ph uicontrol">!=</span></p>
 
 									</li>
 <li class="li">Logical operators: <span class="ph uicontrol">And</span>,
@@ -89,7 +90,7 @@
 									</li>
 </ul>
 </li>
-<li class="li">Condition - lets you specify conditions in the syntax of the formula<ul class="ul" id="loiodc6dc55e53324f93b78920562c31eae9__ul_jzp_45d_xs"><li class="li">
+<li class="li">Condition: Enter conditions in the formula syntax.<ul class="ul" id="loiodc6dc55e53324f93b78920562c31eae9__ul_jzp_45d_xs"><li class="li">
 										<p class="p">Three sections IF, THEN, and ELSE are automatically added
 											to the canvas. </p>
 
@@ -98,9 +99,9 @@
 </ul>
 <div class="p">
 									<div class="note note"><span class="notetitle">Note</span> 
-										<p class="p">If the fomula is valid, the syntax of the formula is
-											displayed in the <span class="ph uicontrol">Formula tab.</span> If
-											it is not valid, an error message is displayed.</p>
+										<p class="p">If the formula is valid, the syntax of the formula is displayed in the
+												<span class="ph uicontrol">Formula tab</span>. If it the
+											formula is not valid, an error message appears.</p>
 
 									</div>
 

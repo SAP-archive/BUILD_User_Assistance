@@ -24,7 +24,7 @@ var strImageStyle = "fbImg";
 /* Message Texts for Comment */
 var strThankForComment = "Thank you for your feedback!"; // [[COMMENT_SUCCESSSTART]] = Thank you for your feedback!
 var strSubmitComment = "Send Feedback"; // [[COMMENTS_SUBMIT]] = Send Feedback
-var strPleaseCommentTopic = "Please send us your feedback about this topic. It will help us improve the quality of the documentation."; // [[COMMENTS_INTRO]] = Please send us your feedback about this topic in English. It will help us improve the quality of the documentation.
+var strPleaseCommentTopic = "Please send us your feedback about this topic. It will help us improve the quality of the _self."; // [[COMMENTS_INTRO]] = Please send us your feedback about this topic in English. It will help us improve the quality of the _self.
 var strPleaseCommentFirst =  "Please enter your feedback before you send it."; // [[COMMENTS_MISSINGINFO]] = Please enter your feedback before you send it.
 var strThanksCommentStyle = "fbThanksComment";
 var strCommentThanksStyle = "fbThanks";

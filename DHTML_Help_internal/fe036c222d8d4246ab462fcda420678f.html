@@ -12,14 +12,13 @@
 <meta name="abstract" content="BUILD provides you with sample Excel files to help you create data models from a spreadsheet."/>
 <meta name="description" content="BUILD provides you with sample Excel files to help you create data models from a spreadsheet."/>
 
-<link rel="stylesheet" type="text/css" href="css/documentation.css?x=3393113656826925"/>
-<title>Using Sample Files to Create a Data Model</title>
+<link rel="stylesheet" type="text/css" href="css/_self.css?x=6561945686593854"/>
+<title>Use Sample Files to Create a Data Model</title>
 <!--[if lte IE 7]><style>
       .codeblock{
           overflow:visible;
       }</style><![endif]-->
-<script type="text/javascript" src="js/jquery-1.10.1.min.js"> </script><script type="text/javascript" src="js/treetoggle.js"> </script>
-<script type="text/javascript"><!-- 
+<script type="text/javascript" src="js/jquery-1.10.1.min.js"> </script><script type="text/javascript"><!-- 
         var loops = 10; 
         function GetLoio() { return "loiofe036c222d8d4246ab462fcda420678f";
         } 
@@ -36,7 +35,7 @@
 </head>
 <body class="sap_bluecrystal" id="loiofe036c222d8d4246ab462fcda420678f">
 <div id="wrapper"><div id="container">
-<h1 class="title topictitle1">Using Sample Files to Create a Data Model</h1>
+<h1 class="title topictitle1">Use Sample Files to Create a Data Model</h1>
 <div class="body conbody"><p class="shortdesc">BUILD provides you with sample Excel files to help you create data models from a
 		spreadsheet.</p>
 <p class="p">You can access the sample data at the following URL:<a class="extlink" href="http://help.sap.com/disclaimer?site=https://github.com/SAP/BUILD_User_Assistance/tree/master/Sample%20Data%20Model%20XL%20files" target="_blank" alt="https://github.com/SAP/BUILD_User_Assistance/tree/master/Sample%20Data%20Model%20XL%20files" title="https://github.com/SAP/BUILD_User_Assistance/tree/master/Sample%20Data%20Model%20XL%20files">https://github.com/SAP/BUILD_User_Assistance/tree/master/Sample%20Data%20Model%20XL%20files<img src="images/3rd_link.png" class="link-external" alt="Information published on non-SAP site" title="Information published on non-SAP site" border="0"/></a>
@@ -45,12 +44,12 @@
 <p class="p">Before logging on, you may need to create a GitHub.com <a class="extlink" href="http://help.sap.com/disclaimer?site=http://www.GitHub.com" target="_blank" alt="http://www.GitHub.com" title="http://www.GitHub.com">http://www.GitHub.com<img src="images/3rd_link.png" class="link-external" alt="Information published on non-SAP site" title="Information published on non-SAP site" border="0"/></a> account. </p>
 <div class="section"><div class="section_title">Formats</div><div type="Formats">
 			
-			<p class="p">You can use one of three formats to create a data model from an Excel sample </p>
+			<p class="p">You can use one of three formats to create a data model from an Excel sample: </p>
 
 			<ul class="ul" id="loiofe036c222d8d4246ab462fcda420678f__ul_ot3_4wn_rs"><li class="li">Table using a mapping table - recommended</li>
 <li class="li">Table using foreign keys</li>
-<li class="li">Excel sheet using foreign keys - alternative, useful in the case of data export
-					from an SAP transactional system such as ERP, CRM, and so on.</li>
+<li class="li">Excel sheet using foreign keys - alternative, useful when exporting data from an SAP
+					transactional system such as ERP, CRM, and so on.</li>
 </ul>
 
 		</div></div>
@@ -68,13 +67,13 @@
 		</div></div>
 <div class="section"><div class="section_title">Data Model with 2 Objects and their Unique Relation</div><div type="Data Model with 2 Objects and their Unique Relation">
 			
-			<p class="p">BUILD provides one single example of the file in the preferred format of a mapping table:
+			<p class="p">BUILD provides one example of the file in the preferred format of a mapping table:
 				SampleModel_2Objects_Tables_MappingTables.xlsx</p>
 
 		</div></div>
 <div class="section"><div class="section_title">Data Model with 2 Objects Only but with 2 Relations</div><div type="Data Model with 2 Objects Only but with 2 Relations">
 			
-			<p class="p">BUILD provides one single example of the file in the preferred format of a mapping table::
+			<p class="p">BUILD provides one single of the file in the preferred format of a mapping table:
 				“SampleModel_2Objects2Relations_Tables_MappingTables.xlsx" </p>
 
 		</div></div>
@@ -86,29 +85,21 @@
 			<div class="p">In the mapping table format, the cardinality is deduced from the data in the mapping
 					table:<ul class="ul" id="loiofe036c222d8d4246ab462fcda420678f__ul_y2g_fj4_rs"><li class="li">
 						<p class="p">Cardinality will be <samp class="ph codeph">n</samp> if some elements of the source Object of the
-							Relation are mapped with multiple elements of the target Object.</p>
+							Relation are mapped to multiple elements of the target Object.</p>
 
 					</li>
 <li class="li">
 						<p class="p">Cardinality will be <samp class="ph codeph">1</samp> if all elements of the source Object of the Relation
-							are mapped with one single element of the target Object.</p>
+							are mapped to one element of the target Object.</p>
 
 					</li>
 </ul>
 </div>
 
-			<div class="p">In the foreign key format, the cardinality is deduced from the column that stores the foreign
-				key. If the column of the foreign key is in the:<ul class="ul" id="loiofe036c222d8d4246ab462fcda420678f__ul_gpt_fk4_rs"><li class="li">
-						<p class="p">Source Object of the Relation, this will be a cardinality
-								<samp class="ph codeph">1</samp>.</p>
-
-					</li>
-<li class="li">
-						<p class="p">Target Object, this will be a cardinality <samp class="ph codeph">n</samp></p>
-
-					</li>
-</ul>
-</div>
+			<p class="p">In the foreign key format, the cardinality is deduced from the column that stores the foreign
+				key. If the column of the foreign key is in the Source Object of the Relation, the
+				cardinality will be <samp class="ph codeph">1</samp>. If the column of the foreign key is in the
+				Target Object, the cardinality will be <samp class="ph codeph">n</samp>.</p>
 
 		</div></div>
 </div>
@@ -118,7 +109,7 @@
 </div>
 
 <SCRIPT LANGUAGE="JavaScript"><!--
- var page_title="Using Sample Files to Create a Data Model";
+ var page_title="Use Sample Files to Create a Data Model";
 
         if (page_title !='' &&
         parent.document.title != null) {

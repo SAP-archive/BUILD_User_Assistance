@@ -32,7 +32,7 @@
 	Collapsify.prototype.addDiv = function(elem) {
 		var self = this;
 		var img = $('<img/>').addClass('collapse-icon expand').attr({
-			'src' : self.options.imagePath + 'arrowdn.gif',
+			'src' : self.options.imagePath + self.options.expandedIcon,
 			'title' : self.options.collapseText,
 			'alt' : self.options.collapseText,
 			'style' : 'display:inline; float:left;'
@@ -121,8 +121,11 @@
 		
 		//default is collapsed on load
 		self.toggle(elem, img);
-		// Expand element on load when triggerd by @outputclass = "collapsible expanded"
-		if (elem.hasClass('expanded')) {
+		// Elements with @outputclass = "collapsible expanded" are not expanded on load with small screen (<= 768px), this is required for mobile devices
+		
+		var width = $(window).width();
+
+		if (elem.hasClass('expanded') && width > 768) {
 			self.toggle(elem, img);
 		}
 
@@ -132,7 +135,7 @@
 	Collapsify.prototype.toggle = function(elem, img) {
 		var self = this, elemType = elem.prop('tagName');
 
-		if (img.attr('src').lastIndexOf(self.options.expandedIcon) >= 1) {
+		if (img.attr('class').lastIndexOf('expand') >= 1) {
 			img.attr({
 				'src' : self.options.imagePath + self.options.collapsedIcon,
 				'title' : self.options.expandText,
