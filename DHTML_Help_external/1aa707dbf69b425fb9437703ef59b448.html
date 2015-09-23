@@ -9,16 +9,17 @@
 <meta http-equiv="expires" content="0"/>
 <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT"/>
 <meta http-equiv="pragma" content="no-cache"/>
-<meta name="abstract" content="BUILD Administrators can use the Admin Console to view and delete users, and to assign roles."/>
-<meta name="description" content="BUILD Administrators can use the Admin Console to view and delete users, and to assign roles."/>
+<meta name="abstract" content="BUILD Admins can use the Admin Console to view and delete users, change roles."/>
+<meta name="description" content="BUILD Admins can use the Admin Console to view and delete users, change roles."/>
 
-<link rel="stylesheet" type="text/css" href="css/documentation.css?x=2544759761081916"/>
+<link rel="stylesheet" type="text/css" href="css/documentation.css?x=48082932587856364"/>
 <title>Manage Users</title>
 <!--[if lte IE 7]><style>
       .codeblock{
           overflow:visible;
       }</style><![endif]-->
-<script type="text/javascript" src="js/jquery-1.10.1.min.js"> </script><script type="text/javascript"><!-- 
+<script type="text/javascript" src="js/jquery-1.10.1.min.js"> </script><script type="text/javascript" src="js/treetoggle.js"> </script>
+<script type="text/javascript"><!-- 
         var loops = 10; 
         function GetLoio() { return "loio1aa707dbf69b425fb9437703ef59b448";
         } 
@@ -36,43 +37,58 @@
 <body class="sap_bluecrystal" id="loio1aa707dbf69b425fb9437703ef59b448">
 <div id="wrapper"><div id="container">
 <h1 class="title topictitle1">Manage Users</h1>
-<div class="body conbody"><p class="shortdesc">BUILD Administrators can use the Admin Console to view and delete users, and to assign
+<div class="body conbody"><p class="shortdesc">BUILD Admins can use the Admin Console to view and delete users, change
 		roles.</p>
 <div class="section"><div class="section_title">Users and Roles</div><div type="Users and Roles">
 			
-			<div class="p">To view  users:<ol class="ol" id="loio1aa707dbf69b425fb9437703ef59b448__ol_k33_qs3_rs"><li class="li">On the left sidebar, select <span class="ph uicontrol">Users</span>. BUILD users are displayed.
-							<div class="p">Change the user view using icons on the top right side:<ul class="ul" id="loio1aa707dbf69b425fb9437703ef59b448__ul_rnw_zx3_rs"><li class="li">Select <embed class="image" id="loio1aa707dbf69b425fb9437703ef59b448__image_yhy_hw3_rs" src="loioc9ea380688ef45b9aef388f9e5296e54_LowRes.svg"/>to view user
+			<div class="p">To view  users:<ol class="ol" id="loio1aa707dbf69b425fb9437703ef59b448__ol_k33_qs3_rs"><li class="li">Select <span class="ph uicontrol">Users</span> in the left sidebar. BUILD users are displayed.
+							<div class="p">Change the user view using icons on the top right:<ul class="ul" id="loio1aa707dbf69b425fb9437703ef59b448__ul_rnw_zx3_rs"><li class="li">Select <embed class="image" id="loio1aa707dbf69b425fb9437703ef59b448__image_yhy_hw3_rs" src="loioc9ea380688ef45b9aef388f9e5296e54_LowRes.svg"/>to view user
 									summaries.</li>
-<li class="li">Select <embed class="image" id="loio1aa707dbf69b425fb9437703ef59b448__image_dgx_4y3_rs" src="loiof4bf8f1458394ec19edfcd9c5faa6d95_LowRes.svg"/> to view user
-									details.</li>
+<li class="li">Select <embed class="image" id="loio1aa707dbf69b425fb9437703ef59b448__image_dgx_4y3_rs" src="loiof4bf8f1458394ec19edfcd9c5faa6d95_LowRes.svg"/>  to view user details.</li>
 </ul>
 </div>
 </li>
-<li class="li">To search for a specific user, enter the user name or email address in the search box at
+<li class="li">To search for a specific user, enter the user name or email address in the search bar at
 						the top.</li>
 <li class="li">Select a user to view their role.</li>
-<li class="li">Check the appropriate user role and select <span class="ph uicontrol">OK</span>.<ul class="ul" id="loio1aa707dbf69b425fb9437703ef59b448__ul_tpy_3z3_rs"><li class="li"><strong class="ph b">Standard</strong>: BUILD user can create and manage projects.</li>
-<li class="li"><strong class="ph b">Guest</strong>: BUILD user can only participate in user studies.</li>
+<li class="li">Check the appropriate user role and select <span class="ph uicontrol">OK</span>.<ul class="ul" id="loio1aa707dbf69b425fb9437703ef59b448__ul_tpy_3z3_rs"><li class="li"><strong class="ph b">Standard</strong>: BUILD user can create and manage projects</li>
+<li class="li"><strong class="ph b">Guest</strong>: BUILD user can only participate in user studies</li>
 </ul>
 
 					</li>
 </ol>
 </div>
 
-			<div class="note note"><span class="notetitle">Note</span> If you are a BUILD Administrator, and you want to access BUILD, you need to assign yourself
-				the <span class="ph uicontrol">Standard</span> user role.</div>
+			<div class="note note"><span class="notetitle">Note</span> If the Admin also wants to access BUILD, he should assign himself the
+					<span class="ph uicontrol">Standard</span> user role.</div>
 
 			<div class="note note"><span class="notetitle">Note</span>  When you change a user's role from <span class="ph uicontrol">Standard</span> to
-					<span class="ph uicontrol">Guest</span> user OR delete a user, the system automatically
-				deletes the user from all project teams and projects the user owns, and studies and
-				study feedback associated with deleted projects. </div>
+					<span class="ph uicontrol">Guest</span> user, the following are affected as well:<div class="p">
+					<ul class="ul" id="loio1aa707dbf69b425fb9437703ef59b448__ul_nqt_vdh_ts"><li class="li">Deletes projects user owns</li>
+<li class="li">Deletes studies and all study feedback associated with deleted
+							projects</li>
+<li class="li">Deletes user from a project</li>
+</ul>
+
+				</div>
+</div>
 
 		</div></div>
 <div class="section"><div class="section_title">Delete Users</div><div type="Delete Users">
 			
-			<ol class="ol" id="loio1aa707dbf69b425fb9437703ef59b448__ol_jws_l1j_rs"><li class="li">To delete a BUILD user, select the <embed class="image" id="loio1aa707dbf69b425fb9437703ef59b448__image_byn_dbj_rs" src="loio7f067e8785c0446eac3cbf9e9cf01c5d_LowRes.svg"/> icon next to the user
-					(summary or detail view) to delete a BUILD user.</li>
-<li class="li">Confirm you want to delete this user and all project-related access, then select
+			<div class="note note"><span class="notetitle">Note</span> Use caution when deleting users. When you delete a user, the following are affected as well:<div class="p">
+					<ul class="ul" id="loio1aa707dbf69b425fb9437703ef59b448__ul_rt5_rfm_ls"><li class="li">Deletes projects user owns</li>
+<li class="li">Deletes studies and all study feedback associated with deleted
+							projects</li>
+<li class="li">Deletes user from a project</li>
+</ul>
+
+				</div>
+</div>
+
+			<ol class="ol" id="loio1aa707dbf69b425fb9437703ef59b448__ol_jws_l1j_rs"><li class="li">Select the <embed class="image" id="loio1aa707dbf69b425fb9437703ef59b448__image_byn_dbj_rs" src="loio7f067e8785c0446eac3cbf9e9cf01c5d_LowRes.svg"/> icon next to the user (summary or detail view) to
+					delete a BUILD user.</li>
+<li class="li">Confirm you want to delete this user and all project-related access. Select
 						<span class="ph uicontrol">Delete</span>.</li>
 </ol>
 

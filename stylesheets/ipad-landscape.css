@@ -406,7 +406,7 @@ z-index:10;
 #iframe1b{
 position:relative; 
 width:720px; 
-height:570px;
+height:500px;
 top:-550px; 
 left:220px;
 }
@@ -422,7 +422,7 @@ position:relative;
 top: 400px; 
  height:1200px;
 float:left;
-left:-300px;
+left:-360px;
  width:1023px;
 }
 #iframe3{
@@ -435,7 +435,7 @@ left:-360px;
 }
 #iframe4{
 position:relative; 
-top: -590px; 
+top: -540px; 
  height:1200px;
 float:left;
 left:-100px;

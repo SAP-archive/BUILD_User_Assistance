@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+4@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
 body {
   padding:-100px;
@@ -410,7 +410,7 @@ z-index:10;
 #iframe1b{
 position:relative; 
 width:760px; 
-height:570px;
+height:500px;
 top:-550px; 
 left:95px;
 }

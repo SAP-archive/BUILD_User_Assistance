@@ -1,4 +1,5 @@
 
+
 $(function() {
     $('#showdiv1').click(function() {
         $('div[id^=div]').hide();
@@ -7,6 +8,7 @@ $(function() {
     $('#showdiv2').click(function() {
         $('div[id^=div]').hide();
         $('#div2').show();
+        $('#iframe2').attr('src', 'DHTML_Help_internal/frameset.htm');
     });
 
     $('#showdiv3').click(function() {
@@ -15,10 +17,12 @@ $(function() {
     });
     $('#showdiv4').click(function() {
         $('div[id^=div]').hide();
-        $('#div4').show();
+        $('#iframe2').attr('src', 'DHTML_Help_internal/frameset.htm?search.html');
+        $('#div2').show(); 
     });
-  $('#showdiv5').click(function() {
+     $('#showdiv5').click(function() {
         $('div[id^=div]').hide();
         $('#div5').show();
     });
+
 })

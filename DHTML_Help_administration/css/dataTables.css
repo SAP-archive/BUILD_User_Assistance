@@ -542,14 +542,8 @@ table.dataTable td {
 
 select.select_filter {
 	max-width: 200px;
-	white-space: nowrap;
 }
 
-table.dataTable td * {
-	white-space:normal;
-}
-
-table.dataTable td .dt_highlight {
+.dt_highlight {
   background-color: #fffcb5;
-  white-space: pre;
 }

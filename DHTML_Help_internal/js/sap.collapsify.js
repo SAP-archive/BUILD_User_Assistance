@@ -32,7 +32,7 @@
 	Collapsify.prototype.addDiv = function(elem) {
 		var self = this;
 		var img = $('<img/>').addClass('collapse-icon expand').attr({
-			'src' : self.options.imagePath + self.options.expandedIcon,
+			'src' : self.options.imagePath + 'arrowdn.gif',
 			'title' : self.options.collapseText,
 			'alt' : self.options.collapseText,
 			'style' : 'display:inline; float:left;'
@@ -85,7 +85,7 @@
 			var target = elem;			
 			target.attr('title', self.options.collapseText).wrap(div);
 			target.wrap('<div class="codeblock-title" title="' + self.options.expandText + '">Code Sample</div>');
-			img.insertBefore(target.parent());
+			img.insertBefore(target);
 		}
 		//steps collapsible
 		if (elem.hasClass('steps') || elem.hasClass('steps-unordered')){
@@ -102,30 +102,18 @@
 			img.insertBefore(target);
 		}
 
-		 if (elem.hasClass('table')){
-		 //move the table caption outside of <table> to fix the bug for IE7. (collapsible image and table caption dose not display in chm and older IE)
-			var target = elem.parent();
-			var tableTitle = elem.find('.tablecap').first();	
-			tableTitle.attr('title', self.options.collapseText).wrap(div);	
-			img.insertBefore(tableTitle);
-			$(target).prepend($(elem.find('.col-wrapper')));		
-		}
-		
 		//all others collapsible
 		else {
-			var target = elem.find('.section_title, .tablecap, .figcap, .title, .sectiontitle, .relinfotitle, .subsectiontitle')
+			var target = elem.find('.section_title, .tablecap, .figcap, .title, .sectiontitle, .relinfotitle')
 			.first();
 			target.attr('title', self.options.collapseText).wrap(div);
 			img.insertBefore(target);
+
 		}
-		
 		//default is collapsed on load
 		self.toggle(elem, img);
-		// Elements with @outputclass = "collapsible expanded" are not expanded on load with small screen (<= 768px), this is required for mobile devices
-		
-		var width = $(window).width();
-
-		if (elem.hasClass('expanded') && width > 768) {
+		// Expand element on load when triggerd by @outputclass = "collapsible expanded"
+		if (elem.hasClass('expanded')) {
 			self.toggle(elem, img);
 		}
 
@@ -135,13 +123,13 @@
 	Collapsify.prototype.toggle = function(elem, img) {
 		var self = this, elemType = elem.prop('tagName');
 
-		if (img.attr('class').lastIndexOf('expand') >= 1) {
+		if (img.attr('src').lastIndexOf(self.options.expandedIcon) >= 1) {
 			img.attr({
 				'src' : self.options.imagePath + self.options.collapsedIcon,
 				'title' : self.options.expandText,
 				'alt' : self.options.expandText
 			}).removeClass().addClass('collapse-icon collapse');
-			elem.find('.title, .section_title, .tablecap, .figcap, .sectiontitle, .relinfotitle, .subsectiontitle').first().attr('title',
+			elem.find('.title, .section_title, .tablecap, .figcap, .sectiontitle, .relinfotitle').first().attr('title',
 					self.options.expandText);
 		} else {
 			img.attr({
@@ -149,7 +137,7 @@
 				'title' : self.options.collapseText,
 				'alt' : self.options.collapseText
 			}).removeClass().addClass('collapse-icon expand');
-			elem.find('.title, .section_title, .tablecap, .figcap, .sectiontitle, .relinfotitle, .subsectiontitle').first().attr('title',
+			elem.find('.title, .section_title, .tablecap, .figcap, .sectiontitle, .relinfotitle').first().attr('title',
 					self.options.collapseText);
 		}
 		if (elemType === 'PRE'){
@@ -161,11 +149,11 @@
 			elem.children().toggle();
 		}	
 		if (elemType === 'UL'){
-			// case for steps-unorderd
+			// case for steps
 			elem.children().toggle();
 		}	
 		if (elemType === 'TABLE') {
-			elem.children().not('.title, caption,.tablecap, .col-wrapper').toggle();
+			elem.children().not('.title, caption').toggle();
 
 		} else if (elemType === 'DIV') {
 			if (elem.hasClass('fig')) {
@@ -181,9 +169,6 @@
 			else if (elem.hasClass('related-links')) {
 				elem.find('.extlink').toggle();
 			}
-			else if (elem.hasClass('sectiondiv')) {
-				elem.children().not('.col-wrapper,.subsectiontitle').toggle();
-				}
 			else {
 				elem.closest('div').children().not(
 				'.col-wrapper, .section_title').toggle();
