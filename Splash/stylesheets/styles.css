@@ -157,7 +157,7 @@ header ul a strong {
   font-size:14px;
   display:block;
   color:#222;
-}
+}f
 
 section {
   width:500px;
@@ -176,12 +176,6 @@ hr {
   margin:0 0 20px;
 }
 
-footer {
-  width:270px;
-  float:left;
-  position:fixed;
-  bottom:50px;
-}
 
 @media print, screen and (max-width: 960px) {
 
@@ -190,7 +184,7 @@ footer {
     margin:0;
   }
 
-  header, section, footer {
+  header, section {
     float:none;
     position:static;
     width:auto;
@@ -271,7 +265,42 @@ footer {
 position:relative;
 width:50%;
 height:50%;
-
+}
+#link_privacy{
+ z-index:10; 
+top:-50px;
+left:800px;
+font-family: 'Lato', sans-serif;
+font-size:18px; 
+color: white;
+position:relative;
+}
+#link_legal{
+ z-index:10; 
+ top:-50px;
+ left:900px;
+font-family: 'Lato', sans-serif;
+font-size:18px; 
+color: white;
+position:relative;
+}
+#link_copyright{
+ z-index:10;
+ left:1000px;
+ top:-50px; 
+font-family: 'Lato', sans-serif;
+font-size:18px; 
+color: white;
+position:relative;
+}
+#link_terms{
+  left:1100px;
+ z-index:10;
+   top:-50px;   
+font-family: 'Lato', sans-serif;
+font-size:18px; 
+color: white;
+position:relative;
 }
 #headerimg1{
 position: relative; 
@@ -287,7 +316,7 @@ height:auto;
 position:relative; 
 top:-240px; 
 left: 8%; 
-z-index:7;
+z-index:4;
 }
 #headerimg3{
 position:relative; 
@@ -307,7 +336,7 @@ margin-top:-30px;
 margin-left:-65px;
 margin-right:-100px;
 position:relative;
-z-index:5;
+z-index:6;
 }
 #nav {
     line-height:30px;
@@ -316,8 +345,17 @@ z-index:5;
     padding:20px;
     width:15%;
     height:100%;
-    position:relative;
     z-index:5;
+}
+#nav_doc {
+    line-height:30px;
+    background-color: white;
+    padding:5px;
+    width:220%;
+    left:-50px;
+    height:500px;
+    z-index:8;
+    top:255px;
 }
 div#div1 {
     position:relative;
@@ -330,20 +368,20 @@ div#div1 {
 }
 div#div2 {
     position:relative;
-    left:5%;
-    width:75%;
+    left:-15%;
+    width:100%;
     float:left;
-    top:-200px;
+    top:-178px;
      min-width:600px;
      width:60%;
-      z-index:4;
+      z-index:10;
 }
 div#div3 {
     position:relative;
     left:400px;
       width:75%;
     float:left;
-    top:50px;
+    top:-550px;
      min-width:600px;
       z-index:4;
 }
@@ -355,6 +393,34 @@ div#div4 {
     top:-50px;
      min-width:600px;
       z-index:4;
+}
+div#div2_clicked {
+    position:relative;
+    left:5%;
+    width:75%;
+    float:left;
+    top:-200px;
+     min-width:600px;
+     width:60%;
+      z-index:10;
+}
+div#div3_clicked {
+    position:relative;
+    left:400px;
+      width:75%;
+    float:left;
+    top:50px;
+     min-width:600px;
+      z-index:10;
+}
+div#div4_clicked {
+    position:relative;
+    top:100px;
+     width:75%;
+    float:left;    
+    top:-50px;
+     min-width:600px;
+      z-index:10;
 }
 div#div5 {
     position:relative;
@@ -397,24 +463,114 @@ div#div12 {
       z-index:4;
       }
 #footer {
-    background-image: url("images/footer.png");
-    background-repeat: no-repeat;
-    clear:both;
-    text-align:center;
+   position:relative;
+   float:left;
+width:100%;
+   z-index:6;
    padding:5px;   
-
 }
+#showdiv2{
+position:relative; 
+top:-183px;
+left:1070px;
+height:auto; 
+z-index:10; 
+font-family: 'Lato', sans-serif; 
+font-size:30px; 
+color: black;"
+}
+#showdiv3{
+position:relative; 
+top:-220px;
+left:950px;
+height:auto; 
+z-index:10; 
+font-family: 'Lato', sans-serif;
+font-size:30px; 
+color: black;"
+}
+
 #showdiv4{
 position:relative; 
-top:-150px;
-left:80%;
+top:-145px;
+left:900px;
 height:auto; 
-z-index:6; 
-font-family: Roboto; 
+z-index:10; 
+font-family: 'Lato', sans-serif;
 font-size:30px; 
-color: white;"
+color: black;"
 }
-
+#showdiv2_clicked{
+position:relative; 
+top:7px;
+left:1100px;
+height:auto; 
+z-index:10; 
+font-family: 'Lato', sans-serif; 
+font-size:30px; 
+color: black;"
+}
+#showdiv3_clicked{
+position:relative; 
+top:-30px;
+left:950px;
+height:auto; 
+z-index:10; 
+font-family: 'Lato', sans-serif;
+font-size:30px; 
+color: black;"
+}
+#showdiv2_clicked_video{
+position:relative; 
+top:-30px;
+left:970px;
+height:auto; 
+z-index:10; 
+font-family: 'Lato', sans-serif; 
+font-size:30px; 
+color: black;"
+}
+#showdiv3_clicked_video{
+position:relative; 
+top:345px;
+left:200px;
+height:auto; 
+z-index:10; 
+font-family: 'Lato', sans-serif;
+font-size:30px; 
+color: black;"
+}
+#showdiv3_clicked_video_tile{
+position:relative; 
+top:-200px;
+left:78px;
+height:auto; 
+z-index:10; 
+font-family: 'Lato', sans-serif;
+font-size:30px; 
+color: black;"
+}
+#showdiv4_clicked_video{
+position:relative; 
+top:-180px;  
+left:136px;
+height:auto; 
+z-index:10; 
+font-family: 'Lato', sans-serif;
+font-size:30px; 
+color: black;"
+}
+#showdiv4_clicked{
+position:relative; 
+top:45px;  
+left:900px;
+height:auto; 
+z-index:10; 
+font-family: 'Lato', sans-serif;
+font-size:30px; 
+color: black;"
+}
+*/
 /* iFrames*/ 
 
 #iframe1{
@@ -440,14 +596,14 @@ left:220px;
 }
 #iframe_help{
 position:relative; 
-top:50px;
- width:1400px; 
+top:-380px;
+left:600px;
+ width:90%; 
  height:1500px; 
- left:10%
 }
 #iframe_videos{
 position:relative; 
-top:50px;
+top:40px;
  width:1400px; 
  height:1500px; 
  left:10%
@@ -455,15 +611,16 @@ top:50px;
 #iframe3{
 position:relative;
 top: 350px;
-width:2000px;
+width:2000px;div4
 height:80%;
 }
 #iframe4{
 position:relative; 
-top: 70px;
-left: 400px;
+top:-93px;
+left: 220px;
 width:1400px;
 height:1200px;
+z-index:5;
 }
 #iframe5{
 position:relative; 
@@ -514,28 +671,28 @@ p#title{
   position:relative;
   left:30%;
   top:-150px;
-    font-family: Roboto;
+  font-family: 'Lato', sans-serif;
     font-size: 23px;
     color:#2C3E50;
     font-weight: ;
 }
 p#title1{
   
-    font-family: Roboto;
+    font-family: 'Lato', sans-serif;
     font-size: 23px;
     color:#2C3E50;
     font-weight: ;
 }
 p#searchtitle{
   
-    font-family: Roboto;
+    font-family: 'Lato', sans-serif;
     font-size: 23px;
     color:#2C3E50;
     font-weight:bold ;
 }
 p#searchsubtitle{
   
-    font-family: Roboto;
+    font-family: 'Lato', sans-serif;
     font-size: 14px;
     color:#2C3E50;
     font-weight:;
@@ -545,7 +702,7 @@ p#subtitle{
 left:30%;
   top:-150px;
   position:relative;
-     font-family:Roboto;
+     font-family: 'Lato', sans-serif;
     font-size: 15px;
     font-weight: bold;
     color:#7F8C8D;
@@ -558,7 +715,7 @@ left:30%;
       box-sizing:border-box;
     }
 p {
- font-family: arial;
+ font-family: 'Lato', sans-serif;
     font-size: 50px;
   }
 

@@ -5,7 +5,7 @@
   <script type="text/javascript"><!--
 			var TXT_RESULTS_FOR = "Results For: ";
 			var TXT_ERR_NO_INPUT = "You must enter at least one character";
-			var TXT_ERR_NO_RESULTS = "No Results Found";
+			var TXT_ERR_NO_RESULTS = "Sorry! There were no matches. Try a different search!";
 			// --></script>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <script type="text/javascript" id="sap-ui-bootstrap" src="js/sap-ui-core.js?x=8966576368902102"> </script>
@@ -15,6 +15,7 @@
   <script type="text/javascript" src="js/lunr.min.js?x=8966576368902102"> </script>
   <script type="text/javascript" src="js/search-lunr.js?x=8966576368902102"> </script>
   <link rel="stylesheet" type="text/css" href="css/documentation.css?x=8966576368902102"/>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
   <script type="text/javascript">
 			function measureText(txt) {
 				var $tag = $('#text-width-tester');
@@ -53,11 +54,10 @@
   </head>
   <body onload="getParams();" class="sap_bluecrystal">
   
-  
-  <div id="container"><h1 class="topictitle1">Search</h1>
+  <div id="container"><h1 class="topictitle1"></h1>
   <form onsubmit="redirect(frmSearch);return false" name="frmSearch" class="searchForm">
-  <span><input type="text" id="txtSearchTerms" title="Search" placeholder="Search"/><a href="javascript:redirect(frmSearch);"> </a></span>
-  <INPUT type="submit" title="Search" value="Start Search" name="btnSubmit"> </INPUT>
+  <span><input type="text" id="txtSearchTerms" title="Search" placeholder="Search"/></span>
+  
   </form>
   <div class="content" id="content">
   <div id="resultsheader"> </div>

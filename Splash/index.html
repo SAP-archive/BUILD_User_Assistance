@@ -28,11 +28,11 @@
     <link rel="stylesheet" href="stylesheets/github-light.css">
     <link rel="stylesheet" href="stylesheets/ipad-responsive.css" media="screen and (max-width:900px)">
      <link rel="stylesheet" href="stylesheets/iphone-responsive.css" media="screen and (max-width:500px)">
-<link href='//fonts.googleapis.com/css?family=Roboto:500,300,700,400&subset=latin,cyrillic-ext'   rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="stylesheets/iphone4-responsive.css" media="screen and (min-width:320px) and (max-width : 480px) and (-webkit-min-device-pixel-ratio: 2)">
     <link rel="stylesheet" href="stylesheets/iphone5-responsive.css" media="screen and (min-width:320px) and (max-width : 568px) and (-webkit-min-device-pixel-ratio: 2)">
     <link rel="stylesheet" href="stylesheets/iphone6-responsive.css" media="screen and (min-width:375px) and (max-width:667px) and (-webkit-min-device-pixel-ratio: 2)">
     <link rel="stylesheet" href="stylesheets/iphone6+_responsive.css" media="screen and (min-device-width:414px) and (max-device-width:736px) and (-webkit-min-device-pixel-ratio: 2)">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
 <!-- Include Unite Gallery core files -->
         <script src='videos/unitegallery/js/unitegallery.min.js' type='text/javascript'  ></script>
         <link  href='videos/unitegallery/css/unite-gallery.css' rel='stylesheet' type='text/css' />
@@ -48,19 +48,22 @@
 </img>  
  <a href="index.html"><img id="headerimg2" src= "images/logos/White splash.png"></a> 
    <img id="headerimg3" src= "images/logos/Splash_logo_small.png">
-  <div class="btn-group open">
+     </div> 
+  <div id="footer" style="top:1600px";>
+<img src="images/footer_navy.png"></img> 
+ <a id="link_privacy"; href="https://build-master-ci.mo.sap.corp:9443/legal/privacystatement" >PRIVACY</a> 
+ <a id="link_legal"; href="https://build-master-ci.mo.sap.corp:9443/legal/privacystatement">LEGAL DISCLOSURE</a> 
+ <a id="link_copyright"; href="https://build-master-ci.mo.sap.corp:9443/legal/privacystatement">COPYRIGHT</a> 
+ <a id="link_terms"; href="https://build-master-ci.mo.sap.corp:9443/legal/privacystatement">TERMS OF USE</a> 
+</div> 
+<div id="nav">
+<div class="btn-group open">
   <a class="btn btn-primary" id="showdiv4" onclick="refreshIframe()"><i class="fa fa-search"></i><span style="cursor:pointer"></span></a>
   </div>
-  </div>  
-<div id="nav">
+<a id="showdiv2"><span style="cursor:pointer" >Documentation</span></a>
 <br>
-<a id="showdiv1" ><ul class="a" ><span style="cursor:pointer" ><li>Home</li></span></ul></a>
+<a id="showdiv3"><span style="cursor:pointer">Videos</span></a>
 <br>
-<a id="showdiv2"><ul class="a" ><span style="cursor:pointer" ><li>Help Topics</li></span></ul></a>
-<br>
-<a id="showdiv3"><ul class="a" ><span style="cursor:pointer" ><li>Videos</li></span></ul></a>
-<br>
-<a id="showdiv5"><ul class="a"><span style="cursor:pointer"><li>Admin</li></span></ul></a>
 <a id="showdiv20"><span style="cursor:pointer"></span></a>
 <a id="showdiv21"><span style="cursor:pointer"></span></a>
 <a id="showdiv22"><span style="cursor:pointer"></span></a>  
@@ -90,9 +93,8 @@
 <br>
 </div>
 <div autofocus id="div1">
-
-<a id="showdiv10"><span style="cursor:pointer"><img src="videos/images/thumbs/Videos.png" width="700px" height="315px"></span></a>
-
+<p id="title1">Top Videos</p>
+<a id="showdiv10"><span style="cursor:pointer"><img src="videos/images/thumbs/videos.png" width="700px" height="315px"></span></a>
 <p id="title1">Popular Searches</p>
 
 <a id="showdiv7" href="DHTML_Help_internal/frameset.htm?9cefe17d8669496bb7761b6039d45b77.html" target="documentation1"><span style="cursor:pointer"><p id="searchtitle">Create Projects</p></span></a>
@@ -106,9 +108,18 @@
 
 <a id="showdiv9" href="DHTML_Help_internal/frameset.htm?826edca4a27f417aa944f45d97632eca.html" target="documentation4"><span style="cursor:pointer"><p id="searchtitle">Data Model</p></span></a>
 <p id="searchsubtitle">In BUILD, you can create and modify data models to organize data elements in your projects.</p>
-</div>
 
+</div>
 <div autofocus id="div2" style="display:none;">
+<div id="nav_doc">
+<div class="btn-group open">
+  <a class="btn btn-primary" id="showdiv4_clicked" onclick="refreshIframe()"><i class="fa fa-search"></i><span style="cursor:pointer"></span></a>
+  </div>
+<a id="showdiv2_clicked"><u>Documentation</u></span></a>
+<br>
+<a id="showdiv3_clicked"><span style="cursor:pointer" >Videos</span></a>
+<br>
+</div>
 <iframe name="documentation" id="iframe_help"  src ="DHTML_Help_internal/frameset.htm" frameborder= "0" scrolling="yes" allowfullscreen></iframe></div>
 <div id="div20" style="display:none;">
 <iframe id="iframe10" name="documentation_admin" src="DHTML_Help_internal/frameset.htm?9cefe17d8669496bb7761b6039d45b77.html" frameborder= "0" scrolling="yes" allowfullscreen></iframe>
@@ -202,6 +213,15 @@
 <iframe name="documentation4" id="iframe_pop_help"   frameborder= "0" scrolling="yes" allowfullscreen></iframe></div>
 
 <div autofocus id="div3" style="display:none;">
+<div id="nav_doc">
+<div class="btn-group open">
+  <a class="btn btn-primary" id="showdiv4_clicked_video" onclick="refreshIframe()"><i class="fa fa-search"></i><span style="cursor:pointer"></span></a>
+  </div>
+<a id="showdiv2_clicked_video"></span></a>
+<br>
+<a id="showdiv3_clicked"><span style="cursor:pointer" ><u>Videos</u></span></a>
+<br>
+</div>
 <div id="fixspace">
 <p id="title1" style="top:-160px">Getting Started</p>
 </div>
@@ -271,6 +291,15 @@
 </div>
 
 <div id="div10" style="display:none;">
+<div id="nav_video">
+<div class="btn-group open">
+  <a class="btn btn-primary" id="showdiv4_clicked" onclick="refreshIframe()"><i class="fa fa-search"></i><span style="cursor:pointer"></span></a>
+  </div>
+<a id="showdiv2_clicked_video"></span></a>
+<br>
+<a id="showdiv3_clicked_video_tile"><span style="cursor:pointer" ><u>Videos</u></span></a>
+<br>
+</div>
 <div id="fixspace">
 <p id="title1" style="top:-160px">Getting Started</p>
 </div>
@@ -447,9 +476,15 @@
        data-videoid="RPrYT4zXa3U?rel=0&fs=1"
        data-description="Using Smart Templates">
 </div>
-
 </div>
-
+<div id="footer">
+ <img src="images/footer_navy.png"></img> 
+ <a href="https://build-master-ci.mo.sap.corp:9443/legal/privacystatement" >PRIVACY</a> 
+ <a href="https://build-master-ci.mo.sap.corp:9443/legal/privacystatement">LEGAL DISCLOSURE</a> 
+ <a href="https://build-master-ci.mo.sap.corp:9443/legal/privacystatement">COPYRIGHT</a> 
+ <a href="https://build-master-ci.mo.sap.corp:9443/legal/privacystatement">TERMS OF USE</a> 
+ <a href="https://build-master-ci.mo.sap.corp:9443/legal/privacystatement">SAP.COM</a> 
+</div>
   </body>
   <script type="text/javascript">
         jQuery(document).ready(function(){
@@ -619,5 +654,7 @@
         });
         
         </script> 
+         </html>
+
         </html>
         

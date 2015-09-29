@@ -159,4 +159,12 @@ $(function() {
         $('div[id^=div]').hide();
         $('#div46').show();
     });
-})
+  $('#showdiv3_clicked').click(function() {
+        $('div[id^=div]').hide();
+        $('#div3').show();
+    });
+  $('#showdiv4_clicked').click(function() {
+        $('div[id^=div]').hide();
+        $('#div4_clicked').show();
+    });
+});
