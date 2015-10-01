@@ -1,0 +1,2 @@
+# BUILD_User_Assistance
+The purpose of the User_Assistance repo is to enable the BUILD KM team to do the following: 1) Create a publicly accessible portal (a gh-page) which will be embedded in BUILD to enable users to access all Users assistance (documentation, videos, FAQs). 2) Host additional files that can be accessed through the help page (e.g. to enable users to download dummy XL spreadsheets for Data Modeling documentation)
