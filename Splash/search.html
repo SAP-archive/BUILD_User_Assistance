@@ -87,11 +87,16 @@
       }
       
       addLoadEvent(function() { prettyPrint();
+      $('#local-navigation').collapse();
+      $('#local-navigation').navigation();
+      
+      
+      
       });
       
       </script>
       </head>
-   <body class="en-us norman centered navigation-default homepage">
+   <body class="en-us norman centered navigation-default">
       <div id="d4h5-main-container" class="container_12" role="application">
          <ul id="page-links" class="hidden">
             <li><a id="skip-to-content" href="#d4h5-main-content"></a></li>
@@ -331,19 +336,30 @@
                   </ul>
                </div>
             </nav>
-            <div id="main_content_index"><script>
-      $("#main_content_index").load("video.html #d4h5-main-content", function(response, status, xhr) {
-      if (status == "error"){
-      $("<div/>", {
-      title: 'Note',
-      text: 'Note: It is recommended that you view this help after it has been deployed to a web server'
-      }).addClass('preloadError').appendTo("#main_content_index");
-      }
-      $('#local-navigation').collapse();
-      $('#local-navigation').navigation();
-      $('#search_form').searchify();
+            <div id="d4h5-main-content" class="grid_8 alpha omega">
+               <section>
+                  <div id="content-toolbar" class="toolbar hide-for-small"></div>
+                  <div id="topic-content" class="page">
+                     <div id="container" class="search-container">
+                        <h1 class="topictitle1">Search</h1>
+                        <form onsubmit="redirect(frmSearch);return false" name="frmSearch" class="searchForm"><span><input type="text" id="search-q" title="Search" placeholder="Search"><a href="javascript:redirect(frmSearch);"></a></span><input type="submit" title="Search" value="Search" name="btnSubmit" id="btnSubmit"></form>
+                        <div class="content" id="content">
+                           <div id="resultsheader"></div>
+                           <div id="results"></div>
+                        </div>
+                     </div><script><!--
+      $(document).ready(function(){
+      getParams();
       });
-      </script></div>
+      
+      var TXT_RESULTS_FOR = "Results For: ";
+      var TXT_ERR_NO_INPUT = "You must enter at least one character";
+      var TXT_ERR_NO_RESULTS = "No Results Found";
+      // --></script><script src="js/search-data-fileinfo.js"></script><script src="js/search-entries.js"></script></div>
+               </section>
+               <div class="clear"></div>
+               
+            </div>
             <div class="clearfix"></div>
          </div>
          <div class="clearfix"></div>

@@ -87,11 +87,16 @@
       }
       
       addLoadEvent(function() { prettyPrint();
+      $('#local-navigation').collapse();
+      $('#local-navigation').navigation();
+      
+      
+      
       });
       
       </script>
       </head>
-   <body class="en-us norman centered navigation-default homepage">
+   <body class="en-us norman centered navigation-default">
       <div id="d4h5-main-container" class="container_12" role="application">
          <ul id="page-links" class="hidden">
             <li><a id="skip-to-content" href="#d4h5-main-content"></a></li>
@@ -331,19 +336,19 @@
                   </ul>
                </div>
             </nav>
-            <div id="main_content_index"><script>
-      $("#main_content_index").load("video.html #d4h5-main-content", function(response, status, xhr) {
-      if (status == "error"){
-      $("<div/>", {
-      title: 'Note',
-      text: 'Note: It is recommended that you view this help after it has been deployed to a web server'
-      }).addClass('preloadError').appendTo("#main_content_index");
-      }
-      $('#local-navigation').collapse();
-      $('#local-navigation').navigation();
-      $('#search_form').searchify();
-      });
-      </script></div>
+            <div id="d4h5-main-content" class="grid_8 alpha omega">
+               <section>
+                  <div id="content-toolbar" class="toolbar hide-for-small"></div>
+                  <div id="topic-content" class="page">
+                     <div xmlns="http://www.w3.org/1999/xhtml" id="index-page" class="page index">
+                        <h1>Index</h1>
+                        <div class="index-list two-columns"></div>
+                     </div>
+                  </div>
+               </section>
+               <div class="clear"></div>
+               
+            </div>
             <div class="clearfix"></div>
          </div>
          <div class="clearfix"></div>
