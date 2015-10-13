@@ -49,7 +49,7 @@
          <title>Data Models and Smart Templates</title>
       </topicref>
       <topicref xmlns="http://dita4publishers.org/enumerables" class="- map/topicref "
-                sourceId="id-32301--topicref-7-8-23168"
+                sourceId="id-32301--topicref-7-8-23016"
                 xml:lang="en-us"
                 xtrc="topicref:2"
                 docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
@@ -61,24 +61,23 @@
                     xtrc="topichead:1"
                     docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"/>
          <topichead class="+ map/topicref mapgroup-d/topichead "
-                    sourceId="id-63618--topichead-11-576-1159"
+                    sourceId="id-63618--topichead-11-576-1007"
                     xml:lang="en-us"
                     xtrc="topichead:2"
                     docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap">
             <topicref class="+ map/topicref mapgroup-d/mapref "
-                      sourceId="id-1489--topicref-11-576-1159"
+                      sourceId="id-1489--topicref-11-576-1007"
                       xml:lang="en-us"
                       xtrc="topicref:1"
                       docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
                       topicID="loio4bc796d66b4d4c3a86c6ef719983d7b3">
                <title>Get Started with Splash</title>
-               <topicref class="- map/topicref " sourceId="id-1489--topicref-15-586-443"
+               <topicref class="- map/topicref " sourceId="id-1489--topicref-15-586-291"
                          xml:lang="en-us"
                          xtrc="topicref:2"
                          docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
                          topicID="loio4034a659577d4d5fa725af4c3525eb2d">
-                  <title>What is &lt;pname
-		conkeyref="loio7c5fef70a359465aa2fa400e50e1675d/SPLASHproductname"/&gt;?</title>
+                  <title>What is ?</title>
                </topicref>
                <topicref class="- map/topicref " sourceId="id-1489--topicref-20-581-272"
                          xml:lang="en-us"

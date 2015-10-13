@@ -10922,8 +10922,10 @@ function Navigation(el,opts) {
            
      
            // collapsible
-           if (($(this).find('ul').length > 0) && (!$(this).hasClass('topichead'))) { //TODO: Ensure deeper topicheads are collapsible http://stackoverflow.com/questions/5077812/jquery-getting-level-of-selected-li
+           //if (($(this).find('ul').length > 0) && (!$(this).hasClass('topichead'))) { //TODO: Ensure deeper topicheads are collapsible http://stackoverflow.com/questions/5077812/jquery-getting-level-of-selected-li
      
+           if (($(this).find('ul').length > 0) ) {
+           
              // create span for icon
              span = $("<span/>").addClass('sap-icon').html(self.html.expandNode); /*try add to cs.leaf. May cause toggle functionality to not work*/
   

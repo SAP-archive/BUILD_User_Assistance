@@ -153,7 +153,7 @@ var TopicTitles = [
 "Community Page Overview",
 "Example: Adding Properties to an Object",
 "Example: Manually Adding an Object to a Data Model",
-"What is <pname conkeyref=\"loio7c5fef70a359465aa2fa400e50e1675d/SPLASHproductname\"/>?",
+"What is ?",
 "Tool Picker",
 "Toolbar",
 "Actions",
