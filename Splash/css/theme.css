@@ -865,7 +865,7 @@ h6 {
     padding: 0 10px 0 10px;
 }
 
-.prereq .sectiontitle, 
+.prereq .sectiontitle,
 .result .sectiontitle{
     margin:0;
 }
@@ -918,7 +918,7 @@ float:right;
 
 #thirdvideo
 {
-   min-height:150px;
+   min-height:130px;
    min-width:150px;
    max-width:200px;
    width:200px;
@@ -936,6 +936,83 @@ float:right;
             margin-top:40px;
         }
 
+
+.playIcon
+{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    left: -12%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    max-width:75%;
+    pointer-events:none;
+}
+
+#videocontainer1 .playIcon {
+    left: -8%;
+ 
+    top:-10%;
+}
+
+
+#textcontent
+{
+    width:50%
+}
+
+#topvideo
+{
+    height:50%;
+    width:100%;
+}
+
+.smallVids
+{
+    width:100%;
+
+}
+
+#ultracontainer
+{
+    position:relative;
+}
+#videocontainer1
+{
+    width: 40%;
+    display: inline-block;
+    position:relative;
+}
+
+#videocontainer2
+{
+    display:inline-block;
+    width:22.8%;
+}
+
+hr{
+    background-color: #FFFFFF;
+    color: #EEEEEE;
+    border: 0px solid;
+    border-top-width: 1px;
+    border-color: #DDDDDD;
+}
+
+.title
+{
+    font-weight:bold;
+}
+
+img
+{
+
+    -ms-interpolation-mode: bicubic;
+}
+img:hover {
+    -webkit-filter: brightness(70%);
+    filter: brightness(70%);
+}
 
 /*******************************************************************
             INLINE ELEMENT STYLES
