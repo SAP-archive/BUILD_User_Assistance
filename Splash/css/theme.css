@@ -904,7 +904,7 @@ img
 
     -ms-interpolation-mode: bicubic;
 }
-img:hover {
+.homepage img:hover {
     -webkit-filter: brightness(70%);
     filter: brightness(70%);
 }
@@ -975,10 +975,7 @@ img
 
     -ms-interpolation-mode: bicubic;
 }
-img:hover {
-    -webkit-filter: brightness(70%);
-    filter: brightness(70%);
-}
+
 
 
 
