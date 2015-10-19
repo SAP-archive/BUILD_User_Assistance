@@ -411,18 +411,43 @@
                  videoId, using the query string
                  */
                 if(counter===5) {
-                    $("#topvideo").attr("src", "img/gettingStarted.png");
-                    $("#secondvideo").attr("src", "img/proto.png");
-                    $("#thirdvideo").attr("src", "img/datamodels.png");
+                    $("#topvideo").attr("src", grabImage(topViewId));
+                    $("#secondvideo").attr("src", grabImage(secondViewId));
+                    $("#thirdvideo").attr("src", grabImage(thirdViewId));
                     $("#topLink").attr("href", $("#topLink").attr("href") + topViewId);
                     $("#secondlink").attr("href", $("#secondlink").attr("href") + secondViewId);
                     $("#thirdlink").attr("href", $("#thirdlink").attr("href") + thirdViewId);
                 }
             }
-      
-      
-      
       });
+  function grabImage(videoID)
+{
+    var imgString;
+    switch(videoID)
+    {
+        case "ZXuHe5mcipE":
+            imgString = "img/gettingStarted.png";
+            break;
+        case "Hka3_sWwHwI":
+            imgString = "img/proto.png";
+            break;
+        case "k0ZO2R8GD0U":
+            imgString = "img/feedbackreport.png";
+            break;
+        case "fE1wVYpRZw8":
+            imgString = "img/datamodels.png";
+            break;
+        case "EeakOp7OJtk":
+            imgString = "img/smartlistreport.png";
+            break;
+        case "F9HR49U8duU":
+            imgString = "img/smartobjectpage.png";
+            break;
+    }
+
+    return imgString;
+
+} 
       </script></div>
             <div class="clearfix"></div>
          </div>
