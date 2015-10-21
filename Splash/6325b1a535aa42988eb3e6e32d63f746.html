@@ -360,127 +360,135 @@
                      
                      <h1 class="title topictitle1">Known Issues</h1>
                      <div class="body conbody"><p class="shortdesc">The following are known issues.</p>
-<div class="section"><div class="section_title">ObjectPage Header Area appears incorrectly in canvas</div><div type="ObjectPage Header Area appears incorrectly in canvas">
+<div class="section"><div class="section_title">Incorrect display of object page header</div><div type="Incorrect display of object page header">
       
       <p class="p">When selecting the object page header from the tree, the blue selection border is shown on the
-        action area of the header instead of the whole header. </p>
+        action area of the header instead of the entire header. </p>
 
     </div></div>
-<div class="section"><div class="section_title">After undoing an action the corresponding page is not shown</div><div type="After undoing an action the corresponding page is not shown">
+<div class="section"><div class="section_title">Incorrect display after undoing an action</div><div type="Incorrect display after undoing an action">
       
       <p class="p">When a popover is deleted from a tree view and then the action is undone, the popover does not
         reappear on the page.</p>
 
     </div></div>
-<div class="section"><div class="section_title">Icon added to a tab bar is not displayed correctly</div><div type="Icon added to a tab bar is not displayed correctly">
+<div class="section"><div class="section_title">Incorrect display of icon added to a tab bar</div><div type="Incorrect display of icon added to a tab bar">
       
       <p class="p">After an icon tab bar control is added in an object page sub section, it is not displayed
         correctly in the preview.</p>
 
     </div></div>
-<div class="section"><div class="section_title">A resized hotspot is not displayed correctly</div><div type="A resized hotspot is not displayed correctly">
+<div class="section"><div class="section_title">Incorrect display of a resized hotspot</div><div type="Incorrect display of a resized hotspot">
       
-      <p class="p">When a hotspot is created on a blank pabe and is then resized, the hotspot is not displayed in
+      <p class="p">When a hotspot is created on a blank page and is then resized, the hotspot is not displayed in
         the correct position. </p>
 
     </div></div>
-<div class="section"><div class="section_title">List report and object page:column responsiveness behavior</div><div type="List report and object page:column responsiveness behavior">
+<div class="section"><div class="section_title">Incorrect image shape</div><div type="Incorrect image shape">
       
-      <p class="p">log to build create a project create a prototype add list report and object page On
-        list report on the table add 2 columns: so there are 4 columns: rename firts column
-        fixed and set responsiveness Fixed rename second column popin and set responsiveness
-        pop in rename third column fixed2 and set responsiveness fixed rename fourth column
-        popout and set responsiveness popout On Object page on the table add 2 columns: so
-        there are 4 columns: rename firts column fixed and set responsiveness Fixed rename
-        second column popin and set responsiveness pop in rename third column fixed2 and set
-        responsiveness fixed rename fourth column popout and set responsiveness popout put
-        in phone view: bad behavior</p>
+      <p class="p">Although the image shape is set to <span class="ph uicontrol">Circle</span> in the header of an object
+        page, the image appears in a oval instead of in a circle.</p>
 
     </div></div>
-<div class="section"><div class="section_title">ST- Full edit mode: no drop down or value helper when a currency exists</div><div type="ST- Full edit mode: no drop down or value helper when a currency exists">
+<div class="section"><div class="section_title">No display of date value property for the Date Picker and Date Time Input UI elements</div><div type="No display of date value property for the Date Picker and Date Time Input UI elements">
       
-      <p class="p">In an object page, in a form element, when you set a value and a currency, then set a
-        drop down list or value helper for the edit mode, when you preview (or publish) the
-        prototype, in edit mode you will only have two standard input fields</p>
+      <p class="p">Both the Date Picker and the Date Time Input UI elements in the pallette do not display their
+        date value property.</p>
 
     </div></div>
-<div class="section"><div class="section_title">ObjectPage Image Shape Incorrect</div><div type="ObjectPage Image Shape Incorrect">
+<div class="section"><div class="section_title">Back navigation does not work with self referencing relation in Data Model (Smart Template Object Pages)</div><div type="Back navigation does not work with self referencing relation in Data Model (Smart Template Object Pages)">
       
-      <p class="p">While setting the OBJECT PAGE HEADER 'Image Shape' property to Circle , the Image
-        appears more oval than circle: </p>
+      <p class="p">A blank page is displayed in navigation back from a  Smart Template Object Page to the
+        preceeding Smart Template Object Page. A browser refresh solves this issue. </p>
 
     </div></div>
-<div class="section"><div class="section_title">datevalue not exposed for Date Picker and datetime input</div><div type="datevalue not exposed for Date Picker and datetime input">
+<div class="section"><div class="section_title">Increase in width of radio buttons</div><div type="Increase in width of radio buttons">
       
-      <p class="p">Both the DATE PICKER and DATE TIME INPUT UI element in the pallette do not expose
-        their datevalue property. Only the placeholder property is exposed but it is not for
-        the same purpose : the placeholder displays a grayed out text in italic in case the
-        field is empty ( use case : creation time ), whereas the datevalue show the actual
-        value of the field ( use case : edit ). Both theses properties need to be exposed
-        but today the datevalue is missing.</p>
+      <p class="p">The size of a radio button automatically  increases by 47pixels.</p>
 
     </div></div>
-<div class="section"><div class="section_title">ST- several navigations between Object Page and Object page via table row and URL, do back: navigation is ko</div><div type="ST- several navigations between Object Page and Object page via table row and URL, do back: navigation is ko">
-      
-    </div></div>
-<div class="section"><div class="section_title">ST] Navigation does not work with self referencing relationship in Data Model</div><div type="ST] Navigation does not work with self referencing relationship in Data Model">
-      
-      <p class="p">Steps to reproduce : create a new project in Pagemap create a new List Report Load
-        datamodel BUG3404.xlsx:
-        https://jam4.sapjam.com/groups/60qDosrRAVDTLeeirVt451/documents/kb95jZKI9ODuVJDZRMljlu
-        set List Report main Object to employee configure list Report (minimal conf needed)
-        create an ObjectPage, set its main Object to employee configure the table in the
-        second section to leverage the "subordinates" relation minimally configure the table
-        publish project use published URL -&gt; The ObjectPage correctly displays the
-        subordinates but no navigation is triggered from the table Correct behavior shall
-        be: The ObjectPage correctly displays the subordinates and a navigation is triggered
-        from the table to the same ObjectPage with the context of the subordinates</p>
-
-    </div></div>
-<div class="section"><div class="section_title">Radio Button width automatically increases a few pixels when user releases mouse button #3320</div><div type="Radio Button width automatically increases a few pixels when user releases mouse button #3320">
-      
-      <p class="p">This is a UI5 issue, when we set the width of the RadioButton control we are actually
-        setting the width to the label only. The control grows automatically by 47px (the
-        size of the actual button). If we measure the size of the actual dom element we see
-        that it+s always 47px bigger than the size we set. I've built a snippix to show the
-        issue http://veui5infra.dhcp.wdf.sap.corp:8080/snippix/snippets/43838. It's
-        sufficient to hit the get width info button to see the difference between the width
-        set to the control and the actual width of the dom element.</p>
-
-    </div></div>
-<div class="section"><div class="section_title">When the calendar control is dragged onto canvas, a purple square encompasses the previous day's</div><div type="When the calendar control is dragged onto canvas, a purple square encompasses the previous day's">
+<div class="section"><div class="section_title">Purple square surrounds the previous day's</div><div type="Purple square surrounds the previous day's">
       
       <p class="p">A purple square appears around the previous day's date when a calendar control is dragged onto
         the canvas.</p>
 
     </div></div>
-<div class="section"><div class="section_title">Data is displayed incorrectly when adding more than 25 rows to an object</div><div type="Data is displayed incorrectly when adding more than 25 rows to an object">
+<div class="section"><div class="section_title">Incorrect display when adding rows of data to an object</div><div type="Incorrect display when adding rows of data to an object">
       
-      <p class="p">When data is added to an object under the Samples tab, when there are more than 25 rows, and a
-        new row is added, the new row is not displayed correctly. </p>
+      <p class="p">When data is added to an object under the Samples tab in the Data Editor, where there are more
+        than 25 rows, and a new row is added, the new row is not displayed correctly.</p>
 
     </div></div>
-<div class="section"><div class="section_title">The icon tab bar doesn't render correctly after deletion of an icon</div><div type="The icon tab bar doesn't render correctly after deletion of an icon">
+<div class="section"><div class="section_title">Incorrect display of icon tab bar after deletion of an icon</div><div type="Incorrect display of icon tab bar after deletion of an icon">
       
       <p class="p">After an icon is deleted from an icon tab bar, the remaining icons on are not
         displayed correctly. You need to refresh your browser for them to be displayed
         correctly.</p>
 
     </div></div>
-<div class="section"><div class="section_title">Nodes are overlayed on a large Sankey diagram</div><div type="Nodes are overlayed on a large Sankey diagram">
+<div class="section"><div class="section_title">Incorrect display on a large Sankey diagram</div><div type="Incorrect display on a large Sankey diagram">
       
       <p class="p">In a large Sankey diagram, some names are obscured and some nodes are not displayed
         correctly.</p>
 
     </div></div>
-<div class="section"><div class="section_title">An error is returned when editing a Smart Template Object Page</div><div type="An error is returned when editing a Smart Template Object Page">
+<div class="bodydiv conbodydiv"/><div class="section"><div class="section_title">Incorrect display of Smart Template List Reports and Smart Template Object Pages across devices</div><div type="Incorrect display of Smart Template List Reports and Smart Template Object Pages across devices">
       
-      <p class="p">In a Smart Template Object Page, while in Edit mode, if you try to create a new row
-        in a Table by clicking on the + button, you will receive an error message " No
-        Matching items found"</p>
+      <p class="p">Although the responsiveness property of columns and action buttons is set correctly
+        in Smart Template List Reports and Smart Template Object Pages, the columns and
+        buttons are always visible regardless of the size of the screen.</p>
 
     </div></div>
-                  </div>
+<div class="section"><div class="section_title">Failed navigation among table rows in Smart Template Object Pages</div><div type="Failed navigation among table rows in Smart Template Object Pages">
+      
+      <p class="p">After navigation among several smart template object page table rows, a blank page is
+        displayed.</p>
+
+    </div></div>
+<div class="section"><div class="section_title">Back navigation does not work with self referencing relation in Data Model (Smart Template Object Pages)</div><div type="Back navigation does not work with self referencing relation in Data Model (Smart Template Object Pages)">
+      
+      <p class="p">A blank page is displayed in navigation back from a Smart Template Object Page to the
+        preceeding Smart Template Object Page. A browser refresh solves this issue.</p>
+
+    </div></div>
+<div class="section"><div class="section_title">Error when editing a Smart Template Object Page</div><div type="Error when editing a Smart Template Object Page">
+      
+      <p class="p">If you try to create a new row in a table by selecting the <span class="ph uicontrol">+</span>
+        button in edit mode in a Smart Template Object Page, the following error message is
+        displayed: <cite class="cite">No Matching items found.</cite></p>
+
+    </div></div>
+<div class="section"><div class="section_title">No drop down or value helper when a currency exists</div><div type="No drop down or value helper when a currency exists">
+      
+      <p class="p">In a Smart Template Object Page, in a form element, when you set a value and a
+        currency, then set a drop down list or value helper for the edit mode, when you
+        preview or publish the prototype, in edit mode you will only have two standard input
+        fields.</p>
+
+      <div class="p">In Smart Template Object Page, setting the Edit Mode property of Form element has no
+        effect on prototype in the following cases: <ul class="ul" id="loio6325b1a535aa42988eb3e6e32d63f746__ul_n1x_5mg_tt"><li class="li">
+            <p class="p">If the property value is bound to a data model property of datatype date.
+              In this case it will be displayed using a Date Picker Control in Edit
+              Mode.</p>
+
+          </li>
+<li class="li"> If you set both a value and a currency for the form element, both will be
+            displayed using a standard Input Control in Edit mode.</li>
+</ul>
+</div>
+
+    </div></div>
+<div class="section"><div class="section_title">Annotations on impermanent pop-ups and dialogs are display incorrectly in feedback results</div><div type="Annotations on impermanent pop-ups and dialogs are display incorrectly in feedback results">
+      
+      <p class="p">Annotations added by users on pop-ups on prototype pages in feedback studies are displayed incorrectly in the feedback results. </p>
+
+    </div></div>
+<div class="section"><div class="section_title">Annotation added when user scrolls to the bottom of page are displayed incorrectly in feedback reults</div><div type="Annotation added when user scrolls to the bottom of page are displayed incorrectly in feedback reults">
+      
+      <p class="p">Annotations are displayed incorrectly in feedback results if the user scrolled to the bottom of the protoype page when they added the annotations.</p>
+
+    </div></div>
+</div>
                   
                </section>
                <div class="clear"></div>
