@@ -350,7 +350,7 @@
       $('#search_form').searchify();
       
       //If you add a new video to the videos page, you must include it's ID here.
-            var videoIds = ["qFDBsuJrGC0", "U6isgUc86XQ", "k0ZO2R8GD0U", "fE1wVYpRZw8"];
+            var videoIds = ["qFDBsuJrGC0", "U6isgUc86XQ", "k0ZO2R8GD0U", "fE1wVYpRZw8", "EeakOp7OJtk", "F9HR49U8duU"];
             var topViews = 0;
             var secondViews = 0;
             var thirdViews = 0;
@@ -410,7 +410,7 @@
                  the correct order depending on the top 3 video IDs, and also adjusts their href to include the corresponding
                  videoId, using the query string
                  */
-                if(counter ===videoIds.length-1) {
+                if(counter===5) {
                     $("#topvideo").attr("src", grabImage(topViewId));
                     $("#secondvideo").attr("src", grabImage(secondViewId));
                     $("#thirdvideo").attr("src", grabImage(thirdViewId));
@@ -436,6 +436,12 @@
             break;
         case "fE1wVYpRZw8":
             imgString = "img/datamodels.png";
+            break;
+        case "EeakOp7OJtk":
+            imgString = "img/smartlistreport.png";
+            break;
+        case "F9HR49U8duU":
+            imgString = "img/smartobjectpage.png";
             break;
     }
 
