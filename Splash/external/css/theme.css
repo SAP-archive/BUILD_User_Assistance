@@ -101,8 +101,8 @@ body
         }
         
         .size-medium .page {
-            margin:15px 200px 0 0;
-            padding: 30px 20px 15px 20px;
+            margin:0px 200px 0 0;
+            padding: 20px 20px 15px 20px;
         }
 
 .body {
@@ -664,8 +664,10 @@ li.topichead {
      float:right;
      width:200px;
      margin-top: -37px;
-     margin-right:-240px;
-      width:200px;
+     margin-right:0px;
+     position:absolute;
+     right:0;
+     top:40px;
 
  }
  
@@ -674,10 +676,12 @@ li.topichead {
             width:auto;
             margin-top:auto;
             margin-right:auto;
+            position:relative;
         }
         
         .size-medium .related-links {
-            margin-right:-260px;
+            margin-right: -40px;
+            top:60px;
         }
  
  
@@ -685,8 +689,8 @@ li.topichead {
  .related-links.fixed {
       top:150px;
       position:fixed;
-      right:300px;
-     
+      right:240px;
+      margin-right: -240px;
  }
  
  .relinfotitle {

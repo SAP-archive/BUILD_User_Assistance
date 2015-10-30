@@ -350,7 +350,7 @@
       $('#search_form').searchify();
       
       //If you add a new video to the videos page, you must include it's ID here.
-            var videoIds = ["qFDBsuJrGC0", "U6isgUc86XQ", "k0ZO2R8GD0U", "fE1wVYpRZw8"];
+            var videoIds = ["PQaZqxVtln4", "Hka3_sWwHwI", "Z8BMghLixvE", "vZHxsHzefz0", "RPrYT4zXa3U"];
             var topViews = 0;
             var secondViews = 0;
             var thirdViews = 0;
@@ -410,38 +410,19 @@
                  the correct order depending on the top 3 video IDs, and also adjusts their href to include the corresponding
                  videoId, using the query string
                  */
-                if(counter ===videoIds.length-1) {
-                    $("#topvideo").attr("src", grabImage(topViewId));
-                    $("#secondvideo").attr("src", grabImage(secondViewId));
-                    $("#thirdvideo").attr("src", grabImage(thirdViewId));
+                if(counter===5) {
+                    $("#topvideo").attr("src", "img/gettingStarted.png");
+                    $("#secondvideo").attr("src", "img/proto.png");
+                    $("#thirdvideo").attr("src", "img/datamodels.png");
                     $("#topLink").attr("href", $("#topLink").attr("href") + topViewId);
                     $("#secondlink").attr("href", $("#secondlink").attr("href") + secondViewId);
                     $("#thirdlink").attr("href", $("#thirdlink").attr("href") + thirdViewId);
                 }
             }
+      
+      
+      
       });
-  function grabImage(videoID)
-{
-    var imgString;
-    switch(videoID)
-    {
-        case "qFDBsuJrGC0":
-            imgString = "img/gettingStarted.png";
-            break;
-        case "U6isgUc86XQ":
-            imgString = "img/proto.png";
-            break;
-        case "k0ZO2R8GD0U":
-            imgString = "img/feedbackreport.png";
-            break;
-        case "fE1wVYpRZw8":
-            imgString = "img/datamodels.png";
-            break;
-    }
-
-    return imgString;
-
-} 
       </script></div>
             <div class="clearfix"></div>
          </div>

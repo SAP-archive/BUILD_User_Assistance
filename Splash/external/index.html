@@ -350,7 +350,7 @@
       $('#search_form').searchify();
       
       //If you add a new video to the videos page, you must include it's ID here.
-            var videoIds = ["qFDBsuJrGC0", "U6isgUc86XQ", "k0ZO2R8GD0U", "fE1wVYpRZw8", "EeakOp7OJtk", "F9HR49U8duU"];
+            var videoIds = ["PQaZqxVtln4", "Hka3_sWwHwI", "Z8BMghLixvE", "vZHxsHzefz0", "RPrYT4zXa3U"];
             var topViews = 0;
             var secondViews = 0;
             var thirdViews = 0;
@@ -411,43 +411,18 @@
                  videoId, using the query string
                  */
                 if(counter===5) {
-                    $("#topvideo").attr("src", grabImage(topViewId));
-                    $("#secondvideo").attr("src", grabImage(secondViewId));
-                    $("#thirdvideo").attr("src", grabImage(thirdViewId));
+                    $("#topvideo").attr("src", "img/gettingStarted.png");
+                    $("#secondvideo").attr("src", "img/proto.png");
+                    $("#thirdvideo").attr("src", "img/datamodels.png");
                     $("#topLink").attr("href", $("#topLink").attr("href") + topViewId);
                     $("#secondlink").attr("href", $("#secondlink").attr("href") + secondViewId);
                     $("#thirdlink").attr("href", $("#thirdlink").attr("href") + thirdViewId);
                 }
             }
+      
+      
+      
       });
-  function grabImage(videoID)
-{
-    var imgString;
-    switch(videoID)
-    {
-        case "qFDBsuJrGC0":
-            imgString = "img/gettingStarted.png";
-            break;
-        case "U6isgUc86XQ":
-            imgString = "img/proto.png";
-            break;
-        case "k0ZO2R8GD0U":
-            imgString = "img/feedbackreport.png";
-            break;
-        case "fE1wVYpRZw8":
-            imgString = "img/datamodels.png";
-            break;
-        case "EeakOp7OJtk":
-            imgString = "img/smartlistreport.png";
-            break;
-        case "F9HR49U8duU":
-            imgString = "img/smartobjectpage.png";
-            break;
-    }
-
-    return imgString;
-
-} 
       </script></div>
             <div class="clearfix"></div>
          </div>

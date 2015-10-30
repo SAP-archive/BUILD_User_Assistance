@@ -8,9 +8,9 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="schema.DC" href="http://purl.org/dc/terms/">
-      <meta name="abstract" content="Every page, whether it is a list report or an object page, has its main object.">
+      <meta name="abstract" content="Every page in a smart template prototype needs main object.">
       
-      <meta name="description" content="Every page, whether it is a list report or an object page, has its main object.">
+      <meta name="description" content="Every page in a smart template prototype needs main object.">
       <script type="text/javascript">var d4p = {"relativePath":'',"dev":false,"debug":false,"draft":false,"nextTopicHref":"140fe2f2f9a74c10baa3453ccd5690ee.html","previousTopicHref":"8979ed19908b4937a436d68030ed4207.html"}</script>
       <link rel="stylesheet" type="text/css" media="screen, projection" href="themes/norman/css/style.css">
       
@@ -134,6 +134,8 @@
                      <ul>
                         <li class="topichead collapsible "><span>Get Started</span><ul>
                               <li class=" collapsible  collapsed"><a href="4bc796d66b4d4c3a86c6ef719983d7b3.html">Get Started with Splash</a><ul>
+                                    <li class=" no-child "><a href="22d521ddbd854816b8ccb0f0c6a1de34.html">Create a SPLASH
+                                          		User</a></li>
                                     <li class=" no-child "><a href="4034a659577d4d5fa725af4c3525eb2d.html">What is SPLASH?</a></li>
                                     <li class=" no-child "><a href="ff3b78d534e64823a40115440fa7b74c.html">Set Your Profile</a></li>
                                  </ul>
@@ -224,6 +226,7 @@
                                           <li class=" no-child "><a href="f2b5db9eaa2546fc97c9c169a7354e71.html">Add a Smart Template List Report</a></li>
                                           <li class=" no-child "><a href="06de5980f994489193faaf75bab78ebf.html">Configure the Smart Template List Report</a></li>
                                           <li class=" no-child "><a href="67ca77a7f8104ff69996ffb6384aaeef.html">Add and Configure a Smart Template Object Page</a></li>
+                                          <li class=" no-child "><a href="12677806c9c0461f899ad39099ae6ff7.html">Publish the Prototype</a></li>
                                           <li class=" no-child "><a href="f6f6139cd98747ce80e00201519ba9a0.html">Add Another Object Page</a></li>
                                           <li class=" no-child "><a href="8979ed19908b4937a436d68030ed4207.html">Edit Data</a></li>
                                        </ul>
@@ -360,15 +363,13 @@
                      
                      <h1 class="title topictitle1">Binding</h1>
                      <div class="body conbody">
-                        <p class="shortdesc">Every page, whether it is a list report or an object page, has its main
+                        <div class="abstract"><span class="shortdesc">Every page in a smart template prototype needs main object.</span>
+                           When
+                           		you create a list report you must select a main object. By default, the main object of the
+                           		first object page is preselected, and is the same as the main object of the list report.
+                           		When you select a main object, you <cite class="cite">bind</cite>, or link, your page to that
                            		object.
-                        </p>
-                        
-                        <p class="p">When you create a list report and object pages you must select a main object. In most cases,
-                           			the main object of the first object page should be the same as the main object of the
-                           			list report. When you select a main object, you <cite class="cite">bind</cite>, or link, your page to
-                           			that object.
-                        </p>
+                        </div>
                         
                         <p class="p">When you select a value for a filter or a column in a table, you bind it to a property of the
                            			object, which allows you to acquire all the data of the property. For example, you add a
@@ -382,26 +383,26 @@
                         
                         <p class="p"><span class="ph uicontrol uicontrol-boldblack">Table</span></p>
                         
-                        <p class="p"><img class="inline  " id="loio23c2d452a7944cdfbb130f577156e3fa__image_axg_vg1_5s" src="5ed270524fa54586b4823f234fdc88d1.image"></p>
+                        <p class="p"><img class="inline  " id="loio23c2d452a7944cdfbb130f577156e3fa__image_gmd_ksy_5t" src="134fce5b6c4444858a0dbc7e8bc83493.image"></p>
                         
-                        <div class="p">Values for the columns were set under <span class="ph uicontrol uicontrol-boldblack">Properties</span> as follows:
+                        <div class="p">Values for the columns were set under <span class="ph uicontrol uicontrol-boldblack">Column</span> as follows:
                            <ul class="ul" id="loio23c2d452a7944cdfbb130f577156e3fa__ul_r1g_wvw_bt">
                               <li class="li">
-                                 <p class="p">Column named ID is bound to the ID property of the main object, Product.</p>
-                                 
-                                 <p class="p"><img class="inline  " id="loio23c2d452a7944cdfbb130f577156e3fa__image_arn_ch1_5s" src="ef5f83af07ec4ca1b49d53d511295f4d.image"></p>
+                                 <p class="p">The column named ID is bound to the ID property of the main object,
+                                    						Product.
+                                 </p>
                                  
                               </li>
                               
-                              <li class="li">The column named Name is bound to the Name property of the main object,
-                                 					Product.
+                              <li class="li">The column named Price is bound to the UnitPrice property of the main object,
+                                 					Product, and to the Currency property of Product.
                               </li>
                               
                            </ul>
                            
                         </div>
                         
-                        <p class="p"><img class="inline  " id="loio23c2d452a7944cdfbb130f577156e3fa__image_tyt_1h1_5s" src="24d10ee2e83a49378eb23ea2afabeb04.image"></p>
+                        <p class="p"><img class="inline  " id="loio23c2d452a7944cdfbb130f577156e3fa__image_hrj_tsy_5t" src="468cbb4081b849348795b770c82de957.image"></p>
                         
                         <div class="section">
                            <section class="section" type="Sections in Object Pages">
@@ -409,10 +410,18 @@
                               </h2>
                               <p class="p">You can have sections in object pages that show relations between objects. For example, for a
                                  				list report whose main object is Expense Report, you can have an object page whose
-                                 				main object is also Expense Report and a second object page whose main object is
-                                 				Destination. You can  navigate from one object page to another by binding the URL of
-                                 				the page in the <span class="ph uicontrol uicontrol-boldblack">Properties</span> pane.
+                                 				main object is also Expense Report, and a second object page whose main object is
+                                 				Currency. You can navigate from one object page to another by binding the URL of the
+                                 				page in the <span class="ph uicontrol uicontrol-boldblack">Column</span> pane. 
                               </p>
+                              
+                              <div class="p">
+                                 <aside class="note  insertion"><span class="title">Note</span> 
+                                    <p class="p">The relationship must be 1 to 1 in order to bind with a URL.</p>
+                                    
+                                 </aside>
+                                 
+                              </div>
                               
                               <p class="p">Data Model</p>
                               
@@ -450,7 +459,7 @@
             </footer>
             
             
-            <!--Build date: 10/16/2015 20:06 GMT-7-->
+            <!--Build date: 10/29/2015 11:01 GMT-7-->
          </div>
       </div>
    </body>
