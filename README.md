@@ -18,11 +18,12 @@ The purpose of the User_Assistance repo is to enable the BUILD KM team to do the
 
 
 ##Pending Approval Tag
+
 All team members can create issues in issue tracker. UA doc lead will review, approve/reject, and assign issues as appropriate.
 
 
 ##Guidelines for the BUILD User Assistance Site
-+ [Watch Site and Monitor notifications]()
++ [Watch Site and Monitor notifications](https://github.com/SAP/BUILD_User_Assistance/wiki/Watch-Site-and-Monitor-Nofications)
 + [Communication Guidelines](https://github.com/SAP/BUILD_User_Assistance/wiki/Communication-Guidelines)
 + [Contribution Guidelines](https://github.com/SAP/BUILD_User_Assistance/wiki/Contribution-Guidelines)
 + [Using the Issue Tracker](https://github.com/SAP/BUILD_User_Assistance/wiki/Using-the-Issue-Tracker)
