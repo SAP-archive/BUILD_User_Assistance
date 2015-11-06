@@ -1,0 +1,1250 @@
+<mapdriven:collected-data xmlns:enum="http://dita4publishers.org/enumerables"
+                          xmlns:applicability="http://dita4publishers.org/applicability"
+                          xmlns:index-terms="http://dita4publishers.org/index-terms"
+                          xmlns:mapdriven="http://dita4publishers.org/mapdriven">
+   <index-terms:index-terms>
+      <index-terms:ungrouped/>
+      <index-terms:grouped-and-sorted/>
+   </index-terms:index-terms>
+   <enum:enumerables>
+      <topicref xmlns="http://dita4publishers.org/enumerables" class="- map/topicref "
+                sourceId="id-32301--topicref-9-773-22"
+                xml:lang="en-us"
+                xtrc="topicref:1"
+                docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                topicID="concept_c2f_31p_rt">
+         <title>Splash Page</title>
+      </topicref>
+      <topicref xmlns="http://dita4publishers.org/enumerables" class="- map/topicref "
+                sourceId="id-32301--topicref-18-765-10"
+                xml:lang="en-us"
+                xtrc="topicref:2"
+                docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                topicOutputClass="no-toc"
+                topicID="concept_imm_mjn_jt">
+         <title>Video</title>
+         <section class="- topic/section "
+                  sourceId="id-40493-concept_imm_mjn_jt--section-8-21-15"
+                  xml:lang="en-us"
+                  xtrc="section:1"
+                  docUri="file:/C:/DITA_sandbox/obj/html5/temp/video.xml">
+            <title>Getting Started</title>
+         </section>
+         <title>Getting Started</title>
+         <section class="- topic/section "
+                  sourceId="id-40493-concept_imm_mjn_jt--section-14-15-19"
+                  xml:lang="en-us"
+                  xtrc="section:2"
+                  docUri="file:/C:/DITA_sandbox/obj/html5/temp/video.xml">
+            <title>Creating Prototypes</title>
+         </section>
+         <title>Creating Prototypes</title>
+         <section class="- topic/section "
+                  sourceId="id-40493-concept_imm_mjn_jt--section-20-9-13"
+                  xml:lang="en-us"
+                  xtrc="section:3"
+                  docUri="file:/C:/DITA_sandbox/obj/html5/temp/video.xml">
+            <title>User Research</title>
+         </section>
+         <title>User Research</title>
+         <section class="- topic/section "
+                  sourceId="id-40493-concept_imm_mjn_jt--section-26-0-31"
+                  xml:lang="en-us"
+                  xtrc="section:4"
+                  docUri="file:/C:/DITA_sandbox/obj/html5/temp/video.xml">
+            <title>Data Models and Smart Templates</title>
+         </section>
+         <title>Data Models and Smart Templates</title>
+      </topicref>
+      <topicref xmlns="http://dita4publishers.org/enumerables" class="- map/topicref "
+                sourceId="id-32301--topicref-26-0-15425"
+                xml:lang="en-us"
+                xtrc="topicref:3"
+                docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                topicID="loio9b605d096887459c9c2200e434471cc9">
+         <title>Welcome to BUILD Help</title>
+         <topichead class="+ map/topicref mapgroup-d/topichead "
+                    sourceId="id-63618--topichead-37-715-814"
+                    xml:lang="en-us"
+                    xtrc="topichead:1"
+                    docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap">
+            <topicref class="+ map/topicref mapgroup-d/mapref "
+                      sourceId="id-1489--topicref-37-715-814"
+                      xml:lang="en-us"
+                      xtrc="topicref:1"
+                      docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                      topicID="loio4bc796d66b4d4c3a86c6ef719983d7b3">
+               <title>Get Started with BUILD
+   </title>
+               <topicref class="- map/topicref " sourceId="id-1489--topicref-46-733-246"
+                         xml:lang="en-us"
+                         xtrc="topicref:2"
+                         docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                         topicID="loio4034a659577d4d5fa725af4c3525eb2d">
+                  <title>What is BUILD?</title>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-1489--topicref-55-724-259"
+                         xml:lang="en-us"
+                         xtrc="topicref:3"
+                         docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                         topicID="loio22d521ddbd854816b8ccb0f0c6a1de34">
+                  <title>Create BUILD User</title>
+                  <note class="- topic/note "
+                        sourceId="id-61677-loio22d521ddbd854816b8ccb0f0c6a1de34--note-31-8-368"
+                        xml:lang="en-us"
+                        xtrc="note:1"
+                        docUri="file:/C:/DITA_sandbox/obj/html5/temp/22d521ddbd854816b8ccb0f0c6a1de34.xml"/>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-1489--topicref-64-715-195"
+                         xml:lang="en-us"
+                         xtrc="topicref:4"
+                         docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                         topicID="loioff3b78d534e64823a40115440fa7b74c">
+                  <title>Set Your Profile</title>
+               </topicref>
+            </topicref>
+         </topichead>
+         <topichead class="+ map/topicref mapgroup-d/topichead "
+                    sourceId="id-63618--topichead-75-605-2181"
+                    xml:lang="en-us"
+                    xtrc="topichead:2"
+                    docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap">
+            <topicref class="+ map/topicref mapgroup-d/mapref "
+                      sourceId="id-46777--topicref-75-676-719"
+                      xml:lang="en-us"
+                      xtrc="topicref:1"
+                      docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                      topicID="loioaebea8d795a243a2bf086eb4f9702873">
+               <title>Projects</title>
+               <note class="- topic/note "
+                     sourceId="id-37587-loioaebea8d795a243a2bf086eb4f9702873--note-11-11-66"
+                     xml:lang="en-us"
+                     xtrc="note:1"
+                     docUri="file:/C:/DITA_sandbox/obj/html5/temp/aebea8d795a243a2bf086eb4f9702873.xml"/>
+               <topicref class="- map/topicref " sourceId="id-46777--topicref-82-696-326"
+                         xml:lang="en-us"
+                         xtrc="topicref:2"
+                         docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                         topicID="loiocd39ba0241a14201b5eac4fa514c6d9b">
+                  <title>Create Projects</title>
+                  <context class="- topic/section task/context "
+                           sourceId="id-13872-loiocd39ba0241a14201b5eac4fa514c6d9b--context-11-76-97"
+                           xml:lang="en-us"
+                           xtrc="context:1"
+                           docUri="file:/C:/DITA_sandbox/obj/html5/temp/cd39ba0241a14201b5eac4fa514c6d9b.xml"/>
+                  <note class="- topic/note "
+                        sourceId="id-36575-loiocd39ba0241a14201b5eac4fa514c6d9b--note-21-62-129"
+                        xml:lang="en-us"
+                        xtrc="note:1"
+                        docUri="file:/C:/DITA_sandbox/obj/html5/temp/cd39ba0241a14201b5eac4fa514c6d9b.xml"/>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-46777--topicref-92-687-217"
+                         xml:lang="en-us"
+                         xtrc="topicref:3"
+                         docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                         topicID="loiof7ce9fba7a79424d8ab09e08679dec46">
+                  <title>Add a Project Picture</title>
+                  <prereq class="- topic/section task/prereq "
+                          sourceId="id-43504-loiof7ce9fba7a79424d8ab09e08679dec46--prereq-10-34-168"
+                          xml:lang="en-us"
+                          xtrc="prereq:1"
+                          docUri="file:/C:/DITA_sandbox/obj/html5/temp/f7ce9fba7a79424d8ab09e08679dec46.xml"/>
+                  <result class="- topic/section task/result "
+                          sourceId="id-54785-loiof7ce9fba7a79424d8ab09e08679dec46--result-33-10-88"
+                          xml:lang="en-us"
+                          xtrc="result:1"
+                          docUri="file:/C:/DITA_sandbox/obj/html5/temp/f7ce9fba7a79424d8ab09e08679dec46.xml"/>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-46777--topicref-101-676-160"
+                         xml:lang="en-us"
+                         xtrc="topicref:4"
+                         docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                         topicID="loioacd4be6268bf4517b94c175c44f92f2a">
+                  <title>Archive Projects</title>
+                  <note class="- topic/note "
+                        sourceId="id-52434-loioacd4be6268bf4517b94c175c44f92f2a--note-12-24-101"
+                        xml:lang="en-us"
+                        xtrc="note:1"
+                        docUri="file:/C:/DITA_sandbox/obj/html5/temp/acd4be6268bf4517b94c175c44f92f2a.xml"/>
+               </topicref>
+            </topicref>
+            <topicref class="+ map/topicref mapgroup-d/mapref "
+                      sourceId="id-46777--topicref-113-631-1028"
+                      xml:lang="en-us"
+                      xtrc="topicref:5"
+                      docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                      topicID="loio9cefe17d8669496bb7761b6039d45b77">
+               <title>Project Teams</title>
+               <topicref class="- map/topicref " sourceId="id-46777--topicref-125-654-138"
+                         xml:lang="en-us"
+                         xtrc="topicref:6"
+                         docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                         topicID="loio7f8e18a64838478e92157c2e9980aecb">
+                  <title>Invite Team Members</title>
+                  <result class="- topic/section task/result "
+                          sourceId="id-50758-loio7f8e18a64838478e92157c2e9980aecb--result-38-19-98"
+                          xml:lang="en-us"
+                          xtrc="result:1"
+                          docUri="file:/C:/DITA_sandbox/obj/html5/temp/7f8e18a64838478e92157c2e9980aecb.xml"/>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-46777--topicref-134-640-369"
+                         xml:lang="en-us"
+                         xtrc="topicref:7"
+                         docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                         topicID="loioace392f57eea411c8cecc43fac48de4c">
+                  <title>Accept an Invitation</title>
+                  <context class="- topic/section task/context "
+                           sourceId="id-20750-loioace392f57eea411c8cecc43fac48de4c--context-15-15-232"
+                           xml:lang="en-us"
+                           xtrc="context:1"
+                           docUri="file:/C:/DITA_sandbox/obj/html5/temp/ace392f57eea411c8cecc43fac48de4c.xml"/>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-46777--topicref-148-631-160"
+                         xml:lang="en-us"
+                         xtrc="topicref:8"
+                         docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                         topicID="loio15ec191840a3431db95f2e64653fd2c6">
+                  <title>Change Project Owners</title>
+               </topicref>
+            </topicref>
+            <topicref class="+ map/topicref mapgroup-d/mapref "
+                      sourceId="id-46777--topicref-158-605-434"
+                      xml:lang="en-us"
+                      xtrc="topicref:9"
+                      docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                      topicID="loioa425c98658cb4eb6a601ac6dc17c5fe8">
+               <title>Project Files</title>
+               <topicref class="- map/topicref " sourceId="id-41450--topicref-170-605-200"
+                         xml:lang="en-us"
+                         xtrc="topicref:10"
+                         docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                         topicID="loio36a8f8e406434fcc983ec219a6786f3a">
+                  <title>Upload Files</title>
+                  <result class="- topic/section task/result "
+                          sourceId="id-51562-loio36a8f8e406434fcc983ec219a6786f3a--result-35-8-243"
+                          xml:lang="en-us"
+                          xtrc="result:1"
+                          docUri="file:/C:/DITA_sandbox/obj/html5/temp/36a8f8e406434fcc983ec219a6786f3a.xml"/>
+               </topicref>
+            </topicref>
+         </topichead>
+         <topichead class="+ map/topicref mapgroup-d/topichead "
+                    sourceId="id-63618--topichead-185-532-1603"
+                    xml:lang="en-us"
+                    xtrc="topichead:3"
+                    docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap">
+            <topicref class="+ map/topicref mapgroup-d/mapref "
+                      sourceId="id-40095--topicref-185-532-1603"
+                      xml:lang="en-us"
+                      xtrc="topicref:1"
+                      docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                      topicID="loio821343eec86945f0b01980286f1fcdb2">
+               <title>Create Prototype Pages</title>
+               <topicref class="- map/topicref " sourceId="id-40095--topicref-193-559-812"
+                         xml:lang="en-us"
+                         xtrc="topicref:2"
+                         docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                         topicID="loio5b0e553faf4b4d8282d5d4df64409c19">
+                  <title>User Interface Editor</title>
+                  <topicref class="- map/topicref " sourceId="id-40095--topicref-201-577-186"
+                            xml:lang="en-us"
+                            xtrc="topicref:3"
+                            docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                            topicID="loio4c4c7aed7b874f02a220d42a6492e586">
+                     <title>User Interface Editor Overview</title>
+                  </topicref>
+                  <topicref class="- map/topicref " sourceId="id-40095--topicref-210-568-187"
+                            xml:lang="en-us"
+                            xtrc="topicref:4"
+                            docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                            topicID="loio5663dd87f1d84cdab90c00671fa29230">
+                     <title>UI Controls</title>
+                  </topicref>
+                  <topicref class="- map/topicref " sourceId="id-40095--topicref-219-559-203"
+                            xml:lang="en-us"
+                            xtrc="topicref:5"
+                            docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                            topicID="loio21031d4ec7d6400faac1810c73ca1d47">
+                     <title>Page Map</title>
+                     <context class="- topic/section task/context "
+                              sourceId="id-19406-loio21031d4ec7d6400faac1810c73ca1d47--context-10-22-20"
+                              xml:lang="en-us"
+                              xtrc="context:1"
+                              docUri="file:/C:/DITA_sandbox/obj/html5/temp/21031d4ec7d6400faac1810c73ca1d47.xml"/>
+                  </topicref>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-40095--topicref-229-550-260"
+                         xml:lang="en-us"
+                         xtrc="topicref:6"
+                         docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                         topicID="loiob3fd3f3df03f4196bcec53c44ebcaf8e">
+                  <title>Add Prototype Pages</title>
+                  <prereq class="- topic/section task/prereq "
+                          sourceId="id-56215-loiob3fd3f3df03f4196bcec53c44ebcaf8e--prereq-12-62-709"
+                          xml:lang="en-us"
+                          xtrc="prereq:1"
+                          docUri="file:/C:/DITA_sandbox/obj/html5/temp/b3fd3f3df03f4196bcec53c44ebcaf8e.xml"/>
+                  <context class="- topic/section task/context "
+                           sourceId="id-63758-loiob3fd3f3df03f4196bcec53c44ebcaf8e--context-16-60-23"
+                           xml:lang="en-us"
+                           xtrc="context:1"
+                           docUri="file:/C:/DITA_sandbox/obj/html5/temp/b3fd3f3df03f4196bcec53c44ebcaf8e.xml"/>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-40095--topicref-238-541-204"
+                         xml:lang="en-us"
+                         xtrc="topicref:7"
+                         docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                         topicID="loio55122dc79fa344958b982eb98f21ef2e">
+                  <title>Add Controls</title>
+                  <prereq class="- topic/section task/prereq "
+                          sourceId="id-40540-loio55122dc79fa344958b982eb98f21ef2e--prereq-10-54-104"
+                          xml:lang="en-us"
+                          xtrc="prereq:1"
+                          docUri="file:/C:/DITA_sandbox/obj/html5/temp/55122dc79fa344958b982eb98f21ef2e.xml"/>
+                  <context class="- topic/section task/context "
+                           sourceId="id-33234-loio55122dc79fa344958b982eb98f21ef2e--context-12-52-38"
+                           xml:lang="en-us"
+                           xtrc="context:1"
+                           docUri="file:/C:/DITA_sandbox/obj/html5/temp/55122dc79fa344958b982eb98f21ef2e.xml"/>
+                  <note class="- topic/note "
+                        sourceId="id-61826-loio55122dc79fa344958b982eb98f21ef2e--note-29-29-100"
+                        xml:lang="en-us"
+                        xtrc="note:1"
+                        docUri="file:/C:/DITA_sandbox/obj/html5/temp/55122dc79fa344958b982eb98f21ef2e.xml"/>
+                  <postreq class="- topic/section task/postreq "
+                           sourceId="id-64731-loio55122dc79fa344958b982eb98f21ef2e--postreq-43-10-886"
+                           xml:lang="en-us"
+                           xtrc="postreq:1"
+                           docUri="file:/C:/DITA_sandbox/obj/html5/temp/55122dc79fa344958b982eb98f21ef2e.xml"/>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-40095--topicref-247-532-151"
+                         xml:lang="en-us"
+                         xtrc="topicref:8"
+                         docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                         topicID="loioc076a332263d418b9c1f5e1403f4e2c3">
+                  <title>Publish Prototype</title>
+                  <context class="- topic/section task/context "
+                           sourceId="id-37759-loioc076a332263d418b9c1f5e1403f4e2c3--context-10-8-24"
+                           xml:lang="en-us"
+                           xtrc="context:1"
+                           docUri="file:/C:/DITA_sandbox/obj/html5/temp/c076a332263d418b9c1f5e1403f4e2c3.xml"/>
+               </topicref>
+            </topicref>
+         </topichead>
+         <topichead class="+ map/topicref mapgroup-d/topichead "
+                    sourceId="id-63618--topichead-258-342-3040"
+                    xml:lang="en-us"
+                    xtrc="topichead:4"
+                    docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap">
+            <topicref class="+ map/topicref mapgroup-d/mapref "
+                      sourceId="id-47719--topicref-258-342-3040"
+                      xml:lang="en-us"
+                      xtrc="topicref:1"
+                      docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                      topicID="loio826edca4a27f417aa944f45d97632eca">
+               <title>Data Models and the Data Editor</title>
+               <topicref class="- map/topicref " sourceId="id-47719--topicref-266-513-95"
+                         xml:lang="en-us"
+                         xtrc="topicref:2"
+                         docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                         topicID="loio8b4c638aaa2f4dada7360a41368cdf55">
+                  <title>Access the Data Editor</title>
+                  <context class="- topic/section task/context "
+                           sourceId="id-25670-loio8b4c638aaa2f4dada7360a41368cdf55--context-10-26-62"
+                           xml:lang="en-us"
+                           xtrc="context:1"
+                           docUri="file:/C:/DITA_sandbox/obj/html5/temp/8b4c638aaa2f4dada7360a41368cdf55.xml"/>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-47719--topicref-275-468-635"
+                         xml:lang="en-us"
+                         xtrc="topicref:3"
+                         docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                         topicID="loioc0b4d52243c84c8f96d068157ac4e317">
+                  <title>Add Objects to a Data Model Manually</title>
+                  <context class="- topic/section task/context "
+                           sourceId="id-40335-loioc0b4d52243c84c8f96d068157ac4e317--context-10-30-27"
+                           xml:lang="en-us"
+                           xtrc="context:1"
+                           docUri="file:/C:/DITA_sandbox/obj/html5/temp/c0b4d52243c84c8f96d068157ac4e317.xml"/>
+                  <note class="- topic/note "
+                        sourceId="id-55103-loioc0b4d52243c84c8f96d068157ac4e317--note-20-16-118"
+                        xml:lang="en-us"
+                        xtrc="note:1"
+                        docUri="file:/C:/DITA_sandbox/obj/html5/temp/c0b4d52243c84c8f96d068157ac4e317.xml"/>
+                  <postreq class="- topic/section task/postreq "
+                           sourceId="id-6552-loioc0b4d52243c84c8f96d068157ac4e317--postreq-26-14-127"
+                           xml:lang="en-us"
+                           xtrc="postreq:1"
+                           docUri="file:/C:/DITA_sandbox/obj/html5/temp/c0b4d52243c84c8f96d068157ac4e317.xml"/>
+                  <topicref class="- map/topicref " sourceId="id-47719--topicref-283-477-392"
+                            xml:lang="en-us"
+                            xtrc="topicref:4"
+                            docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                            topicID="loio2cae8a4e5b31463caa17bb8da9ee6ab4">
+                     <title>Relations Between Two Objects</title>
+                     <section class="- topic/section "
+                              sourceId="id-40384-loio2cae8a4e5b31463caa17bb8da9ee6ab4--section-33-6-460"
+                              xml:lang="en-us"
+                              xtrc="section:1"
+                              docUri="file:/C:/DITA_sandbox/obj/html5/temp/2cae8a4e5b31463caa17bb8da9ee6ab4.xml"/>
+                     <topicref class="- map/topicref " sourceId="id-47719--topicref-291-486-149"
+                               xml:lang="en-us"
+                               xtrc="topicref:5"
+                               docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                               topicID="loio888443ab71914d69b33f7dc2b83ecb7f">
+                        <title>Create Relations Between Objects</title>
+                        <note class="- topic/note "
+                              sourceId="id-18349-loio888443ab71914d69b33f7dc2b83ecb7f--note-28-0-154"
+                              xml:lang="en-us"
+                              xtrc="note:1"
+                              docUri="file:/C:/DITA_sandbox/obj/html5/temp/888443ab71914d69b33f7dc2b83ecb7f.xml"/>
+                     </topicref>
+                     <topicref class="- map/topicref " sourceId="id-47719--topicref-300-477-122"
+                               xml:lang="en-us"
+                               xtrc="topicref:6"
+                               docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                               topicID="loiod0df71648c624df6888df90adef9017f">
+                        <title>Edit a Relation</title>
+                     </topicref>
+                  </topicref>
+                  <topicref class="- map/topicref " sourceId="id-47719--topicref-310-468-104"
+                            xml:lang="en-us"
+                            xtrc="topicref:7"
+                            docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                            topicID="loioa7a38ff657d742b88e472eef35679535">
+                     <title>Rules for the Object Name</title>
+                  </topicref>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-47719--topicref-320-459-115"
+                         xml:lang="en-us"
+                         xtrc="topicref:8"
+                         docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                         topicID="loiof81667ffefdd457cbfcc6ab467767631">
+                  <title>Add Objects by Search</title>
+                  <context class="- topic/section task/context "
+                           sourceId="id-3431-loiof81667ffefdd457cbfcc6ab467767631--context-11-14-91"
+                           xml:lang="en-us"
+                           xtrc="context:1"
+                           docUri="file:/C:/DITA_sandbox/obj/html5/temp/f81667ffefdd457cbfcc6ab467767631.xml"/>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-47719--topicref-329-432-486"
+                         xml:lang="en-us"
+                         xtrc="topicref:9"
+                         docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                         topicID="loioa24ab97bac464838be931ac9ea0f00e9">
+                  <title>Add Objects from Excel</title>
+                  <context class="- topic/section task/context "
+                           sourceId="id-45641-loioa24ab97bac464838be931ac9ea0f00e9--context-10-22-19"
+                           xml:lang="en-us"
+                           xtrc="context:1"
+                           docUri="file:/C:/DITA_sandbox/obj/html5/temp/a24ab97bac464838be931ac9ea0f00e9.xml"/>
+                  <note class="- topic/note "
+                        sourceId="id-49144-loioa24ab97bac464838be931ac9ea0f00e9--note-21-7-65"
+                        xml:lang="en-us"
+                        xtrc="note:1"
+                        docUri="file:/C:/DITA_sandbox/obj/html5/temp/a24ab97bac464838be931ac9ea0f00e9.xml"/>
+                  <topicref class="- map/topicref " sourceId="id-21400--topicref-337-441-199"
+                            xml:lang="en-us"
+                            xtrc="topicref:10"
+                            docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                            topicID="loio505c95b8c8354630929fe772478daadf">
+                     <title>Rules for Adding Objects or Importing from a Spreadsheet</title>
+                     <section class="- topic/section "
+                              sourceId="id-55955-loio505c95b8c8354630929fe772478daadf--section-10-147-1025"
+                              xml:lang="en-us"
+                              xtrc="section:1"
+                              docUri="file:/C:/DITA_sandbox/obj/html5/temp/505c95b8c8354630929fe772478daadf.xml">
+                        <title>Foreign Keys and Mapping Table</title>
+                        <table class="- topic/table "
+                               sourceId="id-34469-loio505c95b8c8354630929fe772478daadf--table_pzn_qpv_rstable-11-147-995"
+                               origId="table_pzn_qpv_rs"
+                               xml:lang="en-us"
+                               xtrc="table:1"
+                               docUri="file:/C:/DITA_sandbox/obj/html5/temp/505c95b8c8354630929fe772478daadf.xml"/>
+                     </section>
+                     <title>Foreign Keys and Mapping Table</title>
+                     <table class="- topic/table "
+                            sourceId="id-34469-loio505c95b8c8354630929fe772478daadf--table_pzn_qpv_rstable-11-147-995"
+                            origId="table_pzn_qpv_rs"
+                            xml:lang="en-us"
+                            xtrc="table:1"
+                            docUri="file:/C:/DITA_sandbox/obj/html5/temp/505c95b8c8354630929fe772478daadf.xml"/>
+                     <section class="- topic/section "
+                              sourceId="id-55955-loio505c95b8c8354630929fe772478daadf--section-59-118-798"
+                              xml:lang="en-us"
+                              xtrc="section:2"
+                              docUri="file:/C:/DITA_sandbox/obj/html5/temp/505c95b8c8354630929fe772478daadf.xml">
+                        <title>Foreign Keys Only</title>
+                        <table class="- topic/table "
+                               sourceId="id-34469-loio505c95b8c8354630929fe772478daadf--table_qf3_2qv_rstable-60-118-781"
+                               origId="table_qf3_2qv_rs"
+                               xml:lang="en-us"
+                               xtrc="table:2"
+                               docUri="file:/C:/DITA_sandbox/obj/html5/temp/505c95b8c8354630929fe772478daadf.xml"/>
+                     </section>
+                     <title>Foreign Keys Only</title>
+                     <table class="- topic/table "
+                            sourceId="id-34469-loio505c95b8c8354630929fe772478daadf--table_qf3_2qv_rstable-60-118-781"
+                            origId="table_qf3_2qv_rs"
+                            xml:lang="en-us"
+                            xtrc="table:2"
+                            docUri="file:/C:/DITA_sandbox/obj/html5/temp/505c95b8c8354630929fe772478daadf.xml"/>
+                     <section class="- topic/section "
+                              sourceId="id-55955-loio505c95b8c8354630929fe772478daadf--section-88-67-1629"
+                              xml:lang="en-us"
+                              xtrc="section:3"
+                              docUri="file:/C:/DITA_sandbox/obj/html5/temp/505c95b8c8354630929fe772478daadf.xml">
+                        <title>Mapping Table Only</title>
+                        <table class="- topic/table "
+                               sourceId="id-34469-loio505c95b8c8354630929fe772478daadf--table_kll_yqv_rstable-89-67-1611"
+                               origId="table_kll_yqv_rs"
+                               xml:lang="en-us"
+                               xtrc="table:3"
+                               docUri="file:/C:/DITA_sandbox/obj/html5/temp/505c95b8c8354630929fe772478daadf.xml"/>
+                     </section>
+                     <title>Mapping Table Only</title>
+                     <table class="- topic/table "
+                            sourceId="id-34469-loio505c95b8c8354630929fe772478daadf--table_kll_yqv_rstable-89-67-1611"
+                            origId="table_kll_yqv_rs"
+                            xml:lang="en-us"
+                            xtrc="table:3"
+                            docUri="file:/C:/DITA_sandbox/obj/html5/temp/505c95b8c8354630929fe772478daadf.xml"/>
+                     <section class="- topic/section "
+                              sourceId="id-55955-loio505c95b8c8354630929fe772478daadf--section-139-23-1405"
+                              xml:lang="en-us"
+                              xtrc="section:4"
+                              docUri="file:/C:/DITA_sandbox/obj/html5/temp/505c95b8c8354630929fe772478daadf.xml">
+                        <title>Rules for Adding Objects Only - Foreign Keys and Mapping Table</title>
+                        <table class="- topic/table "
+                               sourceId="id-34469-loio505c95b8c8354630929fe772478daadf--table_bj3_r5v_rstable-140-23-1225"
+                               origId="table_bj3_r5v_rs"
+                               xml:lang="en-us"
+                               xtrc="table:4"
+                               docUri="file:/C:/DITA_sandbox/obj/html5/temp/505c95b8c8354630929fe772478daadf.xml">
+                           <note class="- topic/note "
+                                 sourceId="id-63315-loio505c95b8c8354630929fe772478daadf--note-159-35-303"
+                                 xml:lang="en-us"
+                                 xtrc="note:1"
+                                 docUri="file:/C:/DITA_sandbox/obj/html5/temp/505c95b8c8354630929fe772478daadf.xml"/>
+                        </table>
+                        <note class="- topic/note "
+                              sourceId="id-63315-loio505c95b8c8354630929fe772478daadf--note-159-35-303"
+                              xml:lang="en-us"
+                              xtrc="note:1"
+                              docUri="file:/C:/DITA_sandbox/obj/html5/temp/505c95b8c8354630929fe772478daadf.xml"/>
+                     </section>
+                     <title>Rules for Adding Objects Only - Foreign Keys and Mapping Table</title>
+                     <table class="- topic/table "
+                            sourceId="id-34469-loio505c95b8c8354630929fe772478daadf--table_bj3_r5v_rstable-140-23-1225"
+                            origId="table_bj3_r5v_rs"
+                            xml:lang="en-us"
+                            xtrc="table:4"
+                            docUri="file:/C:/DITA_sandbox/obj/html5/temp/505c95b8c8354630929fe772478daadf.xml">
+                        <note class="- topic/note "
+                              sourceId="id-63315-loio505c95b8c8354630929fe772478daadf--note-159-35-303"
+                              xml:lang="en-us"
+                              xtrc="note:1"
+                              docUri="file:/C:/DITA_sandbox/obj/html5/temp/505c95b8c8354630929fe772478daadf.xml"/>
+                     </table>
+                     <note class="- topic/note "
+                           sourceId="id-63315-loio505c95b8c8354630929fe772478daadf--note-159-35-303"
+                           xml:lang="en-us"
+                           xtrc="note:1"
+                           docUri="file:/C:/DITA_sandbox/obj/html5/temp/505c95b8c8354630929fe772478daadf.xml"/>
+                     <section class="- topic/section "
+                              sourceId="id-55955-loio505c95b8c8354630929fe772478daadf--section-183-0-624"
+                              xml:lang="en-us"
+                              xtrc="section:5"
+                              docUri="file:/C:/DITA_sandbox/obj/html5/temp/505c95b8c8354630929fe772478daadf.xml">
+                        <title>Import Data Samples Only - Foreign Keys or Mapping Table</title>
+                        <table class="- topic/table "
+                               sourceId="id-34469-loio505c95b8c8354630929fe772478daadf--table_cgv_jpk_sstable-184-0-568"
+                               origId="table_cgv_jpk_ss"
+                               xml:lang="en-us"
+                               xtrc="table:5"
+                               docUri="file:/C:/DITA_sandbox/obj/html5/temp/505c95b8c8354630929fe772478daadf.xml"/>
+                     </section>
+                     <title>Import Data Samples Only - Foreign Keys or Mapping Table</title>
+                     <table class="- topic/table "
+                            sourceId="id-34469-loio505c95b8c8354630929fe772478daadf--table_cgv_jpk_sstable-184-0-568"
+                            origId="table_cgv_jpk_ss"
+                            xml:lang="en-us"
+                            xtrc="table:5"
+                            docUri="file:/C:/DITA_sandbox/obj/html5/temp/505c95b8c8354630929fe772478daadf.xml"/>
+                  </topicref>
+                  <topicref class="- map/topicref " sourceId="id-21400--topicref-346-432-173"
+                            xml:lang="en-us"
+                            xtrc="topicref:11"
+                            docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                            topicID="loiofe036c222d8d4246ab462fcda420678f">
+                     <title>Use Sample Files to Create a Data Model</title>
+                     <section class="- topic/section "
+                              sourceId="id-57303-loiofe036c222d8d4246ab462fcda420678f--section-19-32-289"
+                              xml:lang="en-us"
+                              xtrc="section:1"
+                              docUri="file:/C:/DITA_sandbox/obj/html5/temp/fe036c222d8d4246ab462fcda420678f.xml">
+                        <title>Formats</title>
+                     </section>
+                     <title>Formats</title>
+                     <section class="- topic/section "
+                              sourceId="id-57303-loiofe036c222d8d4246ab462fcda420678f--section-26-24-264"
+                              xml:lang="en-us"
+                              xtrc="section:2"
+                              docUri="file:/C:/DITA_sandbox/obj/html5/temp/fe036c222d8d4246ab462fcda420678f.xml">
+                        <title>Reference Data Model 4 Objects and their Relations</title>
+                     </section>
+                     <title>Reference Data Model 4 Objects and their Relations</title>
+                     <section class="- topic/section "
+                              sourceId="id-57303-loiofe036c222d8d4246ab462fcda420678f--section-34-21-184"
+                              xml:lang="en-us"
+                              xtrc="section:3"
+                              docUri="file:/C:/DITA_sandbox/obj/html5/temp/fe036c222d8d4246ab462fcda420678f.xml">
+                        <title>Data Model with 2 Objects and their Unique Relation</title>
+                     </section>
+                     <title>Data Model with 2 Objects and their Unique Relation</title>
+                     <section class="- topic/section "
+                              sourceId="id-57303-loiofe036c222d8d4246ab462fcda420678f--section-37-18-196"
+                              xml:lang="en-us"
+                              xtrc="section:4"
+                              docUri="file:/C:/DITA_sandbox/obj/html5/temp/fe036c222d8d4246ab462fcda420678f.xml">
+                        <title>Data Model with 2 Objects Only but with 2 Relations</title>
+                     </section>
+                     <title>Data Model with 2 Objects Only but with 2 Relations</title>
+                     <section class="- topic/section "
+                              sourceId="id-57303-loiofe036c222d8d4246ab462fcda420678f--section-40-0-786"
+                              xml:lang="en-us"
+                              xtrc="section:5"
+                              docUri="file:/C:/DITA_sandbox/obj/html5/temp/fe036c222d8d4246ab462fcda420678f.xml">
+                        <title>About Cardinality of Relations in a Data Model</title>
+                     </section>
+                     <title>About Cardinality of Relations in a Data Model</title>
+                  </topicref>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-21400--topicref-356-414-281"
+                         xml:lang="en-us"
+                         xtrc="topicref:12"
+                         docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                         topicID="loio3d344c644c51422fb83fe6233d316acd">
+                  <title>Add Properties to an Object</title>
+                  <topicref class="- map/topicref " sourceId="id-21400--topicref-364-414-151"
+                            xml:lang="en-us"
+                            xtrc="topicref:13"
+                            docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                            topicID="loiodc6dc55e53324f93b78920562c31eae9">
+                     <title>Create a Calculated Property</title>
+                     <note class="- topic/note "
+                           sourceId="id-61558-loiodc6dc55e53324f93b78920562c31eae9--note-19-58-51"
+                           xml:lang="en-us"
+                           xtrc="note:1"
+                           docUri="file:/C:/DITA_sandbox/obj/html5/temp/dc6dc55e53324f93b78920562c31eae9.xml"/>
+                     <note class="- topic/note "
+                           sourceId="id-61558-loiodc6dc55e53324f93b78920562c31eae9--note-68-4-164"
+                           xml:lang="en-us"
+                           xtrc="note:2"
+                           docUri="file:/C:/DITA_sandbox/obj/html5/temp/dc6dc55e53324f93b78920562c31eae9.xml"/>
+                  </topicref>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-21400--topicref-374-387-584"
+                         xml:lang="en-us"
+                         xtrc="topicref:14"
+                         docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                         topicID="loio90c73651dd2d4d5a9a57868c266c506b">
+                  <title>Editing Data Under the Samples Tab</title>
+                  <topicref class="- map/topicref " sourceId="id-21400--topicref-382-396-125"
+                            xml:lang="en-us"
+                            xtrc="topicref:15"
+                            docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                            topicID="loio0c65bdb63e634bc29165ec037ee108f8">
+                     <title>Editing Data in the Data Modeler</title>
+                  </topicref>
+                  <topicref class="- map/topicref " sourceId="id-21400--topicref-391-387-194"
+                            xml:lang="en-us"
+                            xtrc="topicref:16"
+                            docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                            topicID="loio0152b6f646ae44938ee15baa257d05d7">
+                     <title>Importing and Exporting Sample Data</title>
+                     <section class="- topic/section "
+                              sourceId="id-27050-loio0152b6f646ae44938ee15baa257d05d7--section-11-8-397"
+                              xml:lang="en-us"
+                              xtrc="section:1"
+                              docUri="file:/C:/DITA_sandbox/obj/html5/temp/0152b6f646ae44938ee15baa257d05d7.xml">
+                        <title>Importing</title>
+                        <note class="- topic/note "
+                              sourceId="id-16746-loio0152b6f646ae44938ee15baa257d05d7--note-19-8-180"
+                              xml:lang="en-us"
+                              xtrc="note:1"
+                              docUri="file:/C:/DITA_sandbox/obj/html5/temp/0152b6f646ae44938ee15baa257d05d7.xml"/>
+                     </section>
+                     <title>Importing</title>
+                     <note class="- topic/note "
+                           sourceId="id-16746-loio0152b6f646ae44938ee15baa257d05d7--note-19-8-180"
+                           xml:lang="en-us"
+                           xtrc="note:1"
+                           docUri="file:/C:/DITA_sandbox/obj/html5/temp/0152b6f646ae44938ee15baa257d05d7.xml"/>
+                     <section class="- topic/section "
+                              sourceId="id-27050-loio0152b6f646ae44938ee15baa257d05d7--section-24-0-420"
+                              xml:lang="en-us"
+                              xtrc="section:2"
+                              docUri="file:/C:/DITA_sandbox/obj/html5/temp/0152b6f646ae44938ee15baa257d05d7.xml">
+                        <title>Exporting</title>
+                     </section>
+                     <title>Exporting</title>
+                  </topicref>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-21400--topicref-401-342-732"
+                         xml:lang="en-us"
+                         xtrc="topicref:17"
+                         docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                         topicID="loio85b8e56746b94fdc80849a972590edac">
+                  <title>Example Workflows</title>
+                  <topicref class="- map/topicref " sourceId="id-21400--topicref-409-369-197"
+                            xml:lang="en-us"
+                            xtrc="topicref:18"
+                            docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                            topicID="loio3fd6a823780d46f59d24dfeae55d4666">
+                     <title>Example: Manually Adding an Object to a Data Model</title>
+                     <context class="- topic/section task/context "
+                              sourceId="id-62466-loio3fd6a823780d46f59d24dfeae55d4666--context-10-39-46"
+                              xml:lang="en-us"
+                              xtrc="context:1"
+                              docUri="file:/C:/DITA_sandbox/obj/html5/temp/3fd6a823780d46f59d24dfeae55d4666.xml"/>
+                  </topicref>
+                  <topicref class="- map/topicref " sourceId="id-21400--topicref-418-360-157"
+                            xml:lang="en-us"
+                            xtrc="topicref:19"
+                            docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                            topicID="loio3fd1a48d6b2848b0861dcde3e72fdfa3">
+                     <title>Example: Adding Properties to an Object</title>
+                     <context class="- topic/section task/context "
+                              sourceId="id-40576-loio3fd1a48d6b2848b0861dcde3e72fdfa3--context-10-20-101"
+                              xml:lang="en-us"
+                              xtrc="context:1"
+                              docUri="file:/C:/DITA_sandbox/obj/html5/temp/3fd1a48d6b2848b0861dcde3e72fdfa3.xml"/>
+                  </topicref>
+                  <topicref class="- map/topicref " sourceId="id-21657--topicref-427-351-116"
+                            xml:lang="en-us"
+                            xtrc="topicref:20"
+                            docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                            topicID="loioe3164fb93adc4c59af431aed773129b7">
+                     <title>Example: Manually Adding Data</title>
+                     <context class="- topic/section task/context "
+                              sourceId="id-54560-loioe3164fb93adc4c59af431aed773129b7--context-10-41-97"
+                              xml:lang="en-us"
+                              xtrc="context:1"
+                              docUri="file:/C:/DITA_sandbox/obj/html5/temp/e3164fb93adc4c59af431aed773129b7.xml"/>
+                  </topicref>
+                  <topicref class="- map/topicref " sourceId="id-21657--topicref-436-342-192"
+                            xml:lang="en-us"
+                            xtrc="topicref:21"
+                            docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                            topicID="loiofbe04e60402c475c9dbe488338b00f51">
+                     <title>Example: Exporting a Modified Model</title>
+                  </topicref>
+               </topicref>
+            </topicref>
+         </topichead>
+         <topichead class="+ map/topicref mapgroup-d/topichead "
+                    sourceId="id-63618--topichead-448-63-6459"
+                    xml:lang="en-us"
+                    xtrc="topichead:5"
+                    docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap">
+            <topicref class="+ map/topicref mapgroup-d/mapref "
+                      sourceId="id-56214--topicref-448-63-6459"
+                      xml:lang="en-us"
+                      xtrc="topicref:1"
+                      docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                      topicID="loiobc00a4be620646caabea0f24bb8f178f">
+               <title>User Research Studies</title>
+               <imagemap class="+ topic/fig ut-d/imagemap "
+                         sourceId="id-37843-loiobc00a4be620646caabea0f24bb8f178f--imagemap_l2j_zq2_4rimagemap-15-27-2513"
+                         origId="imagemap_l2j_zq2_4r"
+                         xml:lang="en-us"
+                         xtrc="imagemap:1"
+                         docUri="file:/C:/DITA_sandbox/obj/html5/temp/bc00a4be620646caabea0f24bb8f178f.xml"/>
+               <note class="- topic/note "
+                     sourceId="id-24647-loiobc00a4be620646caabea0f24bb8f178f--note-57-21-509"
+                     xml:lang="en-us"
+                     xtrc="note:1"
+                     docUri="file:/C:/DITA_sandbox/obj/html5/temp/bc00a4be620646caabea0f24bb8f178f.xml"/>
+               <topicref class="- map/topicref " sourceId="id-56214--topicref-456-292-1258"
+                         xml:lang="en-us"
+                         xtrc="topicref:2"
+                         docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                         topicID="loio6d92f5cf1d16402c9dec4fd511b96f67">
+                  <title>Create User Research Studies</title>
+                  <prereq class="- topic/section task/prereq "
+                          sourceId="id-31922-loio6d92f5cf1d16402c9dec4fd511b96f67--prereq-10-63-116"
+                          xml:lang="en-us"
+                          xtrc="prereq:1"
+                          docUri="file:/C:/DITA_sandbox/obj/html5/temp/6d92f5cf1d16402c9dec4fd511b96f67.xml"/>
+                  <result class="- topic/section task/result "
+                          sourceId="id-43458-loio6d92f5cf1d16402c9dec4fd511b96f67--result-60-14-169"
+                          xml:lang="en-us"
+                          xtrc="result:1"
+                          docUri="file:/C:/DITA_sandbox/obj/html5/temp/6d92f5cf1d16402c9dec4fd511b96f67.xml"/>
+                  <topicref class="- map/topicref " sourceId="id-56214--topicref-464-310-346"
+                            xml:lang="en-us"
+                            xtrc="topicref:3"
+                            docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                            topicID="loioa59810d9d5844484b2c22c79f280fa9e">
+                     <title>Create a Task</title>
+                     <context class="- topic/section task/context "
+                              sourceId="id-4253-loioa59810d9d5844484b2c22c79f280fa9e--context-14-77-139"
+                              xml:lang="en-us"
+                              xtrc="context:1"
+                              docUri="file:/C:/DITA_sandbox/obj/html5/temp/a59810d9d5844484b2c22c79f280fa9e.xml"/>
+                     <result class="- topic/section task/result "
+                             sourceId="id-36663-loioa59810d9d5844484b2c22c79f280fa9e--result-78-7-328"
+                             xml:lang="en-us"
+                             xtrc="result:1"
+                             docUri="file:/C:/DITA_sandbox/obj/html5/temp/a59810d9d5844484b2c22c79f280fa9e.xml"/>
+                  </topicref>
+                  <topicref class="- map/topicref " sourceId="id-56214--topicref-477-301-115"
+                            xml:lang="en-us"
+                            xtrc="topicref:4"
+                            docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                            topicID="loio25dbf99cedb94d108645efa99946f39d">
+                     <title>Ask a Question</title>
+                     <context class="- topic/section task/context "
+                              sourceId="id-60224-loio25dbf99cedb94d108645efa99946f39d--context-10-71-598"
+                              xml:lang="en-us"
+                              xtrc="context:1"
+                              docUri="file:/C:/DITA_sandbox/obj/html5/temp/25dbf99cedb94d108645efa99946f39d.xml"/>
+                     <result class="- topic/section task/result "
+                             sourceId="id-51417-loio25dbf99cedb94d108645efa99946f39d--result-67-11-295"
+                             xml:lang="en-us"
+                             xtrc="result:1"
+                             docUri="file:/C:/DITA_sandbox/obj/html5/temp/25dbf99cedb94d108645efa99946f39d.xml"/>
+                  </topicref>
+                  <topicref class="- map/topicref " sourceId="id-56214--topicref-486-292-359"
+                            xml:lang="en-us"
+                            xtrc="topicref:5"
+                            docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                            topicID="loiod562b443cab1479db864348c035d5041">
+                     <title>Guidelines for Study Names and Descriptions</title>
+                  </topicref>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-56214--topicref-496-283-122"
+                         xml:lang="en-us"
+                         xtrc="topicref:6"
+                         docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                         topicID="loio1b83a80c2aaf4ab9815074f24489eec2">
+                  <title>Publish a Study</title>
+                  <context class="- topic/section task/context "
+                           sourceId="id-13801-loio1b83a80c2aaf4ab9815074f24489eec2--context-10-12-68"
+                           xml:lang="en-us"
+                           xtrc="context:1"
+                           docUri="file:/C:/DITA_sandbox/obj/html5/temp/1b83a80c2aaf4ab9815074f24489eec2.xml"/>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-56214--topicref-505-265-422"
+                         xml:lang="en-us"
+                         xtrc="topicref:7"
+                         docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                         topicID="loio94de2230395c4f88bf39e019fd79b816">
+                  <title>Invite People to Participate In User Research Studies</title>
+                  <topicref class="- map/topicref " sourceId="id-56214--topicref-513-265-151"
+                            xml:lang="en-us"
+                            xtrc="topicref:8"
+                            docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                            topicID="loiob001f594c6eb4176a745dd8a5374e395">
+                     <title>Retrieve Study Links</title>
+                  </topicref>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-56214--topicref-523-254-603"
+                         xml:lang="en-us"
+                         xtrc="topicref:9"
+                         docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                         topicID="loiobf32249e397e48f892101bdf62c6d694">
+                  <title>Participate in User Research Studies</title>
+                  <context class="- topic/section task/context "
+                           sourceId="id-39840-loiobf32249e397e48f892101bdf62c6d694--context-12-73-97"
+                           xml:lang="en-us"
+                           xtrc="context:1"
+                           docUri="file:/C:/DITA_sandbox/obj/html5/temp/bf32249e397e48f892101bdf62c6d694.xml"/>
+                  <result class="- topic/section task/result "
+                          sourceId="id-6202-loiobf32249e397e48f892101bdf62c6d694--result-70-11-221"
+                          xml:lang="en-us"
+                          xtrc="result:1"
+                          docUri="file:/C:/DITA_sandbox/obj/html5/temp/bf32249e397e48f892101bdf62c6d694.xml"/>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-41927--topicref-534-63-3788"
+                         xml:lang="en-us"
+                         xtrc="topicref:10"
+                         docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                         topicID="loioff3198099bf34e83a02aef250ad74309">
+                  <title>View and Analyze Responses to User Research Studies</title>
+                  <imagemap class="+ topic/fig ut-d/imagemap "
+                            sourceId="id-7420-loioff3198099bf34e83a02aef250ad74309--imagemap_wcc_2cc_5rimagemap-15-4-3922"
+                            origId="imagemap_wcc_2cc_5r"
+                            xml:lang="en-us"
+                            xtrc="imagemap:1"
+                            docUri="file:/C:/DITA_sandbox/obj/html5/temp/ff3198099bf34e83a02aef250ad74309.xml"/>
+                  <topicref class="- map/topicref " sourceId="id-41927--topicref-546-63-3408"
+                            xml:lang="en-us"
+                            xtrc="topicref:11"
+                            docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                            topicID="loio57a330a97a9c46768dad0eac09533993">
+                     <title>Responses on the Research Page</title>
+                     <topicref class="- map/topicref " sourceId="id-41927--topicref-559-216-263"
+                               xml:lang="en-us"
+                               xtrc="topicref:12"
+                               docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                               topicID="loio8ab24e480a68476f800648582eaabf43">
+                        <title>Overview of Responses to User Research Studies</title>
+                        <table class="- topic/table "
+                               sourceId="id-28821-loio8ab24e480a68476f800648582eaabf43--table_u1k_vhh_5rtable-18-8-481"
+                               origId="table_u1k_vhh_5r"
+                               xml:lang="en-us"
+                               xtrc="table:1"
+                               docUri="file:/C:/DITA_sandbox/obj/html5/temp/8ab24e480a68476f800648582eaabf43.xml">
+                           <title>Icons on the Overview tab</title>
+                        </table>
+                        <title>Icons on the Overview tab</title>
+                     </topicref>
+                     <topicref class="- map/topicref " sourceId="id-41927--topicref-570-121-2233"
+                               xml:lang="en-us"
+                               xtrc="topicref:13"
+                               docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                               topicID="loiofa1a3193c6f443fd8d862158495fc406">
+                        <title>Responses to Tasks and Questions</title>
+                        <topicref class="- map/topicref " sourceId="id-41927--topicref-580-195-210"
+                                  xml:lang="en-us"
+                                  xtrc="topicref:14"
+                                  docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                                  topicID="loio39cc06a344764033ab879da1628628b2">
+                           <title>High-Level Statistics about Tasks</title>
+                           <table class="- topic/table "
+                                  sourceId="id-64302-loio39cc06a344764033ab879da1628628b2--table_rhh_zph_5rtable-16-13-365"
+                                  origId="table_rhh_zph_5r"
+                                  xml:lang="en-us"
+                                  xtrc="table:1"
+                                  docUri="file:/C:/DITA_sandbox/obj/html5/temp/39cc06a344764033ab879da1628628b2.xml">
+                              <title>Icons for High-Level Statistics about Tasks</title>
+                           </table>
+                           <title>Icons for High-Level Statistics about Tasks</title>
+                        </topicref>
+                        <topicref class="- map/topicref " sourceId="id-41927--topicref-590-185-259"
+                                  xml:lang="en-us"
+                                  xtrc="topicref:15"
+                                  docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                                  topicID="loioad4ae2e9205e4b02b6055ceba5b495ab">
+                           <title>High-level Statistics About Questions </title>
+                           <table class="- topic/table "
+                                  sourceId="id-54379-loioad4ae2e9205e4b02b6055ceba5b495ab--table_pcc_dvh_5rtable-16-13-613"
+                                  origId="table_pcc_dvh_5r"
+                                  xml:lang="en-us"
+                                  xtrc="table:1"
+                                  docUri="file:/C:/DITA_sandbox/obj/html5/temp/ad4ae2e9205e4b02b6055ceba5b495ab.xml">
+                              <title>Icons for High-level Statistics about Questions in Studies</title>
+                           </table>
+                           <title>Icons for High-level Statistics about Questions in Studies</title>
+                        </topicref>
+                        <topicref class="- map/topicref " sourceId="id-41927--topicref-600-133-1036"
+                                  xml:lang="en-us"
+                                  xtrc="topicref:16"
+                                  docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                                  topicID="loioefeed3d454c5458ca58f5aa25c627cf4">
+                           <title>Detailed Statistics about Tasks</title>
+                           <topicref class="- map/topicref " sourceId="id-41927--topicref-610-164-190"
+                                     xml:lang="en-us"
+                                     xtrc="topicref:17"
+                                     docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                                     topicID="loio3b12bd8de7cc4fa680ebadaf1c466bee">
+                              <title>Task Overview</title>
+                              <table class="- topic/table "
+                                     sourceId="id-34104-loio3b12bd8de7cc4fa680ebadaf1c466bee--table_gf5_cj3_5rtable-16-11-1144"
+                                     origId="table_gf5_cj3_5r"
+                                     xml:lang="en-us"
+                                     xtrc="table:1"
+                                     docUri="file:/C:/DITA_sandbox/obj/html5/temp/3b12bd8de7cc4fa680ebadaf1c466bee.xml">
+                                 <title>Task Overview Statistics</title>
+                              </table>
+                              <title>Task Overview Statistics</title>
+                           </topicref>
+                           <topicref class="- map/topicref " sourceId="id-41927--topicref-620-154-203"
+                                     xml:lang="en-us"
+                                     xtrc="topicref:18"
+                                     docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                                     topicID="loio73c63ec80ff34c839d89dcc6bf8a38c7">
+                              <title>Prototype</title>
+                           </topicref>
+                           <topicref class="- map/topicref " sourceId="id-41927--topicref-630-143-246"
+                                     xml:lang="en-us"
+                                     xtrc="topicref:19"
+                                     docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                                     topicID="loiob645fd069b5f46c7838c83b648dafb5e">
+                              <title>Statistics</title>
+                              <table class="- topic/table "
+                                     sourceId="id-50230-loiob645fd069b5f46c7838c83b648dafb5e--table_gf5_cj3_5rtable-17-53-985"
+                                     origId="table_gf5_cj3_5r"
+                                     xml:lang="en-us"
+                                     xtrc="table:1"
+                                     docUri="file:/C:/DITA_sandbox/obj/html5/temp/b645fd069b5f46c7838c83b648dafb5e.xml">
+                                 <title>Icons for Overall Statistics About a Task</title>
+                              </table>
+                              <title>Icons for Overall Statistics About a Task</title>
+                              <table class="- topic/table "
+                                     sourceId="id-50230-loiob645fd069b5f46c7838c83b648dafb5e--table_dhj_2s3_5rtable-119-11-473"
+                                     origId="table_dhj_2s3_5r"
+                                     xml:lang="en-us"
+                                     xtrc="table:2"
+                                     docUri="file:/C:/DITA_sandbox/obj/html5/temp/b645fd069b5f46c7838c83b648dafb5e.xml">
+                                 <title>Breakdown of Participants Attempts to Complete the Task</title>
+                              </table>
+                              <title>Breakdown of Participants Attempts to Complete the Task</title>
+                           </topicref>
+                           <topicref class="- map/topicref " sourceId="id-42184--topicref-641-133-162"
+                                     xml:lang="en-us"
+                                     xtrc="topicref:20"
+                                     docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                                     topicID="loio2dd738ada2ba44a6a46e75bad453cdcb">
+                              <title>Page Flow</title>
+                           </topicref>
+                        </topicref>
+                        <topicref class="- map/topicref " sourceId="id-42184--topicref-652-121-351"
+                                  xml:lang="en-us"
+                                  xtrc="topicref:21"
+                                  docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                                  topicID="loio8414cbb9bb27400283704e1b73cc26f3">
+                           <title>Detailed Statistics about Questions</title>
+                           <table class="- topic/table "
+                                  sourceId="id-45953-loio8414cbb9bb27400283704e1b73cc26f3--table_zsj_z53_5rtable-28-111-1392"
+                                  origId="table_zsj_z53_5r"
+                                  xml:lang="en-us"
+                                  xtrc="table:1"
+                                  docUri="file:/C:/DITA_sandbox/obj/html5/temp/8414cbb9bb27400283704e1b73cc26f3.xml">
+                              <title>Page Overview Tab </title>
+                           </table>
+                           <title>Page Overview Tab </title>
+                           <table class="- topic/table "
+                                  sourceId="id-45953-loio8414cbb9bb27400283704e1b73cc26f3--table_gf5_cj3_5rtable-86-42-445"
+                                  origId="table_gf5_cj3_5r"
+                                  xml:lang="en-us"
+                                  xtrc="table:2"
+                                  docUri="file:/C:/DITA_sandbox/obj/html5/temp/8414cbb9bb27400283704e1b73cc26f3.xml">
+                              <title>Icons for Statistics About Individual Questions</title>
+                           </table>
+                           <title>Icons for Statistics About Individual Questions</title>
+                           <table class="- topic/table "
+                                  sourceId="id-45953-loio8414cbb9bb27400283704e1b73cc26f3--table_mgr_yhx_5rtable-140-13-409"
+                                  origId="table_mgr_yhx_5r"
+                                  xml:lang="en-us"
+                                  xtrc="table:3"
+                                  docUri="file:/C:/DITA_sandbox/obj/html5/temp/8414cbb9bb27400283704e1b73cc26f3.xml">
+                              <title>Participant Breakdown - Statistics about each Participant's interaction with this
+				page</title>
+                           </table>
+                           <title>Participant Breakdown - Statistics about each Participant's interaction with this
+				page</title>
+                        </topicref>
+                     </topicref>
+                     <topicref class="- map/topicref " sourceId="id-42184--topicref-665-112-34"
+                               xml:lang="en-us"
+                               xtrc="topicref:22"
+                               docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                               topicID="loio1b35239af75a4cbd93d503c93f7b91dd">
+                        <title>Participants Page</title>
+                        <table class="- topic/table "
+                               sourceId="id-43553-loio1b35239af75a4cbd93d503c93f7b91dd--table_gf5_cj3_5rtable-10-44-486"
+                               origId="table_gf5_cj3_5r"
+                               xml:lang="en-us"
+                               xtrc="table:1"
+                               docUri="file:/C:/DITA_sandbox/obj/html5/temp/1b35239af75a4cbd93d503c93f7b91dd.xml">
+                           <title>Icons for Statistics About Individual Questions</title>
+                        </table>
+                        <title>Icons for Statistics About Individual Questions</title>
+                        <table class="- topic/table "
+                               sourceId="id-43553-loio1b35239af75a4cbd93d503c93f7b91dd--table_mgr_yhx_5rtable-58-0-703"
+                               origId="table_mgr_yhx_5r"
+                               xml:lang="en-us"
+                               xtrc="table:2"
+                               docUri="file:/C:/DITA_sandbox/obj/html5/temp/1b35239af75a4cbd93d503c93f7b91dd.xml">
+                           <title>Participant Breakdown - Statistics about each Participant's interaction with this
+				page</title>
+                        </table>
+                        <title>Participant Breakdown - Statistics about each Participant's interaction with this
+				page</title>
+                     </topicref>
+                     <topicref class="- map/topicref " sourceId="id-42184--topicref-674-99-250"
+                               xml:lang="en-us"
+                               xtrc="topicref:23"
+                               docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                               topicID="loio528af720f5a643cba061e6795199e7dc">
+                        <title>Participant Invitation Page</title>
+                     </topicref>
+                     <topicref class="- map/topicref " sourceId="id-42184--topicref-687-63-417"
+                               xml:lang="en-us"
+                               xtrc="topicref:24"
+                               docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                               topicID="loioac63e51755294386ba9ae06542b6329f">
+                        <title>Settings</title>
+                        <note class="- topic/note "
+                              sourceId="id-14356-loioac63e51755294386ba9ae06542b6329f--note-10-31-131"
+                              xml:lang="en-us"
+                              xtrc="note:1"
+                              docUri="file:/C:/DITA_sandbox/obj/html5/temp/ac63e51755294386ba9ae06542b6329f.xml"/>
+                        <note class="- topic/note "
+                              sourceId="id-14356-loioac63e51755294386ba9ae06542b6329f--note-21-21-75"
+                              xml:lang="en-us"
+                              xtrc="note:2"
+                              docUri="file:/C:/DITA_sandbox/obj/html5/temp/ac63e51755294386ba9ae06542b6329f.xml"/>
+                        <note class="- topic/note "
+                              sourceId="id-14356-loioac63e51755294386ba9ae06542b6329f--note-28-13-87"
+                              xml:lang="en-us"
+                              xtrc="note:3"
+                              docUri="file:/C:/DITA_sandbox/obj/html5/temp/ac63e51755294386ba9ae06542b6329f.xml"/>
+                        <topicref class="- map/topicref " sourceId="id-42184--topicref-695-81-75"
+                                  xml:lang="en-us"
+                                  xtrc="topicref:25"
+                                  docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                                  topicID="loio0827a919eb694e63ae668f2c332402f4">
+                           <title>Pausing Studies</title>
+                           <result class="- topic/section task/result "
+                                   sourceId="id-53504-loio0827a919eb694e63ae668f2c332402f4--result-31-7-331"
+                                   xml:lang="en-us"
+                                   xtrc="result:1"
+                                   docUri="file:/C:/DITA_sandbox/obj/html5/temp/0827a919eb694e63ae668f2c332402f4.xml"/>
+                        </topicref>
+                        <topicref class="- map/topicref " sourceId="id-42184--topicref-704-72-88"
+                                  xml:lang="en-us"
+                                  xtrc="topicref:26"
+                                  docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                                  topicID="loiob240e19ad2b94752a6c51eeec29fd258">
+                           <title>Archiving Studies</title>
+                           <result class="- topic/section task/result "
+                                   sourceId="id-17079-loiob240e19ad2b94752a6c51eeec29fd258--result-26-7-101"
+                                   xml:lang="en-us"
+                                   xtrc="result:1"
+                                   docUri="file:/C:/DITA_sandbox/obj/html5/temp/b240e19ad2b94752a6c51eeec29fd258.xml"/>
+                        </topicref>
+                        <topicref class="- map/topicref " sourceId="id-42184--topicref-713-63-102"
+                                  xml:lang="en-us"
+                                  xtrc="topicref:27"
+                                  docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                                  topicID="loio358fc85da819432cb850700e65b6d04e">
+                           <title>Restarting Studies</title>
+                           <result class="- topic/section task/result "
+                                   sourceId="id-39722-loio358fc85da819432cb850700e65b6d04e--result-28-7-106"
+                                   xml:lang="en-us"
+                                   xtrc="result:1"
+                                   docUri="file:/C:/DITA_sandbox/obj/html5/temp/358fc85da819432cb850700e65b6d04e.xml"/>
+                        </topicref>
+                     </topicref>
+                  </topicref>
+               </topicref>
+            </topicref>
+         </topichead>
+         <topichead class="+ map/topicref mapgroup-d/topichead "
+                    sourceId="id-63618--topichead-727-17-831"
+                    xml:lang="en-us"
+                    xtrc="topichead:6"
+                    docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap">
+            <topicref class="+ map/topicref mapgroup-d/mapref "
+                      sourceId="id-8218--topicref-727-17-831"
+                      xml:lang="en-us"
+                      xtrc="topicref:1"
+                      docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                      topicID="loio200bbb40aa4f449a81440a4244e382c5">
+               <title>Get Started with Admin Console</title>
+               <context class="- topic/section task/context "
+                        sourceId="id-22128-loio200bbb40aa4f449a81440a4244e382c5--context-10-42-40"
+                        xml:lang="en-us"
+                        xtrc="context:1"
+                        docUri="file:/C:/DITA_sandbox/obj/html5/temp/200bbb40aa4f449a81440a4244e382c5.xml"/>
+               <note class="- topic/note "
+                     sourceId="id-60704-loio200bbb40aa4f449a81440a4244e382c5--note-27-21-118"
+                     xml:lang="en-us"
+                     xtrc="note:1"
+                     docUri="file:/C:/DITA_sandbox/obj/html5/temp/200bbb40aa4f449a81440a4244e382c5.xml"/>
+               <postreq class="- topic/section task/postreq "
+                        sourceId="id-53625-loio200bbb40aa4f449a81440a4244e382c5--postreq-43-7-275"
+                        xml:lang="en-us"
+                        xtrc="postreq:1"
+                        docUri="file:/C:/DITA_sandbox/obj/html5/temp/200bbb40aa4f449a81440a4244e382c5.xml"/>
+               <topicref class="- map/topicref " sourceId="id-8218--topicref-735-44-129"
+                         xml:lang="en-us"
+                         xtrc="topicref:2"
+                         docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                         topicID="loiod1a75c9af7cd4565aaa28fb7ed88b9b2">
+                  <title>Admin Console</title>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-8218--topicref-744-35-111"
+                         xml:lang="en-us"
+                         xtrc="topicref:3"
+                         docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                         topicID="loio0693592c3a614d85bb1a456a515be8be">
+                  <title>View Audit Log</title>
+                  <context class="- topic/section task/context "
+                           sourceId="id-55992-loio0693592c3a614d85bb1a456a515be8be--context-10-20-37"
+                           xml:lang="en-us"
+                           xtrc="context:1"
+                           docUri="file:/C:/DITA_sandbox/obj/html5/temp/0693592c3a614d85bb1a456a515be8be.xml"/>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-8218--topicref-753-26-119"
+                         xml:lang="en-us"
+                         xtrc="topicref:4"
+                         docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                         topicID="loio1aa707dbf69b425fb9437703ef59b448">
+                  <title>Manage Users</title>
+                  <section class="- topic/section "
+                           sourceId="id-8889-loio1aa707dbf69b425fb9437703ef59b448--section-10-14-888"
+                           xml:lang="en-us"
+                           xtrc="section:1"
+                           docUri="file:/C:/DITA_sandbox/obj/html5/temp/1aa707dbf69b425fb9437703ef59b448.xml">
+                     <title> Users and Roles</title>
+                     <note class="- topic/note "
+                           sourceId="id-52345-loio1aa707dbf69b425fb9437703ef59b448--note-30-17-119"
+                           xml:lang="en-us"
+                           xtrc="note:1"
+                           docUri="file:/C:/DITA_sandbox/obj/html5/temp/1aa707dbf69b425fb9437703ef59b448.xml"/>
+                     <note class="- topic/note "
+                           sourceId="id-52345-loio1aa707dbf69b425fb9437703ef59b448--note-32-14-248"
+                           xml:lang="en-us"
+                           xtrc="note:2"
+                           docUri="file:/C:/DITA_sandbox/obj/html5/temp/1aa707dbf69b425fb9437703ef59b448.xml"/>
+                  </section>
+                  <title> Users and Roles</title>
+                  <note class="- topic/note "
+                        sourceId="id-52345-loio1aa707dbf69b425fb9437703ef59b448--note-30-17-119"
+                        xml:lang="en-us"
+                        xtrc="note:1"
+                        docUri="file:/C:/DITA_sandbox/obj/html5/temp/1aa707dbf69b425fb9437703ef59b448.xml"/>
+                  <note class="- topic/note "
+                        sourceId="id-52345-loio1aa707dbf69b425fb9437703ef59b448--note-32-14-248"
+                        xml:lang="en-us"
+                        xtrc="note:2"
+                        docUri="file:/C:/DITA_sandbox/obj/html5/temp/1aa707dbf69b425fb9437703ef59b448.xml"/>
+                  <section class="- topic/section "
+                           sourceId="id-8889-loio1aa707dbf69b425fb9437703ef59b448--section-36-7-217"
+                           xml:lang="en-us"
+                           xtrc="section:2"
+                           docUri="file:/C:/DITA_sandbox/obj/html5/temp/1aa707dbf69b425fb9437703ef59b448.xml">
+                     <title>Delete Users</title>
+                  </section>
+                  <title>Delete Users</title>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-8218--topicref-762-17-190"
+                         xml:lang="en-us"
+                         xtrc="topicref:5"
+                         docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                         topicID="loiof310f001528e40f0abab71c9016a78b3">
+                  <title>Set Domain Access</title>
+                  <context class="- topic/section task/context "
+                           sourceId="id-35489-loiof310f001528e40f0abab71c9016a78b3--context-10-66-20"
+                           xml:lang="en-us"
+                           xtrc="context:1"
+                           docUri="file:/C:/DITA_sandbox/obj/html5/temp/f310f001528e40f0abab71c9016a78b3.xml"/>
+               </topicref>
+            </topicref>
+         </topichead>
+         <topicref class="- map/topicref " sourceId="id-32301--topicref-773-0-455"
+                   xml:lang="en-us"
+                   xtrc="topicref:4"
+                   docUri="file:/C:/DITA_sandbox/obj/html5/temp/56877ae1e19e4255970425e387057ffc.ditamap"
+                   topicID="loiod786f2508b7440e1a8e7104613f30c19">
+            <title>Legal Notice About Fonts</title>
+         </topicref>
+      </topicref>
+   </enum:enumerables>
+   <glossdata:glossary-entries xmlns:glossdata="http://dita4publishers.org/glossdata"/>
+</mapdriven:collected-data>
