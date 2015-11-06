@@ -5,12 +5,24 @@ The purpose of the User_Assistance repo is to enable the BUILD KM team to do the
 + Host additional files that can be accessed through the help page (e.g. to enable users to download dummy XL spreadsheets for Data Modeling documentation)
 
 ##Current Team members
-Brian Murray (@brian-murray35) - UA Doc Lead
-Sophia Marx (@sophstern) 
-Suzy Glespen (@suzyglespen)
-Crystal Ngai (@
-Michael Hlibchuck (michaelhli
-Sean Dooney
+
+
+| First Header  | Role/Speciality |GitHub Account |@mention |
+| ------------- | ------------- |------------- | ------------- |
+| Brian Murray  | https://github.com/@brian-murray35  | @brian-murray35  | UA doc lead  |
+| Sophia Marx  | https://github.com/@sophsterm  | @sophsterm  | Video and Documentation content|
+| Suzy Glespen | https://github.com/@suzyglespen  | suzyglespen  | Video and Documentation content  |
+| Crystal Ngai  | https://github.com/@crystalngai  | crystalngai   | Video and Documentation content  |
+| Michael Hlibchuck  | https://github.com/@brian-murray35  | @brian-murray35  | Flex Pub lead  |
+| Sean Dooney  | https://github.com/@mhlibchuk  | @mhlibchuk   | Developer  |
+
+Name  Speciality GitHub Account @mention 
++ Brian Murray (https://github.com/@brian-murray35) @brian-murray35
++ Sophia Marx (https://github.com/sophsterm) @sophsterm
++ Suzy Glespen (https://github.com/suzyglespen) @suzyglespen
++ Crystal Ngai (https://github.com/crystalngai) @crystalngai
++ Michael Hlibchuck (https://github.com/mhlibchuk) @mhlibchhuk
++ Sean Dooney (https://github.com/Sdeano) @sdeano
 
 ##Pending Approval Tag
 
