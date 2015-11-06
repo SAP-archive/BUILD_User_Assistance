@@ -10,12 +10,13 @@ The purpose of the User_Assistance repo is to enable the BUILD KM team to do the
 | First Header  | GitHub Account |@mention  |Role/Speciality |
 | ------------- | ------------- |------------- | ------------- |
 | Brian Murray  | https://github.com/@brian-murray35  | @brian-murray35  | UA doc lead  |
-| Sophia Marx  | https://github.com/@sophsterm  | @sophsterm  | Video and Documentation content|
-| Suzy Glespen | https://github.com/@suzyglespen  | suzyglespen  | Video and Documentation content  |
-| Crystal Ngai  | https://github.com/@crystalngai  | crystalngai   | Video and Documentation content  |
+| Sophia Marx  | https://github.com/@sophsterm  | @sophsterm  | UA Video and Documentation content|
+| Suzy Glespen | https://github.com/@suzyglespen  | suzyglespen  | UA Video and Documentation content  |
+| Crystal Ngai  | https://github.com/@crystalngai  | crystalngai   | UA Video and Documentation content  |
 | Michael Hlibchuck  | https://github.com/@brian-murray35  | @brian-murray35  | Flex Pub lead  |
-| Sean Dooney  | https://github.com/@mhlibchuk  | @mhlibchuk   | Developer  |
+| Sean Dooney  | https://github.com/@mhlibchuk  | @mhlibchuk   | Developer (intern)  |
 
+*NB* As a UA contributor to the Splash/Build Help Sites you are responsible for monitoring notifications related to you from the [BUILD User Assistance GitHub Repo](https://github.com/SAP/BUILD_User_Assistance).
 
 ##Pending Approval Tag
 
@@ -23,7 +24,7 @@ All team members can create issues in issue tracker. UA doc lead will review, ap
 
 
 ##Guidelines for the BUILD User Assistance Site
-+ [Watch Site and Monitor notifications](https://github.com/SAP/BUILD_User_Assistance/wiki/Watch-Site-and-Monitor-Nofications)
++ [How to watch Site and Monitor notifications](https://github.com/SAP/BUILD_User_Assistance/wiki/Watch-Site-and-Monitor-Nofications)
 + [Communication Guidelines](https://github.com/SAP/BUILD_User_Assistance/wiki/Communication-Guidelines)
 + [Contribution Guidelines](https://github.com/SAP/BUILD_User_Assistance/wiki/Contribution-Guidelines)
 + [Using the Issue Tracker](https://github.com/SAP/BUILD_User_Assistance/wiki/Using-the-Issue-Tracker)
