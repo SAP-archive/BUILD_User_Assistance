@@ -11,4 +11,10 @@ The purpose of the User_Assistance repo is to enable the BUILD KM team to do the
 + [Create Bug Reports](https://github.com/SAP/BUILD_User_Assistance/wiki/Create-Bug-Reports)
 + [Bug Report Template](https://github.com/SAP/BUILD_User_Assistance/wiki/Bug-Report-Template)
 
+## BUILD / Splash User Assistance Sites Currently on Web
+[Splash Help Beta 4 Internal Tenant *Including Smart Templates*](http://sap.github.io/BUILD_User_Assistance/Splash/index.html)
+[Splash Help Beta 4 External Tenant *Excluding Smart Templates*](http://sap.github.io/BUILD_User_Assistance/Splash/external/index.html)
+[BUILD User Assistance Help Site for Open Source](http://sap.github.io/BUILD_User_Assistance/)
+
+
 
