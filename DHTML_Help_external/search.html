@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head>
+  <script type="text/javascript"><!--
+			var TXT_RESULTS_FOR = "Results For: ";
+			var TXT_ERR_NO_INPUT = "You must enter at least one character";
+			var TXT_ERR_NO_RESULTS = "No Results Found";
+			// --></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <script type="text/javascript" id="sap-ui-bootstrap" src="js/sap-ui-core.js?x=13031117479943366"> </script>
+  <script type="text/javascript" src="js/jquery.sap.global.js?x=13031117479943366"> </script>
+  <script type="text/javascript" src="js/jquery.sap.encoder.js?x=13031117479943366"> </script>
+  <script type="text/javascript" src="js/search-processing.js?x=13031117479943366"> </script>
+  <script type="text/javascript" src="js/search-data-fileinfo.js?x=13031117479943366"> </script>
+  <script type="text/javascript" src="js/search-entries.js?x=13031117479943366"> </script>
+  <link rel="stylesheet" type="text/css" href="css/documentation.css?x=13031117479943366"/>
+  <script type="text/javascript">
+			function measureText(txt) {
+				var $tag = $('#text-width-tester');
+				if (!$tag.length) {
+					$tag = $('<span id="text-width-tester" style="display:none">' + jQuery.sap.encodeHTML(txt) + '</span>');
+					$('body').append($tag);
+				} else {
+					$tag.html(jQuery.sap.encodeHTML(txt));
+				}
+				return {
+					width: $tag.width()
+				}
+			}
+			
+			function lengthyTooltip(input) {
+				var $input = $(input),
+					txt = $input.val(),
+					maxWidth = $input.width();
+				var textWidth = measureText(txt).width;
+				var inputValue;
+					if (textWidth < maxWidth) {
+						inputValue = $input.attr('placeholder');
+					} else {
+						inputValue = jQuery.sap.encodeHTML(txt);
+					}	
+					$input.attr('title',inputValue);
+			}
+			
+			$(function(){
+				$("#txtSearchTerms").keyup(function(){
+					lengthyTooltip(this);
+				})
+			});
+		</script>
+  
+  </head>
+  <body onload="getParams();" class="sap_bluecrystal">
+  
+  
+  <div id="container"><h1 class="topictitle1">Search</h1>
+  <form onsubmit="redirect(frmSearch);return false" name="frmSearch" class="searchForm">
+  <span><input type="text" id="txtSearchTerms" title="Search" placeholder="Search"/><a href="javascript:redirect(frmSearch);"> </a></span>
+  <INPUT type="submit" title="Search" value="Start Search" name="btnSubmit"> </INPUT>
+  </form>
+  <div class="content" id="content">
+  <div id="resultsheader"> </div>
+  <div id="results"> </div>
+  </div>
+  </div></body>
+  </html>

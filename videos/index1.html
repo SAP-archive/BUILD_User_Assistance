@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<head>
+<!-- ... [OTHER INCLUDES] ... -->
+<script type="text/javascript" src="unitegallery/js/jquery-11.0.min.js"></script>
+<!-- Include Unite Gallery core files -->
+<script src='unitegallery/js/unitegallery.min.js' type='text/javascript'  ></script>
+<link  href='unitegallery/css/unite-gallery.css' rel='stylesheet' type='text/css' />
+   <link rel="stylesheet" href="../stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <link rel="stylesheet" href="stylesheets/ipad-responsive.css" media="screen and (max-width:900px)">
+     <link rel="stylesheet" href="stylesheets/iphone-responsive.css" media="screen and (max-width:500px)">
+<link href='https://raw.githubusercontent.com/choffmeister/roboto-fontface-bower/develop/css/roboto-fontface.css' rel='stylesheet' type='text/css'>
+<!-- include Unite Gallery Theme Files -->
+<script src='unitegallery/themes/tilesgrid/ug-theme-tilesgrid.js' type='text/javascript'></script>
+<style>
+
+}
+#banner {
+    background:images/Build_banner;
+    width:100%;
+    min-height:189px;
+}
+
+</style>
+</head>
+<body>
+<div id="fixspace" style="top:-50px">
+<p id="img"><img src="images/teamicon.svg"></p>
+<p id="title" style="top:-170px">Getting Started</p>
+<p id="subtitle" style="top:-170px">Learn the Basics!</p>
+</div>
+
+<div id="gallery" style="display:block; position: relative; top:-220px">
+			
+			 <img alt="Create Prototypes"
+			 data-type="youtube"
+			 src="images/thumbs/GetStarted.png"
+			 data-image="images/Introduction to User Research Studies.png"		 
+			 data-videoid="PQaZqxVtln4?rel=0&fs=1"
+			 data-description="Create Prototypes">
+</div>
+
+<div id="fixspace" style= "top:-240px">
+<p id="img"><img src="images/prototypeicon.svg"></p>
+<p id="title">Create Prototypes</p>
+<p id="subtitle">Learn about Creating Prototypes!</p>
+</div>
+<div id="gallery1" style="display:block; position: relative; top:-390px">
+			
+			 <img alt="Create Prototypes"
+			 data-type="youtube"
+			 src="images/thumbs/Prototype.png"
+			 data-image="images/Introduction to User Research Studies.png"		 
+			 data-videoid="ekZHg_ZUqJ8?rel=0&fs=1"
+			 data-description="Create Prototypes">
+</div>
+
+
+	<script type="text/javascript">
+				jQuery(document).ready(function(){
+					
+					jQuery("#gallery").unitegallery({
+						gallery_theme: "tilesgrid",
+						tile_width: 200,						//tile width
+					tile_height: 125,						//tile height
+					gallery_width:"100%",				//gallery width
+					gallery_min_width: 150,				//gallery minimal width when resizing
+					gallery_background_color: "white",		//set custom background color. If not set it will be taken from css.
+					grid_num_rows:1
+					});		
+				});		
+				</script>	
+	<script type="text/javascript">
+				jQuery(document).ready(function(){
+					
+					jQuery("#gallery1").unitegallery({
+						gallery_theme: "tilesgrid",
+						tile_width: 200,						//tile width
+					tile_height: 125,						//tile height
+					gallery_width:"100%",				//gallery width
+					gallery_min_width: 150,				//gallery minimal width when resizing
+					gallery_background_color: "white"
+					});		
+				});		
+				</script>	
+	<script type="text/javascript">
+				jQuery(document).ready(function(){
+					
+					jQuery("#gallery2").unitegallery({
+						gallery_theme: "tilesgrid",
+						tile_width: 400,						//tile width
+					tile_height: 250,						//tile height
+					gallery_width:"100%",				//gallery width
+					gallery_min_width: 150,				//gallery minimal width when resizing
+					gallery_background_color: "white"
+					});		
+				});		
+				</script>	
+		
+				
+</body>
+</html>

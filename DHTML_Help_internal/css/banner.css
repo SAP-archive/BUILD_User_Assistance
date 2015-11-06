@@ -1,0 +1,247 @@
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+/*                                                                            */
+/* Used by global\banner.htm                                                  */
+/*         global\banner_no_script.htm [obsolete!]                            */
+/* Version 2 2011-10-13                                                       */
+/*                                                                            */
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+:lang(zh) {font-weight: normal !important; font-style: normal !important; }
+
+/*****************************************************************/
+/* DOC a                                                         */
+/*****************************************************************/
+/* :link, :visited, :focus, :hover, :active                      */
+/* NOTE: :focus, :hover, and :active must be identical           */
+a
+{
+  background-color: inherit;
+  color: #FFFFFF;
+  font-style: normal;
+  margin: 0px 10px 0px 10px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+body.sap_bluecrystal a {
+    color:#666;
+    padding:5px;
+}
+
+a.logo
+{
+  margin: 0;
+}
+
+a:focus,
+a:hover,
+a:active
+{
+  text-decoration: underline;
+}
+
+body.sap_bluecrystal a:focus,
+body.sap_bluecrystal a:hover,
+body.sap_bluecrystal a:active 
+{
+    color:white;
+    background-color: #007CC0; 
+}
+
+a.logo:focus,
+a.logo:hover,
+a.logo:active
+{
+  text-decoration: none;
+}
+
+body.sap_bluecrystal a.logo:focus,
+body.sap_bluecrystal a.logo:hover,
+body.sap_bluecrystal a.logo:active
+{
+  background:transparent;
+}
+
+a.applicationName:focus,
+a.applicationName:hover,
+a.applicationName:active
+{
+  text-decoration: underline;
+}
+
+/*****************************************************************/
+/* DOC body                                                      */
+/*****************************************************************/
+body
+{
+  background-image: none;
+  background-color: #595959;
+  color: #FFFFFF;
+  font-family: Arial, Arial Unicode MS, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  margin: 0 20px;
+  padding: 0;
+  width: auto;
+}
+
+
+body:lang(ar) {font-family: "Traditional Arabic", Arial Unicode MS, sans-serif;}
+body:lang(ja) {font-family: MS PGothic, Arial Unicode MS, sans-serif;}
+body:lang(ko) {font-family: Malgun Gothic, Arial Unicode MS, sans-serif;}
+body:lang(zh) {font-family: HYZhongDengXianJ, SimHei, BentonSans Book, Arial Unicode MS, sans-serif;}
+
+body.sap_bluecrystal {
+    background-color: #fff;
+
+}
+
+/*****************************************************************/
+/* DOC div                                                       */
+/*****************************************************************/
+div.container
+{
+  border-bottom: 30px solid #F0AB00;
+  height: 51px;
+  margin: 0;
+  padding: 0;
+}
+
+body.sap_bluecrystal div.container {
+    border-bottom:30px solid #f2f2f2;
+    border-top: 4px solid  #009de0;
+    margin-left:-20px;
+    margin-right: -20px;
+}
+
+div.left
+{
+  float: left;
+  height: 44px;
+  padding: 12px 0 0 0;
+  white-space: nowrap;
+}
+
+body.sap_bluecrystal div.left {
+  padding: 0px 0 0 10px;  
+}
+
+
+.KWLang-he div.left { float: right;}
+
+div.right
+{
+  padding: 0;
+  text-align: right;
+}
+
+body.sap_bluecrystal div.right {
+    padding: 0 20px 0 0;
+}
+
+.KWLang-he div.right {float: left; text-align: left; }
+
+div.top
+{
+  padding: 5px 0 0 0;
+  position: relative;
+    right: -10px;
+    z-index: 5;
+}
+
+div.bottom
+{
+  padding: 5px 0 0 0;
+  position: relative;
+    right: -10px;
+    z-index: 5;
+}
+
+div.logo
+{
+  float: left;
+  padding: 0 2px 0 0;
+}
+
+body.sap_bluecrystal .logo img {
+    width:34px;
+    position:absolute;
+    top:7px;
+    left:7px;
+    
+}
+
+div.applicationName
+{
+  color: #F0F0F0;
+  display: inline;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 38px;
+  position: relative;
+  bottom: 4px;
+  padding:5px 0 0 15px;
+}
+
+body.sap_bluecrystal div.applicationName {
+    color:#666;
+    font-size:12px;
+    font-weight:bold;
+    margin-left: 15px;
+    margin-top:0px;
+}
+
+/*****************************************************************/
+/* DOC form                                                      */
+/*****************************************************************/
+form
+{
+  background-color: #F7F7F7;
+  display: inline;
+  margin: 0px 10px 0px 10px;
+  padding: 3px 4px;
+  border-radius: 5px;            /* CSS3 specification */
+  -moz-border-radius: 5px;       /* moz:    Netscape 6, Mozilla, Firefox */
+  -khtml-border-radius: 5px;     /* khtml:  Konqueror, Safari */
+  -webkit-border-radius: 5px;
+}
+
+/*****************************************************************/
+/* DOC img                                                       */
+/*****************************************************************/
+img
+{
+  border: none;
+}
+
+/*****************************************************************/
+/* DOC input                                                     */
+/*****************************************************************/
+input.text
+{
+  background-color: #F7F7F7;
+  border: none;
+  color: #888888;
+  font-size: 90%;
+  font-weight: bold;
+  height: 14px;
+  padding: 0;
+  width: 8em;
+}
+
+input.text:focus
+{
+  background-color: inherit;
+  color: #222222;
+  width: 20em;
+}
+
+input.icon
+{
+  position: relative;
+    top: 5px;
+    z-index: 5;
+}
+
+.KWLang-he input.icon { filter:FlipH(); } /* works only with IE */
+

@@ -1,0 +1,104 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<!--[if lt IE 9]>
+<script type="text/javascript">
+					var ie=true;
+				</script>
+<![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Build User Guide</title>
+<link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+<link rel="shortcut icon" href="images/favicon.ico"/>
+</head>
+<noscript>
+<frameset border="0" frameborder="0" framespacing="0" rows="61,*">
+<frame src="banner.htm" noresize="noresize" marginwidth="0" marginheight="0" frameborder="0" border="0" scrolling="NO" name="SAP_BANNER" title="SAP Banner"/>
+<frameset border="0" frameborder="0" framespacing="0" marginwidth="0" cols="30%,*">
+<frame src="../../f0/3f666570c74eb393898a60adfcdcf5/plain.htm" border="0" frameborder="0" marginwidth="5" name="SAP_TOC" title="Navigation"/>
+<frame src="9b605d096887459c9c2200e434471cc9.html" border="0" frameborder="0" marginwidth="5" name="SAP_TEXT" title="Content" />
+</frameset>
+</frameset>
+</noscript>
+
+<script language="JavaScript">
+<!--
+				
+				function theHashHasChanged(){
+				window.location.reload();
+				}
+				
+				
+				
+				if (typeof ie == 'undefined') {
+				window.onhashchange=theHashHasChanged;
+				}	
+				else {
+				window.location.hash = window.location.hash;
+				var prevHash = window.location.hash;
+				window.setInterval(function () {
+				if (window.location.hash != prevHash) {
+				storedHash = window.location.hash;
+				window.location.reload();
+				}
+				}, 100);
+				}
+			
+			
+			
+			var NN4 = false;
+			var px  = 61;
+			if(navigator.appName.indexOf("Microsoft") != -1){
+			px = 61;
+			}
+			else if (navigator.appName.indexOf("Netscape") != -1){
+			if(parseInt(navigator.appVersion) >= 5) {
+			px = 61;
+			}
+			else if(parseInt(navigator.appVersion) >= 4) {
+			NN4 = true;
+			px = 64;
+			}
+			else {
+			px = 64;
+			}
+			}
+			function restore() {
+			window.history.go(0);
+			}
+			
+			
+					
+					var topicFrameHref = "";
+					topicFrameHref = location.search.substring(+1);
+					
+					var toc = location.hash.substring(1);
+					toc = toc.replace(/\?.+\.html?/i, "");
+					var reg = /^[A-Z0-9]+\.[A-Z]+$/i;
+					var reg2 = /^[A-Z0-9_-]+$/i;                                                                   
+					
+					var vTopicFrameHref = reg.test(topicFrameHref);
+					topicFrameHref += "?x=22637592540006568";
+					topicFrameHref = topicFrameHref.replace(/"/g, "&quot;");
+					
+					
+					if (topicFrameHref ==="" || !vTopicFrameHref) {
+					topicFrameHref ="9b605d096887459c9c2200e434471cc9.html"; 
+					}
+					
+					if (vTopicFrameHref && reg2.test(toc)) {
+					topicFrameHref += "#" + toc;
+					}
+				document.write("<frameset border=\"0\" frameborder=\"0\" framespacing=\"0\" rows=\"" + px + ",*\" onresize=\"if (NN4) restore()\">" );
+document.write( "<frame src=\"banner.html?x=22637592540006568\" noresize=\"noresize\" marginwidth=\"0\" marginheight=\"0\" frameborder=\"0\" border=\"0\" scrolling=\"NO\" name=\"SAP_BANNER\" title=\"SAP Banner\" \/>" );
+document.write( "<frameset border=\"0\" id=\"tree_frameset\" frameborder=\"0\" framespacing=\"0\" marginwidth=\"0\" cols=\"30%,*\">" );
+document.write( "<frame src=\"tree.html?x=22637592540006568\" border=\"0\" frameborder=\"0\" marginwidth=\"5\" scrolling=\"auto\" name=\"SAP_TOC\"  title=\"Navigation\" \/>" );
+document.write( "<frame src=\"" + topicFrameHref +  "\" border=\"0\" frameborder=\"0\" marginwidth=\"5\" name=\"SAP_TEXT\" title=\"Content\" \/&gt;" );
+document.write( "<\/frameset>" );
+document.write( "<\/frameset>" );
+
+			//-->
+</script>
+</html>
