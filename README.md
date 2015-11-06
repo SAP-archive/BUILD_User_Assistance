@@ -6,7 +6,7 @@ The purpose of the User_Assistance repo is to enable the BUILD KM team to do the
 
 ##Guidelines for the BUILD User Assistance Site
 + [Communication Guidelines](https://github.com/SAP/BUILD_User_Assistance/wiki/Communication-Guidelines)
-+ [Contribution Guideline](https://github.com/SAP/BUILD_User_Assistance/wiki/Contribution-Guidelines)
++ [Contribution Guidelines](https://github.com/SAP/BUILD_User_Assistance/wiki/Contribution-Guidelines)
 + [Using the Issue Tracker](https://github.com/SAP/BUILD_User_Assistance/wiki/Using-the-Issue-Tracker)
 + [Create Bug Reports](https://github.com/SAP/BUILD_User_Assistance/wiki/Create-Bug-Reports)
 + [Bug Report Template](https://github.com/SAP/BUILD_User_Assistance/wiki/Bug-Report-Template)
