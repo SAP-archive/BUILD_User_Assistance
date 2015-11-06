@@ -7,7 +7,7 @@ The purpose of the User_Assistance repo is to enable the BUILD KM team to do the
 ##Current Team members
 
 
-| First Header  | Role/Speciality |GitHub Account |@mention |
+| First Header  | GitHub Account |@mention  |Role/Speciality |
 | ------------- | ------------- |------------- | ------------- |
 | Brian Murray  | https://github.com/@brian-murray35  | @brian-murray35  | UA doc lead  |
 | Sophia Marx  | https://github.com/@sophsterm  | @sophsterm  | Video and Documentation content|
@@ -16,13 +16,6 @@ The purpose of the User_Assistance repo is to enable the BUILD KM team to do the
 | Michael Hlibchuck  | https://github.com/@brian-murray35  | @brian-murray35  | Flex Pub lead  |
 | Sean Dooney  | https://github.com/@mhlibchuk  | @mhlibchuk   | Developer  |
 
-Name  Speciality GitHub Account @mention 
-+ Brian Murray (https://github.com/@brian-murray35) @brian-murray35
-+ Sophia Marx (https://github.com/sophsterm) @sophsterm
-+ Suzy Glespen (https://github.com/suzyglespen) @suzyglespen
-+ Crystal Ngai (https://github.com/crystalngai) @crystalngai
-+ Michael Hlibchuck (https://github.com/mhlibchuk) @mhlibchhuk
-+ Sean Dooney (https://github.com/Sdeano) @sdeano
 
 ##Pending Approval Tag
 
