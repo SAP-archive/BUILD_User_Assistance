@@ -18,7 +18,7 @@ The purpose of the User_Assistance repo is to enable the BUILD KM team to do the
 
 
 ##Pending Approval Tag
-
+All team members can create issues in issue tracker. UA doc lead will review, approve/reject, and assign issues as appropriate.
 
 
 ##Guidelines for the BUILD User Assistance Site
