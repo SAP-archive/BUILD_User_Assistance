@@ -348,80 +348,121 @@
       $('#local-navigation').collapse();
       $('#local-navigation').navigation();
       $('#search_form').searchify();
-      
-      //If you add a new video to the videos page, you must include it's ID here.
-            var videoIds = ["PQaZqxVtln4", "Hka3_sWwHwI", "Z8BMghLixvE", "vZHxsHzefz0", "RPrYT4zXa3U"];
-            var topViews = 0;
-            var secondViews = 0;
-            var thirdViews = 0;
-            //These Strings make up different parts of the JSON query, querystring2 is the actual video id.
-            var queryStringOne = "https://www.googleapis.com/youtube/v3/videos?id=";
-            var queryStringTwo;
-            var queryStringThree = "&key=AIzaSyB2NdE6oNUdXcpjsGnZMWv-K05MgyYh0ls%20&fields=items(statistics)&part=statistics";
-            //This will represent the number of views of the video that is currently being processed by the for loop
-            var views;
-            var topViewId;
-            var secondViewId;
-            var thirdViewId;
-            var viewsInt;
-            var counter = 0;
-            for (var x = 0; x < videoIds.length; x++)
-            {
-                /*It is neccesary to enclose the asynchronous getJSON function in a self calling function, to preserve
-                 the value of x throughout the loops. Without this, x would be 5 in every iteration of the getJSON method*/
-                (function(x)
-                {
-                    queryStringTwo = videoIds[x];
-                    var concatanatedQuery = queryStringOne.concat(queryStringTwo, queryStringThree);
-                    $.getJSON(concatanatedQuery, function (data) {
-                        views = data.items[0].statistics.viewCount;
-                        viewsInt = parseInt(views);
-                        processViews(viewsInt,videoIds[x]);
-                        //views = parseInt(views);
-                    });
-                })(x);
-            }
-            //This function processes the views of the videoID currently being checked, and changes the top 3 video ID's based on the results.
-            function processViews(viewsInt,videoId)
-            {
-                if (viewsInt > topViews)
-                {
-                    thirdViews = secondViews;
-                    secondViews = topViews;
-                    topViews = viewsInt;
-                    thirdViewId = secondViewId;
-                    secondViewId = topViewId;
-                    topViewId = videoId;
-                }
-                else if (viewsInt > secondViews)
-                {
-                    thirdViews = secondViews;
-                    secondViews = viewsInt;
-                    thirdViewId = secondViewId;
-                    secondViewId = videoId;
-                }
-                else if (viewsInt > thirdViews)
-                {
-                    thirdViews = viewsInt;
-                    thirdViewId = videoId;
-                }
-                counter++
-                /*This is triggered when every video has been examined. It puts the imagelinks representing the videos in
-                 the correct order depending on the top 3 video IDs, and also adjusts their href to include the corresponding
-                 videoId, using the query string
-                 */
-                if(counter===5) {
-                    $("#topvideo").attr("src", "img/gettingStarted.png");
-                    $("#secondvideo").attr("src", "img/proto.png");
-                    $("#thirdvideo").attr("src", "img/datamodels.png");
-                    $("#topLink").attr("href", $("#topLink").attr("href") + topViewId);
-                    $("#secondlink").attr("href", $("#secondlink").attr("href") + secondViewId);
-                    $("#thirdlink").attr("href", $("#thirdlink").attr("href") + thirdViewId);
-                }
-            }
-      
-      
-      
+
+          //If you add a new video to the videos page, you must include it's ID here.
+          var videoIds = ["qFDBsuJrGC0", "U6isgUc86XQ", "k0ZO2R8GD0U", "fE1wVYpRZw8", "EeakOp7OJtk", "F9HR49U8duU"];
+          var topViews = 0;
+          var secondViews = 0;
+          var thirdViews = 0;
+          //These Strings make up different parts of the JSON query, querystring2 is the actual video id.
+          var queryStringOne = "https://www.googleapis.com/youtube/v3/videos?id=";
+          var queryStringTwo;
+          var queryStringThree = "&key=AIzaSyB2NdE6oNUdXcpjsGnZMWv-K05MgyYh0ls%20&fields=items(statistics)&part=statistics";
+          //This will represent the number of views of the video that is currently being processed by the for loop
+          var views;
+          var topViewId;
+          var secondViewId;
+          var thirdViewId;
+          var viewsInt;
+          var internalCounter = 0;
+          var counter = 0;
+          for (var x = 0; x < videoIds.length; x++)
+          {
+              /*It is neccesary to enclose the asynchronous getJSON function in a self calling function, to preserve
+               the value of x throughout the loops. Without this, x would be 5 in every iteration of the getJSON method*/
+              (function(x)
+              {
+                  queryStringTwo = videoIds[x];
+                  var concatanatedQuery = queryStringOne.concat(queryStringTwo, queryStringThree);
+                  $.getJSON(concatanatedQuery, function (data) {
+                      if(typeof data.items[0]!= 'undefined')
+                      {
+                          views = data.items[0].statistics.viewCount;
+                          viewsInt = parseInt(views);
+                          processViews(viewsInt, videoIds[x],x);
+                      }
+                      else
+                      {
+                          processViews(-1, -1,x);
+                      }
+
+                      //views = parseInt(views);
+                  });
+              })(x);
+          }
+          //This function processes the views of the videoID currently being checked, and changes the top 3 video ID's based on the results.
+          function processViews(viewsInt,videoId)
+          {
+              if (viewsInt > topViews)
+              {
+                  thirdViews = secondViews;
+                  secondViews = topViews;
+                  topViews = viewsInt;
+                  thirdViewId = secondViewId;
+                  secondViewId = topViewId;
+                  topViewId = videoId;
+              }
+              else if (viewsInt > secondViews)
+              {
+                  thirdViews = secondViews;
+                  secondViews = viewsInt;
+                  thirdViewId = secondViewId;
+                  secondViewId = videoId;
+              }
+              else if (viewsInt > thirdViews)
+              {
+                  thirdViews = viewsInt;
+                  thirdViewId = videoId;
+              }
+              counter++;
+              internalCounter++;
+              if(internalCounter>videoIds.length-1)
+              {
+                  assignAll();
+              }
+          }
+
+          function grabImage(videoID) {
+              var imgString;
+              switch (videoID) {
+                  case "qFDBsuJrGC0":
+                      imgString = "img/gettingStarted.png";
+                      break;
+                  case "U6isgUc86XQ":
+                      imgString = "img/proto.png";
+                      break;
+                  case "k0ZO2R8GD0U":
+                      imgString = "img/feedbackreport.png";
+                      break;
+                  case "fE1wVYpRZw8":
+                      imgString = "img/datamodels.png";
+                      break;
+                  case "EeakOp7OJtk":
+                      imgString = "img/smartlistreport.png";
+                      break;
+                  case "F9HR49U8duU":
+                      imgString = "img/smartobjectpage.png";
+                      break;
+              }
+
+              return imgString;
+
+
+          }
+
+          function assignAll()
+          {
+              $("#topvideo").attr("src", "img/Prototype.png");
+              $("#secondvideo").attr("src", "img/GetStarted.png");
+              $("#thirdvideo").attr("src", "img/UsingDataModels.png");
+              $("#topLink").attr("href", $("#topLink").attr("href") + topViewId);
+              $("#secondlink").attr("href", $("#secondlink").attr("href") + secondViewId);
+              $("#thirdlink").attr("href", $("#thirdlink").attr("href") + thirdViewId);
+          }
+
+
+
+
       });
       </script></div>
             <div class="clearfix"></div>
