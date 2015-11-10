@@ -23,6 +23,38 @@ The purpose of the User_Assistance repo is to enable the BUILD KM team to do the
 All team members can create issues in issue tracker. UA doc lead will review, approve/reject, and assign issues as appropriate.
 
 
+##Useful Links
+
+####Video Templates / Guideline
+https://jam4.sapjam.com/groups/60qDosrRAVDTLeeirVt451/content?folder_id=5beTF2rxEA18xzi0vzSPVX
+####Links to Test, Demo and Feedback Landscape
+https://jam4.sapjam.com/wiki/edit/8vVr2zkgPNWjcrjMDvTaE7
+####Links to latest Builds
+http://shared-splash-ci.mo.sap.corp:8000/
+http://www-splash-ci.mo.sap.corp:8000
+####Error messages JAM page 
+https://jam4.sapjam.com/wiki/show/6LGwQ1pjyICHfsyshUev5H
+####Terminology JAM page / Help Structure Guidelines
+https://jam4.sapjam.com/groups/60qDosrRAVDTLeeirVt451/content?folder_id=fECOWR8Wl3opuGeVDtul6H
+####Release Schedule
+https://jam4.sapjam.com/groups/60qDosrRAVDTLeeirVt451/documents/XI5SuV3B1G2DYhla5Hj7cn
+####Splash Help Site
+http://sap.github.io/BUILD_User_Assistance/Splash/index.html
+####Splash YouTube channel
+https://www.youtube.com/channel/UCju0kVKOfkw5-hogBYPfgqg
+####How to create a GIF
+https://www.youtube.com/watch?v=A2AtE27fO5Y
+####Milestones
+https://jam4.sapjam.com/wiki/show/DzzjqYR9IaMFDFXNxkSaBD?_lightbox=true
+####Build.me
+http://www.build.me/
+####Proposals for Content (on FTU)
+https://jam4.sapjam.com/wiki/edit/q0vRZZnyC1u64i6UbeWHUz
+
+
+
+
+
 ##Guidelines for the BUILD User Assistance Site
 + [How to watch Site and Monitor notifications](https://github.com/SAP/BUILD_User_Assistance/wiki/Watch-Site-and-Monitor-Nofications)
 + [Communication Guidelines](https://github.com/SAP/BUILD_User_Assistance/wiki/Communication-Guidelines)
