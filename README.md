@@ -18,10 +18,25 @@ The purpose of the User_Assistance repo is to enable the BUILD KM team to do the
 
 *NB* As a UA contributor to the Splash/Build Help Sites you are responsible for monitoring notifications related to you from the [BUILD User Assistance GitHub Repo](https://github.com/SAP/BUILD_User_Assistance).
 
+
 ##Pending Approval Tag
 
 All team members can create issues in issue tracker. UA doc lead will review, approve/reject, and assign issues as appropriate.
 
+
+##Guidelines for the BUILD User Assistance Site
+
++ [How to watch Site and Monitor notifications](https://github.com/SAP/BUILD_User_Assistance/wiki/Watch-Site-and-Monitor-Nofications)
++ [Communication Guidelines](https://github.com/SAP/BUILD_User_Assistance/wiki/Communication-Guidelines)
++ [Contribution Guidelines](https://github.com/SAP/BUILD_User_Assistance/wiki/Contribution-Guidelines)
++ [Using the Issue Tracker](https://github.com/SAP/BUILD_User_Assistance/wiki/Using-the-Issue-Tracker)
++ [Create Bug Reports](https://github.com/SAP/BUILD_User_Assistance/wiki/Create-Bug-Reports)
++ [Bug Report Template](https://github.com/SAP/BUILD_User_Assistance/wiki/Bug-Report-Template)
+
+## BUILD / Splash User Assistance Sites Currently on Web
++ [Splash Help Beta 4 Internal Tenant *Including Smart Templates*](http://sap.github.io/BUILD_User_Assistance/Splash/index.html)
++ [Splash Help Beta 4 External Tenant *Excluding Smart Templates*](http://sap.github.io/BUILD_User_Assistance/Splash/external/index.html)
++ [BUILD User Assistance Help Site for Open Source](http://sap.github.io/BUILD_User_Assistance/)
 
 ##Useful Links
 
@@ -50,23 +65,4 @@ https://jam4.sapjam.com/wiki/show/DzzjqYR9IaMFDFXNxkSaBD?_lightbox=true
 http://www.build.me/
 ####Proposals for Content (on FTU)
 https://jam4.sapjam.com/wiki/edit/q0vRZZnyC1u64i6UbeWHUz
-
-
-
-
-
-##Guidelines for the BUILD User Assistance Site
-+ [How to watch Site and Monitor notifications](https://github.com/SAP/BUILD_User_Assistance/wiki/Watch-Site-and-Monitor-Nofications)
-+ [Communication Guidelines](https://github.com/SAP/BUILD_User_Assistance/wiki/Communication-Guidelines)
-+ [Contribution Guidelines](https://github.com/SAP/BUILD_User_Assistance/wiki/Contribution-Guidelines)
-+ [Using the Issue Tracker](https://github.com/SAP/BUILD_User_Assistance/wiki/Using-the-Issue-Tracker)
-+ [Create Bug Reports](https://github.com/SAP/BUILD_User_Assistance/wiki/Create-Bug-Reports)
-+ [Bug Report Template](https://github.com/SAP/BUILD_User_Assistance/wiki/Bug-Report-Template)
-
-## BUILD / Splash User Assistance Sites Currently on Web
-+ [Splash Help Beta 4 Internal Tenant *Including Smart Templates*](http://sap.github.io/BUILD_User_Assistance/Splash/index.html)
-+ [Splash Help Beta 4 External Tenant *Excluding Smart Templates*](http://sap.github.io/BUILD_User_Assistance/Splash/external/index.html)
-+ [BUILD User Assistance Help Site for Open Source](http://sap.github.io/BUILD_User_Assistance/)
-
-
 
