@@ -75,18 +75,6 @@ body
              margin-left: 320px;
          }
 
-.homepage #d4h5-main-content {
-    margin-left: 200px;
-   
-}
-
-      .size-small  .homepage  #d4h5-main-content {
-            margin: 0 auto;
-        }
-
-        .size-medium .homepage #d4h5-main-content {
-            margin-left: 100px;
-        }
 
 
 #d4h5-main-content.padded {
