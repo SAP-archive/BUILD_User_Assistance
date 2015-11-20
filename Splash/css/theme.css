@@ -1039,8 +1039,40 @@ img {max-width:95%;display:inline;}
     width:29.5%;
 }
 
+#tube-banner
+{
+
+    font-size:1.7em;
+}
+
+#tube-img
+{
+    position: relative;
+    top: .6em;
+    width:80px;
+    height:30px;
+
+}
+
 @media screen and (min-width: 761px)
 {
+    #tube-banner
+    {
+        position:fixed;
+        right:0;
+        bottom:0;
+        font-size:1.7em;
+    }
+
+    #tube-img
+    {
+        position: relative;
+        top: .6em;
+        width:150px;
+        height:60px;
+
+    }
+    
     #ultracontainer
     {
         width:400px;
