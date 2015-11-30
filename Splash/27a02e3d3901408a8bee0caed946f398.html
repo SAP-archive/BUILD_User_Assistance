@@ -8,9 +8,9 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="schema.DC" href="http://purl.org/dc/terms/">
-      <meta name="abstract" content="The Object Page displays all relevant information about an object. The Object Page template contains a header and a collection of sections.">
+      <meta name="abstract" content="The Smart Template Object Page displays all relevant information about an object.">
       
-      <meta name="description" content="The Object Page displays all relevant information about an object. The Object Page template contains a header and a collection of sections.">
+      <meta name="description" content="The Smart Template Object Page displays all relevant information about an object.">
       <script type="text/javascript">var d4p = {"relativePath":'',"dev":false,"debug":false,"draft":false,"nextTopicHref":"cb4e6868f03f4ff78f15cf94ea55f046.html","previousTopicHref":"aa70dab8b9404f63a6bb48e9302c1a24.html"}</script>
       <link rel="stylesheet" type="text/css" media="screen, projection" href="themes/norman/css/style.css">
       
@@ -201,11 +201,15 @@
                                     </li>
                                     <li class=" no-child "><a href="6d3271497b104e889b1598c0819b03f9.html">Preview Prototype</a></li>
                                     <li class=" no-child "><a href="c076a332263d418b9c1f5e1403f4e2c3.html">Publish Prototype</a></li>
-                                    <li class=" collapsible  collapsed"><a href="aef003c53d78405da2568426321d0adc.html">Web IDE</a><ul>
-                                          <li class=" no-child "><a href="1dc97d8e83454fe593cd076de414d818.html">Extend Prototypes with SAP Web IDE</a></li>
-                                          <li class=" no-child "><a href="b05394b2804646fb999235e872e92f34.html">Run Prototype in Web IDE</a></li>
-                                       </ul>
-                                    </li>
+                                 </ul>
+                              </li>
+                           </ul>
+                        </li>
+                        <li class="topichead collapsible "><span>SAP Web IDE</span><ul>
+                              <li class=" collapsible  collapsed"><a href="b6295721db01496d994f1781f132a9cb.html">Extend Prototypes with SAP Web IDE</a><ul>
+                                    <li class=" no-child "><a href="4988498b23b54530b271f8f59f905716.html">Set Things Up</a></li>
+                                    <li class=" no-child "><a href="a94fc277085a4d23a30b451d352b36f4.html">Install the BUILD Plugin in Web IDE</a></li>
+                                    <li class=" no-child "><a href="d3b2492b809043ccbd1c36a25a5056a2.html">Create a Project in Web IDE</a></li>
                                  </ul>
                               </li>
                            </ul>
@@ -226,7 +230,10 @@
                                           <li class=" no-child "><a href="67ca77a7f8104ff69996ffb6384aaeef.html">Add and Configure a Smart Template Object Page</a></li>
                                           <li class=" no-child "><a href="12677806c9c0461f899ad39099ae6ff7.html">Publish the Prototype</a></li>
                                           <li class=" no-child "><a href="f6f6139cd98747ce80e00201519ba9a0.html">Add Another Object Page</a></li>
-                                          <li class=" no-child "><a href="8979ed19908b4937a436d68030ed4207.html">Edit Data</a></li>
+                                          <li class=" collapsible  collapsed"><a href="f12134440a6c4440a8bf752444383e6f.html">The Edit Feature</a><ul>
+                                                <li class=" no-child "><a href="8979ed19908b4937a436d68030ed4207.html">Edit Data</a></li>
+                                             </ul>
+                                          </li>
                                        </ul>
                                     </li>
                                     <li class=" no-child "><a href="23c2d452a7944cdfbb130f577156e3fa.html">Binding</a></li>
@@ -365,13 +372,26 @@
                      
                      <h1 class="title topictitle1">Smart Template Object Page</h1>
                      <div class="body conbody">
-                        <p class="shortdesc">The <span class="ph uicontrol uicontrol-boldblack">Object Page </span>displays all relevant information about an
-                           		object. The <span class="ph uicontrol uicontrol-boldblack">Object Page</span> template contains a header and a collection
-                           		of sections.
-                        </p>
+                        <div class="abstract">
+                           <div class="shortdesc">The <span class="ph uicontrol uicontrol-boldblack">Smart Template Object Page </span>displays all relevant
+                              			information about an object.
+                           </div>
+                            It contains a header and two sections:
+                           <ul class="ul" id="ul_k1b_tkl_c5">
+                              <li class="li">A form section that includes form elements an form groups</li>
+                              
+                              <li class="li">A table section</li>
+                              
+                           </ul>
+                           
+                           <p class="p">If you want to display sections that contain other UI elements than a form or a
+                              			table, use an Object Page instead of a Smart Template Object Page.
+                           </p>
+                           
+                        </div>
                         
                         <p class="p">As with the list report template, the application lets you add controls and sections by
-                           			dragging them to the <span class="ph uicontrol uicontrol-boldblack">Outline</span> pane; you add properties in the
+                           			dragging them to the <span class="ph uicontrol uicontrol-boldblack">Outline</span>; you add properties in the
                            				<span class="ph uicontrol uicontrol-boldblack">Properties</span> pane.
                         </p>
                         
@@ -427,27 +447,12 @@
                         </div>
                         
                         <div class="section">
-                           <section class="section" type="Object Page controls">
-                              <h2 class="section_title"><span class="sap-icon"></span>Object Page controls
+                           <section class="section" type="Object Page Controls and Outline">
+                              <h2 class="section_title"><span class="sap-icon"></span>Object Page Controls and Outline
                               </h2>
-                              <p class="p"><img class="inline  " id="loio27a02e3d3901408a8bee0caed946f398__image_kyg_hpn_ts" src="75ce0c82bdf845668bfb278a77f087c4.image"></p>
+                              <p class="p"><img class="inline  " id="loio27a02e3d3901408a8bee0caed946f398__image_cnv_ckl_c5" src="2ece4effafcb4704a4da69fe4ef84b61.image"></p>
                               
                            </section>
-                        </div>
-                        
-                        <div class="section">
-                           <section class="section" type="Object Page outline">
-                              <h2 class="section_title"><span class="sap-icon"></span>Object Page outline
-                              </h2>
-                              <p class="p"><img class="inline  " id="loio27a02e3d3901408a8bee0caed946f398__image_nnw_mqw_bt" src="46ab39ca3bcc435ba5cb36312b54e25f.image"></p>
-                              
-                           </section>
-                        </div>
-                        
-                        <div class="section">
-                           <section class="section" type="Object Page properties">
-                              <h2 class="section_title"><span class="sap-icon"></span>Object Page properties
-                              </h2><img class="inline  " id="loio27a02e3d3901408a8bee0caed946f398__image_wwr_qqw_bt" src="83b69c25867243b09e7037e079d2b5d8.image"></section>
                         </div>
                         
                         <div class="section">
@@ -492,7 +497,7 @@
             </footer>
             
             
-            <!--Build date: 11/13/2015 07:58 GMT-8-->
+            <!--Build date: 11/27/2015 11:19 GMT-8-->
          </div>
       </div>
    </body>

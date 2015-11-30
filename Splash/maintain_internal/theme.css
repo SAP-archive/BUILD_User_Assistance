@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 
  *  Base CSS for sap-default theme
     © Copyright 2015 SAP SE. All rights reserved
@@ -68,6 +68,7 @@ body
     
         .size-small #d4h5-main-content {
              position:static;
+             padding-top:0;
          }
          
          .size-medium #d4h5-main-content {
@@ -80,10 +81,12 @@ body
     padding-top:320px;
 }
 
-
-.size-small #d4h5-section-container { /*TODO: Move*/
-    padding-top:80px;
+#d4h5-section-container {
+    padding: 0 0 50px  0;
 }
+        .size-small #d4h5-section-container { /*TODO: Move*/
+            padding:80px 0 150px 0;
+        }
 
 .page
 {
@@ -710,11 +713,13 @@ li.topichead {
     height:0;
 }
 
+
+
 footer
 {
-   height:50px;
+   height:100px;
    width:100%;
-   background-color:#00334F;
+   background-color:#073053;
    z-index:200;
     width:100%;
     display:table;
@@ -724,9 +729,15 @@ footer
 
 }
 
+.size-small footer {
+    height:180px;
+   
+}
+
 footer div {
     display:table-cell;
-    padding: 15px 50px 0 50px;
+    padding: 0px 50px 0 50px;
+    vertical-align:middle;
 
 }
 
@@ -735,13 +746,20 @@ footer div {
 }
 
 footer .right {
-
     color:#fff;
-    
+    font-size:10px;
 }
 
+    .size-small footer div.right {
+       vertical-align:top;
+       padding-top:30px;
+    }
+
 footer a {
-    margin: 0 10px 0 10px;
+    margin: 0 20px 0 20px;
+    opacity:0.7;
+    font-size:11px;
+    transition: all .3s;
 }
 
 .size-small footer a {
@@ -753,10 +771,27 @@ footer a:visited {
     color:#fff;
 }
 
-footer .logo {
-    height:25px;
-    position:absolute;
+footer a:hover {
+    opacity:1.0;
+    text-decoration:none;
+}
 
+
+footer .logo {
+    width:60px;
+    position:absolute;
+    bottom:37px;
+
+}
+        
+        .size-small footer .logo {
+            bottom: 127px;
+            margin:0 0 0 70px;
+        }
+
+footer .right a {
+    opacity:1;
+   
 }
 
 footer span {
@@ -913,6 +948,12 @@ img
     filter: brightness(70%);
 }
 
+.homepage header img:hover,
+.homepage footer img:hover{
+    -webkit-filter: brightness(100%);
+    filter: brightness(100%);
+}
+
 
 .playIcon
 {
@@ -928,7 +969,6 @@ img
 }
 
 
-
 #topvideo
 {
     height:50%;
@@ -942,6 +982,51 @@ img
 }
 
 
+hr{
+    background-color: #FFFFFF;
+    color: #EEEEEE;
+    border: 0px solid;
+    border-top-width: 1px;
+    border-color: #DDDDDD;
+}
+
+.title
+{
+    font-weight:bold;
+}
+
+img
+{
+
+    -ms-interpolation-mode: bicubic;
+}
+
+
+
+
+/*******************************************************************
+            INLINE ELEMENT STYLES
+ *******************************************************************/
+/* links */
+
+a, a:link
+{
+  color: #3887b0;
+  text-decoration: none;
+}
+
+a:hover, a:active { 
+    text-decoration: underline; 
+    border-bottom:none;
+    }
+
+img {max-width:95%;display:inline;}
+
+
+/*******************************************************************
+            VIDEO  STYLES
+ *******************************************************************/
+
 #videocontainer1
 {
     display: inline-block;
@@ -954,8 +1039,40 @@ img
     width:29.5%;
 }
 
+#tube-banner
+{
+
+    font-size:1.7em;
+}
+
+#tube-img
+{
+    position: relative;
+    top: .6em;
+    width:80px;
+    height:30px;
+
+}
+
 @media screen and (min-width: 761px)
 {
+    #tube-banner
+    {
+        position:fixed;
+        right:0;
+        bottom:0;
+        font-size:1.7em;
+    }
+
+    #tube-img
+    {
+        position: relative;
+        top: .6em;
+        width:150px;
+        height:60px;
+
+    }
+    
     #ultracontainer
     {
         width:400px;
@@ -1030,7 +1147,26 @@ img
 }
 
 @media screen and (min-width: 1800px) {
-    #ultracontainer {
+    
+      #tube-banner
+    {
+        position:fixed;
+        right:0;
+        bottom:0;
+        font-size:1.7em;
+        margin-right:100px;
+    }
+
+    #tube-img
+    {
+        position: relative;
+        top: .6em;
+        width:150px;
+        height:60px;
+    }
+    
+    #ultracontainer 
+    {
         width: 1200px;
         min-height: 300px;
     }
@@ -1066,48 +1202,6 @@ img
 {
     position:relative;
 }
-
-hr{
-    background-color: #FFFFFF;
-    color: #EEEEEE;
-    border: 0px solid;
-    border-top-width: 1px;
-    border-color: #DDDDDD;
-}
-
-.title
-{
-    font-weight:bold;
-}
-
-img
-{
-
-    -ms-interpolation-mode: bicubic;
-}
-
-
-
-
-/*******************************************************************
-            INLINE ELEMENT STYLES
- *******************************************************************/
-/* links */
-
-a, a:link
-{
-  color: #3887b0;
-  text-decoration: none;
-}
-
-a:hover, a:active { 
-    text-decoration: underline; 
-    border-bottom:none;
-    }
-
-img {max-width:95%;display:inline;}
-
-
 
 
 
