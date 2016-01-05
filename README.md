@@ -52,7 +52,7 @@ https://jam4.sapjam.com/wiki/show/6LGwQ1pjyICHfsyshUev5H
 ####Terminology JAM page / Help Structure Guidelines
 https://jam4.sapjam.com/groups/60qDosrRAVDTLeeirVt451/content?folder_id=fECOWR8Wl3opuGeVDtul6H
 ####Release Schedule
-https://jam4.sapjam.com/groups/60qDosrRAVDTLeeirVt451/documents/XI5SuV3B1G2DYhla5Hj7cn
+https://jam4.sapjam.com/groups/60qDosrRAVDTLeeirVt451/documents/OmhZqy6aXqVWparWQhtQpA
 ####Splash Help Site
 http://sap.github.io/BUILD_User_Assistance/Splash/index.html
 ####Splash YouTube channel
