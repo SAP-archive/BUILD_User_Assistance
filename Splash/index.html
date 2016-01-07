@@ -14,6 +14,45 @@
       
       <link rel="stylesheet" type="text/css" media="screen, projection, print" href="//sap.github.io/BUILD_User_Assistance/videos/unitegallery/css/unite-gallery.css">
 	  <link rel="stylesheet" href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
+	  <style>
+	  /* Bottom border of each suggestion */
+.algolia-docsearch-suggestion {
+  border-bottom-color: #3A3DD1;
+}
+/* Main category headers */
+.algolia-docsearch-suggestion--category-header {
+  background-color: #4B54DE;
+}
+/* Highlighted search terms */
+.algolia-docsearch-suggestion--highlight {
+  color: #3A33D1;
+}
+/* Highligted search terms in the main category headers */
+.algolia-docsearch-suggestion--category-header .algolia-docsearch-suggestion--highlight  {
+  background-color: #4D47D5;
+}
+/* Currently selected suggestion */
+.aa-cursor .algolia-docsearch-suggestion--content {
+  color: #272296;
+}
+.aa-cursor .algolia-docsearch-suggestion {
+  background: #EBEBFB;
+}
+
+/* For bigger screens, when displaying results in two columns */
+@media (min-width: 768px) {
+  /* Bottom border of each suggestion */
+  .algolia-docsearch-suggestion {
+    border-bottom-color: #7671df;
+  }
+  /* Left column, with secondary category header */
+  .algolia-docsearch-suggestion--subcategory-column {
+    border-right-color: #7671df;
+    background-color: #F2F2FF;
+    color: #4E4726;
+  }
+}
+	  </style>
       <script type="text/javascript">
       
         d4p.cssGridPath = d4p.dev ? 'html5-themes/modules/960-Responsive-Grid/css/' : 'themes/dita-d4p-classic/css/';
