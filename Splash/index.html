@@ -13,6 +13,7 @@
       <link rel="stylesheet" type="text/css" media="screen, projection, print" href="css/theme.css">
       
       <link rel="stylesheet" type="text/css" media="screen, projection, print" href="//sap.github.io/BUILD_User_Assistance/videos/unitegallery/css/unite-gallery.css">
+	  <link rel="stylesheet" href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
       <script type="text/javascript">
       
         d4p.cssGridPath = d4p.dev ? 'html5-themes/modules/960-Responsive-Grid/css/' : 'themes/dita-d4p-classic/css/';
@@ -348,8 +349,8 @@
       $('#local-navigation').collapse();
       $('#local-navigation').navigation();
       $('#search_form').searchify();
-      
-      //If you add a new video to the videos page, you must include it's ID here.
+
+          //If you add a new video to the videos page, you must include it's ID here.
           var videoIds = ["qFDBsuJrGC0", "U6isgUc86XQ", "k0ZO2R8GD0U", "fE1wVYpRZw8", "EeakOp7OJtk", "F9HR49U8duU", "6gCl4ObrRoM", "Qbp2AYj8uZY", "OPuZe8ES-2o", "cRfaXzIfp4g", "D9ewgsUwlM0"];
           var topViews = 0;
           var secondViews = 0;
@@ -443,22 +444,23 @@
                   case "F9HR49U8duU":
                       imgString = "img/smartobjectpage.png";
                       break;
-                  case "6gCl4ObrRoM":
+                    case "6gCl4ObrRoM":
                       imgString = "img/SAPHCP.png";
                       break;
-                  case "Qbp2AYj8uZY":
+                    case "Qbp2AYj8uZY":
                       imgString = "img/WebIDE.png";
                       break;
-                  case "OPuZe8ES-2o":
+                      case "OPuZe8ES-2o":
                       imgString = "img/CloneGallery.png";
                       break;
-                  case "cRfaXzIfp4g":
+                    case "cRfaXzIfp4g":
                       imgString = "img/Collaborate.png";
                       break;
-                  case "D9ewgsUwlM0":
+                    case "D9ewgsUwlM0":
                       imgString = "img/ManageProjects.png";
                       break;
               }
+
               return imgString;
 
 
@@ -478,12 +480,22 @@
 
 
       });
-      </script></div>
+      </script>
+</script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script> 
+<script type="text/javascript"> docsearch({
+apiKey: '49c71ea748f3483e8471fe30eb67ae51',
+indexName: 'sap-splash',
+inputSelector: 'search-q'
+}); 
+</script>
+
+	  </div>
             <div class="clearfix"></div>
          </div>
          <div class="clearfix"></div>
          <div id="footer-container" class="grid_12">
-            <footer>
+           <footer>
                    <div id="custom-footerSpacer"></div>
                    <div class="left"><a href="https://github.com/SAP/BUILD_User_Assistance/blob/gh-pages/privacy_statement/privacy_statement.pdf" target="_blank">PRIVACY</a><a href="http://www.sap.com/corporate-en/about/legal/impressum.html" target="_blank">LEGAL DISCLOSURE</a><a href="http://www.sap.com/corporate-en/about/legal/copyright/index.html" target="_blank">COPYRIGHT</a><a href="https://github.com/SAP/BUILD_User_Assistance/blob/gh-pages/Terms%20of%20Use/terms_of_use.pdf" target="_blank">TERMS OF USE</a><a href="http://go.sap.com/index.html" target="_blank">SAP.COM</a></div>
                   <div class="right"><span>CREATED BY</span><img src="themes/norman/img/sap.png" class="logo" alt="logo"></div>
