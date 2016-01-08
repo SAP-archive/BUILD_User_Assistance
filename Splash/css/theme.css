@@ -287,7 +287,7 @@ form#search
 
 
 
-#txtSearchTerms {
+txtSearchTerms {
     width:400px;
     border-radius:5px;
     border: 1px solid #fff;
@@ -298,14 +298,14 @@ form#search
 
 
 
-.size-small #txtSearchTerms
+.size-small txtSearchTerms
 {
     display:none;
     margin-top:-8px;
 }
 
 
-.size-small header.search-expanded #txtSearchTerms {
+.size-small header.search-expanded txtSearchTerms {
     display:block;
 }
 
