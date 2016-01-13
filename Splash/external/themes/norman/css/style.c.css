@@ -1850,7 +1850,7 @@ iframe {
 	
 
 }
-#header.theme-e txtSearchTerms {
+#header.theme-e #txtSearchTerms {
 	height:20px;
 	width:100%;
     padding-left: 5px;
