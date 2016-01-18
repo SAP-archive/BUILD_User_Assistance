@@ -6,7 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Welcome to SPLASH Help</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style>
+/* increase the size of the input */
+#txtSearchTerms {
+width: 600px;
+font-size: 14px;
+padding: 5px 10px;
+}
+/* fix the magnifying glass position */
+.search-button {
+top: 6px;
+}
+</style>
     <link rel="schema.DC" href="http://purl.org/dc/terms/"><script type="text/javascript">var d4p = {"relativePath":'',"dev":false,"debug":false,"draft":false,"nextTopicHref":"d786f2508b7440e1a8e7104613f30c19.html","previousTopicHref":"video.html"}</script>
     <link rel="stylesheet" type="text/css" media="screen, projection" href="themes/norman/css/style.css">
 
@@ -290,7 +302,7 @@ function grabImage(videoID)
         <div class="center">
             <h2>Find the answers you need</h2>
             <div class="search-box">
-                <form onsubmit="redirect(frmSearch);return false" name="frmSearch" class="searchForm" role="search"><input type="search" id="txtSearchTerms" name="q"><span class="search-button sap-icon">?</span></form>
+                <form onsubmit="redirect(frmSearch);return false" name="frmSearch" class="searchForm" role="search"><input type="text"id="txtSearchTerms" name="q"><span class="search-button sap-icon">?</span></form>
             </div>
         </div>
     </header>
