@@ -6,7 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Welcome to SPLASH Help</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style>
+/* increase the size of the input */
+#txtSearchTerms {
+width: 600px;
+font-size: 14px;
+padding: 5px 10px;
+}
+/* fix the magnifying glass position */
+.search-button {
+top: 6px;
+}
+</style>
     <link rel="schema.DC" href="http://purl.org/dc/terms/"><script type="text/javascript">var d4p = {"relativePath":'',"dev":false,"debug":false,"draft":false,"nextTopicHref":"d786f2508b7440e1a8e7104613f30c19.html","previousTopicHref":"video.html"}</script>
     <link rel="stylesheet" type="text/css" media="screen, projection" href="themes/norman/css/style.css">
 
@@ -15,13 +27,9 @@
     <link rel="stylesheet" type="text/css" media="screen, projection, print" href="css/theme.css">
 
     <link rel="stylesheet" type="text/css" media="screen, projection, print" href="//sap.github.io/BUILD_User_Assistance/videos/unitegallery/css/unite-gallery.css">
-<<<<<<< HEAD
 	  <link rel="stylesheet" href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
     <link rel="stylesheet" href="css/docsearch.css">
-=======
->>>>>>> parent of 198a323... update
     <script type="text/javascript">
-
         d4p.cssGridPath = d4p.dev ? 'html5-themes/modules/960-Responsive-Grid/css/' : 'themes/dita-d4p-classic/css/';
         var ADAPT_CONFIG = {
             // Where is your CSS?
@@ -89,7 +97,8 @@
             $('#local-navigation').collapse();
             $('#local-navigation').navigation();
             //If you add a new video to the videos page, you must include it's ID here.
-            var videoIds = ["qFDBsuJrGC0", "U6isgUc86XQ", "k0ZO2R8GD0U", "fE1wVYpRZw8", "EeakOp7OJtk", "F9HR49U8duU"];
+            var videoIds = ["qFDBsuJrGC0", "U6isgUc86XQ", "k0ZO2R8GD0U", "fE1wVYpRZw8", "EeakOp7OJtk", "F9HR49U8duU", 
+"6gCl4ObrRoM", "Qbp2AYj8uZY", "OPuZe8ES-2o", "cRfaXzIfp4g", "D9ewgsUwlM0"];
             var topViews = 0;
             var secondViews = 0;
             var thirdViews = 0;
@@ -183,6 +192,25 @@ function grabImage(videoID)
         case "F9HR49U8duU":
             imgString = "img/smartobjectpage.png";
             break;
+        case "fE1wVYpRZw8":
+            imgString = "img/smartobjectpage.png";
+            break;
+        case "6gCl4ObrRoM":
+            imgString = "img/SAPHCP.png";
+            break;
+         case "Qbp2AYj8uZY":
+            imgString = "img/WebIDE.png";
+            break;
+        case "OPuZe8ES-2o":
+            imgString = "img/CloneGallery.png";
+            break;
+        case "cRfaXzIfp4g":
+            imgString = "img/Collaborate.png";
+            break;
+        case "D9ewgsUwlM0":
+            imgString = "img/ManageProjects.png";
+            break;
+
     }
 
     return imgString;
@@ -274,7 +302,7 @@ function grabImage(videoID)
         <div class="center">
             <h2>Find the answers you need</h2>
             <div class="search-box">
-                <form onsubmit="redirect(frmSearch);return false" name="frmSearch" class="searchForm" role="search"><input type="search" id="txtSearchTerms" name="q"><span class="search-button sap-icon">?</span></form>
+                <form onsubmit="redirect(frmSearch);return false" name="frmSearch" class="searchForm" role="search"><input type="text"id="txtSearchTerms" name="q"><span class="search-button sap-icon">?</span></form>
             </div>
         </div>
     </header>
@@ -553,14 +581,11 @@ function grabImage(videoID)
                     <div id = "textcontent">
                         <h2 class="title topictitle1" style = "border-bottom:none;" style="min-width:500px;">Top Searched</h2>
 
-                        <h6><a href="http://sap.github.io/BUILD_User_Assistance/Splash/cd39ba0241a14201b5eac4fa514c6d9b.html">Create Projects</a></h6>
+                        <h6><a href="http://sap.github.io/BUILD_User_Assistance/Splash/external/cd39ba0241a14201b5eac4fa514c6d9b.html">Create Projects</a></h6>
                         <p>You can create multiple projects in BUILD. In each BUILD project, you can create...</p>
 
-                        <h6><a href="http://sap.github.io/BUILD_User_Assistance/Splash/6d92f5cf1d16402c9dec4fd511b96f67.html">Create Feedback Studies</a></h6>
+                        <h6><a href="http://sap.github.io/BUILD_User_Assistance/Splash/external/6d92f5cf1d16402c9dec4fd511b96f67.html">Create Feedback Studies</a></h6>
                         <p>The SPLASH user research tool lets you to quickly create and share feedback studies...</p>
-
-                        <h6><a href="http://sap.github.io/BUILD_User_Assistance/Splash/b02f509d805e428e9b282af43638312c.html">Smart Templates</a></h6>
-                        <p>SPLASH provides smart templates that help you design screens for your prototype.</p>
 
                         <h6><a href="http://sap.github.io/BUILD_User_Assistance/Splash/826edca4a27f417aa944f45d97632eca.html">Data Models</a></h6>
                         <p>In BUILD, you can create and modify data models to organize your data elements...</p>

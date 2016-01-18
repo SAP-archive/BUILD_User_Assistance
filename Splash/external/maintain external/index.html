@@ -9,15 +9,25 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="schema.DC" href="http://purl.org/dc/terms/"><script type="text/javascript">var d4p = {"relativePath":'',"dev":false,"debug":false,"draft":false,"nextTopicHref":'',"previousTopicHref":''}</script>
       <link rel="stylesheet" type="text/css" media="screen, projection" href="themes/norman/css/style.css">
+      <link rel="stylesheet" href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
            
       <link rel="stylesheet" type="text/css" media="screen, projection, print" href="css/theme.css">
+      <style>
+/* increase the size of the input */
+#txtSearchTerms {
+width: 600px;
+font-size: 14px;
+padding: 5px 10px;
+}
+/* fix the magnifying glass position */
+.search-button {
+top: 6px;
+}
+</style>
       
       <link rel="stylesheet" type="text/css" media="screen, projection, print" href="//sap.github.io/BUILD_User_Assistance/videos/unitegallery/css/unite-gallery.css">
-<<<<<<< HEAD
 	  <link rel="stylesheet" href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
     <link rel="stylesheet" href="css/docsearch.css">
-=======
->>>>>>> parent of 198a323... update
       <script type="text/javascript">
       
         d4p.cssGridPath = d4p.dev ? 'html5-themes/modules/960-Responsive-Grid/css/' : 'themes/dita-d4p-classic/css/';
@@ -106,7 +116,7 @@
             <div class="center">
                <h2>Find the answers you need</h2>
                <div class="search-box">
-                  <form onsubmit="redirect(frmSearch);return false" name="frmSearch" class="searchForm" role="search"><input type="search" id="txtSearchTerms" name="q"/><span class="search-button sap-icon"></span></form>
+                  <form onsubmit="redirect(frmSearch);return false" name="frmSearch" class="searchForm" role="search"><input type="text" id="txtSearchTerms" name="q"/><span class="search-button sap-icon"></span></form>
                </div>
             </div>
          </header>
@@ -114,7 +124,7 @@
          <nav class="primary-navigation">
             <ul>
                <li><a href="video.html">Videos</a><span class="separator"> | </span></li>
-               <li><a href="4bc796d66b4d4c3a86c6ef719983d7b3.html">Help Topics</a><span class="separator"> | </span></li>
+               <li><a href="c54d916422664f59b61e1f77660dc057.html">Help Topics</a><span class="separator"> | </span></li>
             </ul>
          </nav>
          <div id="d4h5-section-container" class="grid_12">
@@ -355,7 +365,7 @@
       $('#search_form').searchify();
 
           //If you add a new video to the videos page, you must include it's ID here.
-          var videoIds = ["qFDBsuJrGC0", "U6isgUc86XQ", "k0ZO2R8GD0U", "fE1wVYpRZw8", "EeakOp7OJtk", "F9HR49U8duU"];
+          var videoIds = ["qFDBsuJrGC0", "U6isgUc86XQ", "k0ZO2R8GD0U", "fE1wVYpRZw8", "EeakOp7OJtk", "F9HR49U8duU", "6gCl4ObrRoM", "Qbp2AYj8uZY", "OPuZe8ES-2o", "cRfaXzIfp4g", "D9ewgsUwlM0"];
           var topViews = 0;
           var secondViews = 0;
           var thirdViews = 0;
@@ -448,6 +458,21 @@
                   case "F9HR49U8duU":
                       imgString = "img/smartobjectpage.png";
                       break;
+                    case "6gCl4ObrRoM":
+                      imgString = "img/SAPHCP.png";
+                      break;
+                    case "Qbp2AYj8uZY":
+                      imgString = "img/WebIDE.png";
+                      break;
+                      case "OPuZe8ES-2o":
+                      imgString = "img/CloneGallery.png";
+                      break;
+                    case "cRfaXzIfp4g":
+                      imgString = "img/Collaborate.png";
+                      break;
+                    case "D9ewgsUwlM0":
+                      imgString = "img/ManageProjects.png";
+                      break;
               }
 
               return imgString;
@@ -469,30 +494,32 @@
 
 
       });
-      </script></div>
+      </script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script> 
+<script type="text/javascript">
+docsearch({
+apiKey: 'bd6c05f4081b4bf1e8cc0222f2be206d',
+indexName: 'sap-splash',
+inputSelector: '#txtSearchTerms'
+});
+</script>
+
+<div class="clear"></div>
+               
+            </div>
             <div class="clearfix"></div>
          </div>
          <div class="clearfix"></div>
          <div id="footer-container" class="grid_12">
-           <footer>
-                   <div id="custom-footerSpacer"></div>
-                   <div class="left"><a href="https://github.com/SAP/BUILD_User_Assistance/blob/gh-pages/privacy_statement/privacy_statement.pdf" target="_blank">PRIVACY</a><a href="http://www.sap.com/corporate-en/about/legal/impressum.html" target="_blank">LEGAL DISCLOSURE</a><a href="http://www.sap.com/corporate-en/about/legal/copyright/index.html" target="_blank">COPYRIGHT</a><a href="https://github.com/SAP/BUILD_User_Assistance/blob/gh-pages/Terms%20of%20Use/terms_of_use.pdf" target="_blank">TERMS OF USE</a><a href="http://go.sap.com/index.html" target="_blank">SAP.COM</a></div>
-                  <div class="right"><span>CREATED BY</span><img src="themes/norman/img/sap.png" class="logo" alt="logo"></div>
-            </footer> 
+            <footer>
+               <div id="custom-footerSpacer"></div>
+               <div class="left"><a href="https://www.experiencesplash.com/splash/sites/default/files/privacy_statement.pdf" target="_blank">PRIVACY</a><a href="http://www.sap.com/corporate-en/about/legal/impressum.html" target="_blank">LEGAL DISCLOSURE</a><a href="http://www.sap.com/corporate-en/about/legal/copyright/index.html" target="_blank">COPYRIGHT</a><a href="https://www.experiencesplash.com/splash/sites/default/files/terms_of_use.pdf" target="_blank">TERMS OF USE</a><a href="http://go.sap.com/index.html" target="_blank">SAP.COM</a></div>
+               <div class="right"><span>CREATED BY</span><a href="http://go.sap.com/index.html" target="_blank"><img src="themes/norman/img/sap.png" class="logo" alt="logo"></a></div>
+            </footer>
             
             
-            <!--Build date: 10/09/2015 10:16 GMT-7-->
-                  </div>
+            <!--Build date: 11/27/2015 11:19 GMT-8-->
+         </div>
       </div>
-      <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script> 
-<script type="text/javascript"> docsearch({
-apiKey: 'bd6c05f4081b4bf1e8cc0222f2be206d',
-indexName: 'sap-splash',
-inputSelector: '#txtSearchTerms'
-}); 
-</script>
-
    </body>
-	  </div>
-	  </div>
 </html>

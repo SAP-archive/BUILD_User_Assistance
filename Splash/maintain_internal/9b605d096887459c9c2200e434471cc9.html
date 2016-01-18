@@ -15,11 +15,9 @@
     <link rel="stylesheet" type="text/css" media="screen, projection, print" href="css/theme.css">
 
     <link rel="stylesheet" type="text/css" media="screen, projection, print" href="//sap.github.io/BUILD_User_Assistance/videos/unitegallery/css/unite-gallery.css">
-<<<<<<< HEAD
+
 	  <link rel="stylesheet" href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
     <link rel="stylesheet" href="css/docsearch.css">
-=======
->>>>>>> parent of 198a323... update
     <script type="text/javascript">
 
         d4p.cssGridPath = d4p.dev ? 'html5-themes/modules/960-Responsive-Grid/css/' : 'themes/dita-d4p-classic/css/';
@@ -89,7 +87,7 @@
             $('#local-navigation').collapse();
             $('#local-navigation').navigation();
             //If you add a new video to the videos page, you must include it's ID here.
-            var videoIds = ["qFDBsuJrGC0", "U6isgUc86XQ", "k0ZO2R8GD0U", "fE1wVYpRZw8", "EeakOp7OJtk", "F9HR49U8duU"];
+            var videoIds = ["qFDBsuJrGC0", "U6isgUc86XQ", "k0ZO2R8GD0U", "fE1wVYpRZw8", "EeakOp7OJtk", "F9HR49U8duU", "6gCl4ObrRoM", "Qbp2AYj8uZY", "OPuZe8ES-2o", "cRfaXzIfp4g", "D9ewgsUwlM0"];
             var topViews = 0;
             var secondViews = 0;
             var thirdViews = 0;
@@ -183,6 +181,24 @@ function grabImage(videoID)
         case "F9HR49U8duU":
             imgString = "img/smartobjectpage.png";
             break;
+        case "fE1wVYpRZw8":
+            imgString = "img/smartobjectpage.png";
+            break;
+         case "6gCl4ObrRoM":
+            imgString = "img/SAPHCP.png";
+            break;
+         case "Qbp2AYj8uZY":
+            imgString = "img/WebIDE.png";
+            break;
+        case "OPuZe8ES-2o":
+            imgString = "img/CloneGallery.png";
+            break;
+        case "cRfaXzIfp4g":
+            imgString = "img/Collaborate.png";
+            break;
+        case "D9ewgsUwlM0":
+            imgString = "img/ManageProjects.png";
+            break;
     }
 
     return imgString;
@@ -274,7 +290,7 @@ function grabImage(videoID)
         <div class="center">
             <h2>Find the answers you need</h2>
             <div class="search-box">
-                <form onsubmit="redirect(frmSearch);return false" name="frmSearch" class="searchForm" role="search"><input type="search" id="txtSearchTerms" name="q"><span class="search-button sap-icon">?</span></form>
+                <form onsubmit="redirect(frmSearch);return false" name="frmSearch" class="searchForm" role="search"><input type="text" id="txtSearchTerms" name="q"><span class="search-button sap-icon">?</span></form>
             </div>
         </div>
     </header>
@@ -570,22 +586,22 @@ function grabImage(videoID)
                 </div>
 
             </section>
-            <div class="clear"></div> 
-
-        </div>
-        <div class="clearfix"></div>
-    </div>
-    <div class="clearfix"></div>
-    <div id="footer-container" class="grid_12">
-        <footer>
-            <div id="custom-footerSpacer"></div>
-            <div class="left"><a href="#" target="_blank">PRIVACY</a><a href="#" target="_blank">LEGAL DISCLOSURE</a><a href="#" target="_blank">COPYRIGHT</a><a href="#" target="_blank">TERMS OF USE</a><a href="#" target="_blank">SAP.COM</a></div>
-            <div class="right"><span>CREATED BY</span></div>
-        </footer>
-
-
-        <!--Build date: 10/05/2015 13:29 GMT-7-->
-    </div>
-</div>
-</body>
+            <div class="clear"></div>
+               
+            </div>
+            <div class="clearfix"></div>
+         </div>
+         <div class="clearfix"></div>
+         <div id="footer-container" class="grid_12">
+            <footer>
+               <div id="custom-footerSpacer"></div>
+               <div class="left"><a href="https://www.experiencesplash.com/splash/sites/default/files/privacy_statement.pdf" target="_blank">PRIVACY</a><a href="http://www.sap.com/corporate-en/about/legal/impressum.html" target="_blank">LEGAL DISCLOSURE</a><a href="http://www.sap.com/corporate-en/about/legal/copyright/index.html" target="_blank">COPYRIGHT</a><a href="https://www.experiencesplash.com/splash/sites/default/files/terms_of_use.pdf" target="_blank">TERMS OF USE</a><a href="http://go.sap.com/index.html" target="_blank">SAP.COM</a></div>
+               <div class="right"><span>CREATED BY</span><a href="http://go.sap.com/index.html" target="_blank"><img src="themes/norman/img/sap.png" class="logo" alt="logo"></a></div>
+            </footer>
+            
+            
+            <!--Build date: 11/27/2015 11:19 GMT-8-->
+         </div>
+      </div>
+   </body>
 </html>

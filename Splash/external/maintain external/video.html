@@ -6,19 +6,55 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <title>Video</title>
       <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+           <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style>
+/* increase the size of the input */
+#txtSearchTerms {
+width: 600px;
+font-size: 14px;
+padding: 5px 10px;
+}
+/* fix the magnifying glass position */
+.search-button {
+top: 6px;
+}
+</style>
+      <style>
+/* increase the size of the input */
+#txtSearchTerms {
+width: 600px;
+font-size: 14px;
+padding: 5px 10px;
+}
+/* fix the magnifying glass position */
+.search-button {
+top: 6px;
+}
+</style>
+
       <link rel="schema.DC" href="http://purl.org/dc/terms/"><script type="text/javascript">var d4p = {"relativePath":'',"dev":false,"debug":false,"draft":false,"nextTopicHref":"9b605d096887459c9c2200e434471cc9.html","previousTopicHref":''}</script>
       <link rel="stylesheet" type="text/css" media="screen, projection" href="themes/norman/css/style.css">
+      <link rel="stylesheet" href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
      
       
       <link rel="stylesheet" type="text/css" media="screen, projection, print" href="css/theme.css">
+      <style>
+/* increase the size of the input */
+#txtSearchTerms {
+width: 600px;
+font-size: 14px;
+padding: 5px 10px;
+}
+/* fix the magnifying glass position */
+.search-button {
+top: 6px;
+}
+</style>
+          <link rel="stylesheet" href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
       
       <link rel="stylesheet" type="text/css" media="screen, projection, print" href="//sap.github.io/BUILD_User_Assistance/videos/unitegallery/css/unite-gallery.css">
-<<<<<<< HEAD
 	  <link rel="stylesheet" href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
     <link rel="stylesheet" href="css/docsearch.css">
-=======
->>>>>>> parent of 198a323... update
       <script type="text/javascript">
       
         d4p.cssGridPath = d4p.dev ? 'html5-themes/modules/960-Responsive-Grid/css/' : 'themes/dita-d4p-classic/css/';
@@ -99,7 +135,7 @@
 
           /*The Ids of the videos on the page. These MUST be in the  same order as the videos are on the page
           or the autoplay function will play the wrong video*/
-          var videoIds = ["qFDBsuJrGC0", "U6isgUc86XQ", "k0ZO2R8GD0U", "fE1wVYpRZw8"];
+          var videoIds = ["qFDBsuJrGC0", "U6isgUc86XQ", "k0ZO2R8GD0U", "fE1wVYpRZw8", "6gCl4ObrRoM", "Qbp2AYj8uZY", "OPuZe8ES-2o", "cRfaXzIfp4g", "D9ewgsUwlM0"];
           var divId;
         
           /*Loop to find the div containing the video matching the videoid
@@ -161,15 +197,15 @@
             <div class="center">
                <h2>Find the answers you need</h2>
                <div class="search-box">
-                  <form onsubmit="redirect(frmSearch);return false" name="frmSearch" class="searchForm" role="search"><input type="search" id="txtSearchTerms" name="q"/><span class="search-button sap-icon"></span></form>
+                  <form onsubmit="redirect(frmSearch);return false" name="frmSearch" class="searchForm" role="search"><input type="text"id="txtSearchTerms" name="q"/><span class="search-button sap-icon"></span></form>
                </div>
             </div>
          </header>
          
          <nav class="primary-navigation">
             <ul>
-               <li><a href="video.html" class="selected">Videos</a><span class="separator"> | </span></li>
-               <li><a href="4bc796d66b4d4c3a86c6ef719983d7b3.html">Help Topics</a><span class="separator"> | </span></li>
+               <li><a href="video.html" class="selected">Video</a><span class="separator"> | </span></li>
+               <li><a href="c54d916422664f59b61e1f77660dc057.html">Help Topics</a><span class="separator"> | </span></li>
             </ul>
          </nav>
          <div id="d4h5-section-container" class="grid_12">
@@ -433,6 +469,16 @@
                                  <div class="video-thumbnail" id="div-video-2"><img alt="" data-type="youtube" src="img/NewPrototypes.png" data-image="img/NewPrototypes.png" data-videoid="U6isgUc86XQ?rel=0&amp&modestbranding=1&fs=1" data-description="aaa"></div>
                               </p>
                               
+                          <div class="section">
+                           <section class="section" type="Projects">
+                              <h1 class="title topictitle1"><span class="sap-icon"></span>Projects
+                              </h1>
+                              <p class="p">
+                                 <div class="video-thumbnail" id="div-video-7"><img alt="" data-type="youtube" src="img/CloneGallery.png" data-image="img/CloneGallery.png" data-videoid="OPuZe8ES-2o?rel=0&amp&modestbranding=1&fs=1" data-description="aaa"></div>
+                                 <div class="video-thumbnail" id="div-video-8"><img alt="" data-type="youtube" src="img/Collaborate.png" data-image="img/Collaborate.png" data-videoid="cRfaXzIfp4g?rel=0&amp&modestbranding=1&fs=1" data-description="aaa"></div>
+                                 <div class="video-thumbnail" id="div-video-9"><img alt="" data-type="youtube" src="img/ManageProjects.png" data-image="img/ManageProjects.png" data-videoid="D9ewgsUwlM0?rel=0&amp&modestbranding=1&fs=1" data-description="aaa"></div>
+                              </p>
+                           </section>
                               
                            </section>
                         </div>
@@ -448,44 +494,47 @@
                           <h2 class="title" id = "tube-banner" >Select <a href="https://www.youtube.com/channel/UCju0kVKOfkw5-hogBYPfgqg/feed"><img id = "tube-img" src="img/youtube.png"></a> to view the Splash channel.</h2>
 
                         </div>
-                        
+
+                        <div class="section">
+                           <section class="section" type="Wed IDE">
+                              <h1 class="title topictitle1"><span class="sap-icon"></span>Web IDE
+                              </h1>
+                              <p class="p">
+                                 <div class="video-thumbnail" id="div-video-5"><img alt="" data-type="youtube" src="img/SAPHCP.png" data-image="img/SAPHCP.png" data-videoid="6gCl4ObrRoM?rel=0&amp&modestbranding=1&fs=1" data-description="aaa"></div>
+                                 <div class="video-thumbnail" id="div-video-6"><img alt="" data-type="youtube" src="img/WebIDE.png" data-image="img/WebIDE.png" data-videoid="Qbp2AYj8uZY?rel=0&amp&modestbranding=1&fs=1" data-description="aaa"></div>
+                              </p>
+                           </section>
+                        <div>
                      </div>
                      
                   </div>
                   
                </section>
-<<<<<<< HEAD
-               <div class="clear"></div> 
-	  </div>
-	  </div>
-=======
-               <div class="clear"></div>
+               <script type="text/javascript" src="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script> 
+<script type="text/javascript">
+docsearch({
+apiKey: 'bd6c05f4081b4bf1e8cc0222f2be206d',
+indexName: 'sap-splash',
+inputSelector: '#txtSearchTerms'
+});
+</script>
+
+<div class="clear"></div>
                
             </div>
             <div class="clearfix"></div>
->>>>>>> parent of 198a323... update
          </div>
          <div class="clearfix"></div>
          <div id="footer-container" class="grid_12">
             <footer>
-                   <div id="custom-footerSpacer"></div>
-                   <div class="left"><a href="https://github.com/SAP/BUILD_User_Assistance/blob/gh-pages/privacy_statement/privacy_statement.pdf" target="_blank">PRIVACY</a><a href="http://www.sap.com/corporate-en/about/legal/impressum.html" target="_blank">LEGAL DISCLOSURE</a><a href="http://www.sap.com/corporate-en/about/legal/copyright/index.html" target="_blank">COPYRIGHT</a><a href="https://github.com/SAP/BUILD_User_Assistance/blob/gh-pages/Terms%20of%20Use/terms_of_use.pdf" target="_blank">TERMS OF USE</a><a href="http://go.sap.com/index.html" target="_blank">SAP.COM</a></div>
-                  <div class="right"><span>CREATED BY</span><img src="themes/norman/img/sap.png" class="logo" alt="logo"></div>
-            </footer> 
+               <div id="custom-footerSpacer"></div>
+               <div class="left"><a href="https://www.experiencesplash.com/splash/sites/default/files/privacy_statement.pdf" target="_blank">PRIVACY</a><a href="http://www.sap.com/corporate-en/about/legal/impressum.html" target="_blank">LEGAL DISCLOSURE</a><a href="http://www.sap.com/corporate-en/about/legal/copyright/index.html" target="_blank">COPYRIGHT</a><a href="https://www.experiencesplash.com/splash/sites/default/files/terms_of_use.pdf" target="_blank">TERMS OF USE</a><a href="http://go.sap.com/index.html" target="_blank">SAP.COM</a></div>
+               <div class="right"><span>CREATED BY</span><a href="http://go.sap.com/index.html" target="_blank"><img src="themes/norman/img/sap.png" class="logo" alt="logo"></a></div>
+            </footer>
             
             
-            <!--Build date: 10/09/2015 10:16 GMT-7-->
-                  </div>
+            <!--Build date: 11/27/2015 11:19 GMT-8-->
+         </div>
       </div>
-      <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script> 
-<script type="text/javascript"> docsearch({
-apiKey: 'bd6c05f4081b4bf1e8cc0222f2be206d',
-indexName: 'sap-splash',
-inputSelector: '#txtSearchTerms'
-}); 
-</script>
-
    </body>
-	  </div>
-	  </div>
 </html>

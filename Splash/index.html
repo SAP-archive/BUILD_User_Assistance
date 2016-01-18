@@ -9,10 +9,22 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="schema.DC" href="http://purl.org/dc/terms/"><script type="text/javascript">var d4p = {"relativePath":'',"dev":false,"debug":false,"draft":false,"nextTopicHref":'',"previousTopicHref":''}</script>
       <link rel="stylesheet" type="text/css" media="screen, projection" href="themes/norman/css/style.css">
+      <link rel="stylesheet" href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
+      <link rel="stylesheet" href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
       <link rel="stylesheet" type="text/css" media="screen, projection, print" href="css/theme.css">
+      <style>
+/* increase the size of the input */
+#txtSearchTerms {
+width: 600px;
+font-size: 14px;
+padding: 5px 10px;
+}
+/* fix the magnifying glass position */
+.search-button {
+top: 6px;
+}
+</style>
       <link rel="stylesheet" type="text/css" media="screen, projection, print" href="//sap.github.io/BUILD_User_Assistance/videos/unitegallery/css/unite-gallery.css">
-	  <link rel="stylesheet" href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
-
     <link rel="stylesheet" href="css/docsearch.css">
 	  <link rel="stylesheet" href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
     <link rel="stylesheet" href="css/docsearch.css">
@@ -107,7 +119,7 @@
             <div class="center">
                <h2>Find the answers you need</h2>
                <div class="search-box">
-                  <form onsubmit="redirect(frmSearch);return false" name="frmSearch" class="searchForm" role="search"><input type="search" id="txtSearchTerms" name="q"/><span class="search-button sap-icon"></span></form>
+                  <form onsubmit="redirect(frmSearch);return false" name="frmSearch" class="searchForm" role="search"><input type="text" id="txtSearchTerms" name="q"/><span class="search-button sap-icon"></span></form>
                </div>
             </div>
          </header>
