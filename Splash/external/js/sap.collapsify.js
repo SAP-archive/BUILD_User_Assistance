@@ -14,7 +14,7 @@
 		this.options = {
 			imagePath : 'images/',// fix the bug for path in chm outputs
 			expandText : '',
-			collapseText : 'Hide Content',
+			collapseText : '',
 			expandedIcon : 'arrowdn.gif',
 			collapsedIcon : 'arrowrt.gif'
 		};

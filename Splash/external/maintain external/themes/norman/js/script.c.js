@@ -12967,7 +12967,7 @@ var prettyPrint;
         "use strict";
 
         var settings = $.extend({
-            collapseText: 'Hide content',
+            collapseText: '',
             expandText: '',
             elemCollapseIcon: '&#57826;', //sap-icon 'navigation-down-arrow'
             elemExpandIcon: '&#57446;',   //sap-icon 'navigation-right-arrow'
