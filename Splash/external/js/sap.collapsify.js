@@ -13,7 +13,7 @@
 
 		this.options = {
 			imagePath : 'images/',// fix the bug for path in chm outputs
-			expandText : 'Display Content',
+			expandText : '',
 			collapseText : 'Hide Content',
 			expandedIcon : 'arrowdn.gif',
 			collapsedIcon : 'arrowrt.gif'
