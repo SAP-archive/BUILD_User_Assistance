@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<build>
+  <output>
+    <rootpage>56877ae1e19e4255970425e387057ffc.zip</rootpage>
+    <sap.dita.src.pattern>^(.*)\.([^.]*)$</sap.dita.src.pattern>
+    <sap.dita.loio.pattern>^loio(.*)$</sap.dita.loio.pattern>
+    <sap.dita.dest.pattern>\1\${out.ext}</sap.dita.dest.pattern>
+    <sap.dita.O2O.pattern />
+    <sap.dita.O2O.t2t.pattern />
+  </output>
+</build>
