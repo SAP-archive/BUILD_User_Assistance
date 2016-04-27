@@ -27,7 +27,7 @@ html, body {
 } 
 body
 {
-  background-color: #EEF3F9;
+  background-color: #F7F7F7;
   font-family: 'Roboto', Arial, sans-serif;
   font-size: 14px;
   line-height: 1.2;
@@ -81,16 +81,14 @@ body
     padding-top:320px;
 }
 
-#d4h5-section-container {
-    padding: 0 0 50px  0;
-}
+
         .size-small #d4h5-section-container { /*TODO: Move*/
             padding:80px 0 150px 0;
         }
 
 .page
 {
-    background-color: #EEF3F9;
+    background-color: #F7F7F7;
     border: 0;
     box-sizing:border-box;
     display: block;
@@ -287,7 +285,7 @@ form#search
 
 
 
-txtSearchTerms {
+#txtSearchTerms {
     width:400px;
     border-radius:5px;
     border: 1px solid #fff;
@@ -298,14 +296,14 @@ txtSearchTerms {
 
 
 
-.size-small txtSearchTerms
+.size-small #txtSearchTerms
 {
     display:none;
     margin-top:-8px;
 }
 
 
-.size-small header.search-expanded txtSearchTerms {
+.size-small header.search-expanded #txtSearchTerms {
     display:block;
 }
 
@@ -414,7 +412,7 @@ header.small form {
     width:100%;
     margin:0 auto;
     text-align:center;
-    background-color:#EEF3F9;
+    background-color:#F7F7F7;
     z-index:20;
 }
 
@@ -748,18 +746,18 @@ footer div {
 footer .right {
     color:#fff;
     font-size:10px;
+   
 }
-
-    .size-small footer div.right {
-       vertical-align:top;
-       padding-top:30px;
-    }
 
 footer a {
     margin: 0 20px 0 20px;
     opacity:0.7;
     font-size:11px;
     transition: all .3s;
+}
+
+footer .right a {
+    opacity:1;
 }
 
 .size-small footer a {
@@ -778,27 +776,27 @@ footer a:hover {
 
 
 footer .logo {
-    width:60px;
+    height:25px;
     position:absolute;
-    bottom:37px;
-
+    bottom:20px;
 }
         
         .size-small footer .logo {
-            bottom: 127px;
-            margin:0 0 0 70px;
+            bottom: 77px;
         }
-
-footer .right a {
-    opacity:1;
-   
-}
 
 footer span {
     padding-right:20px;
 }
 
+ footer p {
+    color:white;
+         }
 
+.build-number {
+    font-size:12px;
+    margin-bottom:20px;
+}
 /*Are these needed? */
 
 #d4h5-main-content h1 { margin-top: 0px; }
@@ -948,12 +946,6 @@ img
     filter: brightness(70%);
 }
 
-.homepage header img:hover,
-.homepage footer img:hover{
-    -webkit-filter: brightness(100%);
-    filter: brightness(100%);
-}
-
 
 .playIcon
 {
@@ -968,6 +960,10 @@ img
     pointer-events:none;
 }
 
+#textcontent
+{
+    width:50%
+}
 
 #topvideo
 {
@@ -981,6 +977,22 @@ img
 
 }
 
+#ultracontainer
+{
+    position:relative;
+}
+#videocontainer1
+{
+    width: 50%;
+    display: inline-block;
+    position:relative;
+}
+
+#videocontainer2
+{
+    display:inline-block;
+    width:22.8%;
+}
 
 hr{
     background-color: #FFFFFF;
@@ -1023,185 +1035,6 @@ a:hover, a:active {
 img {max-width:95%;display:inline;}
 
 
-/*******************************************************************
-            VIDEO  STYLES
- *******************************************************************/
-
-#videocontainer1
-{
-    display: inline-block;
-    position:relative;
-    width:65%;
-}
-#videocontainer2
-{
-    display: inline-block;
-    width:29.5%;
-}
-
-#tube-banner
-{
-
-    font-size:1.7em;
-}
-
-#tube-img
-{
-    position: relative;
-    top: .6em;
-    width:80px;
-    height:30px;
-
-}
-
-@media screen and (min-width: 761px)
-{
-    #tube-banner
-    {
-        position:fixed;
-        right:0;
-        bottom:0;
-        font-size:1.7em;
-    }
-
-    #tube-img
-    {
-        position: relative;
-        top: .6em;
-        width:150px;
-        height:60px;
-
-    }
-    
-    #ultracontainer
-    {
-        width:400px;
-    }
-
-    #textcontent
-    {
-        width:400px;
-    }
-    #videocontainer1
-    {
-        display: inline-block;
-        position:relative;
-        width:65%;
-    }
-    #videocontainer2
-    {
-        display: inline-block;
-        width:29.5%;
-    }
-}
-
-@media screen and (min-width: 800px)
-{
-    #ultracontainer
-    {
-        width:400px;
-    }
-
-    #textcontent
-    {
-        width:400px;
-
-    }
-}
-@media screen and (min-width: 1000px)
-{
-    #ultracontainer
-    {
-        width:500px;
-    }
-    #textcontent
-    {
-        width:500px;
-
-    }
-}
-
-@media screen and (min-width: 1240px)
-{
-    #ultracontainer
-    {
-        width:800px;
-    }
-    #textcontent
-    {
-        width:500px;
-
-    }
-}
-@media screen and (min-width: 1400px)
-{
-    #ultracontainer
-    {
-        width:1000px;
-    }
-    #textcontent
-    {
-        width:500px;
-
-    }
-}
-
-@media screen and (min-width: 1800px) {
-    
-      #tube-banner
-    {
-        position:fixed;
-        right:0;
-        bottom:0;
-        font-size:1.7em;
-        margin-right:100px;
-    }
-
-    #tube-img
-    {
-        position: relative;
-        top: .6em;
-        width:150px;
-        height:60px;
-    }
-    
-    #ultracontainer 
-    {
-        width: 1200px;
-        min-height: 300px;
-    }
-
-    #textcontent {
-        width: 800px;
-
-    }
-
-    #videocontainer1 {
-        width: 50%;
-        display: inline-block;
-        position: relative;
-    }
-
-    #videocontainer2 {
-        display: inline-block;
-        width: 22.8%;
-    }
-}
-#offset1
-{
-    width:90%;
-    display:inline;
-
-}
-#offset2
-{
-    position:relative;margin-bottom:8.5%;
-}
-
-#offset3
-{
-    position:relative;
-}
 
 
 
@@ -1304,8 +1137,50 @@ span.navtitle, li.collapsible a:link { color: #3887b0; }
 
 
 
+#next-previous-container{
+    border-bottom: 1px solid #ccc;
+    width:300px;
+    display:table;
+    padding-bottom: 0.4em;
+}
 
 
 
+#next-previous-container .next {
+    float:right;   
+    display:table-cell;
+}
+
+#next-previous-container .previous{
+ display:table-cell;   
+ float:left;
+}
+
+.expand-collapse {
+     text-align:center;
+     display:table-cell;
+     margin:0 auto 0 auto;
+}
+
+.expand-collapse:after {
+    content: '\E1F6';
+    font-family: SAP-icons;
+    color:#3887b0;
+}
+
+.expand-collapse.expanded:after {
+    content: '\E1F7';
+}
+
+.expand-collapse:hover:after {
+    color:#88b7d0;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+
+.imagemap img {
+    max-width:none;
+}
 
 
