@@ -1034,7 +1034,10 @@ a:hover, a:active {
 
 img {max-width:95%;display:inline;}
 
-
+#tube-img {
+max-width:20%;
+display:inline;
+}
 
 
 
