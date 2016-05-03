@@ -28,7 +28,7 @@ html, body {
 body
 {
   background-color: #F7F7F7;
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: 'Lato', Arial, sans-serif;
   font-size: 14px;
   line-height: 1.2;
   padding:0;
@@ -858,7 +858,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .topictitle1, ol, ul, div {
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: 'Lato', Arial, sans-serif;
 }
 
 
@@ -893,7 +893,7 @@ h6 {
 }
 
 .shortdesc {
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: 'Lato', Arial, sans-serif;
     font-weight: bold;
 }
 
