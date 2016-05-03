@@ -248,6 +248,9 @@ header h2 {
     margin-top:0;
     color:#fff;
     margin-bottom:1em;
+	font-size: 4rem;
+	letter-spacing: 1px;
+	line-height:60px;
 }
 
 header.small h2,
