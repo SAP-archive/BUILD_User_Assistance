@@ -126,16 +126,17 @@ body
             HEADER STYLES
  *******************************************************************/
 header {
-    background-color:#000;
+     background-color:#000;
     color:#fff;
     line-height:70px;
     position:relative;
     width:100%;
     z-index:20;
-    background-image: url("../img/Illustration.png");
-    height:390px;
-    /*background-size: 100% auto;
-    background-repeat:no-repeat;*/
+    background-image: url("../img/Illustration.svg");
+    height:320px;
+    background-size: 100% auto;
+    background-repeat:no-repeat;
+	background-position:center;
 }
 
 @media (min-width: 1600px) {
