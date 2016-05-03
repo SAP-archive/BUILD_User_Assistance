@@ -132,8 +132,8 @@ header {
     position:relative;
     width:100%;
     z-index:20;
-    background-image: url("../img/banner.png");
-    height:320px;
+    background-image: url("../img/Illustration.png");
+    height:390px;
     /*background-size: 100% auto;
     background-repeat:no-repeat;*/
 }
@@ -159,7 +159,7 @@ header {
 header.small {
     position:fixed;
     height:100px;
-    background-image: url("../img/smallBanner.png"); 
+    background-image: url("../img/smallIllustration.png"); 
     
 }
 
