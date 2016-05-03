@@ -126,16 +126,17 @@ body
             HEADER STYLES
  *******************************************************************/
 header {
-    background-color:#000;
+     background-color:#000;
     color:#fff;
     line-height:70px;
     position:relative;
     width:100%;
     z-index:20;
-    background-image: url("../img/banner.png");
+    background-image: url("../img/Illustration.svg");
     height:320px;
-    /*background-size: 100% auto;
-    background-repeat:no-repeat;*/
+    background-size: 100% auto;
+    background-repeat:no-repeat;
+	background-position:center;
 }
 
 @media (min-width: 1600px) {
@@ -159,7 +160,7 @@ header {
 header.small {
     position:fixed;
     height:100px;
-    background-image: url("../img/smallBanner.png"); 
+    background-image: url("../img/smallIllustration.png"); 
     
 }
 
@@ -669,6 +670,8 @@ li.topichead {
      position:absolute;
      right:0;
      top:40px;
+          z-index:100;
+     background-color:#f7f7f7;
 
  }
  
@@ -688,7 +691,8 @@ li.topichead {
  
  
  .related-links.fixed {
-      top:150px;
+      top:130px;
+      padding-top:30px;
       position:fixed;
       right:240px;
       margin-right: -240px;
@@ -1038,6 +1042,7 @@ img {max-width:95%;display:inline;}
 max-width:20%;
 display:inline;
 }
+
 
 
 
