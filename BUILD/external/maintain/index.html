@@ -1,0 +1,459 @@
+<!DOCTYPE html
+        SYSTEM "about:legacy-compat">
+<html lang="en-us" dir="ltr">
+<head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Get Started with SPLASH</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="schema.DC" href="http://purl.org/dc/terms/">
+      <meta name="abstract" content="SAP Splash is a user experience (UX) service that provides design and user experience best practices, tools, and e-learning to organizations looking to implement a design-led and user-centered approach to innovation.">
+      
+      <meta name="description" content="SAP Splash is a user experience (UX) service that provides design and user experience best practices, tools, and e-learning to organizations looking to implement a design-led and user-centered approach to innovation.">
+      <script type="text/javascript">var d4p = {"relativePath":'',"dev":false,"debug":false,"draft":false,"nextTopicHref":"22d521ddbd854816b8ccb0f0c6a1de34.html","previousTopicHref":"4034a659577d4d5fa725af4c3525eb2d.html"}</script>
+           <link rel="stylesheet" type="text/css" media="screen, projection" href="themes/norman/css/style.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
+      
+      <link rel="stylesheet" type="text/css" media="screen, projection, print" href="css/theme.css">
+      
+      <link rel="stylesheet" type="text/css" media="screen, projection, print" href="//sap.github.io/BUILD_User_Assistance/videos/unitegallery/css/unite-gallery.css">
+      <script type="text/javascript">
+      
+        d4p.cssGridPath = d4p.dev ? 'html5-themes/modules/960-Responsive-Grid/css/' : 'themes/dita-d4p-classic/css/';
+        var ADAPT_CONFIG = {
+          // Where is your CSS?
+          path: d4p.relativePath + d4p.cssGridPath,
+
+          // false = Only run once, when page first loads.
+          // true = Change on window resize and page tilt.
+          dynamic: true,
+
+          // Optional callback... myCallback(i, width)
+          callback: doc_resize,
+
+          // First range entry is the minimum.
+          // Last range entry is the maximum.
+          // Separate ranges by "to" keyword.
+          range: [
+             // small (size-0)
+            '0px    to 760px  = mobile.css',
+             // medium (size-1, size-2)
+            '760px  to 980px  = 720.css',
+            '980px  to 1270px = 960.css',
+             // large (size-3, size-5)
+            '1270px to 1600px = 1200.css',
+            '1600px to 1940px = 1560.css',
+             // extra large (size-6)
+            '1940px to 2540px = 1920.css',
+            '2540px           = 2520.css'
+          ]
+        };
+
+        function doc_resize(i, width)
+        {
+          d4p.setBodyClassfunction(i, width);
+        }
+
+
+        
+      </script>
+      <link rel="stylesheet" type="text/css" src="https://fonts.googleapis.com/css?family=Roboto">
+      <script type="text/javascript" src="themes/norman/js/script.js"></script>
+      <script type="text/javascript" src="js/sap.page-utils.js"></script>
+      <script type="text/javascript" src="js/search-processing.js"></script>
+      <script type="text/javascript" src="//sap.github.io/BUILD_User_Assistance/videos/unitegallery/js/unitegallery.min.js"></script>
+      <script type="text/javascript" src="//sap.github.io/BUILD_User_Assistance/videos/unitegallery/themes/tilesgrid/ug-theme-tilesgrid.js"></script>
+      
+      		<!--[if lt IE 9]>
+      			<script>
+      			  var e = ("abbr,article,aside,audio,canvas,datalist,details," +
+      			    "figure,footer,header,hgroup,mark,menu,meter,nav,output," +
+      			    "progress,section,time,video").split(',');
+      			  for (var i = 0; i < e.length; i++) {
+      			    document.createElement(e[i]);
+      			  }
+      			</script>
+      		<![endif]-->
+      
+      <script>
+      function addLoadEvent(func) {
+      var oldonload = window.onload;
+      if (typeof window.onload != 'function') {
+      window.onload = func;
+      } else {
+      window.onload = function() {
+      if (oldonload) {
+      oldonload();
+      }
+      func();
+      }
+      }
+      }
+      
+      addLoadEvent(function() { prettyPrint();
+      $('#local-navigation').collapse();
+      $('#local-navigation').navigation();
+      
+      
+      
+      });
+      
+      </script>
+      </head>
+    <script>
+        function addLoadEvent(func) {
+            var oldonload = window.onload;
+            if (typeof window.onload != 'function') {
+                window.onload = func;
+            } else {
+                window.onload = function() {
+                    if (oldonload) {
+                        oldonload();
+                    }
+                    func();
+                }
+            }
+        }
+
+        addLoadEvent(function() { prettyPrint();
+            $('#local-navigation').collapse();
+            $('#local-navigation').navigation();
+            //If you add a new video to the videos page, you must include it's ID here.
+            var videoIds = ["qKi4by9MDRc", "a6JiciKW9cI", "xrt3jrFDTKQ", "fE1wVYpRZw8", "EeakOp7OJtk", "F9HR49U8duU", "_xfjLeFeHIA", "EiSK6dJYCE0", "OPuZe8ES-2o", "cRfaXzIfp4g", "D9ewgsUwlM0"];
+            var topViews = 0;
+            var secondViews = 0;
+            var thirdViews = 0;
+            //These Strings make up different parts of the JSON query, querystring2 is the actual video id.
+            var queryStringOne = "https://www.googleapis.com/youtube/v3/videos?id=";
+            var queryStringTwo;
+            var queryStringThree = "&key=AIzaSyB2NdE6oNUdXcpjsGnZMWv-K05MgyYh0ls%20&fields=items(statistics)&part=statistics";
+            //This will represent the number of views of the video that is currently being processed by the for loop
+            var views;
+            var topViewId;
+            var secondViewId;
+            var thirdViewId;
+            var viewsInt;
+            var counter = 0;
+            for (var x = 0; x < videoIds.length; x++)
+            {
+                /*It is neccesary to enclose the asynchronous getJSON function in a self calling function, to preserve
+                 the value of x throughout the loops. Without this, x would be 5 in every iteration of the getJSON method*/
+                (function(x)
+                {
+                    queryStringTwo = videoIds[x];
+                    var concatanatedQuery = queryStringOne.concat(queryStringTwo, queryStringThree);
+                    $.getJSON(concatanatedQuery, function (data) {
+                        views = data.items[0].statistics.viewCount;
+                        viewsInt = parseInt(views);
+                        processViews(viewsInt,videoIds[x]);
+                        //views = parseInt(views);
+                    });
+                })(x);
+            }
+            //This function processes the views of the videoID currently being checked, and changes the top 3 video ID's based on the results.
+            function processViews(viewsInt,videoId)
+            {
+                if (viewsInt > topViews)
+                {
+                    thirdViews = secondViews;
+                    secondViews = topViews;
+                    topViews = viewsInt;
+                    thirdViewId = secondViewId;
+                    secondViewId = topViewId;
+                    topViewId = videoId;
+                }
+                else if (viewsInt > secondViews)
+                {
+                    thirdViews = secondViews;
+                    secondViews = viewsInt;
+                    thirdViewId = secondViewId;
+                    secondViewId = videoId;
+                }
+                else if (viewsInt > thirdViews)
+                {
+                    thirdViews = viewsInt;
+                    thirdViewId = videoId;
+                }
+                counter++
+                /*This is triggered when every video has been examined. It puts the imagelinks representing the videos in
+                 the correct order depending on the top 3 video IDs, and also adjusts their href to include the corresponding
+                 videoId, using the query string
+                 */
+                if(counter===5) {
+                    $("#topvideo").attr("src", grabImage(topViewId));
+                    $("#secondvideo").attr("src", grabImage(secondViewId));
+                    $("#thirdvideo").attr("src", grabImage(thirdViewId));
+                    $("#topLink").attr("href", $("#topLink").attr("href") + topViewId);
+                    $("#secondlink").attr("href", $("#secondlink").attr("href") + secondViewId);
+                    $("#thirdlink").attr("href", $("#thirdlink").attr("href") + thirdViewId);
+                }
+            }
+        });
+
+function grabImage(videoID)
+{
+    var imgString;
+    switch(videoID)
+    {
+        case "qKi4by9MDRc":
+            imgString = "img/gettingStarted.png";
+            break;
+        case "a6JiciKW9cI":
+            imgString = "img/proto.png";
+            break;
+        case "xrt3jrFDTKQ":
+            imgString = "img/feedbackreport.png";
+            break;
+        case "qd1Tn436f54":
+            imgString = "img/datamodels.png";
+            break;
+        case "Ov_m6B8I43k":
+            imgString = "img/smartlistreport.png";
+            break;
+         case "_xfjLeFeHIA":
+            imgString = "img/SAPHCP.png";
+            break;
+         case "EiSK6dJYCE0":
+            imgString = "img/WebIDE.png";
+            break;
+        case "OPuZe8ES-2o":
+            imgString = "img/CloneGallery.png";
+            break;
+        case "cRfaXzIfp4g":
+            imgString = "img/Collaborate.png";
+            break;
+        case "D9ewgsUwlM0":
+            imgString = "img/ManageProjects.png";
+            break;
+    }
+
+    return imgString;
+
+} 
+
+
+    </script>
+    <style>
+       
+
+        #textcontent
+        {
+            width:50%
+        }
+
+        #topvideo
+        {
+            height:50%;
+            width:100%;
+        }
+
+        .smallVids
+        {
+            width:100%;
+
+        }
+
+        #ultracontainer
+        {
+            position:relative;
+        }
+        #videocontainer1
+        {
+            width: 50%;
+            display: inline-block;
+            position:relative;
+        }
+
+        #videocontainer2
+        {
+            display:inline-block;
+            width:22.8%;
+        }
+
+        hr{
+            background-color: #FFFFFF;
+            color: #EEEEEE;
+            border: 0px solid;
+            border-top-width: 1px;
+            border-color: #DDDDDD;
+        }
+
+        .title
+        {
+            font-weight:bold;
+        }
+
+        img
+        {
+
+            -ms-interpolation-mode: bicubic;
+        }
+        img:hover {
+            -webkit-filter: brightness(70%);
+            filter: brightness(70%);
+        }
+    </style>
+</head>
+<body class="en-us norman centered navigation-default">
+<div id="d4h5-main-container" class="container_12" role="application">
+    <ul id="page-links" class="hidden">
+        <li><a id="skip-to-content" href="#d4h5-main-content"></a></li>
+        <li><a id="skip-to-localnav" href="#local-navigation"></a></li>
+        <li><a id="skip-to-footer" href="#footer"></a></li>
+    </ul>
+     <header role="banner" aria-labelledby="publication-title"><a href="index.html"><img class="logo" src="img/splash.png"></a><div class="center">
+               <h2>Find the answers you need</h2>
+               <div class="search-box">
+                  <form onsubmit="redirect(frmSearch);return false" name="frmSearch" class="searchForm" role="search"><input type="search" id="txtSearchTerms" name="q"><span class="search-button sap-icon"></span></form>
+               </div>
+            </div>
+         </header>
+    <nav class="primary-navigation">
+        <ul>
+            <li><a href="video.html">Video</a><span class="separator"> | </span></li>
+            <li><a href="c54d916422664f59b61e1f77660dc057.html">HELP TOPICS</a><span class="separator"> | </span></li>
+        </ul>
+    </nav>
+   <div id="next-previous-container" style="display:none"><a href="90c73651dd2d4d5a9a57868c266c506b.html" class="sap-icon previous" rel="internal" alt="Editing Data Under the Samples Tab" title="Editing Data Under the Samples Tab"></a><span class="expand-collapse"></span><a href="0152b6f646ae44938ee15baa257d05d7.html" class="sap-icon next" rel="internal" alt="Importing and Exporting Data" title="Importing and Exporting Data"></a></div>
+         <div id="d4h5-section-container" class="grid_12">
+            <nav class="mobile-nav">
+               <ul>
+                  <li class="toggle-topbar menu-icon no-child "><span class="sap-icon"><a href="#local-navigation"></a></span></li>
+               </ul>
+               <section class="nav-pub-title"></section>
+            </nav>
+            <nav id="local-navigation" role="navigation" aria-label="Main navigation" class="grid_4 alpha omega">
+               <div id="nav-content">
+			   </div>
+			   </nav>
+        <div id="d4h5-main-content" class="grid_8 alpha omega">
+            <section>
+                <div id="content-toolbar" class="toolbar hide-for-small"></div>
+                <div class="page concept  - topic-topic concept-concept " id="loio9b605d096887459c9c2200e434471cc9">
+
+                    <div autofocus id="div1">
+                        <h2 class="title topictitle1" style = "border-bottom:none;"><span class="sap-icon" ></span>Top watched
+                        </h2>
+
+                        <div id = "ultracontainer" >
+                            <div id = "videocontainer1"   >
+                                <a id = "topLink" href = "video.html?">
+                                    <div id = "offset1" >
+                                        <img id = "topvideo" src = "img/Splash_Only_Small.png" >
+                                            <img class = "playIcon" src = "img/tubeicon.png">
+                                                
+                                    </div>
+                                </a>
+                            </div>
+                            <div id = "videocontainer2">
+                                
+                                <a id = "secondlink" href = "video.html?">
+                                    <div id = "offset2" >
+                                        <img id = "secondvideo" class = "smallVids " src = "img/Splash_Only_Small.png" >
+                                            <img class = "playIcon" src = "img/tubeicon.png" style = "top:50%; left:22%">
+                                                
+                                                
+                                    </div>
+                                </a>
+                                <a id = "thirdlink"  href = "video.html?">
+                                    <div id = "offset3">
+                                        <img id = "thirdvideo" class = "smallVids " src = "img/Splash_Only_Small.png" >
+                                            <img class = "playIcon" src = "img/tubeicon.png" style = "top:-40%; left:22%">
+                                                
+                                                
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <hr style = "margin-top:3%;">
+
+
+
+                    <div id = "textcontent">
+                        <h2 class="title topictitle1" style = "border-bottom:none;" style="min-width:500px;">Top Searched</h2>
+
+                        <h6><a href="http://sap.github.io/BUILD_User_Assistance/Splash/cd39ba0241a14201b5eac4fa514c6d9b.html">Create Projects</a></h6>
+                        <p>You can create multiple projects in BUILD. In each BUILD project, you can create...</p>
+
+                        <h6><a href="http://sap.github.io/BUILD_User_Assistance/Splash/6d92f5cf1d16402c9dec4fd511b96f67.html">Create Feedback Studies</a></h6>
+                        <p>The SPLASH user research tool lets you to quickly create and share feedback studies...</p>
+
+                        <h6><a href="http://sap.github.io/BUILD_User_Assistance/Splash/b02f509d805e428e9b282af43638312c.html">Smart Templates</a></h6>
+                        <p>SPLASH provides smart templates that help you design screens for your prototype.</p>
+
+                        <h6><a href="http://sap.github.io/BUILD_User_Assistance/Splash/826edca4a27f417aa944f45d97632eca.html">Data Models</a></h6>
+                        <p>In BUILD, you can create and modify data models to organize your data elements...</p>
+
+                    </div>
+
+                </div>
+
+            </section>
+            <div class="clear"></div>
+               
+            </div>
+            <div class="clearfix"></div>
+         </div>
+         <div class="clearfix"></div>
+         <div id="footer-container" class="grid_12">
+            <footer>
+               <div id="custom-footerSpacer"></div>
+               <div class="left"><a href="https://www.experiencesplash.com/splash/sites/default/files/privacyStatement.html" target="_blank">PRIVACY</a><a href="http://www.sap.com/corporate-en/about/legal/impressum.html" target="_blank">LEGAL DISCLOSURE</a><a href="http://www.sap.com/corporate-en/about/legal/copyright/index.html" target="_blank">COPYRIGHT</a><a href="https://www.experiencesplash.com/splash/sites/default/files/termsOfUse.html" target="_blank">TERMS OF USE</a><a href="http://go.sap.com/index.html" target="_blank">SAP.COM</a></div>
+               <div class="right"><span>CREATED BY</span><a href="http://go.sap.com/index.html" target="_blank"><img src="themes/norman/img/sap.png" class="logo" alt="logo"></a></div>
+            </footer>
+            
+            
+            <!--Build date: 11/27/2015 11:19 GMT-8-->
+         </div>
+      </div> <script>
+        var swa = {
+        pubToken: '6fa0fc12-d856-4547-ae3d-95802f388c16',
+        baseUrl: 'https://cloud.warp.sap.com/tracker/',
+        visitorCookieTimeout: 7889232,
+        dntLevel: 1,
+        bannerEnabled: true,
+        licenseUrl: 'https://www.experiencesplash.com/splash/sites/default/files/privacyStatement.html'
+        };
+        (function(){
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.defer=true; g.async=true; g.src=swa.baseUrl+'js/privacy.js';
+        s.parentNode.insertBefore(g,s);
+        })();
+      </script>
+   </body>
+	  <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script> 
+<script type="text/javascript"> docsearch({
+apiKey: 'bd6c05f4081b4bf1e8cc0222f2be206d',
+indexName: 'sap-splash',
+inputSelector: '#txtSearchTerms'
+}); 
+</script>
+<script>
+        var swa = {
+        pubToken: '6fa0fc12-d856-4547-ae3d-95802f388c16',
+        baseUrl: 'https://cloud.warp.sap.com/tracker/',
+        visitorCookieTimeout: 7889232,
+        dntLevel: 1,
+        bannerEnabled: true,
+        licenseUrl: 'https://www.experiencesplash.com/splash/sites/default/files/privacyStatement.html'
+        };
+        (function(){
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.defer=true; g.async=true; g.src=swa.baseUrl+'js/privacy.js';
+        s.parentNode.insertBefore(g,s);
+        })();
+      </script></body>
+	  <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script> 
+<script type="text/javascript"> docsearch({
+apiKey: 'bd6c05f4081b4bf1e8cc0222f2be206d',
+indexName: 'sap-splash',
+inputSelector: '#txtSearchTerms'
+}); 
+</script>
+</html>
