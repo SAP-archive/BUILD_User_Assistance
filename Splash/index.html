@@ -2,6 +2,12 @@
         SYSTEM "about:legacy-compat">
 <html lang="en-us" dir="ltr">
 <head>
+	<script type="text/javascript">
+var url = window.location.href;
+url = url.split('#').pop().split('?').pop();
+var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
+            window.location.replace("../BUILD/" + page);
+    </script>
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <title>Get Started with SPLASH</title>
