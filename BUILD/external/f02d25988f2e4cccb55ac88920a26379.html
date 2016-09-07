@@ -2,7 +2,12 @@
   SYSTEM "about:legacy-compat">
 <html lang="en-us" dir="ltr">
    <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <script type="text/javascript">
+var url = window.location.href;
+url = url.split('#').pop().split('?').pop();
+var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
+            window.location.replace("../../build/" + page);
+    </script>      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <title>Restore Archived Projects</title>
       <meta charset="utf-8">
@@ -11,9 +16,10 @@
       <meta name="abstract" content="You can restore archived projects anytime so that they are again available for all team members.">
       
       <meta name="description" content="You can restore archived projects anytime so that they are again available for all team members.">
-      <script type="text/javascript">var d4p = {"relativePath":'',"dev":false,"debug":false,"draft":false,"nextTopicHref":"9cefe17d8669496bb7761b6039d45b77.html","previousTopicHref":"9f439111a52240068ea040c67a96390f.html"}</script>
+      <script type="text/javascript">var d4p = {"relativePath":'',"dev":false,"debug":false,"draft":false,"nextTopicHref":"ca2b489ebe224125a1f85bd0ad0e8101.html","previousTopicHref":"9f439111a52240068ea040c67a96390f.html"}</script>
       <link rel="stylesheet" type="text/css" media="screen, projection" href="themes/norman/css/style.css">
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
       
       <link rel="stylesheet" type="text/css" media="screen, projection, print" href="css/theme.css">
       
@@ -60,7 +66,6 @@
       </script>
       <link rel="stylesheet" type="text/css" src="https://fonts.googleapis.com/css?family=Roboto">
       <script type="text/javascript" src="themes/norman/js/script.js"></script>
-      <script type="text/javascript" src="js/sap.page-utils.js"></script>
       <script type="text/javascript" src="js/search-processing.js"></script>
       <script type="text/javascript" src="//sap.github.io/BUILD_User_Assistance/videos/unitegallery/js/unitegallery.min.js"></script>
       <script type="text/javascript" src="//sap.github.io/BUILD_User_Assistance/videos/unitegallery/themes/tilesgrid/ug-theme-tilesgrid.js"></script>
@@ -108,12 +113,21 @@
             <li><a id="skip-to-localnav" href="#local-navigation"></a></li>
             <li><a id="skip-to-footer" href="#footer"></a></li>
          </ul>
-         <header role="banner" aria-labelledby="publication-title"><a href="index.html"><img class="logo" src="img/splash.png"></a><div class="center">
-               <h2>Find the answers you need</h2>
+         <header role="banner" aria-labelledby="publication-title">
+            	<a href="index.html"><img class="logo" src="img/buildlogo.svg"></a>
+            	
+            <div class="center">
+               		
+               <h2>What do you need to know?</h2>
+               		
                <div class="search-box">
+                  			
                   <form onsubmit="redirect(frmSearch);return false" name="frmSearch" class="searchForm" role="search"><input type="search" id="txtSearchTerms" name="q"><span class="search-button sap-icon"></span></form>
+                  		
                </div>
+               	
             </div>
+            
          </header>
          
          <nav class="primary-navigation">
@@ -122,13 +136,16 @@
                <li><a href="4034a659577d4d5fa725af4c3525eb2d.html" class="selected">Help Topics</a><span class="separator"> | </span></li>
             </ul>
          </nav>
-         <div id="next-previous-container"><a href="9f439111a52240068ea040c67a96390f.html" class="sap-icon previous" rel="internal" alt="Archive Projects" title="Archive Projects"></a><span class="expand-collapse"></span><a href="9cefe17d8669496bb7761b6039d45b77.html" class="sap-icon next" rel="internal" alt="Project Teams" title="Project Teams"></a></div>
+         <div id="next-previous-container"><a href="9f439111a52240068ea040c67a96390f.html" class="sap-icon previous" rel="internal" alt="Archive a Project" title="Archive a Project"></a><span class="expand-collapse"></span><a href="ca2b489ebe224125a1f85bd0ad0e8101.html" class="sap-icon next" rel="internal" alt="Delete a Project" title="Delete a Project"></a></div>
          <div id="d4h5-section-container" class="grid_12">
             <nav class="mobile-nav">
                <ul>
                   <li class="toggle-topbar menu-icon no-child "><span class="sap-icon"><a href="#local-navigation"></a></span></li>
                </ul>
-               <section class="nav-pub-title">Splash Help</section>
+               <section class="nav-pub-title">
+                  BUILD Help
+                  
+               </section>
             </nav>
             <nav id="local-navigation" role="navigation" aria-label="Main navigation" class="grid_4 alpha omega">
                <div id="nav-content">
@@ -136,27 +153,40 @@
                      <li class="toc_link no-child "><a href="index.html"></a></li>
                      <ul>
                         <li class="topichead collapsible "><span>Get Started</span><ul>
-                              <li class=" no-child "><a href="4034a659577d4d5fa725af4c3525eb2d.html">What are SPLASH and BUILD?</a></li>
-                              <li class=" no-child "><a href="c54d916422664f59b61e1f77660dc057.html">Get Started with SPLASH</a></li>
-                              <li class=" no-child "><a href="22d521ddbd854816b8ccb0f0c6a1de34.html">Create a SPLASH
-                                    		User</a></li>
+                              <li class=" no-child "><a href="4034a659577d4d5fa725af4c3525eb2d.html">What is BUILD?</a></li>
+                              <li class=" no-child "><a href="c54d916422664f59b61e1f77660dc057.html">Get Started with BUILD
+                                    </a></li>
+                              <li class=" no-child "><a href="22d521ddbd854816b8ccb0f0c6a1de34.html">Log on to BUILD
+                                    </a></li>
                               <li class=" no-child "><a href="c2c63d695cc44a618ba0e6c74f0ebcd8.html">Customize Your Profile</a></li>
-                              <li class=" no-child "><a href="c3277723232148dd944e8089d34170da.html">Search SPLASH
+                              <li class=" no-child "><a href="c3277723232148dd944e8089d34170da.html">Search BUILD
                                     		Contents</a></li>
                            </ul>
                         </li>
-                        <li class="topichead collapsible  active"><span>Splash Projects</span><ul>
-                              <li class=" collapsible  active"><a href="aebea8d795a243a2bf086eb4f9702873.html">Overview of SPLASH Projects</a><ul>
-                                    <li class=" no-child "><a href="cd39ba0241a14201b5eac4fa514c6d9b.html">Create a New Project</a></li>
-                                    <li class=" no-child "><a href="e800da46fc234457b5d82b1dd166a43a.html">Create a Project by Cloning</a></li>
+                        <li class="topichead collapsible  active"><span>BUILD Projects</span><ul>
+                              <li class=" collapsible  active"><a href="aebea8d795a243a2bf086eb4f9702873.html">Overview of BUILD Projects</a><ul>
+                                    <li class="topichead collapsible "><span>Create Projects</span><ul>
+                                          <li class=" no-child "><a href="cd39ba0241a14201b5eac4fa514c6d9b.html">Create a New Project</a></li>
+                                          <li class=" no-child "><a href="e800da46fc234457b5d82b1dd166a43a.html">Create a Project by Cloning</a></li>
+                                          <li class=" no-child "><a href="778d941c74c04c83bf8b76694e6d8ed6.html">Create a Project by Duplicating</a></li>
+                                       </ul>
+                                    </li>
+                                    <li class=" no-child "><a href="f4dd3d12af9d4a03a708fd24e8e4c3ea.html">Leave a Project</a></li>
+                                    <li class="topichead collapsible  active"><span>Archive Projects</span><ul>
+                                          <li class=" no-child "><a href="9f439111a52240068ea040c67a96390f.html">Archive a Project</a></li>
+                                          <li class=" no-child  active"><a class="selected" href="f02d25988f2e4cccb55ac88920a26379.html">Restore Archived Projects</a></li>
+                                       </ul>
+                                    </li>
+                                    <li class=" no-child "><a href="ca2b489ebe224125a1f85bd0ad0e8101.html">Delete a Project</a></li>
                                     <li class=" no-child "><a href="f7ce9fba7a79424d8ab09e08679dec46.html">Add a Project Picture</a></li>
-                                    <li class=" no-child "><a href="9f439111a52240068ea040c67a96390f.html">Archive Projects</a></li>
-                                    <li class=" no-child  active"><a class="selected" href="f02d25988f2e4cccb55ac88920a26379.html">Restore Archived Projects</a></li>
-                                    <li class=" collapsible  collapsed"><a href="9cefe17d8669496bb7761b6039d45b77.html">Project Teams</a><ul>
-                                          <li class=" no-child "><a href="7f8e18a64838478e92157c2e9980aecb.html">Invite Team Members</a></li>
-                                          <li class=" no-child "><a href="ace392f57eea411c8cecc43fac48de4c.html">Accept an Invitation</a></li>
-                                          <li class=" no-child "><a href="15ec191840a3431db95f2e64653fd2c6.html">Change Project Owners</a></li>
-                                          <li class=" no-child "><a href="5bff4edf493d4d06b64d5b6c953a76bd.html">Remove Project Team Members</a></li>
+                                    <li class="topichead collapsible "><span>Create Project Teams</span><ul>
+                                          <li class=" collapsible  collapsed"><a href="9cefe17d8669496bb7761b6039d45b77.html">Project Teams</a><ul>
+                                                <li class=" no-child "><a href="7f8e18a64838478e92157c2e9980aecb.html">Invite Team Members</a></li>
+                                                <li class=" no-child "><a href="ace392f57eea411c8cecc43fac48de4c.html">Accept an Invitation</a></li>
+                                                <li class=" no-child "><a href="15ec191840a3431db95f2e64653fd2c6.html">Change Project Owners</a></li>
+                                                <li class=" no-child "><a href="5bff4edf493d4d06b64d5b6c953a76bd.html">Remove Project Team Members</a></li>
+                                             </ul>
+                                          </li>
                                        </ul>
                                     </li>
                                  </ul>
@@ -165,82 +195,66 @@
                         </li>
                         <li class="topichead collapsible "><span>Prototype Tool</span><ul>
                               <li class=" no-child "><a href="89e8760b9158475aa4cfd9ed15c69297.html">Prototyping Overview</a></li>
-                              <li class=" collapsible  collapsed"><a href="821343eec86945f0b01980286f1fcdb2.html">Prototype Pages</a><ul>
-                                    <li class=" collapsible  collapsed"><a href="5b0e553faf4b4d8282d5d4df64409c19.html">Prototype Tool</a><ul>
-                                          <li class=" no-child "><a href="4c4c7aed7b874f02a220d42a6492e586.html">User Interface Editor</a></li>
-                                          <li class=" no-child "><a href="20841b2d9cf047e290f5fd265d8a2002.html">Page Map View</a></li>
-                                          <li class=" no-child "><a href="4075ea1a342248a59f95e034867c4a3d.html">Tool Picker</a></li>
-                                          <li class=" no-child "><a href="dcc0659146af4d40a5c31850aa719fb4.html">Controls Tab</a></li>
-                                          <li class=" no-child "><a href="0165bfc45aee430aab679c4f9f00890d.html">Files Tab</a></li>
-                                          <li class=" no-child "><a href="d2f0fca4df53462aa4cc91e5627e36d2.html">Data Tab</a></li>
-                                          <li class=" no-child "><a href="ae9bf80e468242d89d8cdab375b97ce6.html">Outline</a></li>
-                                          <li class=" no-child "><a href="866432f9ba0244a1b7ccc885d9986ff3.html">Canvas</a></li>
-                                          <li class=" no-child "><a href="4466fc7ceb3c423ebb75e7138346442b.html">Toolbar</a></li>
-                                          <li class=" no-child "><a href="828c589f2f2240c79aa70050d41e6bdd.html">Properties</a></li>
-                                          <li class=" no-child "><a href="49c71ea748f3483e8471fe30eb67ae51.html">Actions</a></li>
-                                          <li class=" collapsible  collapsed"><a href="0767886902004c4f84b3bc56c8eb5789.html">Discussion Tab</a><ul>
-                                                <li class=" no-child "><a href="c10e3c9d6a824d35aaac21cd704d45bd.html">Delete Disussion Comments</a></li>
-                                                <li class=" no-child "><a href="c90b203127b54bab9bb9d156b4923101.html">Edit Discussion Comments</a></li>
-                                             </ul>
-                                          </li>
+                              <li class=" collapsible  collapsed"><a href="6ee08ced939c41228d9365e22c38fd8e.html">Add Prototype Pages</a><ul>
+                                    <li class=" no-child "><a href="b25bf189d54a40f08e5c068d91ab6998.html">Add Pages in Page Map View</a></li>
+                                    <li class=" collapsible  collapsed"><a href="1efacf86c85149cd8817b925921f49e3.html">Add Image Pages</a><ul>
+                                          <li class=" no-child "><a href="810fcbe9bf11419c8985661cb9a484e5.html">Link Image Pages in Page Map View</a></li>
                                        </ul>
                                     </li>
-                                    <li class=" collapsible  collapsed"><a href="6ee08ced939c41228d9365e22c38fd8e.html">Add Prototype Pages</a><ul>
-                                          <li class=" no-child "><a href="b25bf189d54a40f08e5c068d91ab6998.html">Add Pages in Page Map View</a></li>
-                                          <li class=" no-child "><a href="207b4ad88b6e434e8abec9d2ea85b54c.html">Add Simple Pages</a></li>
-                                          <li class=" no-child "><a href="b1d8de47b85348dc975007dc5e6526bf.html">Add Master Detail Pages</a></li>
-                                          <li class=" no-child "><a href="8692c6b629ad49ebbb7e3c8ae5f1dc26.html">Add Smart Template Pages</a></li>
-                                          <li class=" no-child "><a href="6363462d2adc4e188d2931e4d47b6421.html">Add Object Pages</a></li>
-                                          <li class=" no-child "><a href="55122dc79fa344958b982eb98f21ef2e.html">Add UI Controls</a></li>
-                                          <li class=" no-child "><a href="2269877a7c2348d59d4a5deaa0e4d90a.html">SAP Icons </a></li>
+                                    <li class=" no-child "><a href="207b4ad88b6e434e8abec9d2ea85b54c.html">Add Freestyle Pages</a></li>
+                                    <li class=" no-child "><a href="3d416741ddf949c28b7f1f6a5930d96c.html">Add Responsive Pages</a></li>
+                                    <li class=" no-child "><a href="b1d8de47b85348dc975007dc5e6526bf.html">Add Master Detail Pages</a></li>
+                                    <li class=" no-child "><a href="8692c6b629ad49ebbb7e3c8ae5f1dc26.html">Add Smart Template Pages</a></li>
+                                    <li class=" no-child "><a href="6363462d2adc4e188d2931e4d47b6421.html">Add Object Pages</a></li>
+                                    <li class=" collapsible  collapsed"><a href="55122dc79fa344958b982eb98f21ef2e.html">Add UI Controls</a><ul>
+                                          <li class=" no-child "><a href="b8e720ca824b4d7ebc44a1a8cdc6614e.html">UI Controls for Image Pages</a></li>
+                                          <li class=" no-child "><a href="cafdd136798c478fa6d549e2c602dc23.html">UI Controls for Freestyle Pages</a></li>
+                                          <li class=" no-child "><a href="46e03e4481ad4b70a82ba47ee4365a0a.html">UI Controls for Responsive Pages</a></li>
+                                          <li class=" no-child "><a href="9d541840c990467f9c2aa497d059ad02.html">UI Controls for Master Details Pages</a></li>
+                                          <li class=" no-child "><a href="2efecea475e74519b29e03b501f327ee.html">UI Controls for Object Pages</a></li>
+                                          <li class=" no-child "><a href="cf3283b1eb854648b58fe798d7b50c30.html">UI Controls for Smart Template List Report Pages</a></li>
+                                          <li class=" no-child "><a href="8b3936b0822448de9be333619e80bba4.html">UI Controls for Smart Template Object Pages</a></li>
+                                          <li class=" no-child "><a href="ee17bb8aac584d57b59ac1668528649e.html">UI Controls for Smart Template Overview Pages</a></li>
                                        </ul>
                                     </li>
-                                    <li class=" no-child "><a href="6d3271497b104e889b1598c0819b03f9.html">Preview Prototype</a></li>
-                                    <li class=" no-child "><a href="c076a332263d418b9c1f5e1403f4e2c3.html">Publish Prototype</a></li>
+                                    <li class=" no-child "><a href="2269877a7c2348d59d4a5deaa0e4d90a.html">SAP Icons </a></li>
+                                 </ul>
+                              </li>
+                              <li class=" no-child "><a href="648fd1ee9bd8432fa5528c93d3597bfa.html">Delete and Restore Prototype Pages</a></li>
+                              <li class=" no-child "><a href="c076a332263d418b9c1f5e1403f4e2c3.html">Publish Prototypes</a></li>
+                              <li class=" no-child "><a href="6d3271497b104e889b1598c0819b03f9.html">Preview Prototypes</a></li>
+                              <li class=" collapsible  collapsed"><a href="5b0e553faf4b4d8282d5d4df64409c19.html">Prototype Tool</a><ul>
+                                    <li class=" no-child "><a href="4c4c7aed7b874f02a220d42a6492e586.html">User Interface Editor</a></li>
+                                    <li class=" no-child "><a href="20841b2d9cf047e290f5fd265d8a2002.html">Page Map View</a></li>
+                                    <li class=" no-child "><a href="4075ea1a342248a59f95e034867c4a3d.html">Tool Picker</a></li>
+                                    <li class=" collapsible  collapsed"><a href="dcc0659146af4d40a5c31850aa719fb4.html">Controls Tab</a><ul>
+                                          <li class=" no-child "><a href="4b82534745644048acd1bcf375ea268c.html">Copy, Delete, or Paste Controls</a></li>
+                                       </ul>
+                                    </li>
+                                    <li class=" no-child "><a href="0165bfc45aee430aab679c4f9f00890d.html">Images Tab</a></li>
+                                    <li class=" no-child "><a href="d2f0fca4df53462aa4cc91e5627e36d2.html">Data Tab</a></li>
+                                    <li class=" no-child "><a href="ae9bf80e468242d89d8cdab375b97ce6.html">Outline</a></li>
+                                    <li class=" no-child "><a href="866432f9ba0244a1b7ccc885d9986ff3.html">Canvas</a></li>
+                                    <li class=" no-child "><a href="4466fc7ceb3c423ebb75e7138346442b.html">Toolbar</a></li>
+                                    <li class=" no-child "><a href="828c589f2f2240c79aa70050d41e6bdd.html">Properties</a></li>
+                                    <li class=" no-child "><a href="49c71ea748f3483e8471fe30eb67ae51.html">Actions</a></li>
+                                    <li class=" collapsible  collapsed"><a href="0767886902004c4f84b3bc56c8eb5789.html">Discussion Tab</a><ul>
+                                          <li class=" no-child "><a href="c10e3c9d6a824d35aaac21cd704d45bd.html">Delete Discussion Comments</a></li>
+                                          <li class=" no-child "><a href="c90b203127b54bab9bb9d156b4923101.html">Edit Discussion Comments</a></li>
+                                       </ul>
+                                    </li>
                                  </ul>
                               </li>
                               <li class=" no-child "><a href="c787d472417140f1a9fd07178eb7627d.html">Add Data to Pages</a></li>
                               <li class=" no-child "><a href="4501b1ce95184695a60275c47448239f.html">Bind Data to UI Elements</a></li>
-                              <li class=" collapsible  collapsed"><a href="826edca4a27f417aa944f45d97632eca.html">Data Models and the Data Editor</a><ul>
-                                    <li class=" collapsible  collapsed"><a href="c0b4d52243c84c8f96d068157ac4e317.html">Add Objects to a Data Model Manually</a><ul>
-                                          <li class=" collapsible  collapsed"><a href="2cae8a4e5b31463caa17bb8da9ee6ab4.html">Relationships Between Two Objects</a><ul>
-                                                <li class=" no-child "><a href="888443ab71914d69b33f7dc2b83ecb7f.html">Create Relationships Between Objects</a></li>
-                                                <li class=" no-child "><a href="d0df71648c624df6888df90adef9017f.html">Edit a Relationship</a></li>
-                                             </ul>
-                                          </li>
-                                          <li class=" no-child "><a href="a7a38ff657d742b88e472eef35679535.html">Rules for the Object Name</a></li>
-                                       </ul>
-                                    </li>
-                                    <li class=" no-child "><a href="f81667ffefdd457cbfcc6ab467767631.html">Add Objects by Search</a></li>
-                                    <li class=" collapsible  collapsed"><a href="a24ab97bac464838be931ac9ea0f00e9.html">Add Objects from Excel</a><ul>
-                                          <li class=" no-child "><a href="505c95b8c8354630929fe772478daadf.html">Rules for Adding Objects or Importing from a Spreadsheet</a></li>
-                                          <li class=" no-child "><a href="fe036c222d8d4246ab462fcda420678f.html">Use Sample Files to Create a Data Model</a></li>
-                                       </ul>
-                                    </li>
-                                    <li class=" collapsible  collapsed"><a href="c125ab9850824c77abf96c12655347da.html">Add Properties to an Object</a><ul>
-                                          <li class=" no-child "><a href="dc6dc55e53324f93b78920562c31eae9.html">Create a Calculated Property</a></li>
-                                       </ul>
-                                    </li>
-                                    <li class=" collapsible  collapsed"><a href="90c73651dd2d4d5a9a57868c266c506b.html">Editing Data Under the Samples Tab</a><ul>
-                                          <li class=" no-child "><a href="0c65bdb63e634bc29165ec037ee108f8.html">Editing Data in the Data Modeler</a></li>
-                                          <li class=" no-child "><a href="0152b6f646ae44938ee15baa257d05d7.html">Importing and Exporting Data</a></li>
-                                       </ul>
-                                    </li>
-                                    <li class=" collapsible  collapsed"><a href="1df33f462ff849c5a03c91057d64946f.html">Use Images from a Data Model</a><ul>
-                                          <li class=" no-child "><a href="140fe2f2f9a74c10baa3453ccd5690ee.html">Use Images Referenced in a Data Model</a></li>
-                                          <li class=" no-child "><a href="4719a8f76908424eaeb7ca0ea149fec2.html">Add Images via the SAMPLES Tab</a></li>
-                                       </ul>
-                                    </li>
-                                    <li class=" collapsible  collapsed"><a href="85b8e56746b94fdc80849a972590edac.html">Example Workflows</a><ul>
-                                          <li class=" no-child "><a href="3fd6a823780d46f59d24dfeae55d4666.html">Example: Manually Adding an Object to a Data Model</a></li>
-                                          <li class=" no-child "><a href="3fd1a48d6b2848b0861dcde3e72fdfa3.html">Example: Adding Properties to an Object</a></li>
-                                          <li class=" no-child "><a href="e3164fb93adc4c59af431aed773129b7.html">Example: Manually Adding Data</a></li>
-                                          <li class=" no-child "><a href="fbe04e60402c475c9dbe488338b00f51.html">Example: Exporting a Modified Model</a></li>
-                                       </ul>
-                                    </li>
+                              <li class=" collapsible  collapsed"><a href="5220f02b8b79428996a710d067cbe4aa.html">Copy Prototype Pages</a><ul>
+                                    <li class=" no-child "><a href="9e78117c063a4f4d814169163b672de5.html">FAQ about Copying Prototype Pages</a></li>
                                  </ul>
                               </li>
-                              <li class=" collapsible  collapsed"><a href="b02f509d805e428e9b282af43638312c.html">Smart Templates</a><ul>
+                           </ul>
+                        </li>
+                        <li class="topichead collapsible "><span>Smart Templates</span><ul>
+                              <li class=" collapsible  collapsed"><a href="b02f509d805e428e9b282af43638312c.html">Smart Templates (Fiori Elements)</a><ul>
                                     <li class=" no-child "><a href="afb0de7ba731499ca5d9812b33eeeec2.html">Smart Templates in the Gallery</a></li>
                                     <li class=" collapsible  collapsed"><a href="2ca07ac8d7f740b2b06b7f538876767a.html">Smart Template List Report Page</a><ul>
                                           <li class=" no-child "><a href="aa70dab8b9404f63a6bb48e9302c1a24.html">Control Properties in the Smart Template List Report Template</a></li>
@@ -281,10 +295,65 @@
                                     </li>
                                  </ul>
                               </li>
-                              <li class=" collapsible  collapsed"><a href="b6295721db01496d994f1781f132a9cb.html">Extend Prototypes with SAP Web IDE</a><ul>
-                                    <li class=" no-child "><a href="4988498b23b54530b271f8f59f905716.html">Set Things Up</a></li>
-                                    <li class=" no-child "><a href="a94fc277085a4d23a30b451d352b36f4.html">Install the BUILD Plug-in in Web IDE</a></li>
+                           </ul>
+                        </li>
+                        <li class="topichead collapsible "><span>Data Models and the Data Editor</span><ul>
+                              <li class=" collapsible  collapsed"><a href="826edca4a27f417aa944f45d97632eca.html">Data Models and the Data Editor</a><ul>
+                                    <li class=" collapsible  collapsed"><a href="c0b4d52243c84c8f96d068157ac4e317.html">Create and Add Objects Manually</a><ul>
+                                          <li class=" no-child "><a href="a7a38ff657d742b88e472eef35679535.html">Rules for the Object Name</a></li>
+                                       </ul>
+                                    </li>
+                                    <li class=" no-child "><a href="f81667ffefdd457cbfcc6ab467767631.html">Add Objects by Search</a></li>
+                                    <li class=" collapsible  collapsed"><a href="a24ab97bac464838be931ac9ea0f00e9.html">Import Objects from Excel</a><ul>
+                                          <li class=" no-child "><a href="505c95b8c8354630929fe772478daadf.html">Rules for Adding Objects or Importing from a Spreadsheet</a></li>
+                                       </ul>
+                                    </li>
+                                    <li class=" collapsible  collapsed"><a href="c125ab9850824c77abf96c12655347da.html">Add Properties to an Object</a><ul>
+                                          <li class=" no-child "><a href="dc6dc55e53324f93b78920562c31eae9.html">Create a Calculated Property</a></li>
+                                       </ul>
+                                    </li>
+                                    <li class=" collapsible  collapsed"><a href="90c73651dd2d4d5a9a57868c266c506b.html">Editing Data from the Samples Tab</a><ul>
+                                          <li class=" no-child "><a href="0c65bdb63e634bc29165ec037ee108f8.html">Editing Data in the Data Editor</a></li>
+                                          <li class=" no-child "><a href="0152b6f646ae44938ee15baa257d05d7.html">Importing and Exporting Data</a></li>
+                                       </ul>
+                                    </li>
+                                    <li class=" collapsible  collapsed"><a href="2cae8a4e5b31463caa17bb8da9ee6ab4.html">Relationships Between Two Objects</a><ul>
+                                          <li class=" no-child "><a href="888443ab71914d69b33f7dc2b83ecb7f.html">Create Relationships Between Objects</a></li>
+                                          <li class=" no-child "><a href="d0df71648c624df6888df90adef9017f.html">Edit a Relationship</a></li>
+                                       </ul>
+                                    </li>
+                                    <li class=" collapsible  collapsed"><a href="1df33f462ff849c5a03c91057d64946f.html">Use Images from a Data Model</a><ul>
+                                          <li class=" no-child "><a href="140fe2f2f9a74c10baa3453ccd5690ee.html">Use Images Referenced in a Data Model</a></li>
+                                          <li class=" no-child "><a href="4719a8f76908424eaeb7ca0ea149fec2.html">Add Images via the Samples Panel</a></li>
+                                       </ul>
+                                    </li>
+                                    <li class=" collapsible  collapsed"><a href="85b8e56746b94fdc80849a972590edac.html">Example Workflows</a><ul>
+                                          <li class=" no-child "><a href="3fd6a823780d46f59d24dfeae55d4666.html">Example: Manually Adding an Object to a Data Model</a></li>
+                                          <li class=" no-child "><a href="3fd1a48d6b2848b0861dcde3e72fdfa3.html">Example: Adding Properties to an Object</a></li>
+                                          <li class=" no-child "><a href="e3164fb93adc4c59af431aed773129b7.html">Example: Manually Adding Data</a></li>
+                                          <li class=" no-child "><a href="fbe04e60402c475c9dbe488338b00f51.html">Example: Exporting a Modified Model</a></li>
+                                       </ul>
+                                    </li>
+                                    <li class=" collapsible  collapsed"><a href="fe036c222d8d4246ab462fcda420678f.html">Use Sample Files to Create a Data Model</a><ul>
+                                          <li class=" no-child "><a href="39e54ec5c6ab41b48e636a0c1e47e4e8.html">Cardinality of Relationships in a Data Model</a></li>
+                                          <li class=" no-child "><a href="785d039a1024431a8187f31f31be63a2.html">Viewing the Data Model in Excel</a></li>
+                                       </ul>
+                                    </li>
+                                 </ul>
+                              </li>
+                           </ul>
+                        </li>
+                        <li class="topichead collapsible "><span>SAP Web IDE</span><ul>
+                              <li class=" collapsible  collapsed"><a href="e9b1bcf560794b96a3f382ac27c0b972.html">Extend Prototypes with SAP Web IDE</a><ul>
+                                    <li class=" no-child "><a href="b6295721db01496d994f1781f132a9cb.html">Prerequisites</a></li>
+                                    <li class=" no-child "><a href="c0dccc24c587467f958a7de4273066ee.html">Destinations</a></li>
+                                    <li class=" no-child "><a href="4c58a629a76945049cec2f17e7ec4a46.html">Create BUILD
+                                          		Destinations Manually</a></li>
+                                    <li class=" no-child "><a href="303edd27d68d4713b985ee277e548603.html">Import Destinations</a></li>
+                                    <li class=" no-child "><a href="a94fc277085a4d23a30b451d352b36f4.html">Enable the BUILD
+                                          		Plug-in in Web IDE</a></li>
                                     <li class=" no-child "><a href="d3b2492b809043ccbd1c36a25a5056a2.html">Create a Project in Web IDE</a></li>
+                                    <li class=" no-child "><a href="fc826c0a77bc4f24b75ba8425c2e9a29.html">View and Modify the Code in Web IDE</a></li>
                                  </ul>
                               </li>
                            </ul>
@@ -294,36 +363,37 @@
                                     <li class=" collapsible  collapsed"><a href="96051819db09498fbe5075ccfa478b4c.html">Create Feedback Studies </a><ul>
                                           <li class=" no-child "><a href="998719cb88d140d3a23c44b688369178.html">Create Feedback Studies from the Project Page</a></li>
                                           <li class=" no-child "><a href="6d92f5cf1d16402c9dec4fd511b96f67.html">Create Feedback Studies from the UI Editor</a></li>
-                                          <li class=" no-child "><a href="a59810d9d5844484b2c22c79f280fa9e.html">Create a Task</a></li>
-                                          <li class=" no-child "><a href="25dbf99cedb94d108645efa99946f39d.html">Ask a Question</a></li>
+                                          <li class=" no-child "><a href="a59810d9d5844484b2c22c79f280fa9e.html">Setting Questions about Prototypes</a></li>
+                                          <li class=" no-child "><a href="25dbf99cedb94d108645efa99946f39d.html">Setting Questions about Images</a></li>
                                           <li class=" no-child "><a href="d562b443cab1479db864348c035d5041.html">Guidelines for Study Names and Descriptions</a></li>
                                        </ul>
                                     </li>
                                     <li class=" no-child "><a href="6a58ff4ec83646dc9a7d6a5929faf290.html">Preview a Feedback Study</a></li>
                                     <li class=" no-child "><a href="1b83a80c2aaf4ab9815074f24489eec2.html">Publish a Feedback Study</a></li>
+                                    <li class=" no-child "><a href="3f312926c09846b998b731d7206f1bfa.html">Retrieve Study Links</a></li>
                                     <li class=" collapsible  collapsed"><a href="94de2230395c4f88bf39e019fd79b816.html">Invite People to Participate In Feedback Studies</a><ul>
-                                          <li class=" no-child "><a href="b001f594c6eb4176a745dd8a5374e395.html">Retrieve Study Links</a></li>
+                                          <li class=" no-child "><a href="3f312926c09846b998b731d7206f1bfa.html">Retrieve Study Links</a></li>
                                        </ul>
                                     </li>
                                     <li class=" no-child "><a href="bf32249e397e48f892101bdf62c6d694.html">Participate in Feedback Studies</a></li>
                                     <li class=" collapsible  collapsed"><a href="ff3198099bf34e83a02aef250ad74309.html">View and Analyze Responses to Feedback Studies</a><ul>
                                           <li class=" collapsible  collapsed"><a href="57a330a97a9c46768dad0eac09533993.html">Responses on the Research Page</a><ul>
-                                                <li class=" no-child "><a href="8ab24e480a68476f800648582eaabf43.html">Overview of Responses to Feedback Studies</a></li>
-                                                <li class=" collapsible  collapsed"><a href="fa1a3193c6f443fd8d862158495fc406.html">Responses to Tasks and Questions</a><ul>
-                                                      <li class=" no-child "><a href="39cc06a344764033ab879da1628628b2.html">High-Level Statistics about Tasks</a></li>
-                                                      <li class=" no-child "><a href="ad4ae2e9205e4b02b6055ceba5b495ab.html">High-level Statistics About Questions </a></li>
-                                                      <li class=" collapsible  collapsed"><a href="efeed3d454c5458ca58f5aa25c627cf4.html">Detailed Statistics about Tasks</a><ul>
-                                                            <li class=" no-child "><a href="3b12bd8de7cc4fa680ebadaf1c466bee.html">Task Overview</a></li>
+                                                <li class=" no-child "><a href="8ab24e480a68476f800648582eaabf43.html">Overview Tab</a></li>
+                                                <li class=" collapsible  collapsed"><a href="fa1a3193c6f443fd8d862158495fc406.html">Questions Tab</a><ul>
+                                                      <li class=" no-child "><a href="39cc06a344764033ab879da1628628b2.html">High-Level Feedback about Perform-an-Action Questions</a></li>
+                                                      <li class=" no-child "><a href="ad4ae2e9205e4b02b6055ceba5b495ab.html">High-level Feedback about Image Questions </a></li>
+                                                      <li class=" no-child "><a href="8414cbb9bb27400283704e1b73cc26f3.html">Detailed Feedback about Image Questions</a></li>
+                                                      <li class=" collapsible  collapsed"><a href="efeed3d454c5458ca58f5aa25c627cf4.html">Detailed Feedback about Perform-an-Action Questions</a><ul>
+                                                            <li class=" no-child "><a href="3b12bd8de7cc4fa680ebadaf1c466bee.html">Breakdown</a></li>
                                                             <li class=" no-child "><a href="73c63ec80ff34c839d89dcc6bf8a38c7.html">Prototype</a></li>
                                                             <li class=" no-child "><a href="2dd738ada2ba44a6a46e75bad453cdcb.html">Page Flow</a></li>
                                                             <li class=" no-child "><a href="b645fd069b5f46c7838c83b648dafb5e.html">Statistics</a></li>
                                                          </ul>
                                                       </li>
-                                                      <li class=" no-child "><a href="8414cbb9bb27400283704e1b73cc26f3.html">Detailed Statistics about Questions</a></li>
                                                    </ul>
                                                 </li>
-                                                <li class=" no-child "><a href="1b35239af75a4cbd93d503c93f7b91dd.html">Participants Page</a></li>
-                                                <li class=" no-child "><a href="528af720f5a643cba061e6795199e7dc.html">Participant Invitation Page</a></li>
+                                                <li class=" no-child "><a href="1b35239af75a4cbd93d503c93f7b91dd.html">Participants Tab</a></li>
+                                                <li class=" no-child "><a href="528af720f5a643cba061e6795199e7dc.html">Participant Invitation Tab</a></li>
                                                 <li class=" collapsible  collapsed"><a href="ac63e51755294386ba9ae06542b6329f.html">Settings</a><ul>
                                                       <li class=" no-child "><a href="0827a919eb694e63ae668f2c332402f4.html">Pausing Studies</a></li>
                                                       <li class=" no-child "><a href="b240e19ad2b94752a6c51eeec29fd258.html">Archiving Studies</a></li>
@@ -339,66 +409,82 @@
                            </ul>
                         </li>
                         <li class="topichead collapsible "><span>Files Tool</span><ul>
-                              <li class=" collapsible  collapsed"><a href="a425c98658cb4eb6a601ac6dc17c5fe8.html">Project Files</a><ul>
-                                    <li class=" no-child "><a href="36a8f8e406434fcc983ec219a6786f3a.html">Upload Files</a></li>
+                              <li class=" no-child "><a href="a425c98658cb4eb6a601ac6dc17c5fe8.html">Using the Files Tool</a></li>
+                              <li class=" collapsible  collapsed"><a href="36a8f8e406434fcc983ec219a6786f3a.html">Upload Files using the Files Tool</a><ul>
+                                    <li class=" no-child "><a href="a9512310d12545f0897553da3923f536.html">Uploading Files to BUILD</a></li>
                                  </ul>
                               </li>
+                              <li class=" no-child "><a href="b10f396722a44730a232324d0ca85231.html">Delete Files</a></li>
+                              <li class=" no-child "><a href="a5c91ed1909d422cb7cdcf568648f35a.html">Rename Files</a></li>
+                              <li class=" no-child "><a href="6f6037bdaa1444e7bad24c8d55339cff.html">Download Files</a></li>
+                              <li class=" no-child "><a href="50d93612a82a47fd8fc04c8044369367.html">Preview Files </a></li>
+                              <li class=" no-child "><a href="a9ab32d5cd324adca041f008b0e83ba9.html">File Types in BUILD
+                                    	  </a></li>
                            </ul>
                         </li>
-                        <li class="topichead collapsible "><span>Design-Led Development</span><ul>
-                              <li class=" no-child "><a href="9baa722c542d40fb987b4a1413165dd1.html">Design-Led Development</a></li>
-                              <li class=" no-child "><a href="f96efb5821864ba9a153144b64606282.html">Open the DLD Tool</a></li>
-                              <li class=" no-child "><a href="e2a82ed766f9471d829f0b95dad8633c.html">Assigning Reviewers</a></li>
-                              <li class=" no-child "><a href="e4375c40561e4e9db3e1846c125cad08.html">Design Portfolio</a></li>
-                              <li class=" no-child "><a href="913629e5942842b0a33aa70b6bbbd97a.html">Design Gate Documents</a></li>
-                              <li class=" no-child "><a href="bbe3a49a11f04934b4aefaa4f21e82b1.html">Link to a D Gate</a></li>
-                              <li class=" no-child "><a href="b19318a779754978a67836f61f6019ed.html">Submit Designs for D Gate 0</a></li>
-                              <li class=" no-child "><a href="291bb0587ff6452682cbb911c944aaf8.html">Review D Gate 0 Submissions</a></li>
-                              <li class=" no-child "><a href="5f0b375321b4451fa1fe180a7bb57c37.html">Submit Designs for D Gate 1</a></li>
-                              <li class=" no-child "><a href="d625c81a395f459ba5f19460b00c327c.html">Review D Gate 1 Submissions</a></li>
-                              <li class=" no-child "><a href="297b3641747b4f63a60da413b33c6eb9.html">Submit Designs for D Gate 2</a></li>
-                              <li class=" no-child "><a href="4c23a602068a475bb20ca287b394c8fa.html">Review D Gate 2 Submissions</a></li>
-                           </ul>
-                        </li>
-                        <li class="topichead collapsible "><span>App Gallery</span><ul>
+                        <li class="topichead collapsible "><span>BUILD App Gallery</span><ul>
                               <li class=" no-child "><a href="9c94c5c7783b4ffb8beabea585068060.html">Access the Gallery</a></li>
                               <li class=" no-child "><a href="efac7af25102415298fc1bf246624557.html">Find Gallery Projects</a></li>
                               <li class=" no-child "><a href="e800da46fc234457b5d82b1dd166a43a.html">Create a Project by Cloning</a></li>
                            </ul>
                         </li>
-                        <li class="topichead collapsible "><span>Learning Center</span><ul>
+                        <li class="topichead collapsible "><span>BUILD Learning Center</span><ul>
                               <li class=" no-child "><a href="357b5d4f0db741aeb18e3193f2bf13d3.html">Learn Design Concepts</a></li>
-                              <li class=" no-child "><a href="762b80850e4946828bc10d92af231e3b.html">Method Cards</a></li>
+                              <li class=" no-child "><a href="762b80850e4946828bc10d92af231e3b.html">Learning Cards</a></li>
                            </ul>
                         </li>
-                        <li class="topichead collapsible "><span>Community</span><ul>
+                        <li class="topichead collapsible "><span>BUILD Community</span><ul>
                               <li class=" no-child "><a href="8c60b9804ac1441c81b2b68315e419e8.html">Community</a></li>
-                              <li class=" no-child "><a href="3d9fea37998f4260bcd2b0b741b64faf.html">Blog</a></li>
                            </ul>
                         </li>
-                        <li class="topichead collapsible "><span>Administration</span><ul>
-                              <li class=" collapsible  collapsed"><a href="AdminConsoleHelp.html">Get Started with Admin Console</a><ul>
-                                    <li class=" no-child "><a href="d1a75c9af7cd4565aaa28fb7ed88b9b2.html">Admin Console</a></li>
-                                    <li class=" no-child "><a href="0693592c3a614d85bb1a456a515be8be.html">View Audit Log</a></li>
-                                    <li class=" no-child "><a href="1aa707dbf69b425fb9437703ef59b448.html">Manage Users</a></li>
+                        <li class="topichead collapsible "><span>Administration and Security</span><ul>
+                              <li class=" collapsible  collapsed"><a href="adminconsolehelp.html">HCP BUILD Service
+                                    		Configuration - Overview</a><ul>
+                                    <li class=" collapsible  collapsed"><a href="912b6aaa9a184bc58c54077bed83b258.html">Enable the BUILD Service in the HCP Cockpit</a><ul>
+                                          <li class=" no-child "><a href="f9bda020a1e24a39a21bd141523007dc.html">Assign a BUILD Tenant
+                                                		Request Admin Role to a User</a></li>
+                                          <li class=" no-child "><a href="45e288e6b36445d8b04e28b65cf09137.html">Request a BUILD
+                                                		Tenant</a></li>
+                                          <li class=" collapsible  collapsed"><a href="e4aed27e43544440bb857f1362fb26aa.html">About the HCP Account Trusted Identity Provider (IdP)</a><ul>
+                                                <li class=" no-child "><a href="56b34da0851c4335abddcedafc7bbe37.html">Trust Management</a></li>
+                                             </ul>
+                                          </li>
+                                       </ul>
+                                    </li>
+                                 </ul>
+                              </li>
+                              <li class=" collapsible  collapsed"><a href="Admin.html">
+                                    BUILD
+                                    		Administration</a><ul>
+                                    <li class=" no-child "><a href="Admin.html">Get Started with the Admin Console</a></li>
                                     <li class=" no-child "><a href="f310f001528e40f0abab71c9016a78b3.html">Set Domain Access</a></li>
+                                    <li class=" no-child "><a href="1aa707dbf69b425fb9437703ef59b448.html">Manage Users</a></li>
+                                    <li class=" no-child "><a href="0693592c3a614d85bb1a456a515be8be.html">View Audit Log</a></li>
                                  </ul>
                               </li>
                            </ul>
                         </li>
-                        <li class="topichead collapsible "><span>Report Issues to Support</span><ul>
-                              <li class=" no-child "><a href="20e749a820a74a4d85d3c3075985920a.html">Report Issues to Support</a></li>
-                              <li class=" no-child "><a href="424c81ae520c419dacdc74e682e5530e.html">Splash PPMS Version Details</a></li>
+                        <li class="topichead collapsible "><span>Upgrade BUILD</span><ul>
+                              <li class=" no-child "><a href="free_version_limitations.html">About Project Number Limits</a></li>
+                              <li class=" no-child "><a href="build_enterprise_features.html">BUILD Enterprise Features</a></li>
+                              <li class=" no-child "><a href="baac8939007040c39b0e43d894984dfc.html">Purchasing BUILD Licenses</a></li>
                            </ul>
                         </li>
-                        <li class="topichead collapsible "><span>Known Issues and What's New in Beta 5</span><ul>
-                              <li class=" no-child "><a href="f6dead872ca54b079b1b7ce4fef5f150.html">What's New in SPLASH Beta 5?</a></li>
-                              <li class=" no-child "><a href="6325b1a535aa42988eb3e6e32d63f746.html">Known Issues in Beta 5</a></li>
-                              <li class=" no-child "><a href="6f88630ec94140ac84c100b1d7f75a2e.html">Known Issues in Smart Templates - Beta 5</a></li>
+                        <li class="topichead collapsible "><span>Report Issues to Support</span><ul>
+                              <li class=" no-child "><a href="20e749a820a74a4d85d3c3075985920a.html">Report Issues to Support</a></li>
+                              <li class=" no-child "><a href="424c81ae520c419dacdc74e682e5530e.html">
+                                    BUILD PPMS Version Details</a></li>
+                           </ul>
+                        </li>
+                        <li class="topichead collapsible "><span>What's New</span><ul>
+                              <li class=" no-child "><a href="f6dead872ca54b079b1b7ce4fef5f150.html">What's New?</a></li>
+                           </ul>
+                        </li>
+                        <li class="topichead collapsible "><span>Known Issues</span><ul>
+                              <li class=" no-child "><a href="6325b1a535aa42988eb3e6e32d63f746.html">Known Issues</a></li>
                            </ul>
                         </li>
                         <li class=" no-child "><a href="d786f2508b7440e1a8e7104613f30c19.html">Legal Notices About Fonts</a></li>
-						<li class=" no-child "><a href="your_account.html">Information About Your Account</a></li>
                      </ul>
                   </ul>
                </div>
@@ -414,35 +500,69 @@
                            		members.
                         </p>
                         
+                        
                         <div class="section prereq p">
                            <div class="tasklabel">
                               <h2 class="sectiontitle tasklabel">Prerequisites</h2>
                            </div>You must have archived at least one project.
                         </div>
                         
+                        
                         <div class="tasklabel">
                            <h2 class="sectiontitle tasklabel">Procedure</h2>
                         </div>
                         <ol class="ol steps">
-                           <li class="li step stepexpand"><span class="ph cmd">On the <span class="ph uicontrol uicontrol-boldblack">Project</span> page, select <strong class="ph b">archived</strong>.</span><div class="itemgroup stepresult">Your archived projects are displayed.</div>
+                           <li class="li step stepexpand">
+                              <span class="ph cmd">On the <span class="keyword uinolabel">Project</span> page, select <strong class="ph b">archived</strong>.</span>
+                              
+                              <div class="itemgroup info">
+                                 
+                                 <p class="p">
+                                    <img class="inline center " height="540" src="719b1cf72fca47bd93262af66a82f1d3.image" width="960">
+                                    
+                                 </p>
+                                 
+                                 					          
+                                 <div class="p">
+                                    
+                                    <div xmlns="http://www.w3.org/1999/xhtml" class="fig fignone" id="id-37822-loiof02d25988f2e4cccb55ac88920a26379--fig-11-13-66">
+                                       <div class="figbody">
+                                          
+                                          
+                                       </div><span class="figcap"><span class="enumeration fig-enumeration">Figure 10.&nbsp;</span>Restore Archived Projects</span></div>
+                                    
+                                    
+                                 </div>
+                                 
+                                 
+                              </div>
+                              
+                              <div class="itemgroup stepresult">Your archived projects are displayed.</div>
+                              
                            </li>
                            
-                           <li class="li step stepexpand"><span class="ph cmd">Select <span class="ph uicontrol uicontrol-boldblack">Restore</span>.</span><div class="itemgroup stepresult">You have restored the project, and the project thumbnail is displayed on the
-                                 						<span class="ph uicontrol uicontrol-boldblack">Project</span> page. 
+                           <li class="li step stepexpand">
+                              <span class="ph cmd">Select <span class="ph uicontrol uicontrol-boldblack">Restore</span>.</span>
+                              
+                              <div class="itemgroup stepresult">You have restored the project, and the project thumbnail is displayed on the
+                                 						<span class="keyword uinolabel">Project</span> page. 
                               </div>
+                              
                            </li>
                            
                         </ol>
                         
+                        
                         <div class="section result">
                            <div class="tasklabel">
                               <h2 class="sectiontitle tasklabel">Results</h2>
-                           </div>The project is restored. It is displayed again on your <span class="ph uicontrol uicontrol-boldblack">Home</span> page
-                           			and on the <span class="ph uicontrol uicontrol-boldblack">Home</span> page of all project team members, and both you
+                           </div>The project is restored. It is displayed again on your <span class="keyword uinolabel">Home</span> page
+                           			and on the <span class="keyword uinolabel">Home</span> page of all project team members, and both you
                            			and team members can modify the project. However, when you restore archived projects you
                            			do not automatically restore the invitations to join the project, or restore the
                            			invitations to participate in project feedback studies. 
                         </div>
+                        
                      </div>
                      
                      <div class="related-links"> 
@@ -450,7 +570,7 @@
                         <div class="relinfo">
                            <div class="relinfotitle ">Related Information</div>
                            
-                           <div><a class="link" href="9f439111a52240068ea040c67a96390f.html" title="If you own the project you can archive and restore a project. It is not possible to modify archived projects. You can restore archived projects anytime.">Archive Projects</a></div>
+                           <div><a class="link" href="9f439111a52240068ea040c67a96390f.html" title="If you own the project you can archive and restore a project. It is not possible to modify archived projects. You can restore archived projects anytime.">Archive a Project</a></div>
                            
                         </div>
                         
@@ -466,16 +586,30 @@
          <div class="clearfix"></div>
          <div id="footer-container" class="grid_12">
             <footer>
+               	
                <div id="custom-footerSpacer"></div>
-               <div class="left"><a href="https://www.experiencesplash.com/splash/sites/default/files/privacy_statement.pdf" target="_blank">PRIVACY</a><a href="http://www.sap.com/corporate-en/about/legal/impressum.html" target="_blank">LEGAL DISCLOSURE</a><a href="http://www.sap.com/corporate-en/about/legal/copyright/index.html" target="_blank">COPYRIGHT</a><a href="https://www.experiencesplash.com/splash/sites/default/files/terms_of_use.pdf" target="_blank">TERMS OF USE</a><a href="http://go.sap.com/index.html" target="_blank">SAP.COM</a></div>
-               <div class="right">
-                  <p>Product and Production Management System version: SAP Splash Beta 5</p>
-                  <p><span>CREATED BY</span><a href="http://go.sap.com/index.html" target="_blank"><img src="themes/norman/img/sap.png" class="logo" alt="logo"></a></p>
+               	
+               <div class="left">
+                  		<a href="https://www.build.me/splash/sites/default/files/privacyStatement.html" target="_blank">PRIVACY</a>
+                  		<a href="http://www.sap.com/corporate-en/about/legal/impressum.html" target="_blank">LEGAL DISCLOSURE</a>
+                  		<a href="http://www.sap.com/corporate-en/about/legal/copyright/index.html" target="_blank">COPYRIGHT</a>
+                  		<a href="https://www.experiencesplash.com/splash/sites/default/files/terms_of_use.pdf" target="_blank">TERMS OF USE</a>
+                  		<a href="http://go.sap.com/index.html" target="_blank">SAP.COM</a>
+                  	
                </div>
+               	
+               <div class="right">
+                  		
+                  <p>Product and Production Management System version: SAP Splash Beta 5</p>
+                  		
+                  <p><span>CREATED BY</span> <a href="http://go.sap.com/index.html" target="_blank"><img src="themes/norman/img/sap.png" class="logo" alt="logo"></a></p>
+                  	
+               </div>
+               
             </footer>
             
             
-            <!--Build date: 06/09/2016 11:03 GMT-7-->
+            <!--Build date: 09/06/2016 12:09 GMT-7-->
          </div>
       </div><script>
         var swa = {
@@ -484,7 +618,7 @@
         visitorCookieTimeout: 7889232,
         dntLevel: 1,
         bannerEnabled: true,
-        licenseUrl: 'https://www.experiencesplash.com/splash/sites/default/files/privacyStatement.html'
+        licenseUrl: 'https://www.build.me/splash/sites/default/files/privacyStatement.html'
         };
         (function(){
         var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
@@ -492,26 +626,10 @@
         s.parentNode.insertBefore(g,s);
         })();
       </script></body>
-<script>
-        var swa = {
-        pubToken: '6fa0fc12-d856-4547-ae3d-95802f388c16',
-        baseUrl: 'https://cloud.warp.sap.com/tracker/',
-        visitorCookieTimeout: 7889232,
-        dntLevel: 1,
-        bannerEnabled: true,
-        licenseUrl: 'https://www.experiencesplash.com/splash/sites/default/files/privacyStatement.html'
-        };
-        (function(){
-        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-        g.type='text/javascript'; g.defer=true; g.async=true; g.src=swa.baseUrl+'js/privacy.js';
-        s.parentNode.insertBefore(g,s);
-        })();
-      </script></body>
-	  <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script> 
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script> 
 <script type="text/javascript"> docsearch({
 apiKey: 'bd6c05f4081b4bf1e8cc0222f2be206d',
 indexName: 'sap-splash',
 inputSelector: '#txtSearchTerms'
 }); 
-</script>
-</html>
+</script></html> 
