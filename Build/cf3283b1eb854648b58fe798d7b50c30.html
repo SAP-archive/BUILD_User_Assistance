@@ -2,13 +2,13 @@
   SYSTEM "about:legacy-compat">
 <html lang="en-us" dir="ltr">
    <head>
-   <head>
    <script type="text/javascript">
 var url = window.location.href;
 url = url.split('#').pop().split('?').pop();
 var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
-            window.location.replace("../../build/external/" + page);
-    </script>  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+            window.location.replace("../build/" + page);
+    </script>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <title>UI Controls for Smart Template List Report Pages</title>
       <meta charset="utf-8">
@@ -67,6 +67,7 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
       </script>
       <link rel="stylesheet" type="text/css" src="https://fonts.googleapis.com/css?family=Roboto">
       <script type="text/javascript" src="themes/norman/js/script.js"></script>
+      <script type="text/javascript" src="js/sap.page-utils.js"></script>
       <script type="text/javascript" src="js/search-processing.js"></script>
       <script type="text/javascript" src="//sap.github.io/BUILD_User_Assistance/videos/unitegallery/js/unitegallery.min.js"></script>
       <script type="text/javascript" src="//sap.github.io/BUILD_User_Assistance/videos/unitegallery/themes/tilesgrid/ug-theme-tilesgrid.js"></script>
@@ -423,6 +424,31 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                     	  </a></li>
                            </ul>
                         </li>
+                        <li class="topichead collapsible "><span>Design-Led Development</span><ul>
+                              <li class=" no-child "><a href="9baa722c542d40fb987b4a1413165dd1.html">Design-Led Development</a></li>
+                              <li class=" no-child "><a href="f96efb5821864ba9a153144b64606282.html">Using the DLD Tool</a></li>
+                              <li class=" no-child "><a href="e4375c40561e4e9db3e1846c125cad08.html">D-Gate Design Browser</a></li>
+                              <li class=" no-child "><a href="bbe3a49a11f04934b4aefaa4f21e82b1.html">Link to an Existing D-Gate 0 Role</a></li>
+                              <li class=" collapsible  collapsed"><a href="b19318a779754978a67836f61f6019ed.html">Submit Designs for D-Gate 0</a><ul>
+                                    <li class=" no-child "><a href="291bb0587ff6452682cbb911c944aaf8.html">Review D Gate 0 Submissions</a></li>
+                                 </ul>
+                              </li>
+                              <li class=" collapsible  collapsed"><a href="5f0b375321b4451fa1fe180a7bb57c37.html">Submit Designs for D Gate 1</a><ul>
+                                    <li class=" no-child "><a href="d625c81a395f459ba5f19460b00c327c.html">Review D Gate 1 Submissions</a></li>
+                                 </ul>
+                              </li>
+                              <li class=" collapsible  collapsed"><a href="297b3641747b4f63a60da413b33c6eb9.html">Submit Designs for D Gate 2</a><ul>
+                                    <li class=" no-child "><a href="4c23a602068a475bb20ca287b394c8fa.html">Review D-Gate 2 Submissions</a></li>
+                                 </ul>
+                              </li>
+                              <li class=" collapsible  collapsed"><a href="913629e5942842b0a33aa70b6bbbd97a.html">Design Gate Documents</a><ul>
+                                    <li class=" no-child "><a href="2cc87ae4742e40b488b698e69faa2be7.html">Viewing DLD Project Files</a></li>
+                                    <li class=" no-child "><a href="56011f61d23e48358bf87e639dd15ea3.html">Downloading DLD Project Files</a></li>
+                                 </ul>
+                              </li>
+                              <li class=" no-child "><a href="e2a82ed766f9471d829f0b95dad8633c.html">Become a D-Gate Reviewer</a></li>
+                           </ul>
+                        </li>
                         <li class="topichead collapsible "><span>BUILD App Gallery</span><ul>
                               <li class=" no-child "><a href="9c94c5c7783b4ffb8beabea585068060.html">Access the Gallery</a></li>
                               <li class=" no-child "><a href="efac7af25102415298fc1bf246624557.html">Find Gallery Projects</a></li>
@@ -528,7 +554,7 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                        
                                        <tr class="row">
                                           
-                                          <th class="entry" valign="top" id="d22269e48">
+                                          <th class="entry" valign="top" id="d22440e48">
                                              									                  
                                              <p class="p">Control</p>
                                              
@@ -536,7 +562,7 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                           </th>
                                           
                                           
-                                          <th class="entry" valign="top" id="d22269e54">
+                                          <th class="entry" valign="top" id="d22440e54">
                                              									                  
                                              <p class="p">Image</p>
                                              
@@ -544,7 +570,7 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                           </th>
                                           
                                           
-                                          <th class="entry" valign="top" id="d22269e60">
+                                          <th class="entry" valign="top" id="d22440e60">
                                              									                  
                                              <p class="p">Description</p>
                                              
@@ -552,7 +578,7 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                           </th>
                                           
                                           
-                                          <th class="entry" valign="top" id="d22269e66">
+                                          <th class="entry" valign="top" id="d22440e66">
                                              									                  
                                              <p class="p">More information</p>
                                              
@@ -570,7 +596,7 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                        
                                        <tr class="row">
                                           
-                                          <td class="entry" valign="top" headers="d22269e48 ">
+                                          <td class="entry" valign="top" headers="d22440e48 ">
                                              									                  
                                              <p class="p">Filter</p>
                                              
@@ -578,7 +604,7 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                           </td>
                                           
                                           
-                                          <td class="entry" valign="top" headers="d22269e54 ">
+                                          <td class="entry" valign="top" headers="d22440e54 ">
                                              									                  
                                              <p class="p">
                                                 <img class="inline  " id="loiocf3283b1eb854648b58fe798d7b50c30__image_rh2_qn1_dx" src="85068bfb2c3a4fbfbb4137b8bb384936.image">
@@ -589,7 +615,7 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                           </td>
                                           
                                           
-                                          <td class="entry" valign="top" headers="d22269e60 ">
+                                          <td class="entry" valign="top" headers="d22440e60 ">
                                              									                  
                                              <p class="p">Enables users to filter and display objects on the table on Smart Template List Report
                                                 										pages. There are two methods of filtering: entering an
@@ -602,7 +628,7 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                           </td>
                                           
                                           
-                                          <td class="entry" valign="top" headers="d22269e66 ">
+                                          <td class="entry" valign="top" headers="d22440e66 ">
                                              									                  
                                              <p class="p">
                                                 <a class="extlink" href="http://help.sap.com/disclaimer?site=https://experience.sap.com/fiori-design-web/ui-components/filter-bar/" target="_blank" alt="https://experience.sap.com/fiori-design-web/ui-components/filter-bar/" title="https://experience.sap.com/fiori-design-web/ui-components/filter-bar/">https://experience.sap.com/fiori-design-web/ui-components/filter-bar/<img src="themes/norman/img/sap_link.png" class="link-sap" alt="Information published on SAP site" title="Information published on SAP site" border="0"></a>
@@ -618,7 +644,7 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                        
                                        <tr class="row">
                                           
-                                          <td class="entry" valign="top" headers="d22269e48 ">
+                                          <td class="entry" valign="top" headers="d22440e48 ">
                                              									                  
                                              <p class="p">Combo Box Filter</p>
                                              
@@ -626,13 +652,13 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                           </td>
                                           
                                           
-                                          <td class="entry" valign="top" headers="d22269e54 ">
+                                          <td class="entry" valign="top" headers="d22440e54 ">
                                              <img class="inline  " id="loiocf3283b1eb854648b58fe798d7b50c30__image_jby_tn1_dx" src="eefdfb665f044e9480b23cba10bec934.image">
                                              
                                           </td>
                                           
                                           
-                                          <td class="entry" valign="top" headers="d22269e60 ">
+                                          <td class="entry" valign="top" headers="d22440e60 ">
                                              									                  
                                              <p class="p">Enables users to filter and display objects on the table on Smart Template List Report
                                                 										pages by selecting the dropdown menu and selecting values to
@@ -645,7 +671,7 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                           </td>
                                           
                                           
-                                          <td class="entry" valign="top" headers="d22269e66 ">
+                                          <td class="entry" valign="top" headers="d22440e66 ">
                                              <a class="extlink" href="http://help.sap.com/disclaimer?site=https://experience.sap.com/fiori-design-web/ui-components/filter-bar/" target="_blank" alt="https://experience.sap.com/fiori-design-web/ui-components/filter-bar/" title="https://experience.sap.com/fiori-design-web/ui-components/filter-bar/">https://experience.sap.com/fiori-design-web/ui-components/filter-bar/<img src="themes/norman/img/sap_link.png" class="link-sap" alt="Information published on SAP site" title="Information published on SAP site" border="0"></a>
                                              
                                           </td>
@@ -656,7 +682,7 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                        
                                        <tr class="row">
                                           
-                                          <td class="entry" valign="top" headers="d22269e48 ">
+                                          <td class="entry" valign="top" headers="d22440e48 ">
                                              									                  
                                              <p class="p">Action buttons</p>
                                              
@@ -664,18 +690,18 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                           </td>
                                           
                                           
-                                          <td class="entry" valign="top" headers="d22269e54 ">
+                                          <td class="entry" valign="top" headers="d22440e54 ">
                                              <img class="inline  " id="loiocf3283b1eb854648b58fe798d7b50c30__image_zq5_xn1_dx" src="7310fd836faf487dbcdd0791ea86e6d8.image">
                                              
                                           </td>
                                           
                                           
-                                          <td class="entry" valign="top" headers="d22269e60 ">Objects on tables with the Action button can be selected by
+                                          <td class="entry" valign="top" headers="d22440e60 ">Objects on tables with the Action button can be selected by
                                              									users. 
                                           </td>
                                           
                                           
-                                          <td class="entry" valign="top" headers="d22269e66 ">
+                                          <td class="entry" valign="top" headers="d22440e66 ">
                                              									                  
                                              <p class="p"></p>
                                              
@@ -688,7 +714,7 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                        
                                        <tr class="row">
                                           
-                                          <td class="entry" valign="top" headers="d22269e48 ">
+                                          <td class="entry" valign="top" headers="d22440e48 ">
                                              									                  
                                              <p class="p">Standard Column</p>
                                              
@@ -696,7 +722,7 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                           </td>
                                           
                                           
-                                          <td class="entry" valign="top" headers="d22269e54 ">
+                                          <td class="entry" valign="top" headers="d22440e54 ">
                                              									                  
                                              <p class="p">
                                                 <img class="inline  " id="loiocf3283b1eb854648b58fe798d7b50c30__image_xm1_k41_dx" src="8c0cd4f52d0d4d8ab92c9c1d91a88a95.image">
@@ -707,7 +733,7 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                           </td>
                                           
                                           
-                                          <td class="entry" valign="top" headers="d22269e60 ">
+                                          <td class="entry" valign="top" headers="d22440e60 ">
                                              									                  
                                              <p class="p">Each cell in a Standard Column contains an instance of the selected object value. You
                                                 										can populate the cells in a Standard Column by binding a
@@ -719,7 +745,7 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                           </td>
                                           
                                           
-                                          <td class="entry" valign="top" headers="d22269e66 ">
+                                          <td class="entry" valign="top" headers="d22440e66 ">
                                              									                  
                                              <p class="p"></p>
                                              
@@ -732,7 +758,7 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                        
                                        <tr class="row">
                                           
-                                          <td class="entry" valign="top" headers="d22269e48 ">
+                                          <td class="entry" valign="top" headers="d22440e48 ">
                                              									                  
                                              <p class="p">Bold Column</p>
                                              
@@ -740,7 +766,7 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                           </td>
                                           
                                           
-                                          <td class="entry" valign="top" headers="d22269e54 ">
+                                          <td class="entry" valign="top" headers="d22440e54 ">
                                              									                  
                                              <p class="p">
                                                 <img class="inline  " id="loiocf3283b1eb854648b58fe798d7b50c30__image_qlp_j41_dx" src="570cef782e84435fb5f28560dac00fc2.image">
@@ -751,7 +777,7 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                           </td>
                                           
                                           
-                                          <td class="entry" valign="top" headers="d22269e60 ">
+                                          <td class="entry" valign="top" headers="d22440e60 ">
                                              									                  
                                              <p class="p">Each cell in a Bold Column displays an instance of two object values. You can populate
                                                 										the cells in a Bold Column by binding a data model to the
@@ -763,7 +789,7 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                           </td>
                                           
                                           
-                                          <td class="entry" valign="top" headers="d22269e66 ">
+                                          <td class="entry" valign="top" headers="d22440e66 ">
                                              									                  
                                              <p class="p"></p>
                                              
@@ -776,7 +802,7 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                        
                                        <tr class="row">
                                           
-                                          <td class="entry" valign="top" headers="d22269e48 ">
+                                          <td class="entry" valign="top" headers="d22440e48 ">
                                              									                  
                                              <p class="p">Numerical Column</p>
                                              
@@ -784,7 +810,7 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                           </td>
                                           
                                           
-                                          <td class="entry" valign="top" headers="d22269e54 ">
+                                          <td class="entry" valign="top" headers="d22440e54 ">
                                              									                  
                                              <p class="p">
                                                 <img class="inline  " id="loiocf3283b1eb854648b58fe798d7b50c30__image_ox2_j41_dx" src="ca3876cc71f74f5a9ce5a3f7aefb1a28.image">
@@ -795,14 +821,14 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                           </td>
                                           
                                           
-                                          <td class="entry" valign="top" headers="d22269e60 ">Each cell in a Numerical Column displays an instance of two object values. You can
+                                          <td class="entry" valign="top" headers="d22440e60 ">Each cell in a Numerical Column displays an instance of two object values. You can
                                              									populate the cells in a Bold Column by binding a data model to
                                              									the table, and selecting object values from the Value and Unit
                                              									dropdown in Properties. 
                                           </td>
                                           
                                           
-                                          <td class="entry" valign="top" headers="d22269e66 ">
+                                          <td class="entry" valign="top" headers="d22440e66 ">
                                              									                  
                                              <p class="p"></p>
                                              
@@ -815,10 +841,10 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                        
                                        <tr class="row">
                                           
-                                          <td class="entry" valign="top" headers="d22269e48 ">Link Column</td>
+                                          <td class="entry" valign="top" headers="d22440e48 ">Link Column</td>
                                           
                                           
-                                          <td class="entry" valign="top" headers="d22269e54 ">
+                                          <td class="entry" valign="top" headers="d22440e54 ">
                                              									                  
                                              <p class="p">
                                                 <img class="inline  " id="loiocf3283b1eb854648b58fe798d7b50c30__image_izp_341_dx" src="008f13027364406f8934e3f878baa873.image">
@@ -829,7 +855,7 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                           </td>
                                           
                                           
-                                          <td class="entry" valign="top" headers="d22269e60 ">Each cell in a Numerical Column displays an instance an object value and a link that
+                                          <td class="entry" valign="top" headers="d22440e60 ">Each cell in a Numerical Column displays an instance an object value and a link that
                                              									users can select. You can populate the cells in a Bold Column by
                                              									binding a data model to the table, selecting an object value
                                              									from the Text dropdown in Properties, and entering a URL in the
@@ -837,7 +863,7 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                           </td>
                                           
                                           
-                                          <td class="entry" valign="top" headers="d22269e66 ">
+                                          <td class="entry" valign="top" headers="d22440e66 ">
                                              									                  
                                              <p class="p"></p>
                                              
@@ -908,7 +934,7 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
             </footer>
             
             
-            <!--Build date: 09/06/2016 12:09 GMT-7-->
+            <!--Build date: 09/06/2016 11:38 GMT-7-->
          </div>
       </div><script>
         var swa = {
