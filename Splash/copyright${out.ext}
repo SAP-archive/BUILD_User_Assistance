@@ -2,6 +2,12 @@
 <!DOCTYPE html
   PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html><head>
+   <script type="text/javascript">
+var url = window.location.href;
+url = url.split('#').pop().split('?').pop();
+var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
+            window.location.replace("../build/" + page);
+    </script>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><link rel="stylesheet" type="text/css" href="documentation.css"/>
 <title>Copyright</title></head>
 <body><p>© 2016 SAP
@@ -19,4 +25,10 @@
 					should be construed as constituting an additional warranty.</p><p>SAP and other SAP products and services mentioned herein as well as their
 					respective logos are trademarks or registered trademarks of SAP SE (or an SAP
 					affiliate company) in Germany and other countries. All other product and service names mentioned are the trademarks of their respective companies.</p><p>Please see <a xmlns="http://www.idiominc.com/opentopic/vars" xmlns:fo="http://www.w3.org/1999/XSL/Format" href="http://www.sap.com/corporate-en/legal/copyright/index.epx" target="_blank">http://www.sap.com/corporate-en/legal/copyright/index.epx</a> for additional trademark information
-					and notices.</p><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/></body></html>
+					and notices.</p><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/></body>  <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script> 
+<script type="text/javascript"> docsearch({
+apiKey: 'bd6c05f4081b4bf1e8cc0222f2be206d',
+indexName: 'sap-splash',
+inputSelector: '#txtSearchTerms'
+}); 
+</script></html> 
