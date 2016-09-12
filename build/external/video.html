@@ -550,8 +550,8 @@ top: 6px;
                <section>
                   <div id="content-toolbar" class="toolbar hide-for-small"></div>
                   <div class="page concept no-toc - topic-topic concept-concept " id="concept_imm_mjn_jt">
-                     <div class="body conbody">
-                        <div class="section">
+                     <div class="body conbody" class="gallery">
+                    
                            <div class="section">
                            <section class="section" type="Getting Started">
                               <h1 class="title topictitle1"><span class="sap-icon"></span>Getting Started
@@ -595,7 +595,7 @@ top: 6px;
                               <h1 class="title topictitle1"><span class="sap-icon"></span>Projects
                               </h1>
                               <p class="p">
-                                 <div class="video-thumbnail" id="div-video-"><img alt="" data-type="vimeo" src="img/BUILD_Clone_Gallery_Projects.png" data-image="img/BUILD_Clone_Gallery_Projects.png" data-videoid="181038505" data-description="aaa"></div>
+                                 <div class="video-thumbnail" id="div-video-"><img alt="some text" data_title="somee" data-type="vimeo" src="img/BUILD_Clone_Gallery_Projects.png" data-image="img/BUILD_Clone_Gallery_Projects.png" data-videoid="181038505" data-description="aaa" desc_title="description" title="title"></div>
                                  <div class="video-thumbnail" id="div-video-7"><img alt="" data-type="vimeo" src="img/BUILD_Collaborate_on_Projects.png" data-image="img/BUILD_Collaborate_on_Projects.png" data-videoid="181048669" data-description="aaa"></div>
                                  <div class="video-thumbnail" id="div-video-8"><img alt="" data-type="vimeo" src="img/Manage_Projects.png" data-image="img/Manage_Projects.png" data-videoid="181059999" data-description="aaa"></div>
                               </p>
@@ -626,7 +626,17 @@ top: 6px;
                           <h2 class="title" id = "tube-banner" >Select <a href="https://www.vimeo.com/channel/UCju0kVKOfkw5-hogBYPfgqg/feed"><img id = "tube-img" src="img/vimeo_logo.png"></a> to view the BUILD Vimeo channel.</h2>
 
                         </div>
-                        
+                        <script type="text/javascript">
+				
+				jQuery(document).ready(function(){
+					
+					jQuery("#gallery").unitegallery({
+						gallery_theme: "tilesgrid"
+						tile_enable_textpanel: false,		 	
+					tile_textpanel_source: "desc_title",		
+					tile_textpanel_always_on: false	 
+					});
+				});
                      </div>
                      
                   </div>
