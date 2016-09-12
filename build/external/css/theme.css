@@ -164,7 +164,7 @@ header.small {
     
 }
 
-n
+
 header .logo {
     z-index:200;
     height:50px;
@@ -1036,6 +1036,8 @@ a:hover, a:active {
 img {max-width:95%;display:inline;}
 div > p > img {max-width:95%;display:block; margin-left: auto; margin-right: auto;}
 div > img {max-width:95%;display:block; margin-left: auto; margin-right: auto;}
+
+
 
 #tube-img{
 height: 50px;
