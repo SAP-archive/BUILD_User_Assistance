@@ -115,9 +115,10 @@ body
     } 
     
 .no-toc .body {
-    width:50%;
-    float:none;
-    margin:auto;
+    width:100%;
+    margin-left:20%;
+    margin-top: 20px;
+    margin-bottom: -20px;
 }
 
 
