@@ -24,6 +24,8 @@
       <link rel="stylesheet" href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
       <link rel="stylesheet" href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
       <link rel="stylesheet" type="text/css" media="screen, projection, print" href="css/theme.css">
+      <script type='text/javascript' src='unitegallery/js/unitegallery.min.js'></script>
+      <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
             <style>
 /* increase the size of the input */
 #txtSearchTerms {
@@ -172,6 +174,17 @@ top: 6px;
           }
       
       </script>
+      <script type="text/javascript"> 
+			
+			jQuery(document).ready(function(){ 
+				jQuery("#gallery").unitegallery(); 
+				tile_enable_textpanel:true,
+				tile_textpanel_title_text_align: "center",
+				tile_textpanel_always_on:true,
+				tile_textpanel_source: "title"
+			}); 
+		
+		</script>
       </head>
    <body class="en-us norman centered navigation-default">
       <div id="d4h5-main-container" class="container_12" role="application">
@@ -427,7 +440,7 @@ top: 6px;
                <section>
                   <div id="content-toolbar" class="toolbar hide-for-small"></div>
                   <div class="page concept no-toc - topic-topic concept-concept " id="concept_imm_mjn_jt">
-                     <div class="body conbody">
+                     <div class="body conbody" class="gallery">
                      	
                      	<div class="section">
                            <section class="section" type="Creating Prototypes">
@@ -447,7 +460,7 @@ top: 6px;
                               <h1 class="title topictitle1"><span class="sap-icon"></span>Projects
                               </h1>
                               <p class="p">
-                                 <div class="video-thumbnail" id="div-video-"><img alt="" data-type="vimeo" src="img/BUILD_Clone_Gallery_Projects.png" data-image="img/BUILD_Clone_Gallery_Projects.png" data-videoid="181038505" data-description="aaa"></div>
+                                 <div class="video-thumbnail" id="div-video-"><img alt="" data-type="vimeo" src="img/BUILD_Clone_Gallery_Projects.png" data-image="img/BUILD_Clone_Gallery_Projects.png" data-videoid="181038505" data-description="aaa" desc_title="Clone"></div>
                                  <div class="video-thumbnail" id="div-video-7"><img alt="" data-type="vimeo" src="img/BUILD_Collaborate_on_Projects.png" data-image="img/BUILD_Collaborate_on_Projects.png" data-videoid="181048669" data-description="aaa"></div>
                                  <div class="video-thumbnail" id="div-video-8"><img alt="" data-type="vimeo" src="img/Manage_Projects.png" data-image="img/Manage_Projects.png" data-videoid="181059999" data-description="aaa"></div>
                               </p>
