@@ -116,8 +116,8 @@ body
     
 .no-toc .body {
     width:60%;
-    float:center;
-    margin:auto;
+    float:none;
+   
 }
 
 
