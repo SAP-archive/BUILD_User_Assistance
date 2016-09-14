@@ -11,9 +11,8 @@
       <meta name="abstract" content="Each BUILD user is assigned to one or more groups of users who are provided a dedicated share of a specific software instance. These groups of users are called tenants.">
       
       <meta name="description" content="Each BUILD user is assigned to one or more groups of users who are provided a dedicated share of a specific software instance. These groups of users are called tenants.">
-      <script type="text/javascript">var d4p = {"relativePath":'',"dev":false,"debug":false,"draft":false,"nextTopicHref":"Admin.html","previousTopicHref":"56b34da0851c4335abddcedafc7bbe37.html"}</script>
-      <link rel="stylesheet" type="text/css" media="screen, projection" href="themes/norman/css/style.css">
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
+      <script type="text/javascript">var d4p = {"relativePath":'',"dev":false,"debug":false,"draft":false,"nextTopicHref":"AdminConsoleHelp.html","previousTopicHref":"56b34da0851c4335abddcedafc7bbe37.html"}</script>
+      <link rel="stylesheet" type="text/css" media="screen, projection" href="themes/norman/css/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
   <link rel="stylesheet" href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
       
       <link rel="stylesheet" type="text/css" media="screen, projection, print" href="css/theme.css">
@@ -61,6 +60,7 @@
       </script>
       <link rel="stylesheet" type="text/css" src="https://fonts.googleapis.com/css?family=Roboto">
       <script type="text/javascript" src="themes/norman/js/script.js"></script>
+      <script type="text/javascript" src="js/sap.page-utils.js"></script>
       <script type="text/javascript" src="js/search-processing.js"></script>
       <script type="text/javascript" src="//sap.github.io/BUILD_User_Assistance/videos/unitegallery/js/unitegallery.min.js"></script>
       <script type="text/javascript" src="//sap.github.io/BUILD_User_Assistance/videos/unitegallery/themes/tilesgrid/ug-theme-tilesgrid.js"></script>
@@ -113,7 +113,7 @@
             	
             <div class="center">
                		
-               <h2>What do you need to know?</h2>
+               <h2>Find the answers you need</h2>
                		
                <div class="search-box">
                   			
@@ -131,7 +131,7 @@
                <li><a href="4034a659577d4d5fa725af4c3525eb2d.html" class="selected">Help Topics</a><span class="separator"> | </span></li>
             </ul>
          </nav>
-         <div id="next-previous-container"><a href="56b34da0851c4335abddcedafc7bbe37.html" class="sap-icon previous" rel="internal" alt="Trust Management" title="Trust Management"></a><span class="expand-collapse"></span><a href="Admin.html" class="sap-icon next" rel="internal" alt="Get Started with the Admin Console" title="Get Started with the Admin Console"></a></div>
+         <div id="next-previous-container"><a href="56b34da0851c4335abddcedafc7bbe37.html" class="sap-icon previous" rel="internal" alt="Trust Management" title="Trust Management"></a><span class="expand-collapse"></span><a href="AdminConsoleHelp.html" class="sap-icon next" rel="internal" alt="Get Started with the Admin Console" title="Get Started with the Admin Console"></a></div>
          <div id="d4h5-section-container" class="grid_12">
             <nav class="mobile-nav">
                <ul>
@@ -433,14 +433,16 @@
                            </ul>
                         </li>
                         <li class="topichead collapsible  active"><span>Administration and Security</span><ul>
-                              <li class=" collapsible  collapsed"><a href="HCPCOCKPIT.html">HCP BUILD Service
+                              <li class=" collapsible  collapsed"><a href="adminconsolehelp.html">HCP BUILD Service
                                     		Configuration - Overview</a><ul>
                                     <li class=" collapsible  collapsed"><a href="912b6aaa9a184bc58c54077bed83b258.html">Enable the BUILD Service in the HCP Cockpit</a><ul>
                                           <li class=" no-child "><a href="f9bda020a1e24a39a21bd141523007dc.html">Assign a BUILD Tenant
                                                 		Request Admin Role to a User</a></li>
                                           <li class=" no-child "><a href="45e288e6b36445d8b04e28b65cf09137.html">Request a BUILD
                                                 		Tenant</a></li>
+                                          <li class=" no-child "><a href="88dc998e210643998fc6fb01c3e65b26.html">Enabling Single Sign-On between BUILD and Web IDE</a></li>
                                           <li class=" collapsible  collapsed"><a href="e4aed27e43544440bb857f1362fb26aa.html">About the HCP Account Trusted Identity Provider (IdP)</a><ul>
+                                                <li class=" no-child "><a href="f95a25fe62e04418bce9f1be6697a2be.html">Configure the Trusted Identity Provider Attributes</a></li>
                                                 <li class=" no-child "><a href="56b34da0851c4335abddcedafc7bbe37.html">Trust Management</a></li>
                                              </ul>
                                           </li>
@@ -448,10 +450,10 @@
                                     </li>
                                  </ul>
                               </li>
-                              <li class=" collapsible  active"><a class="selected" href="Admin.html">
+                              <li class=" collapsible  active"><a class="selected" href="3196f71aeab94d3fa7a3a3210d4ea106.html">
                                     BUILD
                                     		Administration</a><ul>
-                                    <li class=" no-child "><a href="Admin.html">Get Started with the Admin Console</a></li>
+                                    <li class=" no-child "><a href="AdminConsoleHelp.html">Get Started with the Admin Console</a></li>
                                     <li class=" no-child "><a href="f310f001528e40f0abab71c9016a78b3.html">Set Domain Access</a></li>
                                     <li class=" no-child "><a href="1aa707dbf69b425fb9437703ef59b448.html">Manage Users</a></li>
                                     <li class=" no-child "><a href="0693592c3a614d85bb1a456a515be8be.html">View Audit Log</a></li>
@@ -487,7 +489,7 @@
             <div id="d4h5-main-content" class="grid_8 alpha omega">
                <section>
                   <div id="content-toolbar" class="toolbar hide-for-small"></div>
-                  <div class="page concept  - topic-topic concept-concept " id="loioAdmin">
+                  <div class="page concept  - topic-topic concept-concept " id="loio3196f71aeab94d3fa7a3a3210d4ea106">
                      
                      <h1 class="title topictitle1">
                         <span class="ph pname">BUILD</span>
@@ -517,7 +519,7 @@
                               
                               			      
                               <div class="p">Administrators can:
-                                 <ul class="ul" id="loioAdmin__ul_nvg_zcm_ls">
+                                 <ul class="ul" id="loio3196f71aeab94d3fa7a3a3210d4ea106__ul_nvg_zcm_ls">
                                     
                                     <li class="li">
                                        <a class="xref" href="f310f001528e40f0abab71c9016a78b3.html" title="Administrators control who can access a tenant and at what level via the Access List. Users from the domains who have access rights to the tenant can then be assigned roles in BUILD.">Set Domain Access</a>
@@ -554,7 +556,7 @@
                         <div class="relinfo">
                            <div class="relinfotitle ">Related Information</div>
                            
-                           <div><a class="link" href="HCPCOCKPIT.html" title="BUILD is based on multi-tenant architecture, which means that each user is assigned to one or more groups of users who are provided a dedicated share of a specific software instance. These groups of users are called tenants.">HCP BUILD Service Configuration - Overview</a></div>
+                           <div><a class="link" href="adminconsolehelp.html" title="BUILD is based on multi-tenant architecture, which means that each user is assigned to one or more groups of users who are provided a dedicated share of a specific software instance. These groups of users are called tenants.">HCP BUILD Service Configuration - Overview</a></div>
                            
                            <div><a class="link" href="45e288e6b36445d8b04e28b65cf09137.html" title="As a BUILD Tenant Request Administrator you request a tenant from the BUILD team. The BUILD team uses the information you provide in the BUILD Tenant Request form to create your company's tenant.">Request a BUILD Tenant</a></div>
                            
@@ -595,9 +597,11 @@
             </footer>
             
             
-            <!--Build date: 09/06/2016 12:09 GMT-7-->
+            <!--Build date: 09/13/2016 11:03 GMT-7-->
          </div>
-      </div><script>
+      </div>
+
+<script>
         var swa = {
         pubToken: '6fa0fc12-d856-4547-ae3d-95802f388c16',
         baseUrl: 'https://cloud.warp.sap.com/tracker/',
