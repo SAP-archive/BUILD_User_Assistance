@@ -12,8 +12,7 @@
       
       <meta name="description" content="The following are known issues that we are currently resolving.">
       <script type="text/javascript">var d4p = {"relativePath":'',"dev":false,"debug":false,"draft":false,"nextTopicHref":"d786f2508b7440e1a8e7104613f30c19.html","previousTopicHref":"f6dead872ca54b079b1b7ce4fef5f150.html"}</script>
-      <link rel="stylesheet" type="text/css" media="screen, projection" href="themes/norman/css/style.css">
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
+      <link rel="stylesheet" type="text/css" media="screen, projection" href="themes/norman/css/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
   <link rel="stylesheet" href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
       
       <link rel="stylesheet" type="text/css" media="screen, projection, print" href="css/theme.css">
@@ -114,7 +113,7 @@
             	
             <div class="center">
                		
-               <h2>What do you need to know?</h2>
+               <h2>Find the answers you need</h2>
                		
                <div class="search-box">
                   			
@@ -459,14 +458,16 @@
                            </ul>
                         </li>
                         <li class="topichead collapsible "><span>Administration and Security</span><ul>
-                              <li class=" collapsible  collapsed"><a href="HCPCOCKPIT.html">HCP BUILD Service
+                              <li class=" collapsible  collapsed"><a href="adminconsolehelp.html">HCP BUILD Service
                                     		Configuration - Overview</a><ul>
                                     <li class=" collapsible  collapsed"><a href="912b6aaa9a184bc58c54077bed83b258.html">Enable the BUILD Service in the HCP Cockpit</a><ul>
                                           <li class=" no-child "><a href="f9bda020a1e24a39a21bd141523007dc.html">Assign a BUILD Tenant
                                                 		Request Admin Role to a User</a></li>
                                           <li class=" no-child "><a href="45e288e6b36445d8b04e28b65cf09137.html">Request a BUILD
                                                 		Tenant</a></li>
+                                          <li class=" no-child "><a href="88dc998e210643998fc6fb01c3e65b26.html">Enabling Single Sign-On between BUILD and Web IDE</a></li>
                                           <li class=" collapsible  collapsed"><a href="e4aed27e43544440bb857f1362fb26aa.html">About the HCP Account Trusted Identity Provider (IdP)</a><ul>
+                                                <li class=" no-child "><a href="f95a25fe62e04418bce9f1be6697a2be.html">Configure the Trusted Identity Provider Attributes</a></li>
                                                 <li class=" no-child "><a href="56b34da0851c4335abddcedafc7bbe37.html">Trust Management</a></li>
                                              </ul>
                                           </li>
@@ -474,10 +475,10 @@
                                     </li>
                                  </ul>
                               </li>
-                              <li class=" collapsible  collapsed"><a href="Admin.html">
+                              <li class=" collapsible  collapsed"><a href="3196f71aeab94d3fa7a3a3210d4ea106.html">
                                     BUILD
                                     		Administration</a><ul>
-                                    <li class=" no-child "><a href="Admin.html">Get Started with the Admin Console</a></li>
+                                    <li class=" no-child "><a href="AdminConsoleHelp.html">Get Started with the Admin Console</a></li>
                                     <li class=" no-child "><a href="f310f001528e40f0abab71c9016a78b3.html">Set Domain Access</a></li>
                                     <li class=" no-child "><a href="1aa707dbf69b425fb9437703ef59b448.html">Manage Users</a></li>
                                     <li class=" no-child "><a href="0693592c3a614d85bb1a456a515be8be.html">View Audit Log</a></li>
@@ -546,28 +547,6 @@
                               			      
                               			      
                               <p class="p">Annotations are no longer displayed on Master Details prototype pages if you select the browser <span class="ph uicontrol uicontrol-boldblack">Back</span> button on the <span class="ph uicontrol uicontrol-boldblack">Prototype</span> tab of feedback study results.
-                              </p>
-                              
-                              		    
-                           </section>
-                        </div>
-                        
-                        
-                        <div class="section">
-                           <section class="section" type="Project Cloned to Incorrect Tenant">
-                              <h2 class="section_title"><span class="sap-icon"></span>Project Cloned to Incorrect Tenant
-                              </h2>
-                              			      
-                              			      
-                              <p class="p"> If a user is working in more than one tenant with several browser windows open and
-                                 				then clones a project from a window that is not the tenant to which the user logged
-                                 				in, the project is cloned in the tenant user logged in rather than in the current
-                                 				tenant. 
-                              </p>
-                              
-                              			      
-                              <p class="p">Example: User logs into Tenant A and then tenant B. User clones a project in tenant B. The
-                                 				project is cloned to tenant A instead of tenant B. 
                               </p>
                               
                               		    
@@ -712,42 +691,55 @@
                               		    
                            </section>
                         </div>
+                        
+                        
                         <div class="section">
                            <section class="section" type="Missing Icons in Gallery Prototype">
                               <h2 class="section_title"><span class="sap-icon"></span>Missing Icons in Gallery Prototype
                               </h2>
                               			      
                               			      
-                              <p class="p">Some images are not displayed properly in prototypes cloned from the Gallery.
-                              </p>
+                              <p class="p">Some images are not displayed properly in prototypes from the Gallery.</p>
                               
                               		    
                            </section>
                         </div>
+                        
+                        
                         <div class="section">
                            <section class="section" type="Unable to Upload Project Thumbnail with Images Uploaded in DLD">
                               <h2 class="section_title"><span class="sap-icon"></span>Unable to Upload Project Thumbnail with Images Uploaded in DLD
                               </h2>
                               			      
                               			      
-                              <p class="p">Upload an image in DLD, and then tries to upload the uploaded image as a Project Thumbnail, the Project Thumbnail is not uploaded and an error message is displayed.
+                              <p class="p">When the User uploads an image in DLD, and then tries to upload the uploaded image as
+                                 				a Project Thumbnail, the Project Thumbnail is not uploaded and an error message
+                                 					<span class="ph uicontrol uicontrol-boldblack">Oops...item not found</span> is displayed.
                               </p>
                               
                               		    
                            </section>
-                        </div> 
+                        </div>
+                        
+                        
                         <div class="section">
-                           <section class="section" type="No Sender in Email">
+                           <section class="section" type="On Screen Help not Displaying">
                               <h2 class="section_title"><span class="sap-icon"></span>On Screen Help not Displaying
                               </h2>
                               			      
                               			      
-                              <p class="p">The On Screen Help is not displayed if you display the <b>UI Editor</b>, the <b>Data Editor</b> page, or the <b>Feedback</b>, then select the <b>Profile</b> icon on the top-right of BUILD, and select <b>On Screen Help</b>.
+                              <p class="p">The <span class="ph uicontrol uicontrol-boldblack">On Screen Help</span> is not displayed if you display the <span class="ph uicontrol uicontrol-boldblack">UI
+                                    					Editor</span>, the <span class="ph uicontrol uicontrol-boldblack">Data Editor</span> page, or the
+                                 					<span class="ph uicontrol uicontrol-boldblack">Feedback</span>, then select the <span class="ph uicontrol uicontrol-boldblack">Profile</span>
+                                 				icon on the top-right of <span class="ph pname">BUILD</span>, and select
+                                 					<span class="ph uicontrol uicontrol-boldblack">On Screen Help</span>.
                               </p>
                               
                               		    
                            </section>
-                           </div>
+                        </div>
+                        
+                        
                      </div>
                      
                   </div>
@@ -784,9 +776,11 @@
             </footer>
             
             
-            <!--Build date: 09/06/2016 11:38 GMT-7-->
+            <!--Build date: 09/13/2016 11:45 GMT-7-->
          </div>
-      </div><script>
+      </div>
+
+<script>
         var swa = {
         pubToken: '6fa0fc12-d856-4547-ae3d-95802f388c16',
         baseUrl: 'https://cloud.warp.sap.com/tracker/',
