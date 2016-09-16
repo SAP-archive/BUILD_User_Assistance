@@ -1034,8 +1034,8 @@ a:hover, a:active {
     }
 
 img {max-width:95%;display:inline;}
-div > p > img {max-width:95%;display:block; margin-left: auto; margin-right: auto; border: 3px;}
-div > img {max-width:95%;display:block; margin-left: auto; margin-right: auto; border: 3px;}
+div > p > img {max-width:95%;display:block; margin-left: auto; margin-right: auto; border: 3px solid black;}
+div > img {max-width:95%;display:block; margin-left: auto; margin-right: auto; border: 3px solid black;}
 
 
 
