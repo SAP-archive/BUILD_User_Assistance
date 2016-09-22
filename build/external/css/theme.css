@@ -164,6 +164,11 @@ header.small {
     
 }
 
+.link{
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: center;
+}
 
 header .logo {
     z-index:200;
