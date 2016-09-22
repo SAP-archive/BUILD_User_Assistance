@@ -86,6 +86,12 @@ body
             padding:80px 0 150px 0;
         }
 
+.link{
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: center;
+}
+
 .page
 {
     background-color: #F7F7F7;
@@ -164,11 +170,6 @@ header.small {
     
 }
 
-.link{
-    margin-left: auto; 
-    margin-right: auto; 
-    text-align: center;
-}
 
 header .logo {
     z-index:200;
@@ -1039,9 +1040,12 @@ a:hover, a:active {
     }
 
 img {max-width:95%;display:inline;}
-div > p > img {max-width:95%;display:block; margin-left: auto; margin-right: auto;}
-div > img {max-width:95%;display:block; margin-left: auto; margin-right: auto;}
+div > p > img {max-width:95%;display:block; margin-left: auto; margin-right: auto; border: 3px solid black; box-shadow: 10px 10px 5px #888888;}
+div > img {max-width:95%;display:block; margin-left: auto; margin-right: auto; border: 3px solid black; box-shadow: 10px 10px 5px #888888;}
 
+iframe
+{max-width:95%;display:block; margin-left: auto; margin-right: auto;}
+   
 
 
 #tube-img{
