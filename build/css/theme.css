@@ -1043,7 +1043,7 @@ a:hover, a:active {
     border-bottom:none;
     }
 
-img {max-width:95%;display:inline;}
+img {max-width:95%;display:inline; width:auto; height:auto;}
 div > p > img {max-width:95%;display:block; margin-left: auto; margin-right: auto; border: 3px solid black; box-shadow: 10px 10px 5px #888888;}
 div > img {max-width:95%;display:block; margin-left: auto; margin-right: auto; border: 3px solid black; box-shadow: 10px 10px 5px #888888;}
 
