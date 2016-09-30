@@ -94,7 +94,7 @@
 
           /*The Ids of the videos on the page. These MUST be in the  same order as the videos are on the page
           or the autoplay function will play the wrong video*/
-          var videoIds = ["PQaZqxVtln4", "Hka3_sWwHwI", "Z8BMghLixvE", "vZHxsHzefz0", "RPrYT4zXa3U"];
+          var videoIds = ["qFDBsuJrGC0", "U6isgUc86XQ", "k0ZO2R8GD0U", "fE1wVYpRZw8", "EeakOp7OJtk", "F9HR49U8duU"];
           var divId;
         
           /*Loop to find the div containing the video matching the videoid
@@ -112,7 +112,7 @@
               }
           }
 
-          $(divId).find("div").click();
+          $(divId).find("div").children().children().children().children().click();
 
 
 
@@ -165,6 +165,7 @@
             <ul>
                <li><a href="video.html" class="selected">Video</a><span class="separator"> | </span></li>
                <li><a href="4bc796d66b4d4c3a86c6ef719983d7b3.html">Help Topics</a><span class="separator"> | </span></li>
+               <li><a href="pdf/Splash_Quick_Start_Guide.pdf" target="_blank">QUICK REFERENCE GUIDE PDF</a><span class="separator"> | </span></li>
             </ul>
          </nav>
          <div id="d4h5-section-container" class="grid_12">
@@ -396,7 +397,6 @@
                <section>
                   <div id="content-toolbar" class="toolbar hide-for-small"></div>
                   <div class="page concept no-toc - topic-topic concept-concept " id="concept_imm_mjn_jt">
-                     
                      <div class="body conbody">
                         <div class="section">
                            <section class="section" type="Getting Started">
@@ -441,6 +441,8 @@
                                  <div class="video-thumbnail" id="div-video-4"><img alt="" data-type="youtube" src="img/UsingDataModels.png" data-image="img/NewDataModels.png" data-videoid="vZHxsHzefz0?rel=0&amp&modestbranding=1&fs=1" data-description="aaa"></div>
                               </p>
                            </section>
+                            <h2 class="title" id = "tube-banner" >Select <a href="https://www.youtube.com/channel/UCju0kVKOfkw5-hogBYPfgqg/feed"><img id = "tube-img" src="img/youtube.png"></a> to view the Splash channel.</h2>
+
                         </div>
                         
                      </div>
@@ -456,10 +458,10 @@
          <div class="clearfix"></div>
          <div id="footer-container" class="grid_12">
             <footer>
-               <div id="custom-footerSpacer"></div>
-               <div class="left"><a href="https://build-master-ci.mo.sap.corp:9443/legal/privacystatement" target="_blank">PRIVACY</a><a href="https://build-master-ci.mo.sap.corp:9443/legal/privacystatement" target="_blank">LEGAL DISCLOSURE</a><a href="https://build-master-ci.mo.sap.corp:9443/legal/privacystatement" target="_blank">COPYRIGHT</a><a href="https://build-master-ci.mo.sap.corp:9443/legal/privacystatement" target="_blank">TERMS OF USE</a><a href="http://go.sap.com/index.html" target="_blank">SAP.COM</a></div>
-               <div class="right"><span>CREATED BY</span><img src="themes/norman/img/sap.png" class="logo" alt="logo"></div>
-            </footer>
+                   <div id="custom-footerSpacer"></div>
+                   <div class="left"><a href="https://github.com/SAP/BUILD_User_Assistance/blob/gh-pages/privacy_statement/privacy_statement.pdf" target="_blank">PRIVACY</a><a href="http://www.sap.com/corporate-en/about/legal/impressum.html" target="_blank">LEGAL DISCLOSURE</a><a href="http://www.sap.com/corporate-en/about/legal/copyright/index.html" target="_blank">COPYRIGHT</a><a href="https://github.com/SAP/BUILD_User_Assistance/blob/gh-pages/Terms%20of%20Use/terms_of_use.pdf" target="_blank">TERMS OF USE</a><a href="http://go.sap.com/index.html" target="_blank">SAP.COM</a></div>
+                  <div class="right"><span>CREATED BY</span><img src="themes/norman/img/sap.png" class="logo" alt="logo"></div>
+            </footer> 
             
             
             <!--Build date: 10/09/2015 10:16 GMT-7-->

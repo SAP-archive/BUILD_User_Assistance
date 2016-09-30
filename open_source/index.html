@@ -101,7 +101,7 @@
             <div class="center">
                <h2>Find the answers you need</h2>
                <div class="search-box">
-                  <form onsubmit="redirect(frmSearch);return false" name="frmSearch" class="searchForm" role="search"><input type="search" id="txtSearchTerms" name="q"/><span class="search-button sap-icon">�?</span></form>
+                  <form onsubmit="redirect(frmSearch);return false" name="frmSearch" class="searchForm" role="search"><input type="search" id="txtSearchTerms" name="q"/><span class="search-button sap-icon">î€?</span></form>
                </div>
             </div>
          </header>
@@ -110,12 +110,13 @@
             <ul>
                <li><a href="video.html">Video</a><span class="separator"> | </span></li>
                <li><a href="4bc796d66b4d4c3a86c6ef719983d7b3.html">Help Topics</a><span class="separator"> | </span></li>
+               <li><a href="pdf/Splash_Quick_Start_Guide.pdf" target="_blank">QUICK REFERENCE GUIDE PDF</a><span class="separator"> | </span></li>
             </ul>
          </nav>
          <div id="d4h5-section-container" class="grid_12">
             <nav class="mobile-nav">
                <ul>
-                  <li class="toggle-topbar menu-icon no-child "><span class="sap-icon"><a href="#local-navigation"></a></span></li>
+                  <li class="toggle-topbar menu-icon no-child "><span class="sap-icon"><a href="#local-navigation">îƒš</a></span></li>
                </ul>
                <section class="nav-pub-title">Splash Help</section>
             </nav>
@@ -350,7 +351,7 @@
       $('#search_form').searchify();
       
       //If you add a new video to the videos page, you must include it's ID here.
-            var videoIds = ["PQaZqxVtln4", "Hka3_sWwHwI", "Z8BMghLixvE", "vZHxsHzefz0", "RPrYT4zXa3U"];
+          var videoIds = ["qFDBsuJrGC0", "U6isgUc86XQ", "k0ZO2R8GD0U", "fE1wVYpRZw8", "EeakOp7OJtk", "F9HR49U8duU"];
             var topViews = 0;
             var secondViews = 0;
             var thirdViews = 0;
@@ -364,6 +365,7 @@
             var secondViewId;
             var thirdViewId;
             var viewsInt;
+           var internalCounter = 0;
             var counter = 0;
             for (var x = 0; x < videoIds.length; x++)
             {
@@ -374,9 +376,17 @@
                     queryStringTwo = videoIds[x];
                     var concatanatedQuery = queryStringOne.concat(queryStringTwo, queryStringThree);
                     $.getJSON(concatanatedQuery, function (data) {
-                        views = data.items[0].statistics.viewCount;
-                        viewsInt = parseInt(views);
-                        processViews(viewsInt,videoIds[x]);
+                        if(typeof data.items[0]!= 'undefined')
+                        {
+                            views = data.items[0].statistics.viewCount;
+                            viewsInt = parseInt(views);
+                            processViews(viewsInt, videoIds[x],x);
+                        }
+                        else
+                        {
+                            processViews(-1, -1,x);
+                        }
+
                         //views = parseInt(views);
                     });
                 })(x);
@@ -405,20 +415,51 @@
                     thirdViews = viewsInt;
                     thirdViewId = videoId;
                 }
-                counter++
-                /*This is triggered when every video has been examined. It puts the imagelinks representing the videos in
-                 the correct order depending on the top 3 video IDs, and also adjusts their href to include the corresponding
-                 videoId, using the query string
-                 */
-                if(counter===5) {
-                    $("#topvideo").attr("src", "img/GetStarted.png");
-                    $("#secondvideo").attr("src", "img/Prototype.png");
-                    $("#thirdvideo").attr("src", "img/UsingDataModels.png");
-                    $("#topLink").attr("href", $("#topLink").attr("href") + topViewId);
-                    $("#secondlink").attr("href", $("#secondlink").attr("href") + secondViewId);
-                    $("#thirdlink").attr("href", $("#thirdlink").attr("href") + thirdViewId);
+                counter++;
+                internalCounter++;
+                if(internalCounter>videoIds.length-1)
+                {
+                    assignAll();
                 }
             }
+
+          function grabImage(videoID) {
+              var imgString;
+              switch (videoID) {
+                  case "qFDBsuJrGC0":
+                      imgString = "img/gettingStarted.png";
+                      break;
+                  case "U6isgUc86XQ":
+                      imgString = "img/proto.png";
+                      break;
+                  case "k0ZO2R8GD0U":
+                      imgString = "img/feedbackreport.png";
+                      break;
+                  case "fE1wVYpRZw8":
+                      imgString = "img/datamodels.png";
+                      break;
+                  case "EeakOp7OJtk":
+                      imgString = "img/smartlistreport.png";
+                      break;
+                  case "F9HR49U8duU":
+                      imgString = "img/smartobjectpage.png";
+                      break;
+              }
+
+              return imgString;
+
+
+          }
+
+          function assignAll()
+          {
+              $("#topvideo").attr("src", "img/Prototype.png");
+              $("#secondvideo").attr("src", "img/GetStarted.png");
+              $("#thirdvideo").attr("src", "img/UsingDataModels.png");
+              $("#topLink").attr("href", $("#topLink").attr("href") + topViewId);
+              $("#secondlink").attr("href", $("#secondlink").attr("href") + secondViewId);
+              $("#thirdlink").attr("href", $("#thirdlink").attr("href") + thirdViewId);
+          }
       
       
       
@@ -429,10 +470,10 @@
          <div class="clearfix"></div>
          <div id="footer-container" class="grid_12">
             <footer>
-               <div id="custom-footerSpacer"></div>
-               <div class="left"><a href="https://build-master-ci.mo.sap.corp:9443/legal/privacystatement" target="_blank">PRIVACY</a><a href="https://build-master-ci.mo.sap.corp:9443/legal/privacystatement" target="_blank">LEGAL DISCLOSURE</a><a href="https://build-master-ci.mo.sap.corp:9443/legal/privacystatement" target="_blank">COPYRIGHT</a><a href="https://build-master-ci.mo.sap.corp:9443/legal/privacystatement" target="_blank">TERMS OF USE</a><a href="http://go.sap.com/index.html" target="_blank">SAP.COM</a></div>
-               <div class="right"><span>CREATED BY</span><img src="themes/norman/img/sap.png" class="logo" alt="logo"></div>
-            </footer>
+                   <div id="custom-footerSpacer"></div>
+                   <div class="left"><a href="https://github.com/SAP/BUILD_User_Assistance/blob/gh-pages/privacy_statement/privacy_statement.pdf" target="_blank">PRIVACY</a><a href="http://www.sap.com/corporate-en/about/legal/impressum.html" target="_blank">LEGAL DISCLOSURE</a><a href="http://www.sap.com/corporate-en/about/legal/copyright/index.html" target="_blank">COPYRIGHT</a><a href="https://github.com/SAP/BUILD_User_Assistance/blob/gh-pages/Terms%20of%20Use/terms_of_use.pdf" target="_blank">TERMS OF USE</a><a href="http://go.sap.com/index.html" target="_blank">SAP.COM</a></div>
+                  <div class="right"><span>CREATED BY</span><img src="themes/norman/img/sap.png" class="logo" alt="logo"></div>
+            </footer> 
             
             
             <!--Build date: 10/09/2015 10:16 GMT-7-->
