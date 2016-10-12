@@ -148,6 +148,9 @@ header {
     opacity: 0.84;
     background-image: url("../img/banner.svg"); /* fallback */
     background-image: url("../img/banner.svg"), linear-gradient(-180deg, #373838 0%, #000000 88%); /* W3C */
+    background-repeat: no-repeat;
+background-position: center;
+
 }
 @media (min-width: 1600px) {
   header {
