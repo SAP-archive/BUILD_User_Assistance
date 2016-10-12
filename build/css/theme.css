@@ -143,7 +143,8 @@ header {
     position:relative;
     width:100%;
     z-index:20;
-    background-image: url("../img/banner.svg") linear-gradient(-180deg, #373838 0%, #000000 88%);
+    background-image: url("../img/banner.svg") 
+    background: linear-gradient(-180deg, #373838 0%, #000000 88%);
     opacity: 0.84;
     height:320px;
     /*background-size: 100% auto;
