@@ -31,7 +31,7 @@ html, body {
 } 
 body
 {
-  background-color: #F7F7F7;
+  background-color: #ffffff;
   font-family: 'Roboto', Arial, sans-serif;
   font-size: 14px;
   line-height: 1.2;
@@ -40,7 +40,7 @@ body
 }
 
 .size-small body {
-    background-color: #EEF3F9;
+    background-color: #ffffff;
 }
 
 
