@@ -144,7 +144,7 @@ header {
     line-height: 70px;
     width:100%;
     z-index:20;
-    height:320px;
+    height:200px;
     opacity: 0.84;
     background-image: url("../img/banner.svg"); /* fallback */
     background-image: url("../img/banner.svg"), linear-gradient(-180deg, #373838 0%, #000000 88%); /* W3C */
