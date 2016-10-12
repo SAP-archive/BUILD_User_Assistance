@@ -144,6 +144,9 @@ header {
     width:100%;
     z-index:20;
     background-image: url("../img/banner.svg");
+    opacity: 0.84;
+    background-image: linear-gradient(-180deg, #373838 0%, #000000 88%);
+
     height:320px;
     /*background-size: 100% auto;
     background-repeat:no-repeat;*/
