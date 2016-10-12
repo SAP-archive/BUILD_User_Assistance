@@ -144,10 +144,10 @@ header {
     position:relative;
     width:100%;
     z-index:20;
-    background-image: url("../img/banner.svg");
     height:320px;
-    /*background-size: 100% auto;
-    background-repeat:no-repeat;*/
+	opacity: 0.84;
+	background-image: url("../img/banner.svg"); /* fallback */
+    background-image: url("../img/banner.svg"), linear-gradient(-180deg, #373838 0%, #000000 88%); /* W3C */
 }
 
 @media (min-width: 1600px) {
