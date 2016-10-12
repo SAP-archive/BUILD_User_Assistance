@@ -31,7 +31,7 @@ html, body {
 } 
 body
 {
-  background-color: #F7F7F7;
+  background-color: #ffffff;
   font-family: 'Roboto', Arial, sans-serif;
   font-size: 14px;
   line-height: 1.2;
@@ -40,7 +40,7 @@ body
 }
 
 .size-small body {
-    background-color: #f7f7f7;
+    background-color: #ffffff;
 }
 
 
@@ -99,7 +99,7 @@ body
 
 .page
 {
-    background-color: #F7F7F7;
+    background-color: #ffffff;
     border: 0;
     box-sizing:border-box;
     display: block;
@@ -424,7 +424,7 @@ header.small form {
     width:100%;
     margin:0 auto;
     text-align:center;
-    background-color:#F7F7F7;
+    background-color:#ffffff;
     z-index:20;
 }
 
