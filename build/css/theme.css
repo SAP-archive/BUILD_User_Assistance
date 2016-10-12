@@ -140,16 +140,17 @@ body
 header {
     background-color:#000;
     color:#fff;
-    line-height:70px;
     position:relative;
+    line-height: 70px;
     width:100%;
     z-index:20;
-    height:200px;
+    height:320px;
     opacity: 0.84;
     background-image: url("../img/banner.svg"); /* fallback */
     background-image: url("../img/banner.svg"), linear-gradient(-180deg, #373838 0%, #000000 88%); /* W3C */
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
 }
 
 @media (min-width: 1600px) {
