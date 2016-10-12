@@ -178,7 +178,7 @@ header.small {
 
 header .logo {
     z-index:200;
-    height:50px;
+    height:20px;
     padding: 40px 0 0 50px;
     position:fixed;
 }
@@ -186,7 +186,7 @@ header .logo {
 
 
 .size-small header .logo {
-    height:25px;
+    height:10px;
     padding: 2px 0 0 40px;
 }
 
