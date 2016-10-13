@@ -169,20 +169,6 @@ header {
 }
 }
 
-#helpcenter.logo{
-    font-size:20px;
-    left:7%;
-    color:white;
-    top:-27px;
-}
-#helpcenter_bar.logo{
-    left:10%;
-    color:white;
-    top:-14px;
-}
-
-
-
 .size-small header {
     background-image:none;
     background-color:#000;
@@ -207,7 +193,17 @@ header .logo {
     position:fixed;
 }
 
-
+#helpcenter.logo{
+    font-size:20px;
+    left:7%;
+    color:white;
+    top:14px;
+}
+#helpcenter_bar.logo{
+    left:10%;
+    color:white;
+    top:24px;
+}
 
 .size-small header .logo {
     height:10px;
