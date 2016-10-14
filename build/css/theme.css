@@ -203,7 +203,7 @@ header .logo {
     font-size:12px;
     left:10%;
     color:white;
-    top:-14px;
+    top:-12px;
 }
 
 @media (max-width: 1400px) {
@@ -217,7 +217,7 @@ header .logo {
      font-size:12px;
       left:20%;
     color:white;
-    top:-14px;
+    top:-12px;
 }
 } 
 @media (max-width: 1024px) {
@@ -231,7 +231,7 @@ header .logo {
      font-size:12px;
       left:20%;
     color:white;
-    top:-14px;
+    top:-12px;
 }
 } 
 @media (max-width: 769px) {
