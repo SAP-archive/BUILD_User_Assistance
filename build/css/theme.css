@@ -233,13 +233,14 @@ header .logo {
 
 @media (min-width: 320px) {
   #helpcenter.logo { 
-    font-size:20px;
+    font-size:14px;
     left:17%;
     color:white;
     top:-27px;
   }
  #helpcenter_bar.logo{
-      left:20%;
+     font-size: 12px; 
+     left:20%;
     color:white;
     top:-14px;
 }
