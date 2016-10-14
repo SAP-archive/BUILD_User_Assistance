@@ -204,7 +204,7 @@ header .logo {
     color:white;
     top:-14px;
 }
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
   #helpcenter.logo {
     font-size:20px;
     left:17%;
@@ -217,7 +217,7 @@ header .logo {
     top:-14px;
 }
 } 
-@media (min-width: 769px) {
+@media (max-width: 769px) {
   #helpcenter.logo {
  font-size:20px;
     left:17%;
@@ -231,7 +231,7 @@ header .logo {
 }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   #helpcenter.logo { 
     font-size:20px;
     left:17%;
