@@ -245,16 +245,16 @@ header .logo {
 }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   #helpcenter.logo {
-    color: transparent;
+   text-indent: -9999px;
     font-size:20px;
     left:17%;
     color:white;
     top:-27px;
   }
  #helpcenter_bar.logo{
-     color: transparent;
+     text-indent: -9999px;
      left:20%;
     color:white;
     top:-14px;
