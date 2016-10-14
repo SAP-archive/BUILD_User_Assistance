@@ -205,26 +205,26 @@ header .logo {
     top:-14px;
 }
 @media (min-width: 1024px) {
-  helpcenter.logo {
+  #helpcenter.logo {
     font-size:20px;
     left:17%;
     color:white;
     top:-27px;
     }
- helpcenter_bar.logo{
+ #helpcenter_bar.logo{
       left:20%;
     color:white;
     top:-14px;
 }
 } 
 @media (min-width: 768px) {
-  helpcenter.logo {
+  #helpcenter.logo {
  font-size:20px;
     left:17%;
     color:white;
     top:-27px;
     }
- helpcenter_bar.logo{
+ #helpcenter_bar.logo{
       left:20%;
     color:white;
     top:-14px;
@@ -232,13 +232,13 @@ header .logo {
 }
 
 @media (min-width: 320px) {
-  helpcenter.logo { 
+  #helpcenter.logo { 
     font-size:20px;
     left:17%;
     color:white;
     top:-27px;
   }
- helpcenter_bar.logo{
+ #helpcenter_bar.logo{
       left:20%;
     color:white;
     top:-14px;
