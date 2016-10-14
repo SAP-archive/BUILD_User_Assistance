@@ -217,7 +217,7 @@ header .logo {
     top:-14px;
 }
 } 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   #helpcenter.logo {
  font-size:20px;
     left:17%;
