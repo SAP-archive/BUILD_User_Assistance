@@ -32,7 +32,7 @@ html, body {
 body
 {
   background-color: #ffffff;
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: 'Lato', Arial, sans-serif;
   font-size: 14px;
   line-height: 1.2;
   padding:0;
@@ -149,11 +149,12 @@ header {
     background-image: url("../img/banner.svg"); /* fallback */
     background-image: url("../img/banner.svg"), linear-gradient(-180deg, #373838 0%, #000000 88%); /* W3C */
     background-repeat: no-repeat;
-background-position: center;
-
+    background-position: center;
 }
+
 @media (min-width: 1600px) {
-   background-color:#000;
+  header {
+    background-color:#000;
     color:#fff;
     position:relative;
     line-height: 70px;
@@ -167,7 +168,6 @@ background-position: center;
     background-position: center;
 }
 }
-
 
 .size-small header {
     background-image:none;
@@ -205,16 +205,72 @@ header .logo {
     top:-14px;
 }
 
+@media (max-width: 1400px) {
+  #helpcenter.logo {
+    font-size:20px;
+    left:17%;
+    color:white;
+    top:-27px;
+    }
+ #helpcenter_bar.logo{
+      left:20%;
+    color:white;
+    top:-14px;
+}
+} 
+@media (max-width: 1024px) {
+  #helpcenter.logo {
+    font-size:20px;
+    left:17%;
+    color:white;
+    top:-27px;
+    }
+ #helpcenter_bar.logo{
+      left:20%;
+    color:white;
+    top:-14px;
+}
+} 
+@media (max-width: 769px) {
+  #helpcenter.logo {
+ font-size:20px;
+    left:17%;
+    color:white;
+    top:-27px;
+    }
+ #helpcenter_bar.logo{
+      left:20%;
+    color:white;
+    top:-14px;
+}
+}
+
+@media (max-width: 500px) {
+  #helpcenter.logo {
+   text-indent: -9999px;
+    font-size:20px;
+    left:17%;
+    color:white;
+    top:-27px;
+  }
+ #helpcenter_bar.logo{
+     text-indent: -9999px;
+     left:20%;
+    color:white;
+    top:-14px;
+}
+}     
+      
 
 .size-small header .logo {
-    height: 10px;
-    padding: 2px 0 0 40px;
+    height:10px;
+    padding: 10px 0 0 40px;
 }
 
 
 
 header.small .logo {
-    padding-top:0px;
+    padding-top:10px;
 }
 
 .search-expanded .logo {
@@ -890,7 +946,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .topictitle1, ol, ul, div {
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: 'Lato', Arial, sans-serif;
 }
 
 
@@ -925,7 +981,7 @@ h6 {
 }
 
 .shortdesc {
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: 'Lato', Arial, sans-serif;
     font-weight: bold;
 }
 
@@ -1065,8 +1121,8 @@ a:hover, a:active {
     }
 
 img {max-width:95%;display:inline; width:auto; height:auto;}
-div > p > img {max-width:95%;display:block; margin-left: auto; margin-right: auto;  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.20);}
-div > img {max-width:95%;display:block; margin-left: auto; margin-right: auto;box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.20);}
+div > p > img {max-width:95%;display:block; margin-left: auto; margin-right: auto; box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.20);}
+div > img {max-width:95%;display:block; margin-left: auto; margin-right: auto; box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.20);}
 
 iframe
 {max-width:95%;display:block; margin-left: auto; margin-right: auto;}
