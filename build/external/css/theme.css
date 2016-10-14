@@ -200,9 +200,10 @@ header .logo {
     top:-27px;
 }
 #helpcenter_bar.logo{
+    font-size:12px;
     left:10%;
     color:white;
-    top:-14px;
+    top:-12px;
 }
 
 @media (max-width: 1400px) {
@@ -213,9 +214,10 @@ header .logo {
     top:-27px;
     }
  #helpcenter_bar.logo{
+     font-size:12px;
       left:20%;
     color:white;
-    top:-14px;
+    top:-12px;
 }
 } 
 @media (max-width: 1024px) {
@@ -226,9 +228,10 @@ header .logo {
     top:-27px;
     }
  #helpcenter_bar.logo{
+     font-size:12px;
       left:20%;
     color:white;
-    top:-14px;
+    top:-12px;
 }
 } 
 @media (max-width: 769px) {
@@ -239,6 +242,7 @@ header .logo {
     top:-27px;
     }
  #helpcenter_bar.logo{
+     font-size:12px;
       left:20%;
     color:white;
     top:-14px;
@@ -335,6 +339,7 @@ header h2 {
     margin-top:0;
     color:#fff;
     margin-bottom:1em;
+    margin-left:-2%;
 }
 
 header.small h2,
