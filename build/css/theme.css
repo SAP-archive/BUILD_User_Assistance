@@ -181,7 +181,7 @@ header {
 header.small {
     position:fixed;
     height:100px;
-    background-image: url("../img/smallBanner.png"); 
+    background-image: url("../img/smallBanner.svg"); 
     
 }
 
