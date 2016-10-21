@@ -2,8 +2,11 @@
   SYSTEM "about:legacy-compat">
 <html lang="en-us" dir="ltr">
    <head>
+     <link href="Video-Listener-Hybrid-master/css/bootstrap.min.css" rel="stylesheet">
+    <script src="Video-Listener-Hybrid-master/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.3/clipboard.min.js"></script>
+    <link href = "Video-Listener-Hybrid-master/css/VideoListener2.css" rel = "stylesheet">
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <title>Import Destinations</title>
@@ -530,7 +533,7 @@
                               <h2 class="sectiontitle tasklabel">Context</h2>
                            </div>
                            			      
-                           <div class="p">If you purchased a <span class="ph pname">BUILD</span> license,
+                           <div class="p">If you have purchased a <span class="ph pname">BUILD</span> license,
                               				the destinations are automatically created when the administrator of your HCP
                               				account enables the <span class="ph pname">BUILD</span> service.
                               				If, however, you do need to import the destinations, download them from a server and
@@ -663,9 +666,26 @@
                      </div>
                      
                   </div>
-		     
-		    </section>
+                  
+               </section>
+			   <div class = "contentWrapper">
+    <div class = "mcontent">
+        <div id = "hiddenTextArea"></div>
+        <div class = "videoHolder">
+            <h2>Fiori Developers Guide - Tutorial 2</h2>
+            <video controls class = "video1" id = "video1" >
+                <source src = "Video-Listener-Hybrid-master/vids/FioriTutorial2.mp4" type = "video/mp4">
+            </video>
+        </div>
+        <div class = "buttonHolder">
+            <button id = "toggler" class = "btn-ntb">Hide Text</button>
+            <button style = "float:right;" id = "copy"   class = "btn-ntb" data-clipboard-target = "#hiddenTextArea">Copy Text</button>
+        </div>
 
+        <div  class = "textHolder" id="codeHolder">
+        </div>
+    </div>
+</div>
                <div class="clear"></div>
                
             </div>
@@ -700,7 +720,8 @@
             <!--Build date: 10/06/2016 14:06 GMT-7-->
          </div>
       </div>
-	 
+	  <script src = "Video-Listener-Hybrid-master/js/ytAPI.js"></script>
+	  <script src = "Video-Listener-Hybrid-master/js/VideoListener.js"></script>
 	  <script>
         var swa = {
         pubToken: '6fa0fc12-d856-4547-ae3d-95802f388c16',
