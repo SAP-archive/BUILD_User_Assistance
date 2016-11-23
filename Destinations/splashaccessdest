@@ -1,9 +1,0 @@
-#
-#Mon Aug 08 22:03:47 UTC 2016
-URL=https\://buildcockpita7e7e7162-${consumerAccountName}.hana.ondemand.com 
-Name=BUILD_Access
-ProxyType=Internet
-Type=HTTP
-WebIDEEnabled=true
-Authentication=AppToAppSSO
-Description=Destination of BUILD authentication service
