@@ -19,10 +19,12 @@
 					should be construed as constituting an additional warranty.</p><p>SAP and other SAP products and services mentioned herein as well as their
 					respective logos are trademarks or registered trademarks of SAP SE (or an SAP
 					affiliate company) in Germany and other countries. All other product and service names mentioned are the trademarks of their respective companies.</p><p>Please see <a xmlns="http://www.idiominc.com/opentopic/vars" xmlns:fo="http://www.w3.org/1999/XSL/Format" href="http://www.sap.com/corporate-en/legal/copyright/index.epx" target="_blank">http://www.sap.com/corporate-en/legal/copyright/index.epx</a> for additional trademark information
-					and notices.</p><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/></body>  <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script> 
+					and notices.</p><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/></body>
+	  <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script> 
 <script type="text/javascript"> docsearch({
 apiKey: 'bd6c05f4081b4bf1e8cc0222f2be206d',
 indexName: 'sap-splash',
 inputSelector: '#txtSearchTerms'
 }); 
-</script></html> 
+</script>
+</html>
