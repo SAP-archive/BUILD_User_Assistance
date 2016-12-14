@@ -500,60 +500,24 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                         
                         
                         <div class="section">
-                           <section class="section" type="Annotations Not Displaying Automatically">
-                              <h2 class="section_title"><span class="sap-icon"></span>Annotations Not Displaying Automatically
-                              </h2>
-                              		       
-                              		       
-                              <p class="p">In some instances, annotations are not automatically displayed on prototype pages in feedback
-                                 			study results. In such cases, a <span class="ph uicontrol uicontrol-boldblack">Show this annotation view</span>
-                                 			icon <img class="inline  " id="loio6325b1a535aa42988eb3e6e32d63f746__image_g1v_cdv_tv" src="ed6e19c850be4063b0ac4026aeec6e11.image">
-                                 			is displayed in the relevant <span class="ph uicontrol uicontrol-boldblack">COMMENTS</span> pane in the right
-                                 			panel, so that you can view the location of the missing annotation on a static image
-                                 			of the prototype page.
-                              </p>
-                              
-                              			   
-                           </section>
-                        </div>
-                        
-                        
-                        <div class="section">
-                           <section class="section" type="Annotations on Master Detail Prototype Pages in Feedback">
-                              <h2 class="section_title"><span class="sap-icon"></span>Annotations on Master Detail Prototype Pages in Feedback
+                           <section class="section" type="Profile Pop-up Screen Doesn't Open When the User is in Another Module">
+                              <h2 class="section_title"><span class="sap-icon"></span>Profile Pop-up Screen Doesn't Open When the User is in Another Module
                               </h2>
                               			      
                               			      
-                              <p class="p">Annotations are no longer displayed on Master Details prototype pages if you select the browser <span class="ph uicontrol uicontrol-boldblack">Back</span> button on the <span class="ph uicontrol uicontrol-boldblack">Prototype</span> tab of feedback study results.
-                              </p>
-                              
+                              <p class="p">When a user is logged in to <pname>BUILD</pname> and selects <menucascade>
+					         <span class="ph uicontrol uicontrol-boldblack">Avatar</span> >
+					          <span class="ph uicontrol uicontrol-boldblack">Profile</span>
+				        </menucascade> from the workspace, the profile opens in a pop-up screen. If the user
+				then navigates to another module such as the Gallery, and selects the profile, the
+				pop-up screen does not open.</p>
+                             
+                              <!--14815-->
                               		    
                            </section>
                         </div>
                         
-                        
-                        <div class="section">
-                           <section class="section" type="Project Cloned to Incorrect Tenant">
-                              <h2 class="section_title"><span class="sap-icon"></span>Project Cloned to Incorrect Tenant
-                              </h2>
-                              			      
-                              			      
-                              <p class="p"> If a user is working in more than one tenant with several browser windows open and
-                                 				then clones a project from a window that is not the tenant to which the user logged
-                                 				in, the project is cloned in the tenant user logged in rather than in the current
-                                 				tenant. 
-                              </p>
-                              
-                              			      
-                              <p class="p">Example: User logs into Tenant A and then tenant B. User clones a project in tenant B. The
-                                 				project is cloned to tenant A instead of tenant B. 
-                              </p>
-                              
-                              		    
-                           </section>
-                        </div>
-                        
-                        
+                        		    
                         <div class="section">
                            <section class="section" type="Incorrect Display of Value in Smart Template Prototype">
                               <h2 class="section_title"><span class="sap-icon"></span>Incorrect Display of Value in Smart Template Prototype
@@ -562,13 +526,13 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                               			      
                               <div class="p">In a Smart Template prototype, if you use a data model property as a Value:
                                  <ul class="ul" id="loio6325b1a535aa42988eb3e6e32d63f746__ul_hl2_5bp_dx">
-                                    
+                                    				           
                                     <li class="li">Associated with a currency in a numerical column in a list report or object page </li>
                                     
-                                    
+                                    				           
                                     <li class="li">Associated with a currency  in the KPI of an object page</li>
                                     
-                                    
+                                    			         
                                  </ul>
                                  
                                  
@@ -583,124 +547,53 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                               <p class="p">This is a limitation of the oData annotations as used in a Smart Template
                                  				application.
                               </p>
-                              
+                             <!--1842--> 
                               		    
                            </section>
                         </div>
                         
-                        
+                        		    
                         <div class="section">
-                           <section class="section" type="Reviewing Feedback Studies - Multiple Choice Questions">
-                              <h2 class="section_title"><span class="sap-icon"></span>Reviewing Feedback Studies - Multiple Choice Questions
+                           <section class="section" type="Search Does Not Work on Copied Controls">
+                              <h2 class="section_title"><span class="sap-icon"></span>Search Does Not Work on Copied Controls
                               </h2>
                               			      
                               			      
-                              <p class="p">You can't review the feedback more than once of studies with multiple-choice questions on HTML
-                                 				prototypes if a user deselects a multiple choice option after you reviewed the study
-                                 				the first time.
+                              <p class="p">When you bind a control to an object and then copy it, the search does not work on the copied
+				control.
                               </p>
-                              
+                              <!--14737-->
                               		    
                            </section>
                         </div>
                         
-                        
+                        		    
                         <div class="section">
-                           <section class="section" type="Heatmap in Feedback Study Results">
-                              <h2 class="section_title"><span class="sap-icon"></span>Heatmap in Feedback Study Results
+                           <section class="section" type="Navigation Does Not Work with iPhone Form Factor in Master Detail">
+                              <h2 class="section_title"><span class="sap-icon"></span>Navigation Does Not Work with iPhone Form Factor in Master Detail
                               </h2>
                               			      
                               			      
-                              <p class="p">User-clicks are not displayed on the heatmap of the first page of feedback studies using smart
-                                 				template based prototypes created in beta 5 <span class="ph pname">BUILD</span>.
-                              </p>
-                              
+                              <p class="p">In a Master Detail prototype, navigation does not work correctly on an iPhone when navigating
+				from a master page to a detail page. This applies to the iPhone form factor in
+				Windows 10.</p>
+                        
+                              <!--13504-->
                               		    
                            </section>
                         </div>
-                        
-                        
-                        <div class="section">
-                           <section class="section" type="Reviewing Feedback Studies - Statistics">
-                              <h2 class="section_title"><span class="sap-icon"></span>Reviewing Feedback Studies - Statistics
-                              </h2>
-                              			      
-                              			      
-                              <p class="p">Statistics for fully completed study are not displayed in feedback study results.</p>
-                              
-                              		    
-                           </section>
+                      
                         </div>
-                        
-                        
-                        <div class="section">
-                           <section class="section" type="Participating in Feedback Studies">
-                              <h2 class="section_title"><span class="sap-icon"></span>Participating in Feedback Studies
-                              </h2>
-                              			      
-                              			      
-                              <p class="p">In the participation mode for feedback studies, you can't navigate to next page in Master Detail on mobile devices using Internet
-                                 Explorer or Mozilla Firefox.
-                              </p>
-                              
-                              		    
-                           </section>
-                        </div>
-                        
-                        
-                        <div class="section">
-                           <section class="section" type="Images Uploaded on Images Tab Not Available">
-                              <h2 class="section_title"><span class="sap-icon"></span>Images Uploaded on Images Tab Not Available
-                              </h2>
-                              			      
-                              			      
-                              <p class="p">In some instances, images uploaded on the <span class="ph uicontrol uicontrol-boldblack">Images</span> tab on the <span class="ph uicontrol uicontrol-boldblack">UI Editor</span> are not available on the <span class="ph uicontrol uicontrol-boldblack">Select Files</span> dialog when you are adding a new image page. 
-                              </p>
-                              
-                              		    
-                           </section>
-                        </div>
-                        
-                        
-                        <div class="section">
-                           <section class="section" type="Bound Charts do not work in ST Breakout Object Page">
-                              <h2 class="section_title"><span class="sap-icon"></span>Bound Charts do not work in ST Breakout Object Page
-                              </h2>
-                              			      
-                              			      
-                              <p class="p"> In some instances, it is not possible to successfully drop and bind a column to an
-                                 					<span class="ph uicontrol uicontrol-boldblack">Object</span> to a table on a Smart Template List Report page if
-                                 				the Smart Template List Report was bound to a data object.
-                              </p>
-                              
-                              		    
-                           </section>
-                        </div>
-                        
-                        
-                        <div class="section">
-                           <section class="section" type="No Sender in Email">
-                              <h2 class="section_title"><span class="sap-icon"></span>No Sender in Email
-                              </h2>
-                              			      
-                              			      
-                              <p class="p">There is no sender specified in emails sent when a HCP tenant request is created or
-                                 				edited.
-                              </p>
-                              
-                              		    
-                           </section>
-                        </div>
-                        
-                        
-                     </div>
-                     
+                                  
                   </div>
                   
                </section>
-               <div class="clear"></div>
+                     
+                  </div>
+                  
+                        <div class="clear"></div>
                
-            </div>
+         
             <div class="clearfix"></div>
          </div>
          <div class="clearfix"></div>
