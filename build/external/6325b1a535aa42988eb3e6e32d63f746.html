@@ -511,16 +511,16 @@
                      <h1 class="title topictitle1">Known Issues</h1>
                      <div class="body conbody">
                         <p class="shortdesc">The following are known issues that we are currently resolving.
-			     This section will be updated during the week of January 2, 2017.</p>
+			     </p>
                  
                        
                             <div class="section">
-                           <section class="section" type="Table Columns are not Resizable">
-                              <h2 class="section_title"><span class="sap-icon"></span>Table Columns are not Resizable
+                           <section class="section" type="Table Columns Cannot be Resized">
+                              <h2 class="section_title"><span class="sap-icon"></span>Table Columns Cannot Be Resized
                               </h2>
                               		       
                               		       
-                              <p class="p"><p>Although table column are resizable in the UI canvas, the result might not be as expected.</p>
+                              <p class="p"><p>Although table column can be resized in the UI canvas, the result might not be as expected.</p>
                        
 				<!--15175-->
                               
@@ -530,8 +530,8 @@
                         
                         		    
                         <div class="section">
-                           <section class="section" type="Profile Pop-up Screen Works Only When You Are in Workspace Page">
-                              <h2 class="section_title"><span class="sap-icon"></span>Profile Pop-up Screen Works Only When You Are in Workspace Page
+                           <section class="section" type="Profile Pop-up Screen Works Only When a User is in Workspace Page">
+                              <h2 class="section_title"><span class="sap-icon"></span>Profile Pop-up Screen Works Only When a User is in Workspace Page
                               </h2>
                               			      
                               			      
@@ -544,10 +544,29 @@
                              
                               <!--14815-->
                               		    
-                           </section>
+                           </section>		
+				
                         </div>
                         
-                        		    
+                        <div class="section"><div class="section_title">Currency UI Properties Revert to Their Default Values</div><div type="Currency UI Properties Revert to Their Default Values">
+			
+			<p class="p">If you unbind a page where you have a bound Currency UI element, the currency UI element
+				properties revert to their default values, but the canvas is not refreshed and the
+				default values disappear from the canvas. You need to refresh your browser to
+				resolve this issue.</p>
+
+			
+		</div>	
+				
+				
+			<div class="section"><div class="section_title">Search Does Not Work on Copied Controls</div><div type="Search Does Not Work on Copied Controls">
+			
+			<p class="p">When you bind a control to an object and then copy it, the search does not work on the copied
+				control.</p>
+
+			
+		</div>	
+				
                         <div class="section">
                            <section class="section" type="Incorrect Display of Value in Smart Template Prototype">
                               <h2 class="section_title"><span class="sap-icon"></span>Incorrect Display of Value in Smart Template Prototype
@@ -583,41 +602,26 @@
                         </div>
                         
                         		    
-                        <div class="section">
-                           <section class="section" type="Search Does Not Work on Copied Controls">
-                              <h2 class="section_title"><span class="sap-icon"></span>Search Does Not Work on Copied Controls
-                              </h2>
-                              			      
-                              			      
-                              <p class="p">When you bind a control to an object and then copy it, the search does not work on the copied
-				control.
-                              </p>
-                              <!--14737-->
-                              		    
-                           </section>
-                        </div>
-                        
-                        		    
-                        <div class="section">
-                           <section class="section" type="Navigation Does Not Work on Master Detail Prototypes in Mobile Form ">
-                              <h2 class="section_title"><span class="sap-icon"></span>Navigation Does Not Work on Master Detail Prototypes in Mobile Form
-                              </h2>
-                              			      
-                              			      
-                              <p class="p">In a Master Detail prototype, navigation does not work correctly in mobile form when navigating
-				from a master page to a detail page. 
-				   </p>
-                        
-                              <!--13504 and 9873-->
-                              		    
-                           </section>
-                        </div>
-                      
-                        </div>
-                                  
-                  </div>
-                  
-               </section>
+                        <div class="section"><div class="section_title">Incorrect Behavior in Chrome 55</div><div type="Incorrect Behavior in Chrome 55">
+			
+			<div class="p">When using Chrome 55, you may encounter one of the following problems <span class="ph emphasis emphasis">in prototypes
+					that were published before this release</span>:<ul class="ul" id="loio6325b1a535aa42988eb3e6e32d63f746__ul_zmx_qnb_my">
+					<li class="li">The<span class="ph uicontrol"> IconTab Bar</span> does not react to clicks either at
+						design or run time.</li>
+
+					<li class="li">The <span class="ph uicontrol">Table/List</span> in monoselection (displaying a radio
+						button) or multi selection (displaying a checkbox) does not react to
+						selection clicks. Instead, it triggers navigation if it is defined at the
+							<span class="ph uicontrol">Row/List Item</span> level.</li>
+
+					<li class="li">In aSmart Template List Report, a <span class="ph uicontrol">Dropdown List
+							Filter</span> does not react to a click on check boxes.  </li>
+
+				</ul>
+To correct these problems, you must republish your prototypes.</div>
+				
+
+		</div>
                   
                <div class="clear"></div>
                
