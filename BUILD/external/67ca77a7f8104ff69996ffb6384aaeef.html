@@ -2,12 +2,7 @@
   SYSTEM "about:legacy-compat">
 <html lang="en-us" dir="ltr">
    <head>
-   <script type="text/javascript">
-var url = window.location.href;
-url = url.split('#').pop().split('?').pop();
-var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
-            window.location.replace("../../build/external/" + page);
-    </script>      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <title>Add and Configure a Smart Template Object Page</title>
       <meta charset="utf-8">
@@ -17,10 +12,9 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
       
       <meta name="description" content="The object page of a smart template contains information about a specific object. The main object of the first Smart Template Object Page in a smart template prototype must have the same main object of the Smart Template List Report page.">
       <script type="text/javascript">var d4p = {"relativePath":'',"dev":false,"debug":false,"draft":false,"nextTopicHref":"12677806c9c0461f899ad39099ae6ff7.html","previousTopicHref":"06de5980f994489193faaf75bab78ebf.html"}</script>
-      <link rel="stylesheet" type="text/css" media="screen, projection" href="themes/norman/css/style.css">
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
-      
+            <link rel="stylesheet" type="text/css" media="screen, projection" href="themes/norman/css/style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
+      <link rel="stylesheet" href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />      
       <link rel="stylesheet" type="text/css" media="screen, projection, print" href="css/theme.css">
       
       <link rel="stylesheet" type="text/css" media="screen, projection, print" href="//sap.github.io/BUILD_User_Assistance/videos/unitegallery/css/unite-gallery.css">
@@ -115,10 +109,13 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
          </ul>
          <header role="banner" aria-labelledby="publication-title">
             	<a href="index.html"><img class="logo" src="img/buildlogo.svg"></a>
+            	<a href="index.html">
+               <p class="logo" id="helpcenter">|</p>
+               <p class="logo" id="helpcenter_bar">HELP CENTER</p></a>
             	
             <div class="center">
                		
-               <h2>What do you need to know?</h2>
+               <h2>Find the answers you need</h2>
                		
                <div class="search-box">
                   			
@@ -154,7 +151,7 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                      <ul>
                         <li class="topichead collapsible "><span>Get Started</span><ul>
                               <li class=" no-child "><a href="4034a659577d4d5fa725af4c3525eb2d.html">What is BUILD?</a></li>
-                              <li class=" no-child "><a href="c54d916422664f59b61e1f77660dc057.html">Get Started with BUILD
+                              <li class=" no-child "><a href="index.html">Get Started with BUILD
                                     </a></li>
                               <li class=" no-child "><a href="22d521ddbd854816b8ccb0f0c6a1de34.html">Log on to BUILD
                                     </a></li>
@@ -163,8 +160,9 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                     		Contents</a></li>
                            </ul>
                         </li>
-                        <li class="topichead collapsible "><span>BUILD Projects</span><ul>
-                              <li class=" collapsible  collapsed"><a href="aebea8d795a243a2bf086eb4f9702873.html">Overview of BUILD Projects</a><ul>
+                        <li class="topichead collapsible "><span>Workspace</span><ul>
+                              <li class=" collapsible  collapsed"><a href="aebea8d795a243a2bf086eb4f9702873.html">Overview of BUILD
+                                    		Workplace</a><ul>
                                     <li class="topichead collapsible "><span>Create Projects</span><ul>
                                           <li class=" no-child "><a href="cd39ba0241a14201b5eac4fa514c6d9b.html">Create a New Project</a></li>
                                           <li class=" no-child "><a href="e800da46fc234457b5d82b1dd166a43a.html">Create a Project by Cloning</a></li>
@@ -203,7 +201,10 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                     </li>
                                     <li class=" no-child "><a href="207b4ad88b6e434e8abec9d2ea85b54c.html">Add Freestyle Pages</a></li>
                                     <li class=" no-child "><a href="3d416741ddf949c28b7f1f6a5930d96c.html">Add Responsive Pages</a></li>
-                                    <li class=" no-child "><a href="b1d8de47b85348dc975007dc5e6526bf.html">Add Master Detail Pages</a></li>
+                                    <li class=" collapsible  collapsed"><a href="b1d8de47b85348dc975007dc5e6526bf.html">Add Master Detail Pages</a><ul>
+                                          <li class=" no-child "><a href="2bedacb719f945c8bf39230796553378.html">Master Details Video Example</a></li>
+                                       </ul>
+                                    </li>
                                     <li class=" no-child "><a href="8692c6b629ad49ebbb7e3c8ae5f1dc26.html">Add Smart Template Pages</a></li>
                                     <li class=" no-child "><a href="6363462d2adc4e188d2931e4d47b6421.html">Add Object Pages</a></li>
                                     <li class=" collapsible  collapsed"><a href="55122dc79fa344958b982eb98f21ef2e.html">Add UI Controls</a><ul>
@@ -251,6 +252,9 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                     <li class=" no-child "><a href="9e78117c063a4f4d814169163b672de5.html">FAQ about Copying Prototype Pages</a></li>
                                  </ul>
                               </li>
+                              <li class=" no-child "><a href="5917fe951de6489a89274907c4f020e1.html">Publish a Project to the Gallery</a></li>
+                              <li class=" no-child "><a href="d2fc337c2fa4442882f1e7dbbd3b430c.html">Republish a Project to the Gallery</a></li>
+                              <li class=" no-child "><a href="ea86fac152284e8f901083676be97f2b.html">Prototype Themes</a></li>
                            </ul>
                         </li>
                         <li class="topichead collapsible  active"><span>Smart Templates</span><ul>
@@ -288,7 +292,7 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                     <li class=" no-child "><a href="23c2d452a7944cdfbb130f577156e3fa.html">Binding in Smart Templates</a></li>
                                     <li class=" no-child "><a href="c8550e26ead24948866558bbbbe15a03.html">Color Coding via Data Binding</a></li>
                                     <li class=" no-child "><a href="140fe2f2f9a74c10baa3453ccd5690ee.html">Use Images Referenced in a Data Model</a></li>
-                                    <li class=" no-child "><a href="53633999543e4934b8412e34acfa3583.html">Mixing Smart Template and Non-Smart Template Pages</a></li>
+                                    <li class=" no-child "><a href="53633999543e4934b8412e34acfa3583.html">Breakouts: Mixing Smart Template and Non-Smart Template Pages</a></li>
                                     <li class=" collapsible  collapsed"><a href="c9174340a499494b80defb449d63763a.html">Navigation with Smart Templates</a><ul>
                                           <li class=" no-child "><a href="7451add5d3014472937502ac69b5f272.html">Schematic: Navigation with Smart Templates</a></li>
                                        </ul>
@@ -304,15 +308,16 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                        </ul>
                                     </li>
                                     <li class=" no-child "><a href="f81667ffefdd457cbfcc6ab467767631.html">Add Objects by Search</a></li>
-                                    <li class=" collapsible  collapsed"><a href="a24ab97bac464838be931ac9ea0f00e9.html">Import Objects from Excel</a><ul>
+                                    <li class=" no-child "><a href="a24ab97bac464838be931ac9ea0f00e9.html">Import Objects from Excel</a></li>
+                                    <li class=" collapsible  collapsed"><a href="d1fec6b4ff0a4c71bdbf9c4c1790d7e3.html">Import Objects from an EDMX file</a><ul>
                                           <li class=" no-child "><a href="505c95b8c8354630929fe772478daadf.html">Rules for Adding Objects or Importing from a Spreadsheet</a></li>
                                        </ul>
                                     </li>
                                     <li class=" collapsible  collapsed"><a href="c125ab9850824c77abf96c12655347da.html">Add Properties to an Object</a><ul>
-                                          <li class=" no-child "><a href="dc6dc55e53324f93b78920562c31eae9.html">Create a Calculated Property</a></li>
+                                          <li class=" no-child "><a href="dc6dc55e53324f93b78920562c31eae9.html">Create a Formula on a  Property</a></li>
                                        </ul>
                                     </li>
-                                    <li class=" collapsible  collapsed"><a href="90c73651dd2d4d5a9a57868c266c506b.html">Editing Data from the Samples Tab</a><ul>
+                                    <li class=" collapsible  collapsed"><a href="90c73651dd2d4d5a9a57868c266c506b.html">Editing Data</a><ul>
                                           <li class=" no-child "><a href="0c65bdb63e634bc29165ec037ee108f8.html">Editing Data in the Data Editor</a></li>
                                           <li class=" no-child "><a href="0152b6f646ae44938ee15baa257d05d7.html">Importing and Exporting Data</a></li>
                                        </ul>
@@ -350,6 +355,7 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                     <li class=" no-child "><a href="4c58a629a76945049cec2f17e7ec4a46.html">Create BUILD
                                           		Destinations Manually</a></li>
                                     <li class=" no-child "><a href="303edd27d68d4713b985ee277e548603.html">Import Destinations</a></li>
+                                    <li class=" no-child "><a href="88dc998e210643998fc6fb01c3e65b26.html">Managing the Local Service Provider Settings</a></li>
                                     <li class=" no-child "><a href="a94fc277085a4d23a30b451d352b36f4.html">Enable the BUILD
                                           		Plug-in in Web IDE</a></li>
                                     <li class=" no-child "><a href="d3b2492b809043ccbd1c36a25a5056a2.html">Create a Project in Web IDE</a></li>
@@ -422,23 +428,31 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                     	  </a></li>
                            </ul>
                         </li>
-                        <li class="topichead collapsible "><span>BUILD App Gallery</span><ul>
+                        <li class="topichead collapsible "><span>Gallery</span><ul>
                               <li class=" no-child "><a href="9c94c5c7783b4ffb8beabea585068060.html">Access the Gallery</a></li>
                               <li class=" no-child "><a href="efac7af25102415298fc1bf246624557.html">Find Gallery Projects</a></li>
                               <li class=" no-child "><a href="e800da46fc234457b5d82b1dd166a43a.html">Create a Project by Cloning</a></li>
                            </ul>
                         </li>
-                        <li class="topichead collapsible "><span>BUILD Learning Center</span><ul>
-                              <li class=" no-child "><a href="357b5d4f0db741aeb18e3193f2bf13d3.html">Learn Design Concepts</a></li>
+                        <li class="topichead collapsible "><span>Services</span><ul>
+                              <li class=" no-child "><a href="67119e080abe42cab7bc1b32f5b953ca.html">About Services</a></li>
+                           </ul>
+                        </li>
+                        <li class="topichead collapsible "><span>Learning</span><ul>
+                              <li class=" no-child "><a href="357b5d4f0db741aeb18e3193f2bf13d3.html">About Learning</a></li>
                               <li class=" no-child "><a href="762b80850e4946828bc10d92af231e3b.html">Learning Cards</a></li>
                            </ul>
                         </li>
-                        <li class="topichead collapsible "><span>BUILD Community</span><ul>
-                              <li class=" no-child "><a href="8c60b9804ac1441c81b2b68315e419e8.html">Community</a></li>
+                        <li class="topichead collapsible "><span>Community</span><ul>
+                              <li class=" no-child "><a href="8c60b9804ac1441c81b2b68315e419e8.html">About Community</a></li>
+                           </ul>
+                        </li>
+                        <li class="topichead collapsible "><span>Blog</span><ul>
+                              <li class=" no-child "><a href="121e381b35cc41498719b37ee634493b.html">About Blogs</a></li>
                            </ul>
                         </li>
                         <li class="topichead collapsible "><span>Administration and Security</span><ul>
-                              <li class=" collapsible  collapsed"><a href="HCPCOCKPIT .html">HCP BUILD Service
+                              <li class=" collapsible  collapsed"><a href="HCPCOCKPIT.html">HCP BUILD Service
                                     		Configuration - Overview</a><ul>
                                     <li class=" collapsible  collapsed"><a href="912b6aaa9a184bc58c54077bed83b258.html">Enable the BUILD Service in the HCP Cockpit</a><ul>
                                           <li class=" no-child "><a href="f9bda020a1e24a39a21bd141523007dc.html">Assign a BUILD Tenant
@@ -446,6 +460,7 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                           <li class=" no-child "><a href="45e288e6b36445d8b04e28b65cf09137.html">Request a BUILD
                                                 		Tenant</a></li>
                                           <li class=" collapsible  collapsed"><a href="e4aed27e43544440bb857f1362fb26aa.html">About the HCP Account Trusted Identity Provider (IdP)</a><ul>
+                                                <li class=" no-child "><a href="f95a25fe62e04418bce9f1be6697a2be.html">Configure the Trusted Identity Provider Attributes</a></li>
                                                 <li class=" no-child "><a href="56b34da0851c4335abddcedafc7bbe37.html">Trust Management</a></li>
                                              </ul>
                                           </li>
@@ -453,10 +468,10 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                     </li>
                                  </ul>
                               </li>
-                              <li class=" collapsible  collapsed"><a href="Admin.html">
+                              <li class=" collapsible  collapsed"><a href="3196f71aeab94d3fa7a3a3210d4ea106.html">
                                     BUILD
                                     		Administration</a><ul>
-                                    <li class=" no-child "><a href="Admin.html">Get Started with the Admin Console</a></li>
+                                    <li class=" no-child "><a href="AdminConsoleHelp.html">Get Started with the Admin Console</a></li>
                                     <li class=" no-child "><a href="f310f001528e40f0abab71c9016a78b3.html">Set Domain Access</a></li>
                                     <li class=" no-child "><a href="1aa707dbf69b425fb9437703ef59b448.html">Manage Users</a></li>
                                     <li class=" no-child "><a href="0693592c3a614d85bb1a456a515be8be.html">View Audit Log</a></li>
@@ -465,15 +480,13 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                            </ul>
                         </li>
                         <li class="topichead collapsible "><span>Upgrade BUILD</span><ul>
-                              <li class=" no-child "><a href="free_version_limitations.html">About Project Number Limits</a></li>
+                              <li class=" no-child "><a href="8385f30b0df74ce8a408283e88ab4fb2.html">About Project Number Limits</a></li>
                               <li class=" no-child "><a href="build_enterprise_features.html">BUILD Enterprise Features</a></li>
                               <li class=" no-child "><a href="baac8939007040c39b0e43d894984dfc.html">Purchasing BUILD Licenses</a></li>
                            </ul>
                         </li>
                         <li class="topichead collapsible "><span>Report Issues to Support</span><ul>
                               <li class=" no-child "><a href="20e749a820a74a4d85d3c3075985920a.html">Report Issues to Support</a></li>
-                              <li class=" no-child "><a href="424c81ae520c419dacdc74e682e5530e.html">
-                                    BUILD PPMS Version Details</a></li>
                            </ul>
                         </li>
                         <li class="topichead collapsible "><span>What's New</span><ul>
@@ -484,7 +497,12 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                               <li class=" no-child "><a href="6325b1a535aa42988eb3e6e32d63f746.html">Known Issues</a></li>
                            </ul>
                         </li>
+						 <li class="topichead collapsible  active"><span>Known Issue with Chrome 55</span><ul>
+                              <li class=" no-child  active"><a class="selected" href="known_issue_chrome_55.html">Known Issues</a></li>
+                           </ul>
+                        </li>
                         <li class=" no-child "><a href="d786f2508b7440e1a8e7104613f30c19.html">Legal Notices About Fonts</a></li>
+                        <li class=" no-child "><a href="e863f8f75e6846b6a953b6a0b1563051.html">Troubleshooting/FAQs</a></li>
                      </ul>
                   </ul>
                </div>
@@ -501,14 +519,14 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                            		the same main object of the Smart Template List Report page.
                         </p>
                         
-                        
+                        		    
                         <div class="section prereq p">
                            <div class="tasklabel">
                               <h2 class="sectiontitle tasklabel">Prerequisites</h2>
                            </div>You must have configured a Smart Template List Report. 
                         </div>
                         
-                        
+                        		    
                         <div class="section context">
                            <div class="tasklabel">
                               <h2 class="sectiontitle tasklabel">Context</h2>
@@ -516,24 +534,24 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                            			      
                            <div class="p">The Smart Template Object Page contains and header and three sections by default:
                               <ul class="ul" id="loio67ca77a7f8104ff69996ffb6384aaeef__ul_thj_c25_xv">
-                                 
+                                 					          
                                  <li class="li">
                                     						            
                                     <div class="p">Header, containing:
                                        <ul class="ul" id="loio67ca77a7f8104ff69996ffb6384aaeef__ul_h53_d25_xv">
-                                          
+                                          								                
                                           <li class="li">Title</li>
                                           
-                                          
+                                          								                
                                           <li class="li">Description</li>
                                           
-                                          
+                                          								                
                                           <li class="li">Test Contact</li>
                                           
-                                          
+                                          								                
                                           <li class="li">Header Form</li>
                                           
-                                          
+                                          							              
                                        </ul>
                                        
                                        
@@ -542,16 +560,16 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                     					          
                                  </li>
                                  
-                                 
+                                 					          
                                  <li class="li">First section containing a form group and form elements</li>
                                  
-                                 
+                                 					          
                                  <li class="li">Section section containing a table</li>
                                  
-                                 
+                                 					          
                                  <li class="li">Third section containing a contact list</li>
                                  
-                                 
+                                 				        
                               </ul>
                               
                               
@@ -564,22 +582,29 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                            
                            		    
                         </div>
-                        
+                        		    
                         <div class="tasklabel">
                            <h2 class="sectiontitle tasklabel">Procedure</h2>
                         </div>
                         <ol class="ol steps">
                            <li class="li step stepexpand">
-                              <span class="ph cmd">In the Smart Template List Report, select the table, then, on the right side of the screen,
+                              				        <span class="ph cmd">In the Smart Template List Report, select the table, then, on the right side of the screen,
                                  					under <span class="ph uicontrol uicontrol-boldblack">Properties</span>, select <span class="ph uicontrol uicontrol-boldblack">+New
                                     					Page</span>&gt; <span class="ph uicontrol uicontrol-boldblack">Smart Template Object Page</span>.</span>
-                              
+                              				        
                               <div class="itemgroup info">
                                  					          
                                  <p class="p">
                                     <img class="inline  " id="loio67ca77a7f8104ff69996ffb6384aaeef__image_iy1_ht1_rt" src="bda6f5241493488b83c4860e7202d3ba.image">
                                     
                                  </p>
+                                 
+                                 					          
+                                 <div xmlns="http://www.w3.org/1999/xhtml" class="fig fignone" id="loio67ca77a7f8104ff69996ffb6384aaeef__fig_evw_5jv_hx">
+                                    <div class="figbody">
+                                       						            
+                                       					          
+                                    </div><span class="figcap"><span class="enumeration fig-enumeration">Figure 79.&nbsp;</span>Add a Smart Template Object Page</span></div>
                                  
                                  					          
                                  <p class="p">When you select<span class="ph uicontrol uicontrol-boldblack"> +New Page</span>, you automatically set parameters to
@@ -595,56 +620,56 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                  
                                  				        
                               </div>
-                              
+                              			      
                            </li>
                            
                            <li class="li step stepexpand">
-                              <span class="ph cmd">Select the <span class="ph uicontrol uicontrol-boldblack">Data</span> tab, then do one or more of the following  </span>
-                              
+                              				        <span class="ph cmd">Select the <span class="ph uicontrol uicontrol-boldblack">Data</span> tab, then do one or more of the following  </span>
+                              				        
                               <ul class="ul choices" id="loio67ca77a7f8104ff69996ffb6384aaeef__choices_mx1_yg5_xv">
-                                 
-                                 <li class="li choice">Drag the object that you want to use as the Title of your Smart Template
-                                    						Object Page to the Title in the header.
+                                 					          
+                                 <li class="li choice">Drag the object that you want to use as the title of your Smart Template Object Page to
+                                    						the <span class="ph uicontrol uicontrol-boldblack">Title</span> in the header.
                                  </li>
                                  
-                                 
+                                 					          
                                  <li class="li choice">Drag the object that you want to use as the Description to the Description in the
                                     						header.
                                  </li>
                                  
-                                 
+                                 				        
                               </ul>
                               
-                              
+                              			      
                            </li>
                            
                            <li class="li step stepexpand">
-                              <span class="ph cmd">If you want to add images, you may do so if you have already uploaded images to
+                              				        <span class="ph cmd">If you want to add images, you may do so if you have already uploaded images to
                                  					the application. Choose the image to display from the list under the
                                  						<span class="ph uicontrol uicontrol-boldblack">Files</span> tab.</span>
-                              
+                              				        
                               <div class="itemgroup info">See the topic <a class="xref" href="1df33f462ff849c5a03c91057d64946f.html" title="You can bind to images to your protype to make your pages more pertinent or attractive, for example, in the header of a Smart Template Object Page.">Use Images from a Data Model</a>
                                  
                               </div>
-                              
+                              			      
                            </li>
                            
                            <li class="li step stepexpand">
-                              <span class="ph cmd">If you want to add a KPI select it, then:</span>
-                              
+                              				        <span class="ph cmd">If you want to add a KPI select it, then:</span>
+                              				        
                               <ul class="ul choices" id="loio67ca77a7f8104ff69996ffb6384aaeef__choices_wsr_lz3_bt">
-                                 
+                                 					          
                                  <li class="li choice">On the right side of the screen under <span class="ph uicontrol uicontrol-boldblack">KPI</span>, enter a title for the
                                     						KPI.
                                  </li>
                                  
-                                 
+                                 					          
                                  <li class="li choice">Select a value and a currency from the dropdown lists where appropriate.</li>
                                  
-                                 
+                                 				        
                               </ul>
                               
-                              
+                              				        
                               <div class="itemgroup info">
                                  					          
                                  <p class="p">You can have more than one KPI in your object page. If you don't want to use any KPIs,
@@ -653,61 +678,61 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                  
                                  				        
                               </div>
-                              
+                              			      
                            </li>
                            
                            <li class="li step stepexpand">
-                              <span class="ph cmd">If you want to add an action button to the header, select the <span class="ph uicontrol uicontrol-boldblack">Action
+                              				        <span class="ph cmd">If you want to add an action button to the header, select the <span class="ph uicontrol uicontrol-boldblack">Action
                                     						Button</span> control, drag it to the header, then add text on the
                                  					right side of the page. Note that the action button is not bindable and,
                                  					therefore, is static. The action button is for visual reference only.</span>
-                              
+                              			      
                            </li>
                            
                            <li class="li step stepexpand">
-                              <span class="ph cmd">Configure the first section of the object page by expanding the section in the
+                              				        <span class="ph cmd">Configure the first section of the object page by expanding the section in the
                                  					outline and configuring the form elements on the right side of the page. </span>
-                              
+                              				        
                               
                               <table border="1" frame="border" rules="rows" cellpadding="4" cellspacing="0" summary="" class="simpletable choicetable choicetableborder" id="loio67ca77a7f8104ff69996ffb6384aaeef__choicetable_zrq_lkt_qt">
                                  
                                  <thead>
                                     <tr>
-                                       <th valign="bottom" align="left" id="d55194e186-option">Form Control</th>
+                                       <th valign="bottom" align="left" id="d57362e195-option">Form Control</th>
                                        
-                                       <th valign="bottom" align="left" id="d55194e186-desc">Values</th>
+                                       <th valign="bottom" align="left" id="d57362e195-desc">Values</th>
                                     </tr>
                                  </thead>
                                  
                                  <tbody>
-                                    
-                                    
+                                    					          
+                                    					          
                                     <tr class="strow chrow">
+                                       						            
+                                       <td valign="top" headers="d57362e195-option" id="d57362e208" class="stentry choption"><strong>Form Group</strong></td>
                                        
-                                       <td valign="top" headers="d55194e186-option" id="d55194e199" class="stentry choption"><strong>Form Group</strong></td>
+                                       						            
+                                       <td valign="top" headers="d57362e195-desc d57362e208" class="stentry chdesc">Title (not mandatory)</td>
                                        
-                                       
-                                       <td valign="top" headers="d55194e186-desc d55194e199" class="stentry chdesc">Title (not mandatory)</td>
-                                       
-                                       
+                                       					          
                                     </tr>
                                     
-                                    
+                                    					          
                                     <tr class="strow chrow">
+                                       						            
+                                       <td valign="top" headers="d57362e195-option" id="d57362e217" class="stentry choption"><strong>Label</strong></td>
                                        
-                                       <td valign="top" headers="d55194e186-option" id="d55194e208" class="stentry choption"><strong>Label</strong></td>
+                                       						            
+                                       <td valign="top" headers="d57362e195-desc d57362e217" class="stentry chdesc">Label (name) - Value (may be custom value)</td>
                                        
-                                       
-                                       <td valign="top" headers="d55194e186-desc d55194e208" class="stentry chdesc">Label (name) - Value (may be custom value)</td>
-                                       
-                                       
+                                       					          
                                     </tr>
                                     
-                                    
+                                    				        
                                  </tbody>
                               </table>
                               
-                              
+                              				        
                               <div class="itemgroup info">
                                  					          
                                  <p class="p">You can have more than one value for each label such as Currency. You can
@@ -716,72 +741,72 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                  
                                  				        
                               </div>
-                              
+                              				        
                               <div class="itemgroup info">
                                  					          
                                  <ul class="ul" id="loio67ca77a7f8104ff69996ffb6384aaeef__ul_bf1_4nt_qt">
-                                    
+                                    						            
                                     <li class="li">Required: Specifies if the element is required in edit mode in the form. If
                                        								<span class="ph uicontrol uicontrol-boldblack">true</span> an asterisk is displayed left of the
                                        							label in edit mode.
                                     </li>
                                     
-                                    
+                                    						            
                                     <li class="li">Read-only:  When the form is in edit mode, the mandatory fields are designated with an
                                        							asterisk
                                     </li>
                                     
-                                    
+                                    						            
                                     <li class="li">Edit Mode: describes the way a smart template object page can be edited. Input can be:
                                        							Standard Input, Dropdown list, or a Value Help Dialog box (F4). The Edit
                                        							link is in the upper-right corner of the Smart Template Object
                                        							Page.
                                     </li>
                                     
-                                    
+                                    						            
                                     <li class="li">Status Color &amp; Icon: Uses colors to display a status.</li>
                                     
-                                    
+                                    					          
                                  </ul>
                                  
                                  				        
                               </div>
-                              
+                              				        
                               <div class="itemgroup info">You can have multiple form and table sections in a Smart Template Object Page.</div>
-                              
+                              			      
                            </li>
                            
                            <li class="li step stepexpand">
-                              <span class="ph cmd">Expand the second section and select <span class="ph uicontrol uicontrol-boldblack">Table</span> in the
+                              				        <span class="ph cmd">Expand the second section and select <span class="ph uicontrol uicontrol-boldblack">Table</span> in the
                                  						<span class="ph uicontrol uicontrol-boldblack">Outline</span>.</span>
-                              
+                              			      
                            </li>
                            
                            <li class="li step stepexpand">
-                              <span class="ph cmd">Configure the elements of the table on the right side of the screen. Select the
+                              				        <span class="ph cmd">Configure the elements of the table on the right side of the screen. Select the
                                  						<span class="ph uicontrol uicontrol-boldblack">Items</span> that you want displayed in the rows of the
                                  					table.</span>
-                              
+                              				        
                               
                               <table border="1" frame="border" rules="rows" cellpadding="4" cellspacing="0" summary="" class="simpletable choicetable choicetableborder" id="loio67ca77a7f8104ff69996ffb6384aaeef__choicetable_nhl_zjt_qt">
                                  
                                  <thead>
                                     <tr>
-                                       <th valign="bottom" align="left" id="d55194e267-option">Control</th>
+                                       <th valign="bottom" align="left" id="d57362e276-option">Control</th>
                                        
-                                       <th valign="bottom" align="left" id="d55194e267-desc">Values</th>
+                                       <th valign="bottom" align="left" id="d57362e276-desc">Values</th>
                                     </tr>
                                  </thead>
                                  
                                  <tbody>
-                                    
-                                    
+                                    					          
+                                    					          
                                     <tr class="strow chrow">
+                                       						            
+                                       <td valign="top" headers="d57362e276-option" id="d57362e289" class="stentry choption"><strong>Table</strong></td>
                                        
-                                       <td valign="top" headers="d55194e267-option" id="d55194e280" class="stentry choption"><strong>Table</strong></td>
-                                       
-                                       
-                                       <td valign="top" headers="d55194e267-desc d55194e280" class="stentry chdesc">Items: what you want displayed in the table rows. The values proposed in the
+                                       						            
+                                       <td valign="top" headers="d57362e276-desc d57362e289" class="stentry chdesc">Items: what you want displayed in the table rows. The values proposed in the
                                           								<span class="ph uicontrol uicontrol-boldblack">Items</span> box are the names of relationships that
                                           							go from the main object of the page and that have a 1 to n relationship.
                                           							In the table rows, you display the target object of the relationship.
@@ -789,35 +814,36 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                           							the main object.
                                        </td>
                                        
-                                       
+                                       					          
                                     </tr>
                                     
-                                    
+                                    					          
                                     <tr class="strow chrow">
+                                       						            
+                                       <td valign="top" headers="d57362e276-option" id="d57362e301" class="stentry choption"><strong>Column</strong></td>
                                        
-                                       <td valign="top" headers="d55194e267-option" id="d55194e292" class="stentry choption"><strong>Column</strong></td>
+                                       						            
+                                       <td valign="top" headers="d57362e276-desc d57362e301" class="stentry chdesc">Header - at least one value.</td>
                                        
-                                       
-                                       <td valign="top" headers="d55194e267-desc d55194e292" class="stentry chdesc">Header - at least one value.</td>
-                                       
-                                       
+                                       					          
                                     </tr>
                                     
-                                    
+                                    					
+                                    				        
                                  </tbody>
                               </table>
                               
-                              
+                              				        
                               <div class="itemgroup info">An action is selected by default to allow you to navigate to the next object page in the
                                  					prototype from the table.
                               </div>
-                              
+                              			      
                            </li>
                            
                            <li class="li step stepexpand">
-                              <span class="ph cmd">Select the <span class="ph uicontrol uicontrol-boldblack">Preview </span>button to view your object page with
+                              				        <span class="ph cmd">Select the <span class="ph uicontrol uicontrol-boldblack">Preview </span>button to view your object page with
                                  					its values.</span>
-                              
+                              				        
                               <div class="itemgroup info">
                                  					          
                                  <p class="p">
@@ -825,46 +851,53 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                     
                                  </p>
                                  
+                                 					          
+                                 <div xmlns="http://www.w3.org/1999/xhtml" class="fig fignone" id="loio67ca77a7f8104ff69996ffb6384aaeef__fig_mml_xjv_hx">
+                                    <div class="figbody">
+                                       						            
+                                       					          
+                                    </div><span class="figcap"><span class="enumeration fig-enumeration">Figure 80.&nbsp;</span>Preview Smart Template Object Page</span></div>
+                                 
                                  				        
                               </div>
-                              
+                              				        
                               <div class="itemgroup info">This object page contains the following elements:
                                  <ul class="ul" id="loio67ca77a7f8104ff69996ffb6384aaeef__ul_lfm_z2j_bt">
-                                    
+                                    						            
                                     <li class="li">Header bar: My Product</li>
                                     
-                                    
+                                    						            
                                     <li class="li">Header title: Notebook Basic</li>
                                     
-                                    
+                                    						            
                                     <li class="li">Description: ID</li>
                                     
-                                    
+                                    						            
                                     <li class="li">Image of the notebook</li>
                                     
-                                    
+                                    						            
                                     <li class="li">One section: Product Info</li>
                                     
-                                    
+                                    						            
                                     <li class="li">One form group in the section: Logistical Details</li>
                                     
-                                    
+                                    						            
                                     <li class="li">Three form elements in the form group: Length, Width, Height</li>
                                     
-                                    
+                                    						            
                                     <li class="li">A second section: Reviews of the Product</li>
                                     
-                                    
+                                    						            
                                     <li class="li">A table in the second section with three columns that display the review rating,
                                        							reviewer's name, review date
                                     </li>
                                     
-                                    
+                                    					          
                                  </ul>
                                  
                                  
                               </div>
-                              
+                              				        
                               <div class="itemgroup info">
                                  					          
                                  <p class="p">If you want to continue adding or editing data in the object page, select
@@ -874,19 +907,19 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                                  
                                  				        
                               </div>
-                              
+                              				        
                               <div class="itemgroup info">You can add controls to the sections in your object page by dragging the controls to the
                                  						<span class="ph uicontrol uicontrol-boldblack">Outline</span>. A dotted green box shows you where you can
                                  					drop the control. In this example, the controls that were not used were deleted
                                  					in the <span class="ph uicontrol uicontrol-boldblack">Outline.</span>
                                  
                               </div>
-                              
+                              			      
                            </li>
                            
                         </ol>
                         
-                        
+                        	  
                      </div>
                      
                      <div class="related-links"> 
@@ -922,17 +955,15 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
                <div id="custom-footerSpacer"></div>
                	
                <div class="left">
-                  		<a href="https://www.build.me/splash/sites/default/files/privacyStatement.html" target="_blank">PRIVACY</a>
+                  		<a href="http://go.sap.com/corporate/en/legal/impressum.html" target="_blank">HOW IT WORKS</a>
                   		<a href="http://www.sap.com/corporate-en/about/legal/impressum.html" target="_blank">LEGAL DISCLOSURE</a>
+                  		<a href="https://standard.build.me/splash/sites/default/files/privacyStatement.html" target="_blank">PRIVACY</a>
                   		<a href="http://www.sap.com/corporate-en/about/legal/copyright/index.html" target="_blank">COPYRIGHT</a>
-                  		<a href="https://www.build.me/splash/sites/default/files/termsOfUse.html" target="_blank">TERMS OF USE</a>
-                  		<a href="http://go.sap.com/index.html" target="_blank">SAP.COM</a>
+                  		<a href="https://standard.build.me/splash/sites/default/files/termsOfUse.html" target="_blank">TERMS OF USE</a>
                   	
                </div>
                	
                <div class="right">
-                  		
-                  <p>Product and Production Management System version: SAP Splash Beta 5</p>
                   		
                   <p><span>CREATED BY</span> <a href="http://go.sap.com/index.html" target="_blank"><img src="themes/norman/img/sap.png" class="logo" alt="logo"></a></p>
                   	
@@ -941,7 +972,7 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
             </footer>
             
             
-            <!--Build date: 09/06/2016 12:09 GMT-7-->
+            <!--Build date: 12/07/2016 12:41 GMT-8-->
          </div>
       </div><script>
         var swa = {
@@ -950,7 +981,7 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
         visitorCookieTimeout: 7889232,
         dntLevel: 1,
         bannerEnabled: true,
-        licenseUrl: 'https://www.build.me/splash/sites/default/files/privacyStatement.html'
+        licenseUrl: 'https://standard.build.me/splash/sites/default/files/privacyStatement.html'
         };
         (function(){
         var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
@@ -958,10 +989,12 @@ var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
         s.parentNode.insertBefore(g,s);
         })();
       </script></body>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script> 
+	  <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script> 
 <script type="text/javascript"> docsearch({
 apiKey: 'bd6c05f4081b4bf1e8cc0222f2be206d',
 indexName: 'sap-splash',
 inputSelector: '#txtSearchTerms'
 }); 
-</script></html> 
+</script>
+
+</html>
