@@ -2,20 +2,44 @@
   SYSTEM "about:legacy-compat">
 <html lang="en-us" dir="ltr">
    <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <script type="text/javascript">
+var url = window.location.href;
+url = url.split('#').pop().split('?').pop();
+var page = url.substring(url.lastIndexOf('/') + 1).split('loio').join('');
+            window.location.replace("../../build/external/" + page);
+    </script>      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <title>Video</title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="schema.DC" href="http://purl.org/dc/terms/"><script type="text/javascript">var d4p = {"relativePath":'',"dev":false,"debug":false,"draft":false,"nextTopicHref":"9b605d096887459c9c2200e434471cc9.html","previousTopicHref":"splash.html"}</script>
-     <link rel="stylesheet" type="text/css" media="screen, projection" href="themes/norman/css/style.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
-      <link rel="stylesheet" href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
-      <link rel="stylesheet" href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />      
-      
+      <link rel="schema.DC" href="http://purl.org/dc/terms/"><script type="text/javascript">var d4p = {"relativePath":'',"dev":false,"debug":false,"draft":false,"nextTopicHref":"9b605d096887459c9c2200e434471cc9.html","previousTopicHref":''}</script>
+           <link rel="stylesheet" type="text/css" media="screen, projection" href="themes/norman/css/style.css">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
+      <link rel="stylesheet" href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
+      <link rel="stylesheet" href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
       <link rel="stylesheet" type="text/css" media="screen, projection, print" href="css/theme.css">
+            <style>
+/* increase the size of the input */
+#txtSearchTerms {
+width: 400px;
+font-size: 14px;
+padding: 5px 10px;
+}
+/* fix the magnifying glass position */
+.search-button {
+top: 6px;
+}
+</style>
+
       
       <link rel="stylesheet" type="text/css" media="screen, projection, print" href="//sap.github.io/BUILD_User_Assistance/videos/unitegallery/css/unite-gallery.css">
+
+	  <link rel="stylesheet" href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
+    <link rel="stylesheet" href="css/docsearch.css">
+
       <script type="text/javascript">
       
         d4p.cssGridPath = d4p.dev ? 'html5-themes/modules/960-Responsive-Grid/css/' : 'themes/dita-d4p-classic/css/';
@@ -56,22 +80,21 @@
 
         
       </script>
-      <link rel="stylesheet" type="text/css" src="https://fonts.googleapis.com/css?family=Roboto">
       <script type="text/javascript" src="themes/norman/js/script.js"></script>
       <script type="text/javascript" src="js/search-processing.js"></script>
       <script type="text/javascript" src="//sap.github.io/BUILD_User_Assistance/videos/unitegallery/js/unitegallery.min.js"></script>
       <script type="text/javascript" src="//sap.github.io/BUILD_User_Assistance/videos/unitegallery/themes/tilesgrid/ug-theme-tilesgrid.js"></script>
       
-      		<!--[if lt IE 9]>
-      			<script>
-      			  var e = ("abbr,article,aside,audio,canvas,datalist,details," +
-      			    "figure,footer,header,hgroup,mark,menu,meter,nav,output," +
-      			    "progress,section,time,video").split(',');
-      			  for (var i = 0; i < e.length; i++) {
-      			    document.createElement(e[i]);
-      			  }
-      			</script>
-      		<![endif]-->
+          <!--[if lt IE 9]>
+            <script>
+              var e = ("abbr,article,aside,audio,canvas,datalist,details," +
+                "figure,footer,header,hgroup,mark,menu,meter,nav,output," +
+                "progress,section,time,video").split(',');
+              for (var i = 0; i < e.length; i++) {
+                document.createElement(e[i]);
+              }
+            </script>
+          <![endif]-->
       
       <script>
       function addLoadEvent(func) {
@@ -88,13 +111,62 @@
       }
       }
       
-      addLoadEvent(function() { prettyPrint();
-      $('#local-navigation').collapse();
-      $('#local-navigation').navigation();
-      
-      
-      
-      });
+      addLoadEvent(function() {
+          prettyPrint();
+          $('#local-navigation').collapse();
+          $('#local-navigation').navigation();
+          //Extracting the query string from the url
+          var videoId = window.location.search.substr(1);
+
+          /*The Ids of the videos on the page. These MUST be in the  same order as the videos are on the page
+          or the autoplay function will play the wrong video*/
+          var videoIds = ["qKi4by9MDRc", "a6JiciKW9cI", "xrt3jrFDTKQ", "qd1Tn436f54", "Ov_m6B8I43k", "_xfjLeFeHIA", "EiSK6dJYCE0", "OPuZe8ES-2o", "cRfaXzIfp4g", "D9ewgsUwlM0"];
+          var divId;
+        
+          /*Loop to find the div containing the video matching the videoid
+          Unfortunately this cannot be done by directly searching for the video with the matching videoId, because
+          data-videoid attribute has already been disappeared by mysterious javascript when the page loads.*/
+          for(x=0;x<videoIds.length;x++)
+          {
+              if(videoIds[x]===videoId)
+              {
+                  var num = x + 1;
+                  var numString = num.toString();
+                  divId = "#div-video-" + numString;
+
+
+              }
+          }
+
+          $(divId).find("div").children().children().children().children().click();
+
+
+
+
+
+          /* var videoId = window.location.search.substr(1);
+          $('iframe').each(function()
+          {
+              window.alert($(this).attr("src"));
+             if($(this).attr("src").contains(videoId))
+             {
+                 $(this).click();
+
+             }
+
+          });*/
+
+          //$("div").find("[data-videoid='" + videoId + "']").click();
+
+         });
+
+          function processId(videoId,videoIds)
+          {
+            for(x=0;x<videoIds.length;x++)
+            {
+
+            }
+          }
       
       </script>
       </head>
@@ -106,43 +178,29 @@
             <li><a id="skip-to-footer" href="#footer"></a></li>
          </ul>
          <header role="banner" aria-labelledby="publication-title">
-            	<a href="index.html"><img class="logo" src="img/buildlogo.svg"></a>
-            	<a href="index.html">
-               <p class="logo" id="helpcenter">|</p>
-               <p class="logo" id="helpcenter_bar">HELP CENTER</p></a>
-            	
+            <a href="index.html"><img class="logo" src="img/buildlogo.svg"/></a>
             <div class="center">
-               		
-               <h2>Find the answers you need</h2>
-               		
+               <h2>What do you need to know?</h2>
                <div class="search-box">
-                  			
-                  <form onsubmit="redirect(frmSearch);return false" name="frmSearch" class="searchForm" role="search"><input type="search" id="txtSearchTerms" name="q"><span class="search-button sap-icon"></span></form>
-                  		
+                  <form onsubmit="redirect(frmSearch);return false" name="frmSearch" class="searchForm" role="search"><input type="text" id="txtSearchTerms" name="q"/><span class="search-button sap-icon"></span></form>
                </div>
-               	
             </div>
-            
          </header>
          
          <nav class="primary-navigation">
             <ul>
-               <li><a href="video.html">Videos</a><span class="separator"> | </span></li>
-               <li><a href="4034a659577d4d5fa725af4c3525eb2d.html" class="selected">Help Topics</a><span class="separator"> | </span></li>
+               <li><a href="video.html" class="selected">Videos</a><span class="separator"> | </span></li>
+               <li><a href="4034a659577d4d5fa725af4c3525eb2d.html">Help Topics</a><span class="separator"> | </span></li>
             </ul>
          </nav>
-         <div id="next-previous-container"><a href="splash.html" class="sap-icon previous" rel="internal" alt="Splash Page" title="Splash Page"></a><span class="expand-collapse"></span><a href="9b605d096887459c9c2200e434471cc9.html" class="sap-icon next" rel="internal" alt="Welcome to SPLASH Help" title="Welcome to SPLASH Help"></a></div>
          <div id="d4h5-section-container" class="grid_12">
             <nav class="mobile-nav">
                <ul>
                   <li class="toggle-topbar menu-icon no-child "><span class="sap-icon"><a href="#local-navigation"></a></span></li>
                </ul>
-               <section class="nav-pub-title">
-                  BUILD Help
-                  
-               </section>
+               <section class="nav-pub-title">Splash Help</section>
             </nav>
-            <nav id="local-navigation" role="navigation" aria-label="Main navigation" class="grid_4 alpha omega">
+             <nav id="local-navigation" role="navigation" aria-label="Main navigation" class="grid_4 alpha omega">
                <div id="nav-content">
                   <ul>
                      <li class="toc_link no-child "><a href="index.html"></a></li>
@@ -158,9 +216,8 @@
                                     		Contents</a></li>
                            </ul>
                         </li>
-                        <li class="topichead collapsible "><span>Workspace</span><ul>
-                              <li class=" collapsible  collapsed"><a href="aebea8d795a243a2bf086eb4f9702873.html">Overview of BUILD
-                                    		Workplace</a><ul>
+                        <li class="topichead collapsible "><span>BUILD Projects</span><ul>
+                              <li class=" collapsible  collapsed"><a href="aebea8d795a243a2bf086eb4f9702873.html">Overview of BUILD Projects</a><ul>
                                     <li class="topichead collapsible "><span>Create Projects</span><ul>
                                           <li class=" no-child "><a href="cd39ba0241a14201b5eac4fa514c6d9b.html">Create a New Project</a></li>
                                           <li class=" no-child "><a href="e800da46fc234457b5d82b1dd166a43a.html">Create a Project by Cloning</a></li>
@@ -199,10 +256,7 @@
                                     </li>
                                     <li class=" no-child "><a href="207b4ad88b6e434e8abec9d2ea85b54c.html">Add Freestyle Pages</a></li>
                                     <li class=" no-child "><a href="3d416741ddf949c28b7f1f6a5930d96c.html">Add Responsive Pages</a></li>
-                                    <li class=" collapsible  collapsed"><a href="b1d8de47b85348dc975007dc5e6526bf.html">Add Master Detail Pages</a><ul>
-                                          <li class=" no-child "><a href="2bedacb719f945c8bf39230796553378.html">Master Details Video Example</a></li>
-                                       </ul>
-                                    </li>
+                                    <li class=" no-child "><a href="b1d8de47b85348dc975007dc5e6526bf.html">Add Master Detail Pages</a></li>
                                     <li class=" no-child "><a href="8692c6b629ad49ebbb7e3c8ae5f1dc26.html">Add Smart Template Pages</a></li>
                                     <li class=" no-child "><a href="6363462d2adc4e188d2931e4d47b6421.html">Add Object Pages</a></li>
                                     <li class=" collapsible  collapsed"><a href="55122dc79fa344958b982eb98f21ef2e.html">Add UI Controls</a><ul>
@@ -250,9 +304,6 @@
                                     <li class=" no-child "><a href="9e78117c063a4f4d814169163b672de5.html">FAQ about Copying Prototype Pages</a></li>
                                  </ul>
                               </li>
-                              <li class=" no-child "><a href="5917fe951de6489a89274907c4f020e1.html">Publish a Project to the Gallery</a></li>
-                              <li class=" no-child "><a href="d2fc337c2fa4442882f1e7dbbd3b430c.html">Republish a Project to the Gallery</a></li>
-                              <li class=" no-child "><a href="ea86fac152284e8f901083676be97f2b.html">Prototype Themes</a></li>
                            </ul>
                         </li>
                         <li class="topichead collapsible "><span>Smart Templates</span><ul>
@@ -290,7 +341,7 @@
                                     <li class=" no-child "><a href="23c2d452a7944cdfbb130f577156e3fa.html">Binding in Smart Templates</a></li>
                                     <li class=" no-child "><a href="c8550e26ead24948866558bbbbe15a03.html">Color Coding via Data Binding</a></li>
                                     <li class=" no-child "><a href="140fe2f2f9a74c10baa3453ccd5690ee.html">Use Images Referenced in a Data Model</a></li>
-                                    <li class=" no-child "><a href="53633999543e4934b8412e34acfa3583.html">Breakouts: Mixing Smart Template and Non-Smart Template Pages</a></li>
+                                    <li class=" no-child "><a href="53633999543e4934b8412e34acfa3583.html">Mixing Smart Template and Non-Smart Template Pages</a></li>
                                     <li class=" collapsible  collapsed"><a href="c9174340a499494b80defb449d63763a.html">Navigation with Smart Templates</a><ul>
                                           <li class=" no-child "><a href="7451add5d3014472937502ac69b5f272.html">Schematic: Navigation with Smart Templates</a></li>
                                        </ul>
@@ -299,23 +350,22 @@
                               </li>
                            </ul>
                         </li>
-                        <li class="topichead collapsible "><span>Data Models and the Data Editor</span><ul>
-                              <li class=" collapsible  collapsed"><a href="826edca4a27f417aa944f45d97632eca.html">Data Models and the Data Editor</a><ul>
+                        <li class="topichead collapsible  active"><span>Data Models and the Data Editor</span><ul>
+                              <li class=" collapsible  active"><a href="826edca4a27f417aa944f45d97632eca.html">Data Models and the Data Editor</a><ul>
                                     <li class=" collapsible  collapsed"><a href="c0b4d52243c84c8f96d068157ac4e317.html">Create and Add Objects Manually</a><ul>
                                           <li class=" no-child "><a href="a7a38ff657d742b88e472eef35679535.html">Rules for the Object Name</a></li>
                                        </ul>
                                     </li>
                                     <li class=" no-child "><a href="f81667ffefdd457cbfcc6ab467767631.html">Add Objects by Search</a></li>
-                                    <li class=" no-child "><a href="a24ab97bac464838be931ac9ea0f00e9.html">Import Objects from Excel</a></li>
-                                    <li class=" collapsible  collapsed"><a href="d1fec6b4ff0a4c71bdbf9c4c1790d7e3.html">Import Objects from an EDMX file</a><ul>
+                                    <li class=" collapsible  collapsed"><a href="a24ab97bac464838be931ac9ea0f00e9.html">Import Objects from Excel</a><ul>
                                           <li class=" no-child "><a href="505c95b8c8354630929fe772478daadf.html">Rules for Adding Objects or Importing from a Spreadsheet</a></li>
                                        </ul>
                                     </li>
                                     <li class=" collapsible  collapsed"><a href="c125ab9850824c77abf96c12655347da.html">Add Properties to an Object</a><ul>
-                                          <li class=" no-child "><a href="dc6dc55e53324f93b78920562c31eae9.html">Create a Formula on a  Property</a></li>
+                                          <li class=" no-child "><a href="dc6dc55e53324f93b78920562c31eae9.html">Create a Calculated Property</a></li>
                                        </ul>
                                     </li>
-                                    <li class=" collapsible  collapsed"><a href="90c73651dd2d4d5a9a57868c266c506b.html">Editing Data</a><ul>
+                                    <li class=" collapsible  collapsed"><a href="90c73651dd2d4d5a9a57868c266c506b.html">Editing Data from the Samples Tab</a><ul>
                                           <li class=" no-child "><a href="0c65bdb63e634bc29165ec037ee108f8.html">Editing Data in the Data Editor</a></li>
                                           <li class=" no-child "><a href="0152b6f646ae44938ee15baa257d05d7.html">Importing and Exporting Data</a></li>
                                        </ul>
@@ -325,7 +375,7 @@
                                           <li class=" no-child "><a href="d0df71648c624df6888df90adef9017f.html">Edit a Relationship</a></li>
                                        </ul>
                                     </li>
-                                    <li class=" collapsible  collapsed"><a href="1df33f462ff849c5a03c91057d64946f.html">Use Images from a Data Model</a><ul>
+                                    <li class=" collapsible  active"><a class="selected" href="1df33f462ff849c5a03c91057d64946f.html">Use Images from a Data Model</a><ul>
                                           <li class=" no-child "><a href="140fe2f2f9a74c10baa3453ccd5690ee.html">Use Images Referenced in a Data Model</a></li>
                                           <li class=" no-child "><a href="4719a8f76908424eaeb7ca0ea149fec2.html">Add Images via the Samples Panel</a></li>
                                        </ul>
@@ -353,7 +403,6 @@
                                     <li class=" no-child "><a href="4c58a629a76945049cec2f17e7ec4a46.html">Create BUILD
                                           		Destinations Manually</a></li>
                                     <li class=" no-child "><a href="303edd27d68d4713b985ee277e548603.html">Import Destinations</a></li>
-                                    <li class=" no-child "><a href="88dc998e210643998fc6fb01c3e65b26.html">Managing the Local Service Provider Settings</a></li>
                                     <li class=" no-child "><a href="a94fc277085a4d23a30b451d352b36f4.html">Enable the BUILD
                                           		Plug-in in Web IDE</a></li>
                                     <li class=" no-child "><a href="d3b2492b809043ccbd1c36a25a5056a2.html">Create a Project in Web IDE</a></li>
@@ -426,31 +475,23 @@
                                     	  </a></li>
                            </ul>
                         </li>
-                        <li class="topichead collapsible "><span>Gallery</span><ul>
+                        <li class="topichead collapsible "><span>BUILD App Gallery</span><ul>
                               <li class=" no-child "><a href="9c94c5c7783b4ffb8beabea585068060.html">Access the Gallery</a></li>
                               <li class=" no-child "><a href="efac7af25102415298fc1bf246624557.html">Find Gallery Projects</a></li>
                               <li class=" no-child "><a href="e800da46fc234457b5d82b1dd166a43a.html">Create a Project by Cloning</a></li>
                            </ul>
                         </li>
-                        <li class="topichead collapsible "><span>Services</span><ul>
-                              <li class=" no-child "><a href="67119e080abe42cab7bc1b32f5b953ca.html">About Services</a></li>
-                           </ul>
-                        </li>
-                        <li class="topichead collapsible "><span>Learning</span><ul>
-                              <li class=" no-child "><a href="357b5d4f0db741aeb18e3193f2bf13d3.html">About Learning</a></li>
+                        <li class="topichead collapsible "><span>BUILD Learning Center</span><ul>
+                              <li class=" no-child "><a href="357b5d4f0db741aeb18e3193f2bf13d3.html">Learn Design Concepts</a></li>
                               <li class=" no-child "><a href="762b80850e4946828bc10d92af231e3b.html">Learning Cards</a></li>
                            </ul>
                         </li>
-                        <li class="topichead collapsible "><span>Community</span><ul>
-                              <li class=" no-child "><a href="8c60b9804ac1441c81b2b68315e419e8.html">About Community</a></li>
-                           </ul>
-                        </li>
-                        <li class="topichead collapsible "><span>Blog</span><ul>
-                              <li class=" no-child "><a href="121e381b35cc41498719b37ee634493b.html">About Blogs</a></li>
+                        <li class="topichead collapsible "><span>BUILD Community</span><ul>
+                              <li class=" no-child "><a href="8c60b9804ac1441c81b2b68315e419e8.html">Community</a></li>
                            </ul>
                         </li>
                         <li class="topichead collapsible "><span>Administration and Security</span><ul>
-                              <li class=" collapsible  collapsed"><a href="HCPCOCKPIT.html">HCP BUILD Service
+                              <li class=" collapsible  collapsed"><a href="HCPCOCKPIT .html">HCP BUILD Service
                                     		Configuration - Overview</a><ul>
                                     <li class=" collapsible  collapsed"><a href="912b6aaa9a184bc58c54077bed83b258.html">Enable the BUILD Service in the HCP Cockpit</a><ul>
                                           <li class=" no-child "><a href="f9bda020a1e24a39a21bd141523007dc.html">Assign a BUILD Tenant
@@ -458,7 +499,6 @@
                                           <li class=" no-child "><a href="45e288e6b36445d8b04e28b65cf09137.html">Request a BUILD
                                                 		Tenant</a></li>
                                           <li class=" collapsible  collapsed"><a href="e4aed27e43544440bb857f1362fb26aa.html">About the HCP Account Trusted Identity Provider (IdP)</a><ul>
-                                                <li class=" no-child "><a href="f95a25fe62e04418bce9f1be6697a2be.html">Configure the Trusted Identity Provider Attributes</a></li>
                                                 <li class=" no-child "><a href="56b34da0851c4335abddcedafc7bbe37.html">Trust Management</a></li>
                                              </ul>
                                           </li>
@@ -466,10 +506,10 @@
                                     </li>
                                  </ul>
                               </li>
-                              <li class=" collapsible  collapsed"><a href="3196f71aeab94d3fa7a3a3210d4ea106.html">
+                              <li class=" collapsible  collapsed"><a href="Admin.html">
                                     BUILD
                                     		Administration</a><ul>
-                                    <li class=" no-child "><a href="AdminConsoleHelp.html">Get Started with the Admin Console</a></li>
+                                    <li class=" no-child "><a href="Admin.html">Get Started with the Admin Console</a></li>
                                     <li class=" no-child "><a href="f310f001528e40f0abab71c9016a78b3.html">Set Domain Access</a></li>
                                     <li class=" no-child "><a href="1aa707dbf69b425fb9437703ef59b448.html">Manage Users</a></li>
                                     <li class=" no-child "><a href="0693592c3a614d85bb1a456a515be8be.html">View Audit Log</a></li>
@@ -478,13 +518,15 @@
                            </ul>
                         </li>
                         <li class="topichead collapsible "><span>Upgrade BUILD</span><ul>
-                              <li class=" no-child "><a href="8385f30b0df74ce8a408283e88ab4fb2.html">About Project Number Limits</a></li>
+                              <li class=" no-child "><a href="free_version_limitations.html">About Project Number Limits</a></li>
                               <li class=" no-child "><a href="build_enterprise_features.html">BUILD Enterprise Features</a></li>
                               <li class=" no-child "><a href="baac8939007040c39b0e43d894984dfc.html">Purchasing BUILD Licenses</a></li>
                            </ul>
                         </li>
                         <li class="topichead collapsible "><span>Report Issues to Support</span><ul>
                               <li class=" no-child "><a href="20e749a820a74a4d85d3c3075985920a.html">Report Issues to Support</a></li>
+                              <li class=" no-child "><a href="424c81ae520c419dacdc74e682e5530e.html">
+                                    BUILD PPMS Version Details</a></li>
                            </ul>
                         </li>
                         <li class="topichead collapsible "><span>What's New</span><ul>
@@ -492,91 +534,121 @@
                            </ul>
                         </li>
                         <li class="topichead collapsible "><span>Known Issues</span><ul>
-                               <li class=" no-child "><a href="6325b1a535aa42988eb3e6e32d63f746.html">Known Issues</a></li>
-                              <li class=" no-child "><a href="known_issue_chrome.html">Workaround to Display Prototypes in Feedback Studies in Chrome</a></li>
+                              <li class=" no-child "><a href="6325b1a535aa42988eb3e6e32d63f746.html">Known Issues</a></li>
                            </ul>
                         </li>
                         <li class=" no-child "><a href="d786f2508b7440e1a8e7104613f30c19.html">Legal Notices About Fonts</a></li>
-                        <li class=" no-child "><a href="e863f8f75e6846b6a953b6a0b1563051.html">Troubleshooting/FAQs</a></li>
                      </ul>
                   </ul>
                </div>
             </nav>
+
             <div id="d4h5-main-content" class="grid_8 alpha omega">
                <section>
                   <div id="content-toolbar" class="toolbar hide-for-small"></div>
                   <div class="page concept no-toc - topic-topic concept-concept " id="concept_imm_mjn_jt">
-                     
-                     <h1 class="title topictitle1">Video</h1>
                      <div class="body conbody">
-                        
                         <div class="section">
+                           <div class="section">
                            <section class="section" type="Getting Started">
-                              <h2 class="section_title"><span class="sap-icon"></span>Getting Started
-                              </h2>
-                              
-                              
+                              <h1 class="title topictitle1"><span class="sap-icon"></span>Getting Started
+                              </h1>
                               <p class="p">
-                                 <div class="video-thumbnail" id="div-video-1"><img alt="" data-type="youtube" src="GetStarted.png" data-image="GetStarted.png" data-videoid="PQaZqxVtln4?rel=0&amp;fs=1" data-description="aaa"></div>
-                              </p>
-                              
-                              
-                           </section>
+ <div class="video-thumbnail" id="div-video-1"><img alt="" data-type="vimeo" src="img/What_is_Build.png" data-image="img/What_is_Build.png" data-videoid="182832619" data-description="aaa"></div>
+				    <div class="video-thumbnail" id="div-video-2"><img alt="" data-type="vimeo" src="img/Product_Demo.png" data-image="img/Product_Demo.png" data-videoid="182959049" data-description="aaa"></div>
+				   <div class="video-thumbnail" id="div-video-3"><img alt="" data-type="vimeo" src="img/BUILD_Navigating.png" data-image="img/BUILD_Navigating.png" data-videoid="193566856" data-description="aaa"></div>
+				   </p>
+                           
+                                      </section>
                         </div>
-                        
-                        
-                        <div class="section">
-                           <section class="section" type="Creating Prototypes">
-                              <h2 class="section_title"><span class="sap-icon"></span>Creating Prototypes
-                              </h2>
-                              
-                              
-                              <p class="p">
-                                 <div class="video-thumbnail" id="div-video-2"><img alt="" data-type="youtube" src="Prototype.png" data-image="Prototype.png" data-videoid="Hka3_sWwHwI?rel=0&amp;fs=1" data-description="aaa"></div>
-                              </p>
-                              
-                              
-                           </section>
-                        </div>
-                        
                         
                         <div class="section">
                            <section class="section" type="User Research">
-                              <h2 class="section_title"><span class="sap-icon"></span>User Research
-                              </h2>
-                              
-                              
+                              <h1 class="title topictitle1"><span class="sap-icon"></span>Feedback Studies
+                              </h1>
                               <p class="p">
-                                 <div class="video-thumbnail" id="div-video-3"><img alt="" data-type="youtube" src="CreatingUser.png" data-image="CreatingUser.png" data-videoid="Z8BMghLixvE?rel=0&amp;fs=1" data-description="aaa"></div>
+ <div class="video-thumbnail" id="div-video-4"><img alt="" data-type="vimeo" src="img/BUILD_Create_Feedback_Studies.png" data-image="img/BUILD_Create_Feedback_Studies.png" data-videoid="180897404" data-description="aaa">                                 </div>
                               </p>
+
+                           </section>
+                        </div>
+                        
+                        <div class="section">
+                           <section class="section" type="Creating Prototypes">
+                              <h1 class="title topictitle1"><span class="sap-icon"></span>Prototypes
+                              </h1>
+                              <p class="p">
+                                      <div class="video-thumbnail" id="div-video-5"><img alt="" data-type="vimeo" src="img/creating_low_fi_prototypes.png" data-image="img/creating_low_fi_prototypes.png" data-videoid="181205128" data-description="aaa"></div>
+ +								  <div class="video-thumbnail" id="div-video-6"><img alt="" data-type="vimeo" src="img/create_master_details_prototypes.png" data-image="img/create_master_details_prototypes.png" data-videoid="194369441" data-description="aaa"></div>
+ +								    <div class="video-thumbnail" id="div-video-7"><img alt="" data-type="vimeo" src="img/add an object page to a smart template prototype.png" data-image="img/add an object page to a smart template prototype.png" data-videoid="181793782" data-description="aaa"></div>
+ +								   <div class="video-thumbnail" id="div-video-8"><img alt="" data-type="vimeo" src="img/create smart template list report pages.png" data-image="img/create smart template list report pages.png" data-videoid="181794043" data-description="aaa"></div>
+ +								   <div class="video-thumbnail" id="div-video-9"><img alt="" data-type="vimeo" src="img/create smart template object pages.png" data-image="img/create smart template object pages.png" data-videoid="181867250" data-description="aaa"></div>
+ +                              </p>
                               
                               
                            </section>
                         </div>
-                        
+
+                          <div class="section">
+                           <section class="section" type="Projects">
+                              <h1 class="title topictitle1"><span class="sap-icon"></span>Projects
+                              </h1>
+                              <p class="p">
+                                 <div class="video-thumbnail" id="div-video-10"><img alt="" data-type="vimeo" src="img/BUILD_Clone_Gallery_Projects.png" data-image="img/BUILD_Clone_Gallery_Projects.png" data-videoid="181038505" data-description="aaa"></div>
+ +                                 <div class="video-thumbnail" id="div-video-11"><img alt="" data-type="vimeo" src="img/BUILD_Collaborate_on_Projects.png" data-image="img/BUILD_Collaborate_on_Projects.png" data-videoid="181048669" data-description="aaa"></div>
+ +                                 <div class="video-thumbnail" id="div-video-12"><img alt="" data-type="vimeo" src="img/Manage_Projects.png" data-image="img/Manage_Projects.png" data-videoid="181059999" data-description="aaa"></div>
+ +                              </p>
+                           </section>
                         
                         <div class="section">
                            <section class="section" type="Data Models and Smart Templates">
-                              <h2 class="section_title"><span class="sap-icon"></span>Data Models and Smart Templates
-                              </h2>
-                              
-                              
+                              <h1 class="title topictitle1"><span class="sap-icon"></span>Data Models
+                              </h1>
                               <p class="p">
-                                 <div class="video-thumbnail" id="div-video-4"><img alt="" data-type="youtube" src="DataModels.png" data-image="DataModels.png" data-videoid="vZHxsHzefz0?rel=0&amp;fs=1" data-description="aaa"></div>
-                                 <div class="video-thumbnail" id="div-video-5"><img alt="" data-type="youtube" src="UsingSmartTemplateBig.png" data-image="UsingSmartTemplateBig.png" data-videoid="RPrYT4zXa3U?rel=0&amp;fs=1" data-description="aaa"></div>
+                                 <div class="video-thumbnail" id="div-video-13"><img alt="" data-type="vimeo" src="img/data_model_first.png" data-image="img/data_model_first.png" data-videoid="181789291" data-description="aaa"></div>
+ +                                 <div class="video-thumbnail" id="div-video-14"><img alt="" data-type="vimeo" src="img/data_model_second.png" data-image="img/data_model_second.png" data-videoid="181789905" data-description="aaa"></div>
                               </p>
-                              
-                              
                            </section>
+
+
+
+                        <div class="section">
+                           <section class="section" type="Wed IDE">
+                              <h1 class="title topictitle1"><span class="sap-icon"></span>Web IDE
+                              </h1>
+                              <p class="p">
+<div class="video-thumbnail" id="div-video-15"><img alt="" data-type="vimeo" src="img/create a project in web ide.png" data-image="img/create a project in web ide.png" data-videoid="181798553" data-description="aaa"></div>
+                
+                               
+                              </p>
+                           </section>
+
+                          <h2 class="title" id = "tube-banner" >Select <a href="https://www.vimeo.com/channel/UCju0kVKOfkw5-hogBYPfgqg/feed"><img id = "tube-img" src="img/vimeo_logo.png"></a> to view the BUILD Vimeo channel.</h2>
+
                         </div>
-                        
                         
                      </div>
                      
                   </div>
                   
                </section>
-               <div class="clear"></div>
+                  <script type="text/javascript" src="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script> 
+               <script type="text/javascript">
+docsearch({
+apiKey: 'bd6c05f4081b4bf1e8cc0222f2be206d',
+indexName: 'sap-splash',
+inputSelector: '#txtSearchTerms'
+});
+</script>
+<script type="text/javascript">
+docsearch({
+apiKey: 'bd6c05f4081b4bf1e8cc0222f2be206d',
+indexName: 'sap-splash',
+inputSelector: '#search-q'
+});
+</script>
+
+<div class="clear"></div>
                
             </div>
             <div class="clearfix"></div>
@@ -584,44 +656,16 @@
          <div class="clearfix"></div>
          <div id="footer-container" class="grid_12">
             <footer>
-               	
                <div id="custom-footerSpacer"></div>
-               	
-               <div class="left">
-                  		<a href="http://go.sap.com/corporate/en/legal/impressum.html" target="_blank">HOW IT WORKS</a>
-                  		<a href="http://www.sap.com/corporate-en/about/legal/impressum.html" target="_blank">LEGAL DISCLOSURE</a>
-                  		<a href="https://www.experiencesplash.com/splash/sites/default/files/privacy_statement.pdf" target="_blank">PRIVACY</a>
-                  		<a href="http://www.sap.com/corporate-en/about/legal/copyright/index.html" target="_blank">COPYRIGHT</a>
-                  		<a href="https://www.experiencesplash.com/splash/sites/default/files/terms_of_use.pdf" target="_blank">TERMS OF USE</a>
-                  	
-               </div>
-               	
-               <div class="right">
-                  		
-                  <p><span>CREATED BY</span> <a href="http://go.sap.com/index.html" target="_blank"><img src="themes/norman/img/sap.png" class="logo" alt="logo"></a></p>
-                  	
-               </div>
-               
+               <div class="left"><a href="https://www.experiencesplash.com/splash/sites/default/files/privacyStatement.html" target="_blank">PRIVACY</a><a href="http://www.sap.com/corporate-en/about/legal/impressum.html" target="_blank">LEGAL DISCLOSURE</a><a href="http://www.sap.com/corporate-en/about/legal/copyright/index.html" target="_blank">COPYRIGHT</a><a href="https://www.experiencesplash.com/splash/sites/default/files/termsOfUse.html" target="_blank">TERMS OF USE</a><a href="http://go.sap.com/index.html" target="_blank">SAP.COM</a></div>
+               <div class="right"><span>CREATED BY</span><a href="http://go.sap.com/index.html" target="_blank"><img src="themes/norman/img/sap.png" class="logo" alt="logo"></a></div>
             </footer>
             
             
-            <!--Build date: 01/12/2017 10:49 GMT-8-->
+            <!--Build date: 11/27/2015 11:19 GMT-8-->
          </div>
-      </div><script>
-        var swa = {
-        pubToken: '6fa0fc12-d856-4547-ae3d-95802f388c16',
-        baseUrl: 'https://cloud.warp.sap.com/tracker/',
-        visitorCookieTimeout: 7889232,
-        dntLevel: 1,
-        bannerEnabled: true,
-        licenseUrl: 'https://www.experiencesplash.com/splash/sites/default/files/privacy_statement.pdf'
-        };
-        (function(){
-        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-        g.type='text/javascript'; g.defer=true; g.async=true; g.src=swa.baseUrl+'js/privacy.js';
-        s.parentNode.insertBefore(g,s);
-        })();
-      </script></body>
+      </div>
+   </body>
 	  <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script> 
 <script type="text/javascript"> docsearch({
 apiKey: 'bd6c05f4081b4bf1e8cc0222f2be206d',
@@ -629,4 +673,27 @@ indexName: 'sap-splash',
 inputSelector: '#txtSearchTerms'
 }); 
 </script>
-</html>
+<script>
+        var swa = {
+        pubToken: '6fa0fc12-d856-4547-ae3d-95802f388c16',
+        baseUrl: 'https://cloud.warp.sap.com/tracker/',
+        visitorCookieTimeout: 7889232,
+        dntLevel: 1,
+        bannerEnabled: true,
+        licenseUrl: 'https://www.experiencesplash.com/splash/sites/default/files/privacyStatement.html'
+        };
+        (function(){
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.defer=true; g.async=true; g.src=swa.baseUrl+'js/privacy.js';
+        s.parentNode.insertBefore(g,s);
+        })();
+      </script></body>
+	  
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script> 
+<script type="text/javascript"> docsearch({
+apiKey: 'bd6c05f4081b4bf1e8cc0222f2be206d',
+indexName: 'sap-splash',
+inputSelector: '#txtSearchTerms'
+}); 
+</script></html> 
+
