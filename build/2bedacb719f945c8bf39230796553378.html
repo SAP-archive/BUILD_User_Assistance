@@ -548,12 +548,25 @@
                      <div class="body conbody">
                         <p class="shortdesc"></p>
                         
-                        		    
-                        <p class="p">
-                               <div class="p"> 
-                           <iframe src="https://player.vimeo.com/video/194369441" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                           </p>
-                        </div>      
+                        <div class = "contentWrapper">
+    <div class = "mcontent">
+        <div id = "hiddenTextArea"></div>
+        <div class = "videoHolder">
+            <h2>Fiori Developers Guide - Tutorial 2</h2>
+
+            <div id = "player"></div>
+
+        </div>
+        <div class = "buttonHolder">
+            <button id = "toggler" class = "btn-ntb">Hide Text</button>
+            <button style = "float:right;" id = "copy"   class = "btn-ntb" data-clipboard-target = "#hiddenTextArea">Copy Text</button>
+        </div>
+
+        <div  class = "textHolder" id="codeHolder">
+        </div>
+    </div>
+</div>		    
+                          
                         	  
                      </div>
                      
@@ -605,7 +618,32 @@
         g.type='text/javascript'; g.defer=true; g.async=true; g.src=swa.baseUrl+'js/privacy.js';
         s.parentNode.insertBefore(g,s);
         })();
-      </script></body>
+      </script>
+	<script>
+
+    //IMPORTANT!!!
+    //If you are using a youtube video, make sure you put it's videoid here!!!
+    //Additionally, make sure you have created a div with the id "player", that is where the youtube video will display.
+    var videoId = '194369441';
+
+    $("#toggler").click(
+            function() {
+                $(".textHolder").slideToggle();
+                if ($("#toggler").html() === "Hide Text") {
+                    $("#toggler").html("Show Text");
+                }
+                else {
+                    $("#toggler").html("Hide Text");
+                }
+            }
+    );
+</script>
+<script src = "js/ytAPI.js"></script>
+
+<script src = "js/VideoListener.js"></script>
+
+
+	</body>
 	  <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script> 
 <script type="text/javascript"> docsearch({
 apiKey: 'bd6c05f4081b4bf1e8cc0222f2be206d',
