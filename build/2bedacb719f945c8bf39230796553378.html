@@ -1,12 +1,15 @@
 <!DOCTYPE html
   SYSTEM "about:legacy-compat">
 <html lang="en-us" dir="ltr">
-   <head>
-      <link href="css/bootstrap.min.css" rel="stylesheet">
-      <script src="js/bootstrap.min.js"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.3/clipboard.min.js"></script>
-      <link href = "css/VideoListener2.css" rel = "stylesheet">   
+   <head>  
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.3/clipboard.min.js"></script>
+    <script src="bower_components/vimeo-player-js/dist/player.min.js"></script>
+    <!--<script src="https://player.vimeo.com/api/player.js"></script>-->
+    <link href = "css/VideoListener2.css" rel = "stylesheet">
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <title>Master Details Video Example</title>
@@ -546,15 +549,20 @@
                      
                      <h1 class="title topictitle1">Master Details Video Example</h1>
                      <div class="body conbody">
-                        <p class="shortdesc"></p>
-                        
-                        <div class = "contentWrapper">
-    <div class = "mcontent">
+                        <p class="shortdesc"></p>    
+                          <div class = "contentWrapper">
+    <div class = "mcontent"
         <div id = "hiddenTextArea"></div>
         <div class = "videoHolder">
-        
-            <div id = "player"></div>
+            <h2>Fiori Developers Guide - Tutorial 2</h2>
+            <video controls class = "video1" id = "video1" >
+            <!--<source src = "http://player.vimeo.com/external/85569724.sd.mp4?s=43df5df0d733011263687d20a47557e4">-->
+            <source src = "https://player.vimeo.com/external/181798553.hd.mp4?s=ce1b4282b68effaa0006019f7e13268358e5b830">
+            </video>
+            <!--<iframe src="https://player.vimeo.com/video/182709532?title=0&byline=0&portrait=0" width="680" height="380" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
+            <!--<iframe src="http://player.vimeo.com/external/85569724.sd.mp4?s=43df5df0d733011263687d20a47557e4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
 
+            <!--<iframe src="https://player.vimeo.com/external/181798553" width="680" height="380" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
         </div>
         <div class = "buttonHolder">
             <button id = "toggler" class = "btn-ntb">Hide Text</button>
@@ -564,9 +572,10 @@
         <div  class = "textHolder" id="codeHolder">
         </div>
     </div>
-</div>		    
-                          
-                        	  
+</div>
+<!--<script src = "js/ytAPI.js"></script>-->
+
+<script src = "js/VideoListener.js"></script>
                      </div>
                      
                   </div>
@@ -618,30 +627,7 @@
         s.parentNode.insertBefore(g,s);
         })();
       </script>
-	<script>
-
-    //IMPORTANT!!!
-    //If you are using a youtube video, make sure you put it's videoid here!!!
-    //Additionally, make sure you have created a div with the id "player", that is where the youtube video will display.
-    var videoId = '194369441';
-
-    $("#toggler").click(
-            function() {
-                $(".textHolder").slideToggle();
-                if ($("#toggler").html() === "Hide Text") {
-                    $("#toggler").html("Show Text");
-                }
-                else {
-                    $("#toggler").html("Hide Text");
-                }
-            }
-    );
-</script>
-<script src = "js/ytAPI.js"></script>
-
-<script src = "js/VideoListener.js"></script>
-
-
+	
 	</body>
 	  <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script> 
 <script type="text/javascript"> docsearch({
