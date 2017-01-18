@@ -13,7 +13,14 @@ var textQuote = function(text,time)
 };
 var textQuotes = [];
 var counter =0;
-textQuotes[0] = new textQuote("<p>some text</p>","01:15");
+textQuotes[0] = new textQuote("<p>Hi, welcome to the second entry in the  Fiori Developers Guide. " +
+    "Keep an eye on this box, as it will display relevant code snippets as the video progresses. " +
+    "<a href='http://www.google.com'>Hello</a></p>","00:01");
+textQuotes[1] = new textQuote('<Column id = "supplierColumn"><br>' +
+    '<Text text = "{18n>tableSupplierColumnTitle}" id = "supplierColumnTitle"/><br>' +
+    '</Column>',"01:00");
+textQuotes[2] = new textQuote("tableSupplierTitleName = Supplier","01:50");
+textQuotes[3] = new textQuote('<Text text = "{SupplierName}" />'  ,"02:40");
 var times = [];
 var x =0;
 var currentTime;
