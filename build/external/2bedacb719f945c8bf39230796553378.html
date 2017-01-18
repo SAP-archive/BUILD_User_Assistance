@@ -517,11 +517,34 @@
                         <p class="shortdesc"></p>
                         
                         		    
-                        <p class="p">
-                               <div class="p"> 
-                           <iframe src="https://player.vimeo.com/video/194369441" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                           </p>
-                        </div>   
+                       <div class = "contentWrapper">
+    <div class = "mcontent">
+        <div id = "hiddenTextArea"></div>
+        <div class = "videoHolder">
+            <h2>Fiori Developers Guide - Tutorial 2</h2>
+            <video controls class = "video1" id = "video1" >
+            <!--<source src = "http://player.vimeo.com/external/85569724.sd.mp4?s=43df5df0d733011263687d20a47557e4">-->
+            <source src = "https://player.vimeo.com/external/194369441.hd.mp4?s=547a14d28c06ab104aade7b3cddb49466e45c252">
+			
+            </video>
+            <!--<iframe src="https://player.vimeo.com/video/182709532?title=0&byline=0&portrait=0" width="680" height="380" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
+            <!--<iframe src="http://player.vimeo.com/external/85569724.sd.mp4?s=43df5df0d733011263687d20a47557e4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
+
+            <!--<iframe src="https://player.vimeo.com/external/181798553" width="680" height="380" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
+        </div>
+        <div class = "buttonHolder">
+            <button id = "toggler" class = "btn-ntb">Hide Text</button>
+            <button style = "float:right;" id = "copy"   class = "btn-ntb" data-clipboard-target = "#hiddenTextArea">Copy Text</button>
+        </div>
+
+        <div  class = "textHolder" id="codeHolder">
+        </div>
+    </div>
+</div> 	
+<!--<script src = "js/ytAPI.js"></script>-->
+
+<script src = "js/VideoListener.js"></script>
+ 
                         
                         	  
                      </div>
