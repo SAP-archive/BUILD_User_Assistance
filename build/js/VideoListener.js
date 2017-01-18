@@ -13,7 +13,7 @@ var textQuote = function(text,time)
 };
 var textQuotes = [];
 var counter =0;
-textQuotes[0] = new textQuote("<p>Select <a href='BUILD_MasterDetails_video_sample_files.zip'><img style ='height:25px; width:25px;' src='download.svg'/></a>to download the sample files used in the video.</p>","01:15");
+textQuotes[0] = new textQuote("<p>Select <a href='BUILD_MasterDetails_video_sample_files.zip'><img style ='height:25px; width:25px;' src='img/download.svg'/></a>to download the sample files used in the video.</p>","01:15");
 var times = [];
 var x =0;
 var currentTime;
