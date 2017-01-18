@@ -15,6 +15,7 @@ body{
 .videoHolder
 {
     display:block;
+    margin-top:-40px;
     margin: 0 auto;
     width:90%;
 
