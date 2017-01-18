@@ -8,7 +8,7 @@ body{
 .mcontent
 {
     display:block;
-    width:80%;
+    width:150%;
     margin: 0 auto;
 }
 
@@ -78,8 +78,9 @@ body{
 
 .contentWrapper
 {
+    top:-20%;
     margin:0 auto;
-    width:60%;
+    width:90%;
 }
 
 #hiddenTextArea
