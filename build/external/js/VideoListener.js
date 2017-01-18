@@ -151,4 +151,3 @@ function monitorLoopYT()
         currentTime = player.getCurrentTime();
     }
 }
-
