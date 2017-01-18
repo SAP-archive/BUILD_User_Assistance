@@ -13,14 +13,7 @@ var textQuote = function(text,time)
 };
 var textQuotes = [];
 var counter =0;
-textQuotes[0] = new textQuote("<p>Hi, welcome to the second entry in the  Fiori Developers Guide. " +
-    "Keep an eye on this box, as it will display relevant code snippets as the video progresses. " +
-    "<a href='http://www.google.com'>Hello</a></p>","00:01");
-textQuotes[1] = new textQuote('<xmp><Column id = "supplierColumn"></xmp>' +
-    '<xmp><Text text = "{18n>tableSupplierColumnTitle}" id = "supplierColumnTitle"/></xmp>' +
-    '<xmp></Column></xmp>',"01:00");
-textQuotes[2] = new textQuote("tableSupplierTitleName = Supplier","01:50");
-textQuotes[3] = new textQuote('<xmp><Text text = "{SupplierName}" /></xmp>'  ,"02:40");
+textQuotes[0] = new textQuote("<p>Select <a href='BUILD_MasterDetails_video_sample_files.zip'><img style ='height:25px; width:25px;' src='download.svg'/></a>to download the sample files used in the video.</p>","01:15");
 var times = [];
 var x =0;
 var currentTime;
