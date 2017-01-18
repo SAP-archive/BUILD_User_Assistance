@@ -78,6 +78,7 @@ body{
 
 .contentWrapper
 {
+    top:-20%;
     margin:0 auto;
     width:90%;
 }
