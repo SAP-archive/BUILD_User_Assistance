@@ -13,8 +13,7 @@ var textQuote = function(text,time)
 };
 var textQuotes = [];
 var counter =0;
-textQuotes[0] = new textQuote("<p>   <a href="../Portfolio.pdf" class="button" download>
-                              <img src="../img/download.svg"></a></p>","01:15");
+textQuotes[0] = new textQuote("<p>some text</p>","01:15");
 var times = [];
 var x =0;
 var currentTime;
