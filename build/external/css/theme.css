@@ -808,7 +808,7 @@ footer
 {
    height:100px;
    width:100%;
-   background-color:#073053;
+   background-color:rgba(7,48,83,.9);
    z-index:200;
     width:100%;
     display:table;
