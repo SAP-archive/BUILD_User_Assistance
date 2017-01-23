@@ -822,6 +822,10 @@ footer
     height:180px;
    
 }
+footer .logo {
+    height: 28px;
+    position: absolute;
+}
 
 footer div {
     display:table-cell;
