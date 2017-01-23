@@ -822,10 +822,6 @@ footer
     height:180px;
    
 }
-footer .logo {
-    height: 28px;
-    position: absolute;
-}
 
 footer div {
     display:table-cell;
@@ -877,18 +873,6 @@ footer a:hover {
     opacity:1.0;
     text-decoration:none;
 }
-
-
-footer .logo {
-    height:28px;
-    position:absolute;
-}
-        
-        .size-small footer .logo {
-            bottom: -8px;
-            position:relative;
-        }
-
 footer span {
     padding-right:20px;
 }
